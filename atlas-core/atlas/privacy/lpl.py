@@ -54,8 +54,11 @@ class LatentPrivacyLayer:
     The main interface for the ATLAS Latent Privacy Layer (LPL).
     Takes raw Persistence Images and outputs hardened latent vectors ready for LSH.
     """
-    def __init__(self, encoder: LatentEncoder):
+    def __init__(self, encoder: LatentEncoder, weights_path: str = "models/latent_encoder.pt"):
         self.encoder = encoder
+        import os
+        if os.path.exists(weights_path):
+            self.encoder.load_state_dict(torch.load(weights_path))
         self.encoder.eval() # Ensure it's in evaluation mode
         
     def transform(self, persistence_images: torch.Tensor) -> torch.Tensor:
