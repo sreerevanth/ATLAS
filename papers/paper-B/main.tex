@@ -1,0 +1,67 @@
+\documentclass[10pt, conference]{IEEEtran}
+\usepackage{cite}
+\usepackage{amsmath,amssymb,amsfonts}
+\usepackage{algorithmic}
+\usepackage{graphicx}
+\usepackage{textcomp}
+\usepackage{xcolor}
+
+\begin{document}
+
+\title{Vulnerability Analysis and Information Leakage in Topological Locality Signatures}
+
+\author{\IEEEauthorblockN{1\textsuperscript{st} ATLAS Author}
+\IEEEauthorblockA{\textit{ATLAS Research Consortium}\\
+Email: author@atlas.org}
+}
+
+\maketitle
+
+\begin{abstract}
+Topological data analysis combined with Locality-Sensitive Hashing (LSH) offers a promising mechanism for privacy-preserving distributed data retrieval. While these topological signatures obfuscate raw geometries, their formal security bounds remain poorly understood. In this paper, we present the first comprehensive vulnerability analysis of LSH-based topological locality signatures. We empirically demonstrate that macroscopic dataset properties—such as cardinality, density, and cluster composition—leak linearly with signature length, allowing adversaries to infer sensitive attributes using lightweight logistic regression. Furthermore, we reveal a critical "double negative" result regarding Differential Privacy (DP): naive perturbations (both additive image noise and local bit-flipping) catastrophically degrade retrieval utility before successfully obscuring information leakage. Finally, we execute a white-box 1-bit compressed sensing attack that successfully reconstructs the geometric footprint directly from the intercepted hash. Our results mandate the implementation of non-linear Latent Privacy Layers to mathematically disentangle geometry from structural properties prior to projection.
+\end{abstract}
+
+\begin{IEEEkeywords}
+Topological Data Analysis, Privacy Leakage, Locality-Sensitive Hashing, Differential Privacy, 1-Bit Compressed Sensing
+\end{IEEEkeywords}
+
+\section{Introduction}
+In distributed sovereign data systems, there is a fundamental tension between the utility of accurate data retrieval and the imperative of strict privacy. The Topology Interchange Protocol (TIP) aims to resolve this tension by utilizing Locality-Sensitive Hashing (LSH) of Persistence Images—capturing geometric topology while theoretically obfuscating the original data. However, the true security bounds of this approach remain underexplored. In this paper, we map the leakage trade-off inherent in LSH topological signatures, demonstrate the failure of naive Differential Privacy (DP) to secure these signatures, and prove that a white-box adversary can revert hashes to the original footprint via 1-bit compressed sensing.
+
+\section{Threat Model}
+We define adversaries across varying levels of capability. A0 attackers merely intercept black-box hashes. A1 and A2 attackers possess knowledge of the representation schema and employ machine learning models (e.g., Logistic Regression or Random Forests) to infer dataset properties. Finally, the A3 (white-box) attacker intercepts the LSH string and possesses full knowledge of the hashing parameters, including the exact Gaussian random projection matrix used for LSH.
+
+\section{Property Inference Attacks}
+\subsection{Experimental Setup (EXP-007)}
+To evaluate structural leakage, we utilized a synthetic dataset of 500 point clouds with varying cluster counts (1 to 5), converting them to Persistence Images ($\sigma=2.0, n\_bins=64$). We applied LSH at varying bit lengths (32 to 256 bits) and trained A1 (Logistic Regression) and A2 (Random Forest) models to directly predict the number of clusters from the hashes.
+\subsection{Linear Leakage}
+Our findings demonstrate that macroscopic properties leak substantially at longer signature lengths. While 32-bit hashes exhibited low leakage (barely above a 10\% random guess baseline), 256-bit hashes yielded severe structural leakage, allowing an A1 logistic regression model to correctly infer the exact cluster count over 52\% of the time. The leakage scales almost linearly with signature length $b$.
+
+\section{The Privacy-Retrieval Trade-off}
+The signature length acts as the primary privacy lever in the LSH topology pipeline. Our experiments establish that a 64-bit hash length represents the optimal empirical sweet spot. At 64 bits, utility is maximized for data retrieval operations, while leakage remains restricted to mild levels (26\% inference accuracy), successfully stunting the capabilities of A1 and A2 attackers and providing plausible deniability. 
+
+\section{The Inefficacy of Naive Differential Privacy}
+\subsection{Image-Level Perturbation}
+To evaluate naive DP, we applied additive noise and feature dropout to the Persistence Image prior to hashing (EXP-011). The results showed a massive loss of retrieval quality—dropping from a 97.19\% baseline down to 56.25\% at noise scale $\sigma=2.0$ or 80\% dropout. Crucially, the Mutual Information (MI) predicting the number of clusters barely moved (from 0.5964 to 0.5439 nats). 
+\subsection{Hash-Level Perturbation (Local DP)}
+We also evaluated Local Differential Privacy via bit-flipping on the 64-bit LSH Array. Similar to image-level noise, flipping bits destroyed the requisite Hamming distance long before obscuring structural leakage. At a 40\% flip probability, retrieval collapsed to random (49.69\%), yet the hash still preserved 0.5489 nats of structural leakage.
+\subsection{Analysis}
+This "double negative" outcome occurs because macroscopic properties dictate the global distribution of the Persistence Image. LSH hyperplanes integrate over the whole image, effectively cutting through localized perturbations to capture the overarching global structure. Consequently, naive perturbation destroys the exact binning required for LSH retrieval without obscuring the global patterns that drive structural leakage.
+
+\section{White-Box Reconstruction (EXP-007I)}
+Against an A3 threat model, the topological LSH hash can be inverted back into a raw spatial footprint via 1-Bit Compressed Sensing. Since each LSH bit acts as a sign projection constraint, an attacker can reconstruct a surrogate Persistence Image $X_{reconstructed} = \max(0, \sum_{i} sign(h_i) \cdot W_i)$.
+At lengths $\ge 512$ bits, the recovered image achieves a high mean Cosine Similarity of $>$0.55 to the original footprint, allowing for direct visual and convolutional analysis. Even at 64 bits, we observed a measurable 0.33 cosine similarity.
+
+\section{Architectural Mitigations}
+Given that projection matrix confidentiality cannot be guaranteed, and naive DP fails, the architecture formally mandates a structurally-aware Privacy Layer. The architecture must introduce non-linear Latent Privacy Layers—such as Randomized Subspace Projection or Adversarially-Trained Autoencoders—to mathematically disentangle the geometric location from the macroscopic dataset properties (density, cardinality, cluster counts) \textit{before} projection.
+
+\section{Conclusion}
+Topological metadata inherently leaks structural parameters when subjected to LSH. Our vulnerability analysis confirms that signature lengths must be tightly bounded (e.g., 64 bits) and that simple noise injection fails completely at preserving privacy. To ensure true sovereign intelligence and safeguard distributed topologies against property inference and 1-bit compressed sensing, advanced, structurally-aware latent obfuscations are strictly necessary.
+
+\section*{Acknowledgment}
+This research was supported by the ATLAS Research Consortium. We extend our gratitude to all collaborators contributing to the Topology Interchange Protocol.
+
+\bibliographystyle{IEEEtran}
+\bibliography{references}
+
+\end{document}
