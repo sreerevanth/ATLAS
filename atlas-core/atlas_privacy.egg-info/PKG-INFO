@@ -1,0 +1,18 @@
+Metadata-Version: 2.4
+Name: atlas-privacy
+Version: 0.1.0
+Summary: Privacy-Preserving Federated Topological Dataset Matching
+Author: ATLAS Core Team
+Project-URL: Homepage, https://github.com/SHAURYASANYAL3/ATLAS
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.9
+Requires-Dist: fastapi>=0.100.0
+Requires-Dist: uvicorn>=0.23.0
+Requires-Dist: requests>=2.31.0
+Requires-Dist: ripser>=0.6.4
+Requires-Dist: persim>=0.3.3
+Requires-Dist: torch>=2.0.0
+Requires-Dist: faiss-cpu>=1.7.4
+Requires-Dist: pydantic>=2.0.0
