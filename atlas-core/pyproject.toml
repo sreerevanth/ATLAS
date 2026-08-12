@@ -9,7 +9,6 @@ authors = [
   { name="ATLAS Core Team" },
 ]
 description = "Privacy-Preserving Federated Topological Dataset Matching"
-readme = "../README.md"
 requires-python = ">=3.9"
 classifiers = [
     "Programming Language :: Python :: 3",
