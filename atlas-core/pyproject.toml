@@ -1,0 +1,35 @@
+[build-system]
+requires = ["setuptools>=61.0"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "atlas-privacy"
+version = "0.1.0"
+authors = [
+  { name="ATLAS Core Team" },
+]
+description = "Privacy-Preserving Federated Topological Dataset Matching"
+readme = "../README.md"
+requires-python = ">=3.9"
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: OS Independent",
+]
+dependencies = [
+    "fastapi>=0.100.0",
+    "uvicorn>=0.23.0",
+    "requests>=2.31.0",
+    "ripser>=0.6.4",
+    "persim>=0.3.3",
+    "torch>=2.0.0",
+    "faiss-cpu>=1.7.4",
+    "pydantic>=2.0.0",
+]
+
+[project.urls]
+"Homepage" = "https://github.com/SHAURYASANYAL3/ATLAS"
+
+[tool.setuptools.packages.find]
+where = ["."]
+include = ["atlas*"]
