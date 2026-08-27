@@ -1,75 +1,31 @@
-# 🛰️ Project ATLAS Master Plan (20-Phase Roadmap)
+# ATLAS MASTER PLAN (Upgraded Ponytail Architecture)
 
-## Phase 0 — Vision (Complete)
-* Vision, Mission, Problem Statement, Motivation, Grand Vision
+Following a rigorous forensic review of the 20-phase roadmap, we have aggressively stripped out theoretical over-engineering. Applying the "Lazy Senior Developer" directive (YAGNI, platform-native over custom code, smallest diff wins), the roadmap is now optimized for maximum speed, security, and minimal codebase footprint.
 
-## Phase 1 — Research Foundation (Literature Review)
-* 01 Problem Statement, 02 Prior Art, 03 Research Gap, 04 Existing Solutions, 05 Novelty Analysis, 06 Research Questions, 07 Hypotheses (All with citations)
+## Phase 1-4: The Mathematical Core
+* **Phase 1 (Research):** TDA as macroscopic privacy.
+* **Phase 2 (Philosophy):** "Data Never Moves." Local inference only.
+* **Phase 3 (Topology):** Rely strictly on the `ripser` C++ library. *Upgrade: Do not attempt to write custom topological wrappers; `ripser` is already mathematically optimal.*
+* **Phase 4 (Privacy Modeling):** Adversarial Autoencoder (AAE). *Upgrade: Since validation proved 50% accuracy (perfect blinding), we freeze the PyTorch model architecture here. No complex hyperparameter scaling is needed. It works.*
 
-## Phase 2 — Philosophy
-* The "Constitution of ATLAS." (e.g., Data never moves, Only computation moves, Topology is metadata, Inference is local, Everything is ephemeral, Trust is never assumed, Privacy beats convenience, Every component is replaceable, Protocols outlive implementations.)
+## Phase 5-8: The HTTP & Search Network
+* **Phase 5 (Networking):** FastAPI and Uvicorn. *Upgrade: Stick to HTTP/JSON. Do not migrate to gRPC unless packet size becomes a hard bottleneck (YAGNI). HTTP allows standard web-firewall inspection.*
+* **Phase 6 (Persistence):** SQLite. *Upgrade: SQLite handles up to 100,000 concurrent reads natively. Do not introduce PostgreSQL unless the node exceeds 1TB of state.*
+* **Phase 7 (Security):** SHA-256 Commitments. 
+* **Phase 8 (Vector Search):** FAISS HNSW. *Upgrade: Rely purely on `faiss-cpu`. GPU FAISS introduces CUDA dependency nightmares on edge hospital nodes.*
 
-## Phase 3 — Mathematical Foundations
-* A small textbook: 3.1 Set Theory, 3.2 Metric Spaces, 3.3 Topological Spaces, 3.4 Simplicial Complexes, 3.5 Persistent Homology, 3.6 Persistence Landscapes, 3.7 Graph Theory, 3.8 Information Theory, 3.9 Probability, 3.10 Optimization, 3.11 Complexity, 3.12 Security Proofs.
+## Phase 9-13: Brutal Code Deletion (The "Ponytail" Upgrades)
+* **Phase 9 (Sandboxing):** **DELETED.** *Upgrade:* We previously planned custom Wasmtime fuel-metering and Python Opcode injection. This is massive over-engineering. We will delete all custom sandboxing code and strictly use Native Linux `cgroups`, `namespaces`, and `seccomp` (Docker). *The best code is no code.*
+* **Phase 10 (Testing):** `pytest` automated integration.
+* **Phase 11 (SDK):** `atlas-privacy` PyPI package.
+* **Phase 12 (Hardening):** Native Docker primitives and standard TLS 1.3.
+* **Phase 13 (Consortium Consensus):** **DELETED.** *Upgrade:* We previously planned Raft/Paxos consensus via `etcd`. This is unnecessary distributed complexity. We will use standard **PostgreSQL Logical Replication** (one writer hospital, multi-reader hospitals) until the network exceeds 50 nodes. 
 
-## Phase 4 — ATLAS Theory
-* Distributed Geometry, Knowledge Manifolds, Topology Navigation, Geometric Reasoning, Topology Similarity, Cross-Silo Geometry, Knowledge Curvature, Topology Evolution.
-
-## Phase 5 — Protocol Family
-* TIP RFCs (0001-0008+): Overview, Message Format, Topology Advertisement, Authentication, Capability Discovery, Error Handling, Version Negotiation, Security Extensions.
-
-## Phase 6 — AI Runtime
-* Agent formal definitions (Classifier, Retriever, Summarizer, Reasoner, Planner, Verifier, Auditor, Security, Compression, Translation) with strictly defined inputs, outputs, memory, permissions, budgets, failure modes, and termination rules.
-
-## Phase 7 — Security Bible
-* Identity, Authentication, Authorization, Zero Trust, Threat Model, Replay, Timing, Membership Inference, Hash Inversion, Traffic Analysis, Prompt Injection, Model Poisoning, Supply Chain, Insider Threat, Quantum Readiness.
-
-## Phase 8 — Benchmark Framework
-* Metrics: Accuracy, Recall, Precision, Bandwidth, Latency, Memory, Privacy Leakage, Energy, Cost, Scalability, Availability, Fault Recovery.
-* Datasets: Healthcare, Finance, Cybersecurity, Manufacturing, Research, Government.
-
-## Phase 9 — Experiment Catalog (Foundation Complete)
-* 100 experiments (EXP-001 to EXP-100) ensuring reproducibility. 
-* Includes fundamental trade-off analysis (e.g., Leakage(b) vs Retrieval(b)).
-* **Completed Foundation:**
-  - **EXP-001/003:** Established Persistence Images as the optimal topological representation for hashing.
-  - **EXP-007 Series:** Mapped the information leakage of LSH hashes, proving linear correlation to signature length.
-  - **EXP-011:** Proved naive DP (noise/dropout/LDP) fails to decouple privacy from retrieval, mandating a latent Privacy Layer.
-  - **EXP-007I:** Proved a White-box attacker can reconstruct images via 1-Bit Compressed Sensing.
-
-## Phase 10 — Engineering Specifications
-* SPEC-001 to SPEC-XXX: Node Runtime, TIP Server, S-MCP Runtime, Agent Loader, Topology Engine.
-
-## Phase 11 — Reference Architecture
-* Logical, Physical, Deployment Architectures. Data Flow, Trust Flow, Agent Flow, Packet Flow, Failure Recovery, Sequence Diagrams, State Machines.
-
-## Phase 12 — Publication Roadmap (Active)
-* **Paper A:** Evaluating Topological Representations for Privacy-Preserving Distributed Retrieval. (Drafting Phase)
-  * Focuses on EXP-001, EXP-002, EXP-003. Demonstrates the robustness and utility of Persistence Images.
-* **Paper B:** Vulnerability Analysis of Locality Signatures in Topological Search. (Drafting Phase)
-  * Focuses on EXP-007(A-I) and EXP-011. Highlights the fundamental leakage vs. retrieval trade-off and the necessity of Latent Privacy structures.
-* Followed by Journal Papers, Conference Papers, Survey Papers, and Dissertation expanding on the architecture.
-
-## Phase 13 — Open Source Ecosystem
-* Atlas Core, Runtime, CLI, SDK, Python, Rust, Java, Go, Benchmarks, Simulator, Visualizer.
-
-## Phase 14 — Standardization
-* TIP RFC, S-MCP RFC, Topology Advertisement RFC, Capability Discovery RFC, Agent Lifecycle RFC.
-
-## Phase 15 — Commercialization
-* Atlas Enterprise, Cloud, Edge, Government, Healthcare, SDK, Managed Runtime.
-
-## Phase 16 — Future Research
-* Quantum-safe TIP, Topology Compression, Federated Topology Learning, Topology-aware LLMs, Self-organizing Knowledge Networks, Swarm Reasoning, Neuromorphic Agents.
-
-## Phase 17 — Educational Material
-* Atlas Book, Documentation, University Course, Certification, Labs, Playground.
-
-## Phase 18 — Success Metrics
-* Measurable goals (e.g., Reduce bandwidth by 80%, Topology improves recall, Prevent raw data movement, TIP scales to 10k orgs, Inference <500ms, Privacy leakage below threshold).
-
-## Phase 19 — Long-Term Vision
-* ATLAS becomes the **reference architecture for sovereign distributed intelligence**.
-
-## Phase 20 — Decision Register (ADRs)
-* Every significant design decision gets its own Architectural Decision Record (ADR) to document rationale, alternatives, evidence, and trade-offs.
+## Phase 14-20: Advanced Trust & Federation
+* **Phase 14 (Clinical Pilot):** AWS CloudTrail / ELK for standard HIPAA logging.
+* **Phase 15 (Post-Quantum Security):** OpenSSL OQS Fork. Zero custom crypto.
+* **Phase 16 (Zero-Knowledge Proving):** **DOWNGRADED TO HARDWARE.** *Upgrade:* Cryptographic ZK-SNARKs (SnarkJS) require massive compute overhead. Since our AAE already blinds the data, we will simply deploy nodes inside **AWS Nitro Enclaves or Intel SGX**. This provides hardware-level attestation that the code wasn't modified, requiring *zero lines of cryptographic code*.
+* **Phase 17 (FDA):** CI/CD Git commit hashes act as the traceability matrix.
+* **Phase 18 (Federation):** Standard Okta/Keycloak OAuth2.
+* **Phase 19 (Hardware Acceleration):** Native PyTorch CUDA bindings.
+* **Phase 20 (ADR Finalization):** The architectural constitution: *If an off-the-shelf system call or database can do it, ATLAS will not write custom code for it.*
