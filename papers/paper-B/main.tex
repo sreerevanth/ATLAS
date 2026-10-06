@@ -17,6 +17,10 @@ Email: author@atlas.org}
 
 \maketitle
 
+\begin{center}
+\textbf{Historical draft only. Reported experiments and conclusions have not been independently reproduced and are not release evidence.}
+\end{center}
+
 \begin{abstract}
 Topological data analysis combined with Locality-Sensitive Hashing (LSH) offers a promising mechanism for privacy-preserving distributed data retrieval. While these topological signatures obfuscate raw geometries, their formal security bounds remain poorly understood. In this paper, we present the first comprehensive vulnerability analysis of LSH-based topological locality signatures. We empirically demonstrate that macroscopic dataset properties—such as cardinality, density, and cluster composition—leak linearly with signature length, allowing adversaries to infer sensitive attributes using lightweight logistic regression. Furthermore, we reveal a critical "double negative" result regarding Differential Privacy (DP): naive perturbations (both additive image noise and local bit-flipping) catastrophically degrade retrieval utility before successfully obscuring information leakage. Finally, we execute a white-box 1-bit compressed sensing attack that successfully reconstructs the geometric footprint directly from the intercepted hash. Our results mandate the implementation of non-linear Latent Privacy Layers to mathematically disentangle geometry from structural properties prior to projection.
 \end{abstract}

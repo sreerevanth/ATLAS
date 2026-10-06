@@ -1,0 +1,35 @@
+[build-system]
+requires = ["setuptools>=75", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "atlas-research"
+version = "0.1.0"
+description = "Reproducible research in local topology retrieval and constrained computation"
+requires-python = ">=3.12,<3.13"
+dependencies = [
+  "numpy==2.5.3", "scipy==1.18.1", "scikit-learn==1.9.1", "ripser==0.6.15",
+  "persim==0.3.8", "faiss-cpu==1.15.1", "psutil==7.2.2", "wasmtime==49.0.0",
+  "cryptography==50.0.2", "aioquic==1.3.0", "sentence-transformers==6.1.0",
+  "matplotlib==3.11.2", "pyarrow==25.0.1"
+]
+
+[project.optional-dependencies]
+dev = ["pytest==9.1.1", "ruff==0.16.10"]
+
+[project.scripts]
+atlas = "atlas.cli:main"
+
+[tool.setuptools.packages.find]
+where = ["src"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+addopts = "-ra"
+
+[tool.ruff]
+target-version = "py312"
+line-length = 100
+
+[tool.ruff.lint]
+select = ["E4", "E7", "E9", "F"]

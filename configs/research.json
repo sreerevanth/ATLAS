@@ -1,0 +1,12 @@
+{
+  "seed": 42,
+  "questions": 1500,
+  "evaluation_questions": 300,
+  "batch_size": 64,
+  "local_size": 24,
+  "scales": [250, 500, 1000, 2000, 5000, 10000],
+  "exact_limit": 1000,
+  "landmarks": [32, 64, 128],
+  "worker_timeout_seconds": 120,
+  "worker_memory_mb": 1500
+}

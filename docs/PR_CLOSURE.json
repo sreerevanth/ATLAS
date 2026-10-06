@@ -1,0 +1,183 @@
+{
+  "utc": "2026-10-06T13:55:28.294887+00:00",
+  "comment": "Thank you @SHAURYASANYAL3 for contributing this phase documentation. Following the accepted PR triage, we are closing this without merging because the historical phase-based roadmap has been superseded by ATLAS's current evidence-driven implementation and research program. Your authorship, commits, and discussion remain preserved in this PR and repository history.",
+  "prs": [
+    {
+      "number": 12,
+      "state": "closed",
+      "merged": false,
+      "merged_at": null,
+      "closed_at": "2026-10-06T13:54:45Z",
+      "head": "7a27e0713a2fb3477037c007e6802d8e28416260",
+      "comment_url": "https://github.com/sreerevanth/ATLAS/pull/12#issuecomment-6017800791"
+    },
+    {
+      "number": 13,
+      "state": "closed",
+      "merged": false,
+      "merged_at": null,
+      "closed_at": "2026-10-06T13:54:45Z",
+      "head": "38830cb8a8b9d86d47141bd397de3f92c6abb313",
+      "comment_url": "https://github.com/sreerevanth/ATLAS/pull/13#issuecomment-6017800868"
+    },
+    {
+      "number": 14,
+      "state": "closed",
+      "merged": false,
+      "merged_at": null,
+      "closed_at": "2026-10-06T13:54:46Z",
+      "head": "bb949e4f5d2484be3baae13ce975c6fb46b3c6a2",
+      "comment_url": "https://github.com/sreerevanth/ATLAS/pull/14#issuecomment-6017800898"
+    },
+    {
+      "number": 15,
+      "state": "closed",
+      "merged": false,
+      "merged_at": null,
+      "closed_at": "2026-10-06T13:54:51Z",
+      "head": "32e2907758333965cf635743fb80bfe6e393e137",
+      "comment_url": "https://github.com/sreerevanth/ATLAS/pull/15#issuecomment-6017802505"
+    },
+    {
+      "number": 16,
+      "state": "closed",
+      "merged": false,
+      "merged_at": null,
+      "closed_at": "2026-10-06T13:54:52Z",
+      "head": "c2a97dcb9df9508ae2d1454fbc0367c09b6cf0ca",
+      "comment_url": "https://github.com/sreerevanth/ATLAS/pull/16#issuecomment-6017802686"
+    },
+    {
+      "number": 17,
+      "state": "closed",
+      "merged": false,
+      "merged_at": null,
+      "closed_at": "2026-10-06T13:54:52Z",
+      "head": "f90d72764ef731b6625e618dfd3a2d812be2c172",
+      "comment_url": "https://github.com/sreerevanth/ATLAS/pull/17#issuecomment-6017802679"
+    },
+    {
+      "number": 18,
+      "state": "closed",
+      "merged": false,
+      "merged_at": null,
+      "closed_at": "2026-10-06T13:54:57Z",
+      "head": "3c49252f8e32591ed7c43de47ea6e4fe07010ee1",
+      "comment_url": "https://github.com/sreerevanth/ATLAS/pull/18#issuecomment-6017804357"
+    },
+    {
+      "number": 19,
+      "state": "closed",
+      "merged": false,
+      "merged_at": null,
+      "closed_at": "2026-10-06T13:54:58Z",
+      "head": "4863847429e6b92f693e6e3a229fc47bd18b3bdf",
+      "comment_url": "https://github.com/sreerevanth/ATLAS/pull/19#issuecomment-6017804715"
+    },
+    {
+      "number": 20,
+      "state": "closed",
+      "merged": false,
+      "merged_at": null,
+      "closed_at": "2026-10-06T13:54:59Z",
+      "head": "5c7ecb071b0c7092d8f21e704c03ca0d20c9dbb1",
+      "comment_url": "https://github.com/sreerevanth/ATLAS/pull/20#issuecomment-6017804873"
+    },
+    {
+      "number": 21,
+      "state": "closed",
+      "merged": false,
+      "merged_at": null,
+      "closed_at": "2026-10-06T13:55:03Z",
+      "head": "bd2f60468c7c2f6a7f1403a543cbeb28cd353574",
+      "comment_url": "https://github.com/sreerevanth/ATLAS/pull/21#issuecomment-6017806208"
+    },
+    {
+      "number": 22,
+      "state": "closed",
+      "merged": false,
+      "merged_at": null,
+      "closed_at": "2026-10-06T13:55:04Z",
+      "head": "af4e7e708c3b65434415324a3c4372890bd50a42",
+      "comment_url": "https://github.com/sreerevanth/ATLAS/pull/22#issuecomment-6017806541"
+    },
+    {
+      "number": 24,
+      "state": "closed",
+      "merged": false,
+      "merged_at": null,
+      "closed_at": "2026-10-06T13:55:05Z",
+      "head": "663cb49dc1d91de949932e9bed3355c434ba1ff4",
+      "comment_url": "https://github.com/sreerevanth/ATLAS/pull/24#issuecomment-6017806843"
+    },
+    {
+      "number": 25,
+      "state": "closed",
+      "merged": false,
+      "merged_at": null,
+      "closed_at": "2026-10-06T13:55:10Z",
+      "head": "9bf4c029c8296b7f35c98b8fda4750de52a0830c",
+      "comment_url": "https://github.com/sreerevanth/ATLAS/pull/25#issuecomment-6017808384"
+    },
+    {
+      "number": 26,
+      "state": "closed",
+      "merged": false,
+      "merged_at": null,
+      "closed_at": "2026-10-06T13:55:11Z",
+      "head": "4d988b5cf4111cd55a2da3be29a8f1ab29a6597d",
+      "comment_url": "https://github.com/sreerevanth/ATLAS/pull/26#issuecomment-6017808674"
+    },
+    {
+      "number": 27,
+      "state": "closed",
+      "merged": false,
+      "merged_at": null,
+      "closed_at": "2026-10-06T13:55:12Z",
+      "head": "3fbf3746f0983abcc12e6919d2ba3cb7bbc940ae",
+      "comment_url": "https://github.com/sreerevanth/ATLAS/pull/27#issuecomment-6017808883"
+    },
+    {
+      "number": 28,
+      "state": "closed",
+      "merged": false,
+      "merged_at": null,
+      "closed_at": "2026-10-06T13:55:16Z",
+      "head": "3f3e5a7703c892797994349784bd6483fd1957dc",
+      "comment_url": "https://github.com/sreerevanth/ATLAS/pull/28#issuecomment-6017810272"
+    },
+    {
+      "number": 29,
+      "state": "closed",
+      "merged": false,
+      "merged_at": null,
+      "closed_at": "2026-10-06T13:55:17Z",
+      "head": "7d3be62e3876d91fd58f15ea7f1209abec47a071",
+      "comment_url": "https://github.com/sreerevanth/ATLAS/pull/29#issuecomment-6017810512"
+    },
+    {
+      "number": 30,
+      "state": "closed",
+      "merged": false,
+      "merged_at": null,
+      "closed_at": "2026-10-06T13:55:18Z",
+      "head": "ddc2953b7791983e02b7fcf22de7529f7337267d",
+      "comment_url": "https://github.com/sreerevanth/ATLAS/pull/30#issuecomment-6017810855"
+    },
+    {
+      "number": 31,
+      "state": "closed",
+      "merged": false,
+      "merged_at": null,
+      "closed_at": "2026-10-06T13:55:22Z",
+      "head": "c4a03d0ccc2a412f440949e8a894b9e85d1eb6e2",
+      "comment_url": "https://github.com/sreerevanth/ATLAS/pull/31#issuecomment-6017811947"
+    }
+  ],
+  "remote_main_before": "c8bf38a0d9da5b3071f208f28140c893dabecb1a",
+  "remote_main_after": "c8bf38a0d9da5b3071f208f28140c893dabecb1a",
+  "local_head_before": "c8bf38a0d9da5b3071f208f28140c893dabecb1a",
+  "local_head_after": "c8bf38a0d9da5b3071f208f28140c893dabecb1a",
+  "protected_files": 126,
+  "changed_protected_files": []
+}
