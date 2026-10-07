@@ -78,6 +78,12 @@ The finalization verification record captures actual commands, return codes,
 outputs, installed package path, wheel checksum and smoke results. No wheel was
 uploaded to PyPI and no GitHub Release was created.
 
+The original research virtual environment has stale editable-package requirement
+metadata. That diagnostic is recorded explicitly, not treated as a clean package
+installation. Its frozen generated state is left intact. Release verification
+uses a newly created environment, the current lock file and the built wheel,
+and requires its dependency check and complete test suite to pass.
+
 ## Historical measurement corrections
 
 Use `research/v2/evidence/scaling-resource-corrected.json`, not the original

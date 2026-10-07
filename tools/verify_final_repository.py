@@ -22,7 +22,7 @@ def main():
                 "commands": [], "typing": "not configured for current research package",
                 "retrieval_or_architecture_search_executed": False, "freeze_before": verify(git_blobs=True)}
 
-    def run(label, arguments, cwd=ROOT, environment=None, timeout=300):
+    def run(label, arguments, cwd=ROOT, environment=None, timeout=300, diagnostic=False):
         started = time.perf_counter()
         result = subprocess.run([str(argument) for argument in arguments], cwd=cwd,
                                 env=environment, text=True, encoding="utf8", errors="replace",
@@ -33,13 +33,16 @@ def main():
         evidence["commands"].append(observation)
         write(output / "progress.json", evidence)
         print(f"{label}: exit {result.returncode}", flush=True)
-        if result.returncode:
+        if result.returncode and not diagnostic:
             raise RuntimeError(json.dumps(observation, indent=2))
         return result.stdout
 
     run("tests", [sys.executable, "-m", "pytest", "tests", "research/v2/tests", "-q"])
     run("ruff", [sys.executable, "-m", "ruff", "check", "src", "tests", "research/v2", "tools"])
-    run("reference_dependencies", [sys.executable, "-m", "pip", "check"])
+    dependency_diagnostic = run("reference_dependencies_diagnostic", [sys.executable, "-m", "pip", "check"], diagnostic=True)
+    if evidence["commands"][-1]["exit_code"]:
+        assert all(line.startswith("atlas-research 0.1.0 has requirement ") for line in dependency_diagnostic.splitlines()), dependency_diagnostic
+        evidence["reference_environment_warning"] = "Existing research venv has stale editable atlas-research requirement metadata; preserved rather than modifying frozen generated state. The clean wheel environment below is the release-verification authority."
     run("compile_current_package", [sys.executable, "-m", "compileall", "-q", "src/atlas", "research/v2", "tools"])
     provenance = json.loads((ROOT / "docs/README_PROVENANCE.json").read_text())
     assert checksum(ROOT / "README.md") == provenance["readme_sha256"]
@@ -79,6 +82,8 @@ def main():
     run("clean_locked_dependencies", [executable, "-m", "pip", "install", "-r", source / "research/v2/requirements-lock.txt"], timeout=1200)
     run("wheel_install", [executable, "-m", "pip", "install", "--no-deps", wheel])
     run("clean_pip_check", [executable, "-m", "pip", "check"])
+    run("clean_wheel_tests", [executable, "-m", "pytest", "tests", "research/v2/tests", "-q"])
+    run("clean_wheel_ruff", [executable, "-m", "ruff", "check", "src", "tests", "research/v2", "tools"])
     wheel_cwd = output / "wheel-cwd"
     wheel_cwd.mkdir()
     import_result = run("wheel_import", [executable, "-c", "import atlas,json,importlib.metadata; print(json.dumps({'file':atlas.__file__,'version':importlib.metadata.version('atlas-research')}))"], cwd=wheel_cwd)
