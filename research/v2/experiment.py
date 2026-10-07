@@ -141,14 +141,24 @@ def freeze():
     print({"primary": primary, "graph_accepted": graph_accepted, "topology_accepted": topology_accepted}, flush=True)
 
 
-def final():
-    info = manifest(".venv-release/Scripts/python -m research.v2.run final")
-    locked = read(OUT / "frozen-config.json")
+def final(replica=False):
+    info = manifest(".venv-release/Scripts/python -m research.v2.run " + ("reproduce" if replica else "final"))
+    published = ROOT / "research/v2/evidence"
+    if replica:
+        assert OUT != published.resolve(), "Replay must not overwrite published evidence"
+        locked = read(published / "frozen-config.json")
+        for name in ("hotpot-split.json", "musique-split.json"):
+            assert read(OUT / name) == read(published / name), "Replay dataset/split drift"
+        write(OUT / "frozen-config.json", locked)
+    else:
+        locked = read(OUT / "frozen-config.json")
     tracked = git("ls-files", "--error-unmatch", "research/v2/evidence/frozen-config.json")
     assert tracked and not git("status", "--porcelain", "--", "research/v2/evidence/frozen-config.json")
     assert info["source_sha256"] == locked["source_sha256"], "Post-freeze source change"
-    for name, expected in locked["inputs"].items():
-        assert digest(OUT / name) == expected, name
+    if not replica:
+        for name, expected in locked["inputs"].items():
+            assert digest(OUT / name) == expected, name
+    info["independent_fixed_config_replay"] = replica
     info["frozen_config_sha256"] = digest(OUT / "frozen-config.json")
     with (OUT / "final-started.json").open("x", encoding="utf8") as stream:
         json.dump(info, stream, indent=2)
@@ -166,6 +176,10 @@ def final():
                    "topology_vs_graph": results[name]["topology_vs_graph"]}, flush=True)
     info["results"] = results
     write(OUT / "final-results.json", info)
+
+
+def reproduce():
+    final(replica=True)
 
 
 def diagnostics():

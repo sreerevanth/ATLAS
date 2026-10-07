@@ -48,3 +48,11 @@ def test_cluster_bootstrap_and_matrix():
     assert result["delta"] == .5
     assert result["ci"] == [0, 1]
     assert len({method["id"] for method in matrix()}) == len(matrix())
+
+
+def test_primary_api_bypasses_experimental_modules(monkeypatch):
+    from research.v2 import api
+    monkeypatch.setattr(api, "Retriever", lambda *args: pytest.fail("Experimental path invoked"))
+    vectors = np.eye(4, dtype=np.float32)
+    documents = [{"key": str(node)} for node in range(4)]
+    assert api.retrieve(vectors, documents, vectors[2], {"primary": matrix()[0]}, 1) == [2]

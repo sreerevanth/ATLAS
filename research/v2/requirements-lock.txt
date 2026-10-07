@@ -1,0 +1,2 @@
+-r ../../requirements-lock.txt
+gudhi==3.12.0

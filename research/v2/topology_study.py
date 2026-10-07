@@ -5,7 +5,7 @@ import time
 import gudhi
 import numpy as np
 import psutil
-from persim import bottleneck, wasserstein
+from persim import wasserstein
 from ripser import ripser
 from scipy.spatial.distance import cdist
 
@@ -78,6 +78,8 @@ def worker(count, landmarks, method, destination):
 
 def scaling():
     info = manifest(".venv-release/Scripts/python -m research.v2.run scaling")
+    info["bottleneck_implementation"] = "GUDHI exact e=0; finite diagrams only"
+    write(OUT / "scaling-started.json", info)
     mathematical = read(OUT / "topology-gate.json")
     assert mathematical["vr_passed"]
     total = len(np.load(CACHE / "hotpot/documents.npy", mmap_mode="r"))
@@ -87,7 +89,7 @@ def scaling():
         cells += [(count, landmarks, "witness") for count in (250, 500, 1000) for landmarks in (32, 64)]
     rows = []
     for count, landmarks, method in cells:
-        filename = OUT / f"scaling/{method}-{count}-{landmarks}.json"
+        filename = OUT / f"scaling-gudhi/{method}-{count}-{landmarks}.json"
         filename.parent.mkdir(parents=True, exist_ok=True)
         log = filename.with_suffix(".log")
         with log.open("w", encoding="utf8") as stream:
@@ -126,7 +128,7 @@ def scaling():
                 reference = np.asarray([[birth, death if death is not None else np.inf] for birth, death in exact["diagrams"][dimension]]).reshape(-1, 2)
                 approximate = np.asarray([[birth, death if death is not None else np.inf] for birth, death in row["diagrams"][dimension]]).reshape(-1, 2)
                 ref, approx = finite(reference), finite(approximate)
-                distances.append({"dimension": dimension, "bottleneck_finite": float(bottleneck(ref, approx)),
+                distances.append({"dimension": dimension, "bottleneck_finite": float(gudhi.bottleneck_distance(ref, approx, e=0)),
                                   "wasserstein_finite": float(wasserstein(ref, approx)),
                                   "exact_essential": int(np.sum(~np.isfinite(reference[:, 1]))),
                                   "approx_essential": int(np.sum(~np.isfinite(approximate[:, 1]))),

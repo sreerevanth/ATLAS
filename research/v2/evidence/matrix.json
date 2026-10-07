@@ -1,0 +1,976 @@
+[
+  {
+    "id": "cosine",
+    "graph": 0,
+    "degree": 32,
+    "topology": 0
+  },
+  {
+    "id": "graph_zero",
+    "graph": 0,
+    "degree": 32,
+    "topology": 0
+  },
+  {
+    "id": "density",
+    "graph": 0,
+    "degree": 32,
+    "topology": 0,
+    "density": 0.1
+  },
+  {
+    "id": "v1_raw_control",
+    "graph": 0,
+    "degree": 32,
+    "topology": 0.1,
+    "feature": "peak",
+    "local": 32,
+    "landmarks": 0,
+    "raw": true,
+    "density": 0.1
+  },
+  {
+    "id": "graph_d16_w0.1",
+    "graph": 0.1,
+    "degree": 16,
+    "topology": 0
+  },
+  {
+    "id": "graph_d16_w0.3",
+    "graph": 0.3,
+    "degree": 16,
+    "topology": 0
+  },
+  {
+    "id": "graph_d32_w0.1",
+    "graph": 0.1,
+    "degree": 32,
+    "topology": 0
+  },
+  {
+    "id": "graph_d32_w0.3",
+    "graph": 0.3,
+    "degree": 32,
+    "topology": 0
+  },
+  {
+    "id": "g32_0_t16_0_peak_0.05",
+    "graph": 0,
+    "degree": 32,
+    "topology": 0.05,
+    "feature": "peak",
+    "local": 16,
+    "landmarks": 0
+  },
+  {
+    "id": "g16_0.1_t16_0_peak_0.05",
+    "graph": 0.1,
+    "degree": 16,
+    "topology": 0.05,
+    "feature": "peak",
+    "local": 16,
+    "landmarks": 0
+  },
+  {
+    "id": "g16_0.3_t16_0_peak_0.05",
+    "graph": 0.3,
+    "degree": 16,
+    "topology": 0.05,
+    "feature": "peak",
+    "local": 16,
+    "landmarks": 0
+  },
+  {
+    "id": "g32_0.1_t16_0_peak_0.05",
+    "graph": 0.1,
+    "degree": 32,
+    "topology": 0.05,
+    "feature": "peak",
+    "local": 16,
+    "landmarks": 0
+  },
+  {
+    "id": "g32_0.3_t16_0_peak_0.05",
+    "graph": 0.3,
+    "degree": 32,
+    "topology": 0.05,
+    "feature": "peak",
+    "local": 16,
+    "landmarks": 0
+  },
+  {
+    "id": "g32_0_t16_0_peak_0.15",
+    "graph": 0,
+    "degree": 32,
+    "topology": 0.15,
+    "feature": "peak",
+    "local": 16,
+    "landmarks": 0
+  },
+  {
+    "id": "g16_0.1_t16_0_peak_0.15",
+    "graph": 0.1,
+    "degree": 16,
+    "topology": 0.15,
+    "feature": "peak",
+    "local": 16,
+    "landmarks": 0
+  },
+  {
+    "id": "g16_0.3_t16_0_peak_0.15",
+    "graph": 0.3,
+    "degree": 16,
+    "topology": 0.15,
+    "feature": "peak",
+    "local": 16,
+    "landmarks": 0
+  },
+  {
+    "id": "g32_0.1_t16_0_peak_0.15",
+    "graph": 0.1,
+    "degree": 32,
+    "topology": 0.15,
+    "feature": "peak",
+    "local": 16,
+    "landmarks": 0
+  },
+  {
+    "id": "g32_0.3_t16_0_peak_0.15",
+    "graph": 0.3,
+    "degree": 32,
+    "topology": 0.15,
+    "feature": "peak",
+    "local": 16,
+    "landmarks": 0
+  },
+  {
+    "id": "g32_0_t16_0_landscape_0.05",
+    "graph": 0,
+    "degree": 32,
+    "topology": 0.05,
+    "feature": "landscape",
+    "local": 16,
+    "landmarks": 0
+  },
+  {
+    "id": "g16_0.1_t16_0_landscape_0.05",
+    "graph": 0.1,
+    "degree": 16,
+    "topology": 0.05,
+    "feature": "landscape",
+    "local": 16,
+    "landmarks": 0
+  },
+  {
+    "id": "g16_0.3_t16_0_landscape_0.05",
+    "graph": 0.3,
+    "degree": 16,
+    "topology": 0.05,
+    "feature": "landscape",
+    "local": 16,
+    "landmarks": 0
+  },
+  {
+    "id": "g32_0.1_t16_0_landscape_0.05",
+    "graph": 0.1,
+    "degree": 32,
+    "topology": 0.05,
+    "feature": "landscape",
+    "local": 16,
+    "landmarks": 0
+  },
+  {
+    "id": "g32_0.3_t16_0_landscape_0.05",
+    "graph": 0.3,
+    "degree": 32,
+    "topology": 0.05,
+    "feature": "landscape",
+    "local": 16,
+    "landmarks": 0
+  },
+  {
+    "id": "g32_0_t16_0_landscape_0.15",
+    "graph": 0,
+    "degree": 32,
+    "topology": 0.15,
+    "feature": "landscape",
+    "local": 16,
+    "landmarks": 0
+  },
+  {
+    "id": "g16_0.1_t16_0_landscape_0.15",
+    "graph": 0.1,
+    "degree": 16,
+    "topology": 0.15,
+    "feature": "landscape",
+    "local": 16,
+    "landmarks": 0
+  },
+  {
+    "id": "g16_0.3_t16_0_landscape_0.15",
+    "graph": 0.3,
+    "degree": 16,
+    "topology": 0.15,
+    "feature": "landscape",
+    "local": 16,
+    "landmarks": 0
+  },
+  {
+    "id": "g32_0.1_t16_0_landscape_0.15",
+    "graph": 0.1,
+    "degree": 32,
+    "topology": 0.15,
+    "feature": "landscape",
+    "local": 16,
+    "landmarks": 0
+  },
+  {
+    "id": "g32_0.3_t16_0_landscape_0.15",
+    "graph": 0.3,
+    "degree": 32,
+    "topology": 0.15,
+    "feature": "landscape",
+    "local": 16,
+    "landmarks": 0
+  },
+  {
+    "id": "g32_0_t16_8_peak_0.05",
+    "graph": 0,
+    "degree": 32,
+    "topology": 0.05,
+    "feature": "peak",
+    "local": 16,
+    "landmarks": 8
+  },
+  {
+    "id": "g16_0.1_t16_8_peak_0.05",
+    "graph": 0.1,
+    "degree": 16,
+    "topology": 0.05,
+    "feature": "peak",
+    "local": 16,
+    "landmarks": 8
+  },
+  {
+    "id": "g16_0.3_t16_8_peak_0.05",
+    "graph": 0.3,
+    "degree": 16,
+    "topology": 0.05,
+    "feature": "peak",
+    "local": 16,
+    "landmarks": 8
+  },
+  {
+    "id": "g32_0.1_t16_8_peak_0.05",
+    "graph": 0.1,
+    "degree": 32,
+    "topology": 0.05,
+    "feature": "peak",
+    "local": 16,
+    "landmarks": 8
+  },
+  {
+    "id": "g32_0.3_t16_8_peak_0.05",
+    "graph": 0.3,
+    "degree": 32,
+    "topology": 0.05,
+    "feature": "peak",
+    "local": 16,
+    "landmarks": 8
+  },
+  {
+    "id": "g32_0_t16_8_peak_0.15",
+    "graph": 0,
+    "degree": 32,
+    "topology": 0.15,
+    "feature": "peak",
+    "local": 16,
+    "landmarks": 8
+  },
+  {
+    "id": "g16_0.1_t16_8_peak_0.15",
+    "graph": 0.1,
+    "degree": 16,
+    "topology": 0.15,
+    "feature": "peak",
+    "local": 16,
+    "landmarks": 8
+  },
+  {
+    "id": "g16_0.3_t16_8_peak_0.15",
+    "graph": 0.3,
+    "degree": 16,
+    "topology": 0.15,
+    "feature": "peak",
+    "local": 16,
+    "landmarks": 8
+  },
+  {
+    "id": "g32_0.1_t16_8_peak_0.15",
+    "graph": 0.1,
+    "degree": 32,
+    "topology": 0.15,
+    "feature": "peak",
+    "local": 16,
+    "landmarks": 8
+  },
+  {
+    "id": "g32_0.3_t16_8_peak_0.15",
+    "graph": 0.3,
+    "degree": 32,
+    "topology": 0.15,
+    "feature": "peak",
+    "local": 16,
+    "landmarks": 8
+  },
+  {
+    "id": "g32_0_t16_8_landscape_0.05",
+    "graph": 0,
+    "degree": 32,
+    "topology": 0.05,
+    "feature": "landscape",
+    "local": 16,
+    "landmarks": 8
+  },
+  {
+    "id": "g16_0.1_t16_8_landscape_0.05",
+    "graph": 0.1,
+    "degree": 16,
+    "topology": 0.05,
+    "feature": "landscape",
+    "local": 16,
+    "landmarks": 8
+  },
+  {
+    "id": "g16_0.3_t16_8_landscape_0.05",
+    "graph": 0.3,
+    "degree": 16,
+    "topology": 0.05,
+    "feature": "landscape",
+    "local": 16,
+    "landmarks": 8
+  },
+  {
+    "id": "g32_0.1_t16_8_landscape_0.05",
+    "graph": 0.1,
+    "degree": 32,
+    "topology": 0.05,
+    "feature": "landscape",
+    "local": 16,
+    "landmarks": 8
+  },
+  {
+    "id": "g32_0.3_t16_8_landscape_0.05",
+    "graph": 0.3,
+    "degree": 32,
+    "topology": 0.05,
+    "feature": "landscape",
+    "local": 16,
+    "landmarks": 8
+  },
+  {
+    "id": "g32_0_t16_8_landscape_0.15",
+    "graph": 0,
+    "degree": 32,
+    "topology": 0.15,
+    "feature": "landscape",
+    "local": 16,
+    "landmarks": 8
+  },
+  {
+    "id": "g16_0.1_t16_8_landscape_0.15",
+    "graph": 0.1,
+    "degree": 16,
+    "topology": 0.15,
+    "feature": "landscape",
+    "local": 16,
+    "landmarks": 8
+  },
+  {
+    "id": "g16_0.3_t16_8_landscape_0.15",
+    "graph": 0.3,
+    "degree": 16,
+    "topology": 0.15,
+    "feature": "landscape",
+    "local": 16,
+    "landmarks": 8
+  },
+  {
+    "id": "g32_0.1_t16_8_landscape_0.15",
+    "graph": 0.1,
+    "degree": 32,
+    "topology": 0.15,
+    "feature": "landscape",
+    "local": 16,
+    "landmarks": 8
+  },
+  {
+    "id": "g32_0.3_t16_8_landscape_0.15",
+    "graph": 0.3,
+    "degree": 32,
+    "topology": 0.15,
+    "feature": "landscape",
+    "local": 16,
+    "landmarks": 8
+  },
+  {
+    "id": "g32_0_t32_0_peak_0.05",
+    "graph": 0,
+    "degree": 32,
+    "topology": 0.05,
+    "feature": "peak",
+    "local": 32,
+    "landmarks": 0
+  },
+  {
+    "id": "g16_0.1_t32_0_peak_0.05",
+    "graph": 0.1,
+    "degree": 16,
+    "topology": 0.05,
+    "feature": "peak",
+    "local": 32,
+    "landmarks": 0
+  },
+  {
+    "id": "g16_0.3_t32_0_peak_0.05",
+    "graph": 0.3,
+    "degree": 16,
+    "topology": 0.05,
+    "feature": "peak",
+    "local": 32,
+    "landmarks": 0
+  },
+  {
+    "id": "g32_0.1_t32_0_peak_0.05",
+    "graph": 0.1,
+    "degree": 32,
+    "topology": 0.05,
+    "feature": "peak",
+    "local": 32,
+    "landmarks": 0
+  },
+  {
+    "id": "g32_0.3_t32_0_peak_0.05",
+    "graph": 0.3,
+    "degree": 32,
+    "topology": 0.05,
+    "feature": "peak",
+    "local": 32,
+    "landmarks": 0
+  },
+  {
+    "id": "g32_0_t32_0_peak_0.15",
+    "graph": 0,
+    "degree": 32,
+    "topology": 0.15,
+    "feature": "peak",
+    "local": 32,
+    "landmarks": 0
+  },
+  {
+    "id": "g16_0.1_t32_0_peak_0.15",
+    "graph": 0.1,
+    "degree": 16,
+    "topology": 0.15,
+    "feature": "peak",
+    "local": 32,
+    "landmarks": 0
+  },
+  {
+    "id": "g16_0.3_t32_0_peak_0.15",
+    "graph": 0.3,
+    "degree": 16,
+    "topology": 0.15,
+    "feature": "peak",
+    "local": 32,
+    "landmarks": 0
+  },
+  {
+    "id": "g32_0.1_t32_0_peak_0.15",
+    "graph": 0.1,
+    "degree": 32,
+    "topology": 0.15,
+    "feature": "peak",
+    "local": 32,
+    "landmarks": 0
+  },
+  {
+    "id": "g32_0.3_t32_0_peak_0.15",
+    "graph": 0.3,
+    "degree": 32,
+    "topology": 0.15,
+    "feature": "peak",
+    "local": 32,
+    "landmarks": 0
+  },
+  {
+    "id": "g32_0_t32_0_landscape_0.05",
+    "graph": 0,
+    "degree": 32,
+    "topology": 0.05,
+    "feature": "landscape",
+    "local": 32,
+    "landmarks": 0
+  },
+  {
+    "id": "g16_0.1_t32_0_landscape_0.05",
+    "graph": 0.1,
+    "degree": 16,
+    "topology": 0.05,
+    "feature": "landscape",
+    "local": 32,
+    "landmarks": 0
+  },
+  {
+    "id": "g16_0.3_t32_0_landscape_0.05",
+    "graph": 0.3,
+    "degree": 16,
+    "topology": 0.05,
+    "feature": "landscape",
+    "local": 32,
+    "landmarks": 0
+  },
+  {
+    "id": "g32_0.1_t32_0_landscape_0.05",
+    "graph": 0.1,
+    "degree": 32,
+    "topology": 0.05,
+    "feature": "landscape",
+    "local": 32,
+    "landmarks": 0
+  },
+  {
+    "id": "g32_0.3_t32_0_landscape_0.05",
+    "graph": 0.3,
+    "degree": 32,
+    "topology": 0.05,
+    "feature": "landscape",
+    "local": 32,
+    "landmarks": 0
+  },
+  {
+    "id": "g32_0_t32_0_landscape_0.15",
+    "graph": 0,
+    "degree": 32,
+    "topology": 0.15,
+    "feature": "landscape",
+    "local": 32,
+    "landmarks": 0
+  },
+  {
+    "id": "g16_0.1_t32_0_landscape_0.15",
+    "graph": 0.1,
+    "degree": 16,
+    "topology": 0.15,
+    "feature": "landscape",
+    "local": 32,
+    "landmarks": 0
+  },
+  {
+    "id": "g16_0.3_t32_0_landscape_0.15",
+    "graph": 0.3,
+    "degree": 16,
+    "topology": 0.15,
+    "feature": "landscape",
+    "local": 32,
+    "landmarks": 0
+  },
+  {
+    "id": "g32_0.1_t32_0_landscape_0.15",
+    "graph": 0.1,
+    "degree": 32,
+    "topology": 0.15,
+    "feature": "landscape",
+    "local": 32,
+    "landmarks": 0
+  },
+  {
+    "id": "g32_0.3_t32_0_landscape_0.15",
+    "graph": 0.3,
+    "degree": 32,
+    "topology": 0.15,
+    "feature": "landscape",
+    "local": 32,
+    "landmarks": 0
+  },
+  {
+    "id": "g32_0_t32_8_peak_0.05",
+    "graph": 0,
+    "degree": 32,
+    "topology": 0.05,
+    "feature": "peak",
+    "local": 32,
+    "landmarks": 8
+  },
+  {
+    "id": "g16_0.1_t32_8_peak_0.05",
+    "graph": 0.1,
+    "degree": 16,
+    "topology": 0.05,
+    "feature": "peak",
+    "local": 32,
+    "landmarks": 8
+  },
+  {
+    "id": "g16_0.3_t32_8_peak_0.05",
+    "graph": 0.3,
+    "degree": 16,
+    "topology": 0.05,
+    "feature": "peak",
+    "local": 32,
+    "landmarks": 8
+  },
+  {
+    "id": "g32_0.1_t32_8_peak_0.05",
+    "graph": 0.1,
+    "degree": 32,
+    "topology": 0.05,
+    "feature": "peak",
+    "local": 32,
+    "landmarks": 8
+  },
+  {
+    "id": "g32_0.3_t32_8_peak_0.05",
+    "graph": 0.3,
+    "degree": 32,
+    "topology": 0.05,
+    "feature": "peak",
+    "local": 32,
+    "landmarks": 8
+  },
+  {
+    "id": "g32_0_t32_8_peak_0.15",
+    "graph": 0,
+    "degree": 32,
+    "topology": 0.15,
+    "feature": "peak",
+    "local": 32,
+    "landmarks": 8
+  },
+  {
+    "id": "g16_0.1_t32_8_peak_0.15",
+    "graph": 0.1,
+    "degree": 16,
+    "topology": 0.15,
+    "feature": "peak",
+    "local": 32,
+    "landmarks": 8
+  },
+  {
+    "id": "g16_0.3_t32_8_peak_0.15",
+    "graph": 0.3,
+    "degree": 16,
+    "topology": 0.15,
+    "feature": "peak",
+    "local": 32,
+    "landmarks": 8
+  },
+  {
+    "id": "g32_0.1_t32_8_peak_0.15",
+    "graph": 0.1,
+    "degree": 32,
+    "topology": 0.15,
+    "feature": "peak",
+    "local": 32,
+    "landmarks": 8
+  },
+  {
+    "id": "g32_0.3_t32_8_peak_0.15",
+    "graph": 0.3,
+    "degree": 32,
+    "topology": 0.15,
+    "feature": "peak",
+    "local": 32,
+    "landmarks": 8
+  },
+  {
+    "id": "g32_0_t32_8_landscape_0.05",
+    "graph": 0,
+    "degree": 32,
+    "topology": 0.05,
+    "feature": "landscape",
+    "local": 32,
+    "landmarks": 8
+  },
+  {
+    "id": "g16_0.1_t32_8_landscape_0.05",
+    "graph": 0.1,
+    "degree": 16,
+    "topology": 0.05,
+    "feature": "landscape",
+    "local": 32,
+    "landmarks": 8
+  },
+  {
+    "id": "g16_0.3_t32_8_landscape_0.05",
+    "graph": 0.3,
+    "degree": 16,
+    "topology": 0.05,
+    "feature": "landscape",
+    "local": 32,
+    "landmarks": 8
+  },
+  {
+    "id": "g32_0.1_t32_8_landscape_0.05",
+    "graph": 0.1,
+    "degree": 32,
+    "topology": 0.05,
+    "feature": "landscape",
+    "local": 32,
+    "landmarks": 8
+  },
+  {
+    "id": "g32_0.3_t32_8_landscape_0.05",
+    "graph": 0.3,
+    "degree": 32,
+    "topology": 0.05,
+    "feature": "landscape",
+    "local": 32,
+    "landmarks": 8
+  },
+  {
+    "id": "g32_0_t32_8_landscape_0.15",
+    "graph": 0,
+    "degree": 32,
+    "topology": 0.15,
+    "feature": "landscape",
+    "local": 32,
+    "landmarks": 8
+  },
+  {
+    "id": "g16_0.1_t32_8_landscape_0.15",
+    "graph": 0.1,
+    "degree": 16,
+    "topology": 0.15,
+    "feature": "landscape",
+    "local": 32,
+    "landmarks": 8
+  },
+  {
+    "id": "g16_0.3_t32_8_landscape_0.15",
+    "graph": 0.3,
+    "degree": 16,
+    "topology": 0.15,
+    "feature": "landscape",
+    "local": 32,
+    "landmarks": 8
+  },
+  {
+    "id": "g32_0.1_t32_8_landscape_0.15",
+    "graph": 0.1,
+    "degree": 32,
+    "topology": 0.15,
+    "feature": "landscape",
+    "local": 32,
+    "landmarks": 8
+  },
+  {
+    "id": "g32_0.3_t32_8_landscape_0.15",
+    "graph": 0.3,
+    "degree": 32,
+    "topology": 0.15,
+    "feature": "landscape",
+    "local": 32,
+    "landmarks": 8
+  },
+  {
+    "id": "g32_0_t32_16_peak_0.05",
+    "graph": 0,
+    "degree": 32,
+    "topology": 0.05,
+    "feature": "peak",
+    "local": 32,
+    "landmarks": 16
+  },
+  {
+    "id": "g16_0.1_t32_16_peak_0.05",
+    "graph": 0.1,
+    "degree": 16,
+    "topology": 0.05,
+    "feature": "peak",
+    "local": 32,
+    "landmarks": 16
+  },
+  {
+    "id": "g16_0.3_t32_16_peak_0.05",
+    "graph": 0.3,
+    "degree": 16,
+    "topology": 0.05,
+    "feature": "peak",
+    "local": 32,
+    "landmarks": 16
+  },
+  {
+    "id": "g32_0.1_t32_16_peak_0.05",
+    "graph": 0.1,
+    "degree": 32,
+    "topology": 0.05,
+    "feature": "peak",
+    "local": 32,
+    "landmarks": 16
+  },
+  {
+    "id": "g32_0.3_t32_16_peak_0.05",
+    "graph": 0.3,
+    "degree": 32,
+    "topology": 0.05,
+    "feature": "peak",
+    "local": 32,
+    "landmarks": 16
+  },
+  {
+    "id": "g32_0_t32_16_peak_0.15",
+    "graph": 0,
+    "degree": 32,
+    "topology": 0.15,
+    "feature": "peak",
+    "local": 32,
+    "landmarks": 16
+  },
+  {
+    "id": "g16_0.1_t32_16_peak_0.15",
+    "graph": 0.1,
+    "degree": 16,
+    "topology": 0.15,
+    "feature": "peak",
+    "local": 32,
+    "landmarks": 16
+  },
+  {
+    "id": "g16_0.3_t32_16_peak_0.15",
+    "graph": 0.3,
+    "degree": 16,
+    "topology": 0.15,
+    "feature": "peak",
+    "local": 32,
+    "landmarks": 16
+  },
+  {
+    "id": "g32_0.1_t32_16_peak_0.15",
+    "graph": 0.1,
+    "degree": 32,
+    "topology": 0.15,
+    "feature": "peak",
+    "local": 32,
+    "landmarks": 16
+  },
+  {
+    "id": "g32_0.3_t32_16_peak_0.15",
+    "graph": 0.3,
+    "degree": 32,
+    "topology": 0.15,
+    "feature": "peak",
+    "local": 32,
+    "landmarks": 16
+  },
+  {
+    "id": "g32_0_t32_16_landscape_0.05",
+    "graph": 0,
+    "degree": 32,
+    "topology": 0.05,
+    "feature": "landscape",
+    "local": 32,
+    "landmarks": 16
+  },
+  {
+    "id": "g16_0.1_t32_16_landscape_0.05",
+    "graph": 0.1,
+    "degree": 16,
+    "topology": 0.05,
+    "feature": "landscape",
+    "local": 32,
+    "landmarks": 16
+  },
+  {
+    "id": "g16_0.3_t32_16_landscape_0.05",
+    "graph": 0.3,
+    "degree": 16,
+    "topology": 0.05,
+    "feature": "landscape",
+    "local": 32,
+    "landmarks": 16
+  },
+  {
+    "id": "g32_0.1_t32_16_landscape_0.05",
+    "graph": 0.1,
+    "degree": 32,
+    "topology": 0.05,
+    "feature": "landscape",
+    "local": 32,
+    "landmarks": 16
+  },
+  {
+    "id": "g32_0.3_t32_16_landscape_0.05",
+    "graph": 0.3,
+    "degree": 32,
+    "topology": 0.05,
+    "feature": "landscape",
+    "local": 32,
+    "landmarks": 16
+  },
+  {
+    "id": "g32_0_t32_16_landscape_0.15",
+    "graph": 0,
+    "degree": 32,
+    "topology": 0.15,
+    "feature": "landscape",
+    "local": 32,
+    "landmarks": 16
+  },
+  {
+    "id": "g16_0.1_t32_16_landscape_0.15",
+    "graph": 0.1,
+    "degree": 16,
+    "topology": 0.15,
+    "feature": "landscape",
+    "local": 32,
+    "landmarks": 16
+  },
+  {
+    "id": "g16_0.3_t32_16_landscape_0.15",
+    "graph": 0.3,
+    "degree": 16,
+    "topology": 0.15,
+    "feature": "landscape",
+    "local": 32,
+    "landmarks": 16
+  },
+  {
+    "id": "g32_0.1_t32_16_landscape_0.15",
+    "graph": 0.1,
+    "degree": 32,
+    "topology": 0.15,
+    "feature": "landscape",
+    "local": 32,
+    "landmarks": 16
+  },
+  {
+    "id": "g32_0.3_t32_16_landscape_0.15",
+    "graph": 0.3,
+    "degree": 32,
+    "topology": 0.15,
+    "feature": "landscape",
+    "local": 32,
+    "landmarks": 16
+  },
+  {
+    "id": "negative",
+    "graph": 0.1,
+    "degree": 32,
+    "topology": -0.15,
+    "feature": "landscape",
+    "local": 32,
+    "landmarks": 0,
+    "shuffle": false
+  },
+  {
+    "id": "shuffled",
+    "graph": 0.1,
+    "degree": 32,
+    "topology": 0.15,
+    "feature": "landscape",
+    "local": 32,
+    "landmarks": 0,
+    "shuffle": true
+  }
+]

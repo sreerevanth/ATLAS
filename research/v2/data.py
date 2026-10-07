@@ -87,11 +87,15 @@ def prepare():
     info = manifest(".venv-release/Scripts/python -m research.v2.run prepare")
     download(ROOT / "data/raw/hotpot_dev_distractor_v1.parquet", DATA_URL, HOTPOT_SHA)
     download(ROOT / "data/raw/musique_ans_v1.0_dev.jsonl", MUSIQUE_URL, MUSIQUE_SHA)
-    old = read(ROOT / "artifacts/local/research/questions.json")
+    raw = parquet.read_table(ROOT / "data/raw/hotpot_dev_distractor_v1.parquet").to_pylist()
+    old_path = ROOT / "artifacts/local/research/questions.json"
+    old = read(old_path) if old_path.exists() else [
+        {"id": raw[int(index)]["id"], "question": raw[int(index)]["question"],
+         "support_titles": sorted(set(raw[int(index)]["supporting_facts"]["title"]))}
+        for index in np.random.default_rng(42).permutation(len(raw))[:1500]]
     old_ids = {item["id"] for item in old}
     old_titles = {title for item in old for title in item["support_titles"]}
     old_text = {normalize(item["question"]).casefold() for item in old}
-    raw = parquet.read_table(ROOT / "data/raw/hotpot_dev_distractor_v1.parquet").to_pylist()
     eligible, excluded = [], []
     for item in raw:
         record = hotpot_record(item)
