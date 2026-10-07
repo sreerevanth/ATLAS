@@ -134,7 +134,26 @@ def verify():
 
 def publish():
     from research.v2.report import generate
+    from research.v2.experiment import read_rows
     generate()
+    selected = read(OUT / "frozen-config.json")["selected"]
+    outcomes = []
+    for dataset, split in (("hotpot", "dev"), ("hotpot", "validation"), ("hotpot", "test"), ("musique", "test")):
+        rankings = read_rows(OUT / f"{dataset}-{split}-rows.json.gz")
+        grouped = {(row["id"], row["method"]): row for row in rankings}
+        identities = sorted({row["id"] for row in rankings})
+        for identity in identities:
+            for left, right in (("graph", "cosine"), ("topology", "graph"), ("topology", "cosine")):
+                first = grouped[identity, selected[left]["id"]]
+                second = grouped[identity, selected[right]["id"]]
+                truth = set(first["support"])
+                first_hits, second_hits = set(first["ranking"][:5]) & truth, set(second["ranking"][:5]) & truth
+                outcomes.append({"dataset": dataset, "split": split, "id": identity, "contrast": left + "_vs_" + right,
+                                 "delta_all_support@5": first["metrics"]["all@5"] - second["metrics"]["all@5"],
+                                 "gained_support_keys": sorted(first_hits - second_hits),
+                                 "lost_support_keys": sorted(second_hits - first_hits),
+                                 "difficult": first["difficult"], "group": first["group"]})
+    write(OUT / "query-outcomes.json", outcomes)
     corrected = read(OUT / "scaling-resource-corrected.json")
     rows = corrected["rows"]
     path = ROOT / "docs/MANIFOLD_V2_REPORT.md"
@@ -153,6 +172,7 @@ def publish():
     text += f"Independent checkout `{verified['clone_commit']}` installed the complete pinned dependencies into a new non-system-site-packages virtual environment. Tests, lint and pip check succeeded; raw stdout is in `release-verification.json`. Reconstructed V1 exclusions yielded identical V2 question splits. No final retrieval was rerun.\n\n"
     text += "Exact normalized-question and supporting-title overlap counts with V1 and across datasets: `" + json.dumps(verified["overlap_counts"]) + "`. This does not exclude semantic near-duplicates or encoder pretraining exposure.\n"
     text += "\nRegenerate this corrected report with `.venv-release/Scripts/python -m tools.verify_v2_release publish`, not the archival uncorrected report stage alone.\n"
+    text += "\n## Query-level diagnosis\n\n`query-outcomes.json` contains every question, contrast, win/loss/tie and gained/lost supporting-document identity across development, validation and final splits. It is derived solely from saved rankings, without retrieval re-execution. The selected landmark-peak feature is query-independent; exact landscape similarity was also tested but was not selected by development. Local landmark collapse, weak candidate discrimination, and semantic/graph correlation are measured diagnostic limitations, not proof that every possible topology method is useless.\n"
     path.write_text(text, encoding="utf8")
     import matplotlib.pyplot as plt
     figure, axes = plt.subplots(1, 2, figsize=(11, 4))
