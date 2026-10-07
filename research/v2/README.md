@@ -75,6 +75,22 @@ final freeze, source-only amendments added independent replay, stronger integrit
 checks, reporting, and the primary API; these did not change ranking functions,
 selection rules, or already executed development/validation results.
 
+### Resource instrumentation correction
+
+The original frozen scaling monitor missed the interpreter child of the Windows
+virtualenv launcher. Its RSS values are invalid. Use the corrected process-tree
+runner and publisher; the original source remains frozen for retrieval replay:
+
+```powershell
+.venv-release/Scripts/python tools/verify_v2_release.py measure
+.venv-release/Scripts/python tools/verify_v2_release.py publish
+```
+
+The publisher consumes tracked `release-verification.json`; refreshing that
+clean-clone verification uses `tools/verify_v2_release.py verify` after preparing
+an independent checkout at `artifacts/local/v2-clone-check`. No final retrieval
+is executed by these three verification commands. See `evidence/INCIDENTS.md`.
+
 ## Data provenance
 
 - HotpotQA: pinned Hugging Face `hotpotqa/hotpot_qa` revision and raw checksum in

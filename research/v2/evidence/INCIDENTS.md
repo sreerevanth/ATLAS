@@ -22,3 +22,18 @@ On a fresh clone, the protected inventory contains ignored generated egg-info
 as well as ignored research artifacts. Explicit missing-artifact allowance covers
 these absent generated files only. Present files with mismatched bytes still
 fail; absence is recorded, not presented as a successful126-file verification.
+
+## Post-final resource instrumentation finding
+
+The forensic check found another error: Windows virtualenv launches a small
+parent process and a separate native Python interpreter. Both original scaling
+runs sampled only the parent. Their RSS values are invalid and must not be cited.
+The final retrieval code, configuration and outputs are preserved unchanged.
+
+`tools/verify_v2_release.py measure` is a separate corrected measurement runner
+that samples and limits the entire process tree. It repeats ALL topology cells,
+checks equality of resulting diagrams against the original diagrams, and records
+new manifests, timings and RSS. This is resource remeasurement, not final-test
+retrieval re-evaluation. The corrected publication command replaces the original
+memory table and plot with these measurements. Keeping the frozen retrieval
+source intact makes the final experiment commit directly replayable.
