@@ -1,6 +1,5 @@
 """Verify packaging and small fixtures without rerunning frozen research."""
 
-import hashlib
 import json
 import os
 import re
