@@ -1,0 +1,375 @@
+{
+  "started_utc": "2026-10-07T18:25:40.863994+00:00",
+  "source_commit": "f105f6cdb6a2dc1ba6421b95a17aae183888f7af",
+  "python": "3.12.4 (tags/v3.12.4:8e8a4ba, Jun  6 2024, 19:30:16) [MSC v.1940 64 bit (AMD64)]",
+  "verification_tool_sha256": "6bf942487d6fb2cbb886d7d04147747cf3e0cc7823cba41d0b2339661e2c0167",
+  "commands": [
+    {
+      "label": "tests",
+      "command": [
+        "D:\\ATLAS\\.venv-release\\Scripts\\python.exe",
+        "-m",
+        "pytest",
+        "tests",
+        "research/v2/tests",
+        "-q"
+      ],
+      "cwd": "D:\\ATLAS",
+      "exit_code": 0,
+      "seconds": 3.63522120000016,
+      "stdout": "..................                                                       [100%]\n============================== warnings summary ===============================\ntests/test_protocol.py::test_node_rejects_malformed_peer_and_query_fields\n  D:\\ATLAS\\.venv-release\\Lib\\site-packages\\ripser\\ripser.py:251: UserWarning: The input matrix is square, but the distance_matrix flag is off.  Did you mean to indicate that this was a distance matrix?\n    warnings.warn(\n\n-- Docs: https://docs.pytest.org/en/stable/how-to/capture-warnings.html\n18 passed, 1 warning in 2.46s\n",
+      "stderr": ""
+    },
+    {
+      "label": "ruff",
+      "command": [
+        "D:\\ATLAS\\.venv-release\\Scripts\\python.exe",
+        "-m",
+        "ruff",
+        "check",
+        "src",
+        "tests",
+        "research/v2",
+        "tools"
+      ],
+      "cwd": "D:\\ATLAS",
+      "exit_code": 0,
+      "seconds": 0.34745230000044103,
+      "stdout": "All checks passed!\n",
+      "stderr": ""
+    },
+    {
+      "label": "reference_dependencies_diagnostic",
+      "command": [
+        "D:\\ATLAS\\.venv-release\\Scripts\\python.exe",
+        "-m",
+        "pip",
+        "check"
+      ],
+      "cwd": "D:\\ATLAS",
+      "exit_code": 1,
+      "seconds": 1.0626160000010714,
+      "stdout": "atlas-research 0.1.0 has requirement faiss-cpu==1.13.2, but you have faiss-cpu 1.15.1.\natlas-research 0.1.0 has requirement matplotlib==3.11.0, but you have matplotlib 3.11.2.\natlas-research 0.1.0 has requirement numpy==2.4.2, but you have numpy 2.5.3.\natlas-research 0.1.0 has requirement pyarrow==23.0.1, but you have pyarrow 25.0.1.\natlas-research 0.1.0 has requirement ripser==0.6.14, but you have ripser 0.6.15.\natlas-research 0.1.0 has requirement scikit-learn==1.8.0, but you have scikit-learn 1.9.1.\natlas-research 0.1.0 has requirement scipy==1.17.1, but you have scipy 1.18.1.\natlas-research 0.1.0 has requirement sentence-transformers==5.3.0, but you have sentence-transformers 6.1.0.\n",
+      "stderr": ""
+    },
+    {
+      "label": "compile_current_package",
+      "command": [
+        "D:\\ATLAS\\.venv-release\\Scripts\\python.exe",
+        "-m",
+        "compileall",
+        "-q",
+        "src/atlas",
+        "research/v2",
+        "tools"
+      ],
+      "cwd": "D:\\ATLAS",
+      "exit_code": 0,
+      "seconds": 0.4830213000004733,
+      "stdout": "",
+      "stderr": ""
+    },
+    {
+      "label": "export_committed_source",
+      "command": [
+        "git",
+        "archive",
+        "--format=zip",
+        "--output=D:\\ATLAS\\artifacts\\local\\finalization\\f105f6cdb6a2\\source.zip",
+        "HEAD"
+      ],
+      "cwd": "D:\\ATLAS",
+      "exit_code": 0,
+      "seconds": 0.47158289999970293,
+      "stdout": "",
+      "stderr": ""
+    },
+    {
+      "label": "build_sdist_and_wheel",
+      "command": [
+        "D:\\ATLAS\\.venv-release\\Scripts\\python.exe",
+        "-m",
+        "build",
+        "--no-isolation"
+      ],
+      "cwd": "D:\\ATLAS\\artifacts\\local\\finalization\\f105f6cdb6a2\\source",
+      "exit_code": 0,
+      "seconds": 7.512355599999864,
+      "stdout": "running egg_info\ncreating src\\atlas_research.egg-info\nwriting src\\atlas_research.egg-info\\PKG-INFO\nwriting dependency_links to src\\atlas_research.egg-info\\dependency_links.txt\nwriting entry points to src\\atlas_research.egg-info\\entry_points.txt\nwriting requirements to src\\atlas_research.egg-info\\requires.txt\nwriting top-level names to src\\atlas_research.egg-info\\top_level.txt\nwriting manifest file 'src\\atlas_research.egg-info\\SOURCES.txt'\nreading manifest file 'src\\atlas_research.egg-info\\SOURCES.txt'\nwriting manifest file 'src\\atlas_research.egg-info\\SOURCES.txt'\nrunning sdist\nrunning egg_info\nwriting src\\atlas_research.egg-info\\PKG-INFO\nwriting dependency_links to src\\atlas_research.egg-info\\dependency_links.txt\nwriting entry points to src\\atlas_research.egg-info\\entry_points.txt\nwriting requirements to src\\atlas_research.egg-info\\requires.txt\nwriting top-level names to src\\atlas_research.egg-info\\top_level.txt\nreading manifest file 'src\\atlas_research.egg-info\\SOURCES.txt'\nwriting manifest file 'src\\atlas_research.egg-info\\SOURCES.txt'\nrunning check\ncreating atlas_research-0.1.0\ncreating atlas_research-0.1.0\\src\\atlas\ncreating atlas_research-0.1.0\\src\\atlas_research.egg-info\ncreating atlas_research-0.1.0\\tests\ncopying files to atlas_research-0.1.0...\ncopying README.md -> atlas_research-0.1.0\ncopying pyproject.toml -> atlas_research-0.1.0\ncopying src\\atlas\\__init__.py -> atlas_research-0.1.0\\src\\atlas\ncopying src\\atlas\\__main__.py -> atlas_research-0.1.0\\src\\atlas\ncopying src\\atlas\\anomaly.py -> atlas_research-0.1.0\\src\\atlas\ncopying src\\atlas\\cli.py -> atlas_research-0.1.0\\src\\atlas\ncopying src\\atlas\\corpus.py -> atlas_research-0.1.0\\src\\atlas\ncopying src\\atlas\\evidence.py -> atlas_research-0.1.0\\src\\atlas\ncopying src\\atlas\\handcrafted.py -> atlas_research-0.1.0\\src\\atlas\ncopying src\\atlas\\protocol.py -> atlas_research-0.1.0\\src\\atlas\ncopying src\\atlas\\retrieval.py -> atlas_research-0.1.0\\src\\atlas\ncopying src\\atlas\\sandbox.py -> atlas_research-0.1.0\\src\\atlas\ncopying src\\atlas\\scaling.py -> atlas_research-0.1.0\\src\\atlas\ncopying src\\atlas\\tip_experiment.py -> atlas_research-0.1.0\\src\\atlas\ncopying src\\atlas\\topology.py -> atlas_research-0.1.0\\src\\atlas\ncopying src\\atlas\\transport.py -> atlas_research-0.1.0\\src\\atlas\ncopying src\\atlas_research.egg-info\\PKG-INFO -> atlas_research-0.1.0\\src\\atlas_research.egg-info\ncopying src\\atlas_research.egg-info\\SOURCES.txt -> atlas_research-0.1.0\\src\\atlas_research.egg-info\ncopying src\\atlas_research.egg-info\\dependency_links.txt -> atlas_research-0.1.0\\src\\atlas_research.egg-info\ncopying src\\atlas_research.egg-info\\entry_points.txt -> atlas_research-0.1.0\\src\\atlas_research.egg-info\ncopying src\\atlas_research.egg-info\\requires.txt -> atlas_research-0.1.0\\src\\atlas_research.egg-info\ncopying src\\atlas_research.egg-info\\top_level.txt -> atlas_research-0.1.0\\src\\atlas_research.egg-info\ncopying tests\\test_corpus.py -> atlas_research-0.1.0\\tests\ncopying tests\\test_handcrafted.py -> atlas_research-0.1.0\\tests\ncopying tests\\test_protocol.py -> atlas_research-0.1.0\\tests\ncopying tests\\test_retrieval.py -> atlas_research-0.1.0\\tests\ncopying tests\\test_topology.py -> atlas_research-0.1.0\\tests\nWriting atlas_research-0.1.0\\setup.cfg\nCreating tar archive\nremoving 'atlas_research-0.1.0' (and everything under it)\nrunning egg_info\nwriting src\\atlas_research.egg-info\\PKG-INFO\nwriting dependency_links to src\\atlas_research.egg-info\\dependency_links.txt\nwriting entry points to src\\atlas_research.egg-info\\entry_points.txt\nwriting requirements to src\\atlas_research.egg-info\\requires.txt\nwriting top-level names to src\\atlas_research.egg-info\\top_level.txt\nreading manifest file 'src\\atlas_research.egg-info\\SOURCES.txt'\nwriting manifest file 'src\\atlas_research.egg-info\\SOURCES.txt'\nrunning bdist_wheel\nrunning build\nrunning build_py\ncreating build\\lib\\atlas\ncopying src\\atlas\\anomaly.py -> build\\lib\\atlas\ncopying src\\atlas\\cli.py -> build\\lib\\atlas\ncopying src\\atlas\\corpus.py -> build\\lib\\atlas\ncopying src\\atlas\\evidence.py -> build\\lib\\atlas\ncopying src\\atlas\\handcrafted.py -> build\\lib\\atlas\ncopying src\\atlas\\protocol.py -> build\\lib\\atlas\ncopying src\\atlas\\retrieval.py -> build\\lib\\atlas\ncopying src\\atlas\\sandbox.py -> build\\lib\\atlas\ncopying src\\atlas\\scaling.py -> build\\lib\\atlas\ncopying src\\atlas\\tip_experiment.py -> build\\lib\\atlas\ncopying src\\atlas\\topology.py -> build\\lib\\atlas\ncopying src\\atlas\\transport.py -> build\\lib\\atlas\ncopying src\\atlas\\__init__.py -> build\\lib\\atlas\ncopying src\\atlas\\__main__.py -> build\\lib\\atlas\nrunning egg_info\nwriting src\\atlas_research.egg-info\\PKG-INFO\nwriting dependency_links to src\\atlas_research.egg-info\\dependency_links.txt\nwriting entry points to src\\atlas_research.egg-info\\entry_points.txt\nwriting requirements to src\\atlas_research.egg-info\\requires.txt\nwriting top-level names to src\\atlas_research.egg-info\\top_level.txt\nreading manifest file 'src\\atlas_research.egg-info\\SOURCES.txt'\nwriting manifest file 'src\\atlas_research.egg-info\\SOURCES.txt'\ninstalling to build\\bdist.win-amd64\\wheel\nrunning install\nrunning install_lib\ncreating build\\bdist.win-amd64\\wheel\ncreating build\\bdist.win-amd64\\wheel\\atlas\ncopying build\\lib\\atlas\\anomaly.py -> build\\bdist.win-amd64\\wheel\\.\\atlas\ncopying build\\lib\\atlas\\cli.py -> build\\bdist.win-amd64\\wheel\\.\\atlas\ncopying build\\lib\\atlas\\corpus.py -> build\\bdist.win-amd64\\wheel\\.\\atlas\ncopying build\\lib\\atlas\\evidence.py -> build\\bdist.win-amd64\\wheel\\.\\atlas\ncopying build\\lib\\atlas\\handcrafted.py -> build\\bdist.win-amd64\\wheel\\.\\atlas\ncopying build\\lib\\atlas\\protocol.py -> build\\bdist.win-amd64\\wheel\\.\\atlas\ncopying build\\lib\\atlas\\retrieval.py -> build\\bdist.win-amd64\\wheel\\.\\atlas\ncopying build\\lib\\atlas\\sandbox.py -> build\\bdist.win-amd64\\wheel\\.\\atlas\ncopying build\\lib\\atlas\\scaling.py -> build\\bdist.win-amd64\\wheel\\.\\atlas\ncopying build\\lib\\atlas\\tip_experiment.py -> build\\bdist.win-amd64\\wheel\\.\\atlas\ncopying build\\lib\\atlas\\topology.py -> build\\bdist.win-amd64\\wheel\\.\\atlas\ncopying build\\lib\\atlas\\transport.py -> build\\bdist.win-amd64\\wheel\\.\\atlas\ncopying build\\lib\\atlas\\__init__.py -> build\\bdist.win-amd64\\wheel\\.\\atlas\ncopying build\\lib\\atlas\\__main__.py -> build\\bdist.win-amd64\\wheel\\.\\atlas\nrunning install_egg_info\nCopying src\\atlas_research.egg-info to build\\bdist.win-amd64\\wheel\\.\\atlas_research-0.1.0-py3.12.egg-info\nrunning install_scripts\ncreating build\\bdist.win-amd64\\wheel\\atlas_research-0.1.0.dist-info\\WHEEL\ncreating 'D:\\\\ATLAS\\\\artifacts\\\\local\\\\finalization\\\\f105f6cdb6a2\\\\source\\\\dist\\\\.tmp-e3mjajkw\\\\atlas_research-0.1.0-py3-none-any.whl' and adding 'build\\\\bdist.win-amd64\\\\wheel' to it\nadding 'atlas/__init__.py'\nadding 'atlas/__main__.py'\nadding 'atlas/anomaly.py'\nadding 'atlas/cli.py'\nadding 'atlas/corpus.py'\nadding 'atlas/evidence.py'\nadding 'atlas/handcrafted.py'\nadding 'atlas/protocol.py'\nadding 'atlas/retrieval.py'\nadding 'atlas/sandbox.py'\nadding 'atlas/scaling.py'\nadding 'atlas/tip_experiment.py'\nadding 'atlas/topology.py'\nadding 'atlas/transport.py'\nadding 'atlas_research-0.1.0.dist-info/METADATA'\nadding 'atlas_research-0.1.0.dist-info/WHEEL'\nadding 'atlas_research-0.1.0.dist-info/entry_points.txt'\nadding 'atlas_research-0.1.0.dist-info/top_level.txt'\nadding 'atlas_research-0.1.0.dist-info/RECORD'\nremoving build\\bdist.win-amd64\\wheel\nSuccessfully built atlas_research-0.1.0.tar.gz and atlas_research-0.1.0-py3-none-any.whl\n",
+      "stderr": "* Getting build dependencies for sdist...\n* Building sdist...\n* Building wheel from sdist\n* Getting build dependencies for wheel...\n* Building wheel...\n"
+    },
+    {
+      "label": "create_clean_environment",
+      "command": [
+        "D:\\ATLAS\\.venv-release\\Scripts\\python.exe",
+        "-m",
+        "venv",
+        "D:\\ATLAS\\artifacts\\local\\finalization\\f105f6cdb6a2\\wheel-environment"
+      ],
+      "cwd": "D:\\ATLAS",
+      "exit_code": 0,
+      "seconds": 8.481605899998613,
+      "stdout": "",
+      "stderr": ""
+    },
+    {
+      "label": "clean_locked_dependencies",
+      "command": [
+        "D:\\ATLAS\\artifacts\\local\\finalization\\f105f6cdb6a2\\wheel-environment\\Scripts\\python.exe",
+        "-m",
+        "pip",
+        "install",
+        "-r",
+        "D:\\ATLAS\\artifacts\\local\\finalization\\f105f6cdb6a2\\source\\research\\v2\\requirements-lock.txt"
+      ],
+      "cwd": "D:\\ATLAS",
+      "exit_code": 0,
+      "seconds": 264.032305499999,
+      "stdout": "Collecting aioquic==1.3.0 (from -r D:\\ATLAS\\artifacts\\local\\finalization\\f105f6cdb6a2\\source\\research\\v2\\../../requirements-lock.txt (line 1))\n  Using cached aioquic-1.3.0-cp310-abi3-win_amd64.whl.metadata (6.5 kB)\nCollecting annotated-doc==0.0.5 (from -r D:\\ATLAS\\artifacts\\local\\finalization\\f105f6cdb6a2\\source\\research\\v2\\../../requirements-lock.txt (line 2))\n  Using cached annotated_doc-0.0.5-py3-none-any.whl.metadata (6.5 kB)\nCollecting anyio==4.15.1 (from -r D:\\ATLAS\\artifacts\\local\\finalization\\f105f6cdb6a2\\source\\research\\v2\\../../requirements-lock.txt (line 3))\n  Using cached anyio-4.15.1-py3-none-any.whl.metadata (4.7 kB)\nCollecting attrs==26.1.0 (from -r D:\\ATLAS\\artifacts\\local\\finalization\\f105f6cdb6a2\\source\\research\\v2\\../../requirements-lock.txt (line 4))\n  Using cached attrs-26.1.0-py3-none-any.whl.metadata (8.8 kB)\nCollecting build==1.6.1 (from -r D:\\ATLAS\\artifacts\\local\\finalization\\f105f6cdb6a2\\source\\research\\v2\\../../requirements-lock.txt (line 5))\n  Using cached build-1.6.1-py3-none-any.whl.metadata (5.6 kB)\nCollecting certifi==2026.7.22 (from -r D:\\ATLAS\\artifacts\\local\\finalization\\f105f6cdb6a2\\source\\research\\v2\\../../requirements-lock.txt (line 6))\n  Using cached certifi-2026.7.22-py3-none-any.whl.metadata (2.5 kB)\nCollecting cffi==2.1.1 (from -r D:\\ATLAS\\artifacts\\local\\finalization\\f105f6cdb6a2\\source\\research\\v2\\../../requirements-lock.txt (line 7))\n  Using cached cffi-2.1.1-cp312-cp312-win_amd64.whl.metadata (2.6 kB)\nCollecting click==8.5.0 (from -r D:\\ATLAS\\artifacts\\local\\finalization\\f105f6cdb6a2\\source\\research\\v2\\../../requirements-lock.txt (line 8))\n  Using cached click-8.5.0-py3-none-any.whl.metadata (2.6 kB)\nCollecting cloudpickle==3.1.2 (from -r D:\\ATLAS\\artifacts\\local\\finalization\\f105f6cdb6a2\\source\\research\\v2\\../../requirements-lock.txt (line 9))\n  Using cached cloudpickle-3.1.2-py3-none-any.whl.metadata (7.1 kB)\nCollecting colorama==0.4.6 (from -r D:\\ATLAS\\artifacts\\local\\finalization\\f105f6cdb6a2\\source\\research\\v2\\../../requirements-lock.txt (line 10))\n  Using cached colorama-0.4.6-py2.py3-none-any.whl.metadata (17 kB)\nCollecting contourpy==1.4.0 (from -r D:\\ATLAS\\artifacts\\local\\finalization\\f105f6cdb6a2\\source\\research\\v2\\../../requirements-lock.txt (line 11))\n  Using cached contourpy-1.4.0-cp312-cp312-win_amd64.whl.metadata (3.8 kB)\nCollecting cryptography==50.0.2 (from -r D:\\ATLAS\\artifacts\\local\\finalization\\f105f6cdb6a2\\source\\research\\v2\\../../requirements-lock.txt (line 12))\n  Using cached cryptography-50.0.2-cp311-abi3-win_amd64.whl.metadata (4.4 kB)\nCollecting cycler==0.12.1 (from -r D:\\ATLAS\\artifacts\\local\\finalization\\f105f6cdb6a2\\source\\research\\v2\\../../requirements-lock.txt (line 13))\n  Using cached cycler-0.12.1-py3-none-any.whl.metadata (3.8 kB)\nCollecting Cython==3.3.0 (from -r D:\\ATLAS\\artifacts\\local\\finalization\\f105f6cdb6a2\\source\\research\\v2\\../../requirements-lock.txt (line 14))\n  Using cached cython-3.3.0-cp312-cp312-win_amd64.whl.metadata (28 kB)\nCollecting Deprecated==3.0.0 (from -r D:\\ATLAS\\artifacts\\local\\finalization\\f105f6cdb6a2\\source\\research\\v2\\../../requirements-lock.txt (line 15))\n  Using cached deprecated-3.0.0-py3-none-any.whl.metadata (6.5 kB)\nCollecting faiss-cpu==1.15.1 (from -r D:\\ATLAS\\artifacts\\local\\finalization\\f105f6cdb6a2\\source\\research\\v2\\../../requirements-lock.txt (line 16))\n  Using cached faiss_cpu-1.15.1-cp312-cp312-win_amd64.whl.metadata (7.8 kB)\nCollecting filelock==4.0.12 (from -r D:\\ATLAS\\artifacts\\local\\finalization\\f105f6cdb6a2\\source\\research\\v2\\../../requirements-lock.txt (line 17))\n  Using cached filelock-4.0.12-py3-none-any.whl.metadata (2.0 kB)\nCollecting fonttools==4.66.1 (from -r D:\\ATLAS\\artifacts\\local\\finalization\\f105f6cdb6a2\\source\\research\\v2\\../../requirements-lock.txt (line 18))\n  Using cached fonttools-4.66.1-cp312-cp312-win_amd64.whl.metadata (132 kB)\nCollecting fsspec==2026.9.0 (from -r D:\\ATLAS\\artifacts\\local\\finalization\\f105f6cdb6a2\\source\\research\\v2\\../../requirements-lock.txt (line 19))\n  Using cached fsspec-2026.9.0-py3-none-any.whl.metadata (10 kB)\nCollecting h11==0.16.0 (from -r D:\\ATLAS\\artifacts\\local\\finalization\\f105f6cdb6a2\\source\\research\\v2\\../../requirements-lock.txt (line 20))\n  Using cached h11-0.16.0-py3-none-any.whl.metadata (8.3 kB)\nCollecting hf-xet==1.6.0 (from -r D:\\ATLAS\\artifacts\\local\\finalization\\f105f6cdb6a2\\source\\research\\v2\\../../requirements-lock.txt (line 21))\n  Using cached hf_xet-1.6.0-cp38-abi3-win_amd64.whl.metadata (4.9 kB)\nCollecting hopcroftkarp==1.2.5 (from -r D:\\ATLAS\\artifacts\\local\\finalization\\f105f6cdb6a2\\source\\research\\v2\\../../requirements-lock.txt (line 22))\n  Using cached hopcroftkarp-1.2.5-py2.py3-none-any.whl\nCollecting httpcore==1.0.9 (from -r D:\\ATLAS\\artifacts\\local\\finalization\\f105f6cdb6a2\\source\\research\\v2\\../../requirements-lock.txt (line 23))\n  Using cached httpcore-1.0.9-py3-none-any.whl.metadata (21 kB)\nCollecting httpx==0.28.1 (from -r D:\\ATLAS\\artifacts\\local\\finalization\\f105f6cdb6a2\\source\\research\\v2\\../../requirements-lock.txt (line 24))\n  Using cached httpx-0.28.1-py3-none-any.whl.metadata (7.1 kB)\nCollecting huggingface_hub==1.33.0 (from -r D:\\ATLAS\\artifacts\\local\\finalization\\f105f6cdb6a2\\source\\research\\v2\\../../requirements-lock.txt (line 25))\n  Using cached huggingface_hub-1.33.0-py3-none-any.whl.metadata (16 kB)\nCollecting idna==3.20 (from -r D:\\ATLAS\\artifacts\\local\\finalization\\f105f6cdb6a2\\source\\research\\v2\\../../requirements-lock.txt (line 26))\n  Using cached idna-3.20-py3-none-any.whl.metadata (7.2 kB)\nCollecting iniconfig==2.3.0 (from -r D:\\ATLAS\\artifacts\\local\\finalization\\f105f6cdb6a2\\source\\research\\v2\\../../requirements-lock.txt (line 27))\n  Using cached iniconfig-2.3.0-py3-none-any.whl.metadata (2.5 kB)\nCollecting Jinja2==3.1.6 (from -r D:\\ATLAS\\artifacts\\local\\finalization\\f105f6cdb6a2\\source\\research\\v2\\../../requirements-lock.txt (line 28))\n  Using cached jinja2-3.1.6-py3-none-any.whl.metadata (2.9 kB)\nCollecting joblib==1.6.0 (from -r D:\\ATLAS\\artifacts\\local\\finalization\\f105f6cdb6a2\\source\\research\\v2\\../../requirements-lock.txt (line 29))\n  Using cached joblib-1.6.0-py3-none-any.whl.metadata (6.5 kB)\nCollecting kiwisolver==1.5.1 (from -r D:\\ATLAS\\artifacts\\local\\finalization\\f105f6cdb6a2\\source\\research\\v2\\../../requirements-lock.txt (line 30))\n  Using cached kiwisolver-1.5.1-cp312-cp312-win_amd64.whl.metadata (5.2 kB)\nCollecting markdown-it-py==4.2.0 (from -r D:\\ATLAS\\artifacts\\local\\finalization\\f105f6cdb6a2\\source\\research\\v2\\../../requirements-lock.txt (line 31))\n  Using cached markdown_it_py-4.2.0-py3-none-any.whl.metadata (7.4 kB)\nCollecting MarkupSafe==3.0.4 (from -r D:\\ATLAS\\artifacts\\local\\finalization\\f105f6cdb6a2\\source\\research\\v2\\../../requirements-lock.txt (line 32))\n  Using cached markupsafe-3.0.4-cp312-cp312-win_amd64.whl.metadata (2.8 kB)\nCollecting matplotlib==3.11.2 (from -r D:\\ATLAS\\artifacts\\local\\finalization\\f105f6cdb6a2\\source\\research\\v2\\../../requirements-lock.txt (line 33))\n  Using cached matplotlib-3.11.2-cp312-cp312-win_amd64.whl.metadata (80 kB)\nCollecting mdurl==0.1.2 (from -r D:\\ATLAS\\artifacts\\local\\finalization\\f105f6cdb6a2\\source\\research\\v2\\../../requirements-lock.txt (line 34))\n  Using cached mdurl-0.1.2-py3-none-any.whl.metadata (1.6 kB)\nCollecting mpmath==1.3.0 (from -r D:\\ATLAS\\artifacts\\local\\finalization\\f105f6cdb6a2\\source\\research\\v2\\../../requirements-lock.txt (line 35))\n  Using cached mpmath-1.3.0-py3-none-any.whl.metadata (8.6 kB)\nCollecting narwhals==2.26.0 (from -r D:\\ATLAS\\artifacts\\local\\finalization\\f105f6cdb6a2\\source\\research\\v2\\../../requirements-lock.txt (line 36))\n  Using cached narwhals-2.26.0-py3-none-any.whl.metadata (15 kB)\nCollecting networkx==3.7 (from -r D:\\ATLAS\\artifacts\\local\\finalization\\f105f6cdb6a2\\source\\research\\v2\\../../requirements-lock.txt (line 37))\n  Using cached networkx-3.7-py3-none-any.whl.metadata (6.7 kB)\nCollecting numpy==2.5.3 (from -r D:\\ATLAS\\artifacts\\local\\finalization\\f105f6cdb6a2\\source\\research\\v2\\../../requirements-lock.txt (line 38))\n  Using cached numpy-2.5.3-cp312-cp312-win_amd64.whl.metadata (6.6 kB)\nCollecting packaging==26.3 (from -r D:\\ATLAS\\artifacts\\local\\finalization\\f105f6cdb6a2\\source\\research\\v2\\../../requirements-lock.txt (line 39))\n  Using cached packaging-26.3-py3-none-any.whl.metadata (3.5 kB)\nCollecting persim==0.3.8 (from -r D:\\ATLAS\\artifacts\\local\\finalization\\f105f6cdb6a2\\source\\research\\v2\\../../requirements-lock.txt (line 40))\n  Using cached persim-0.3.8-py3-none-any.whl.metadata (3.8 kB)\nCollecting pillow==12.3.0 (from -r D:\\ATLAS\\artifacts\\local\\finalization\\f105f6cdb6a2\\source\\research\\v2\\../../requirements-lock.txt (line 41))\n  Using cached pillow-12.3.0-cp312-cp312-win_amd64.whl.metadata (9.3 kB)\nCollecting pluggy==1.6.0 (from -r D:\\ATLAS\\artifacts\\local\\finalization\\f105f6cdb6a2\\source\\research\\v2\\../../requirements-lock.txt (line 42))\n  Using cached pluggy-1.6.0-py3-none-any.whl.metadata (4.8 kB)\nCollecting psutil==7.2.2 (from -r D:\\ATLAS\\artifacts\\local\\finalization\\f105f6cdb6a2\\source\\research\\v2\\../../requirements-lock.txt (line 43))\n  Using cached psutil-7.2.2-cp37-abi3-win_amd64.whl.metadata (22 kB)\nCollecting pyarrow==25.0.1 (from -r D:\\ATLAS\\artifacts\\local\\finalization\\f105f6cdb6a2\\source\\research\\v2\\../../requirements-lock.txt (line 44))\n  Using cached pyarrow-25.0.1-cp312-cp312-win_amd64.whl.metadata (3.0 kB)\nCollecting pycparser==3.0 (from -r D:\\ATLAS\\artifacts\\local\\finalization\\f105f6cdb6a2\\source\\research\\v2\\../../requirements-lock.txt (line 45))\n  Using cached pycparser-3.0-py3-none-any.whl.metadata (8.2 kB)\nCollecting Pygments==2.21.0 (from -r D:\\ATLAS\\artifacts\\local\\finalization\\f105f6cdb6a2\\source\\research\\v2\\../../requirements-lock.txt (line 46))\n  Using cached pygments-2.21.0-py3-none-any.whl.metadata (2.5 kB)\nCollecting pylsqpack==0.3.24 (from -r D:\\ATLAS\\artifacts\\local\\finalization\\f105f6cdb6a2\\source\\research\\v2\\../../requirements-lock.txt (line 47))\n  Using cached pylsqpack-0.3.24-cp310-abi3-win_amd64.whl.metadata (2.1 kB)\nCollecting pyOpenSSL==26.4.0 (from -r D:\\ATLAS\\artifacts\\local\\finalization\\f105f6cdb6a2\\source\\research\\v2\\../../requirements-lock.txt (line 48))\n  Using cached pyopenssl-26.4.0-py3-none-any.whl.metadata (22 kB)\nCollecting pyparsing==3.3.3 (from -r D:\\ATLAS\\artifacts\\local\\finalization\\f105f6cdb6a2\\source\\research\\v2\\../../requirements-lock.txt (line 49))\n  Using cached pyparsing-3.3.3-py3-none-any.whl.metadata (5.9 kB)\nCollecting pyproject_hooks==1.3.3 (from -r D:\\ATLAS\\artifacts\\local\\finalization\\f105f6cdb6a2\\source\\research\\v2\\../../requirements-lock.txt (line 50))\n  Using cached pyproject_hooks-1.3.3-py3-none-any.whl.metadata (1.3 kB)\nCollecting pytest==9.1.1 (from -r D:\\ATLAS\\artifacts\\local\\finalization\\f105f6cdb6a2\\source\\research\\v2\\../../requirements-lock.txt (line 51))\n  Using cached pytest-9.1.1-py3-none-any.whl.metadata (7.6 kB)\nCollecting python-dateutil==2.9.0.post0 (from -r D:\\ATLAS\\artifacts\\local\\finalization\\f105f6cdb6a2\\source\\research\\v2\\../../requirements-lock.txt (line 52))\n  Using cached python_dateutil-2.9.0.post0-py2.py3-none-any.whl.metadata (8.4 kB)\nCollecting PyYAML==6.0.3 (from -r D:\\ATLAS\\artifacts\\local\\finalization\\f105f6cdb6a2\\source\\research\\v2\\../../requirements-lock.txt (line 53))\n  Using cached pyyaml-6.0.3-cp312-cp312-win_amd64.whl.metadata (2.4 kB)\nCollecting regex==2026.9.29 (from -r D:\\ATLAS\\artifacts\\local\\finalization\\f105f6cdb6a2\\source\\research\\v2\\../../requirements-lock.txt (line 54))\n  Using cached regex-2026.9.29-cp312-cp312-win_amd64.whl.metadata (41 kB)\nCollecting rich==15.0.0 (from -r D:\\ATLAS\\artifacts\\local\\finalization\\f105f6cdb6a2\\source\\research\\v2\\../../requirements-lock.txt (line 55))\n  Using cached rich-15.0.0-py3-none-any.whl.metadata (18 kB)\nCollecting ripser==0.6.15 (from -r D:\\ATLAS\\artifacts\\local\\finalization\\f105f6cdb6a2\\source\\research\\v2\\../../requirements-lock.txt (line 56))\n  Using cached ripser-0.6.15-cp312-cp312-win_amd64.whl.metadata (9.2 kB)\nCollecting ruff==0.16.10 (from -r D:\\ATLAS\\artifacts\\local\\finalization\\f105f6cdb6a2\\source\\research\\v2\\../../requirements-lock.txt (line 57))\n  Using cached ruff-0.16.10-py3-none-win_amd64.whl.metadata (21 kB)\nCollecting safetensors==0.8.0 (from -r D:\\ATLAS\\artifacts\\local\\finalization\\f105f6cdb6a2\\source\\research\\v2\\../../requirements-lock.txt (line 58))\n  Using cached safetensors-0.8.0-cp310-abi3-win_amd64.whl.metadata (4.2 kB)\nCollecting scikit-learn==1.9.1 (from -r D:\\ATLAS\\artifacts\\local\\finalization\\f105f6cdb6a2\\source\\research\\v2\\../../requirements-lock.txt (line 59))\n  Using cached scikit_learn-1.9.1-cp312-cp312-win_amd64.whl.metadata (9.3 kB)\nCollecting scipy==1.18.1 (from -r D:\\ATLAS\\artifacts\\local\\finalization\\f105f6cdb6a2\\source\\research\\v2\\../../requirements-lock.txt (line 60))\n  Using cached scipy-1.18.1-cp312-cp312-win_amd64.whl.metadata (61 kB)\nCollecting sentence-transformers==6.1.0 (from -r D:\\ATLAS\\artifacts\\local\\finalization\\f105f6cdb6a2\\source\\research\\v2\\../../requirements-lock.txt (line 61))\n  Using cached sentence_transformers-6.1.0-py3-none-any.whl.metadata (20 kB)\nCollecting service-identity==26.1.0 (from -r D:\\ATLAS\\artifacts\\local\\finalization\\f105f6cdb6a2\\source\\research\\v2\\../../requirements-lock.txt (line 62))\n  Using cached service_identity-26.1.0-py3-none-any.whl.metadata (4.8 kB)\nCollecting setuptools==84.0.0 (from -r D:\\ATLAS\\artifacts\\local\\finalization\\f105f6cdb6a2\\source\\research\\v2\\../../requirements-lock.txt (line 63))\n  Using cached setuptools-84.0.0-py3-none-any.whl.metadata (6.6 kB)\nCollecting shellingham==1.5.4 (from -r D:\\ATLAS\\artifacts\\local\\finalization\\f105f6cdb6a2\\source\\research\\v2\\../../requirements-lock.txt (line 64))\n  Using cached shellingham-1.5.4-py2.py3-none-any.whl.metadata (3.5 kB)\nCollecting six==1.17.0 (from -r D:\\ATLAS\\artifacts\\local\\finalization\\f105f6cdb6a2\\source\\research\\v2\\../../requirements-lock.txt (line 65))\n  Using cached six-1.17.0-py2.py3-none-any.whl.metadata (1.7 kB)\nCollecting sympy==1.14.0 (from -r D:\\ATLAS\\artifacts\\local\\finalization\\f105f6cdb6a2\\source\\research\\v2\\../../requirements-lock.txt (line 66))\n  Using cached sympy-1.14.0-py3-none-any.whl.metadata (12 kB)\nCollecting threadpoolctl==3.7.0 (from -r D:\\ATLAS\\artifacts\\local\\finalization\\f105f6cdb6a2\\source\\research\\v2\\../../requirements-lock.txt (line 67))\n  Using cached threadpoolctl-3.7.0-py3-none-any.whl.metadata (24 kB)\nCollecting tokenizers==0.23.2 (from -r D:\\ATLAS\\artifacts\\local\\finalization\\f105f6cdb6a2\\source\\research\\v2\\../../requirements-lock.txt (line 68))\n  Using cached tokenizers-0.23.2-cp310-abi3-win_amd64.whl.metadata (10 kB)\nCollecting torch==2.14.1 (from -r D:\\ATLAS\\artifacts\\local\\finalization\\f105f6cdb6a2\\source\\research\\v2\\../../requirements-lock.txt (line 69))\n  Using cached torch-2.14.1-cp312-cp312-win_amd64.whl.metadata (38 kB)\nCollecting tqdm==4.70.1 (from -r D:\\ATLAS\\artifacts\\local\\finalization\\f105f6cdb6a2\\source\\research\\v2\\../../requirements-lock.txt (line 70))\n  Using cached tqdm-4.70.1-py3-none-any.whl.metadata (57 kB)\nCollecting transformers==5.18.0 (from -r D:\\ATLAS\\artifacts\\local\\finalization\\f105f6cdb6a2\\source\\research\\v2\\../../requirements-lock.txt (line 71))\n  Using cached transformers-5.18.0-py3-none-any.whl.metadata (32 kB)\nCollecting typer==0.27.2 (from -r D:\\ATLAS\\artifacts\\local\\finalization\\f105f6cdb6a2\\source\\research\\v2\\../../requirements-lock.txt (line 72))\n  Using cached typer-0.27.2-py3-none-any.whl.metadata (16 kB)\nCollecting typing_extensions==4.16.0 (from -r D:\\ATLAS\\artifacts\\local\\finalization\\f105f6cdb6a2\\source\\research\\v2\\../../requirements-lock.txt (line 73))\n  Using cached typing_extensions-4.16.0-py3-none-any.whl.metadata (3.3 kB)\nCollecting wasmtime==49.0.0 (from -r D:\\ATLAS\\artifacts\\local\\finalization\\f105f6cdb6a2\\source\\research\\v2\\../../requirements-lock.txt (line 74))\n  Using cached wasmtime-49.0.0-py3-none-win_amd64.whl.metadata (5.1 kB)\nCollecting wheel==0.48.0 (from -r D:\\ATLAS\\artifacts\\local\\finalization\\f105f6cdb6a2\\source\\research\\v2\\../../requirements-lock.txt (line 75))\n  Using cached wheel-0.48.0-py3-none-any.whl.metadata (2.3 kB)\nCollecting wrapt==2.5.0 (from -r D:\\ATLAS\\artifacts\\local\\finalization\\f105f6cdb6a2\\source\\research\\v2\\../../requirements-lock.txt (line 76))\n  Using cached wrapt-2.5.0-cp312-cp312-win_amd64.whl.metadata (7.7 kB)\nCollecting gudhi==3.12.0 (from -r D:\\ATLAS\\artifacts\\local\\finalization\\f105f6cdb6a2\\source\\research\\v2\\requirements-lock.txt (line 2))\n  Using cached gudhi-3.12.0-cp312-cp312-win_amd64.whl.metadata (2.3 kB)\nUsing cached aioquic-1.3.0-cp310-abi3-win_amd64.whl (1.7 MB)\nUsing cached annotated_doc-0.0.5-py3-none-any.whl (5.3 kB)\nUsing cached anyio-4.15.1-py3-none-any.whl (132 kB)\nUsing cached attrs-26.1.0-py3-none-any.whl (67 kB)\nUsing cached build-1.6.1-py3-none-any.whl (31 kB)\nUsing cached certifi-2026.7.22-py3-none-any.whl (136 kB)\nUsing cached cffi-2.1.1-cp312-cp312-win_amd64.whl (185 kB)\nUsing cached click-8.5.0-py3-none-any.whl (125 kB)\nUsing cached cloudpickle-3.1.2-py3-none-any.whl (22 kB)\nUsing cached colorama-0.4.6-py2.py3-none-any.whl (25 kB)\nUsing cached contourpy-1.4.0-cp312-cp312-win_amd64.whl (234 kB)\nUsing cached cryptography-50.0.2-cp311-abi3-win_amd64.whl (3.8 MB)\nUsing cached cycler-0.12.1-py3-none-any.whl (8.3 kB)\nUsing cached cython-3.3.0-cp312-cp312-win_amd64.whl (2.9 MB)\nUsing cached deprecated-3.0.0-py3-none-any.whl (21 kB)\nUsing cached faiss_cpu-1.15.1-cp312-cp312-win_amd64.whl (16.3 MB)\nUsing cached filelock-4.0.12-py3-none-any.whl (111 kB)\nUsing cached fonttools-4.66.1-cp312-cp312-win_amd64.whl (2.5 MB)\nUsing cached fsspec-2026.9.0-py3-none-any.whl (221 kB)\nUsing cached h11-0.16.0-py3-none-any.whl (37 kB)\nUsing cached hf_xet-1.6.0-cp38-abi3-win_amd64.whl (4.0 MB)\nUsing cached httpcore-1.0.9-py3-none-any.whl (78 kB)\nUsing cached httpx-0.28.1-py3-none-any.whl (73 kB)\nUsing cached huggingface_hub-1.33.0-py3-none-any.whl (846 kB)\nUsing cached idna-3.20-py3-none-any.whl (69 kB)\nUsing cached iniconfig-2.3.0-py3-none-any.whl (7.5 kB)\nUsing cached jinja2-3.1.6-py3-none-any.whl (134 kB)\nUsing cached joblib-1.6.0-py3-none-any.whl (306 kB)\nUsing cached kiwisolver-1.5.1-cp312-cp312-win_amd64.whl (70 kB)\nUsing cached markdown_it_py-4.2.0-py3-none-any.whl (91 kB)\nUsing cached markupsafe-3.0.4-cp312-cp312-win_amd64.whl (14 kB)\nUsing cached matplotlib-3.11.2-cp312-cp312-win_amd64.whl (9.3 MB)\nUsing cached mdurl-0.1.2-py3-none-any.whl (10.0 kB)\nUsing cached mpmath-1.3.0-py3-none-any.whl (536 kB)\nUsing cached narwhals-2.26.0-py3-none-any.whl (474 kB)\nUsing cached networkx-3.7-py3-none-any.whl (2.1 MB)\nUsing cached numpy-2.5.3-cp312-cp312-win_amd64.whl (12.6 MB)\nUsing cached packaging-26.3-py3-none-any.whl (129 kB)\nUsing cached persim-0.3.8-py3-none-any.whl (48 kB)\nUsing cached pillow-12.3.0-cp312-cp312-win_amd64.whl (7.2 MB)\nUsing cached pluggy-1.6.0-py3-none-any.whl (20 kB)\nUsing cached psutil-7.2.2-cp37-abi3-win_amd64.whl (137 kB)\nUsing cached pyarrow-25.0.1-cp312-cp312-win_amd64.whl (28.0 MB)\nUsing cached pycparser-3.0-py3-none-any.whl (48 kB)\nUsing cached pygments-2.21.0-py3-none-any.whl (1.3 MB)\nUsing cached pylsqpack-0.3.24-cp310-abi3-win_amd64.whl (156 kB)\nUsing cached pyopenssl-26.4.0-py3-none-any.whl (56 kB)\nUsing cached pyparsing-3.3.3-py3-none-any.whl (126 kB)\nUsing cached pyproject_hooks-1.3.3-py3-none-any.whl (10 kB)\nUsing cached pytest-9.1.1-py3-none-any.whl (386 kB)\nUsing cached python_dateutil-2.9.0.post0-py2.py3-none-any.whl (229 kB)\nUsing cached pyyaml-6.0.3-cp312-cp312-win_amd64.whl (154 kB)\nUsing cached regex-2026.9.29-cp312-cp312-win_amd64.whl (280 kB)\nUsing cached rich-15.0.0-py3-none-any.whl (310 kB)\nUsing cached ripser-0.6.15-cp312-cp312-win_amd64.whl (166 kB)\nUsing cached ruff-0.16.10-py3-none-win_amd64.whl (10.6 MB)\nUsing cached safetensors-0.8.0-cp310-abi3-win_amd64.whl (355 kB)\nUsing cached scikit_learn-1.9.1-cp312-cp312-win_amd64.whl (8.3 MB)\nUsing cached scipy-1.18.1-cp312-cp312-win_amd64.whl (36.7 MB)\nUsing cached sentence_transformers-6.1.0-py3-none-any.whl (740 kB)\nUsing cached service_identity-26.1.0-py3-none-any.whl (11 kB)\nUsing cached setuptools-84.0.0-py3-none-any.whl (818 kB)\nUsing cached shellingham-1.5.4-py2.py3-none-any.whl (9.8 kB)\nUsing cached six-1.17.0-py2.py3-none-any.whl (11 kB)\nUsing cached sympy-1.14.0-py3-none-any.whl (6.3 MB)\nUsing cached threadpoolctl-3.7.0-py3-none-any.whl (26 kB)\nUsing cached tokenizers-0.23.2-cp310-abi3-win_amd64.whl (2.9 MB)\nUsing cached torch-2.14.1-cp312-cp312-win_amd64.whl (124.1 MB)\nUsing cached tqdm-4.70.1-py3-none-any.whl (80 kB)\nUsing cached transformers-5.18.0-py3-none-any.whl (12.6 MB)\nUsing cached typer-0.27.2-py3-none-any.whl (123 kB)\nUsing cached typing_extensions-4.16.0-py3-none-any.whl (45 kB)\nUsing cached wasmtime-49.0.0-py3-none-win_amd64.whl (8.3 MB)\nUsing cached wheel-0.48.0-py3-none-any.whl (33 kB)\nUsing cached wrapt-2.5.0-cp312-cp312-win_amd64.whl (105 kB)\nUsing cached gudhi-3.12.0-cp312-cp312-win_amd64.whl (3.8 MB)\nInstalling collected packages: mpmath, hopcroftkarp, wrapt, wasmtime, typing_extensions, threadpoolctl, sympy, six, shellingham, setuptools, safetensors, ruff, regex, PyYAML, pyproject_hooks, pyparsing, pylsqpack, Pygments, pycparser, pyarrow, psutil, pluggy, pillow, packaging, numpy, networkx, narwhals, mdurl, MarkupSafe, kiwisolver, iniconfig, idna, hf-xet, h11, gudhi, fsspec, fonttools, filelock, Cython, cycler, colorama, cloudpickle, click, certifi, attrs, annotated-doc, wheel, tqdm, scipy, python-dateutil, pytest, markdown-it-py, joblib, Jinja2, httpcore, faiss-cpu, Deprecated, contourpy, cffi, build, anyio, torch, scikit-learn, rich, matplotlib, httpx, cryptography, typer, service-identity, pyOpenSSL, persim, huggingface_hub, tokenizers, ripser, aioquic, transformers, sentence-transformers\nSuccessfully installed Cython-3.3.0 Deprecated-3.0.0 Jinja2-3.1.6 MarkupSafe-3.0.4 PyYAML-6.0.3 Pygments-2.21.0 aioquic-1.3.0 annotated-doc-0.0.5 anyio-4.15.1 attrs-26.1.0 build-1.6.1 certifi-2026.7.22 cffi-2.1.1 click-8.5.0 cloudpickle-3.1.2 colorama-0.4.6 contourpy-1.4.0 cryptography-50.0.2 cycler-0.12.1 faiss-cpu-1.15.1 filelock-4.0.12 fonttools-4.66.1 fsspec-2026.9.0 gudhi-3.12.0 h11-0.16.0 hf-xet-1.6.0 hopcroftkarp-1.2.5 httpcore-1.0.9 httpx-0.28.1 huggingface_hub-1.33.0 idna-3.20 iniconfig-2.3.0 joblib-1.6.0 kiwisolver-1.5.1 markdown-it-py-4.2.0 matplotlib-3.11.2 mdurl-0.1.2 mpmath-1.3.0 narwhals-2.26.0 networkx-3.7 numpy-2.5.3 packaging-26.3 persim-0.3.8 pillow-12.3.0 pluggy-1.6.0 psutil-7.2.2 pyOpenSSL-26.4.0 pyarrow-25.0.1 pycparser-3.0 pylsqpack-0.3.24 pyparsing-3.3.3 pyproject_hooks-1.3.3 pytest-9.1.1 python-dateutil-2.9.0.post0 regex-2026.9.29 rich-15.0.0 ripser-0.6.15 ruff-0.16.10 safetensors-0.8.0 scikit-learn-1.9.1 scipy-1.18.1 sentence-transformers-6.1.0 service-identity-26.1.0 setuptools-84.0.0 shellingham-1.5.4 six-1.17.0 sympy-1.14.0 threadpoolctl-3.7.0 tokenizers-0.23.2 torch-2.14.1 tqdm-4.70.1 transformers-5.18.0 typer-0.27.2 typing_extensions-4.16.0 wasmtime-49.0.0 wheel-0.48.0 wrapt-2.5.0\n",
+      "stderr": "\n[notice] A new release of pip is available: 24.0 -> 26.2.1\n[notice] To update, run: D:\\ATLAS\\artifacts\\local\\finalization\\f105f6cdb6a2\\wheel-environment\\Scripts\\python.exe -m pip install --upgrade pip\n"
+    },
+    {
+      "label": "wheel_install",
+      "command": [
+        "D:\\ATLAS\\artifacts\\local\\finalization\\f105f6cdb6a2\\wheel-environment\\Scripts\\python.exe",
+        "-m",
+        "pip",
+        "install",
+        "--no-deps",
+        "D:\\ATLAS\\artifacts\\local\\finalization\\f105f6cdb6a2\\source\\dist\\atlas_research-0.1.0-py3-none-any.whl"
+      ],
+      "cwd": "D:\\ATLAS",
+      "exit_code": 0,
+      "seconds": 2.707127699999546,
+      "stdout": "Processing d:\\atlas\\artifacts\\local\\finalization\\f105f6cdb6a2\\source\\dist\\atlas_research-0.1.0-py3-none-any.whl\nInstalling collected packages: atlas-research\nSuccessfully installed atlas-research-0.1.0\n",
+      "stderr": "\n[notice] A new release of pip is available: 24.0 -> 26.2.1\n[notice] To update, run: D:\\ATLAS\\artifacts\\local\\finalization\\f105f6cdb6a2\\wheel-environment\\Scripts\\python.exe -m pip install --upgrade pip\n"
+    },
+    {
+      "label": "clean_pip_check",
+      "command": [
+        "D:\\ATLAS\\artifacts\\local\\finalization\\f105f6cdb6a2\\wheel-environment\\Scripts\\python.exe",
+        "-m",
+        "pip",
+        "check"
+      ],
+      "cwd": "D:\\ATLAS",
+      "exit_code": 0,
+      "seconds": 2.2176388000007137,
+      "stdout": "No broken requirements found.\n",
+      "stderr": ""
+    },
+    {
+      "label": "clean_wheel_tests",
+      "command": [
+        "D:\\ATLAS\\artifacts\\local\\finalization\\f105f6cdb6a2\\wheel-environment\\Scripts\\python.exe",
+        "-m",
+        "pytest",
+        "tests",
+        "research/v2/tests",
+        "-q"
+      ],
+      "cwd": "D:\\ATLAS",
+      "exit_code": 0,
+      "seconds": 11.83367029999863,
+      "stdout": "..................                                                       [100%]\n============================== warnings summary ===============================\ntests/test_protocol.py::test_node_rejects_malformed_peer_and_query_fields\n  D:\\ATLAS\\artifacts\\local\\finalization\\f105f6cdb6a2\\wheel-environment\\Lib\\site-packages\\ripser\\ripser.py:251: UserWarning: The input matrix is square, but the distance_matrix flag is off.  Did you mean to indicate that this was a distance matrix?\n    warnings.warn(\n\n-- Docs: https://docs.pytest.org/en/stable/how-to/capture-warnings.html\n18 passed, 1 warning in 9.52s\n",
+      "stderr": ""
+    },
+    {
+      "label": "clean_wheel_ruff",
+      "command": [
+        "D:\\ATLAS\\artifacts\\local\\finalization\\f105f6cdb6a2\\wheel-environment\\Scripts\\python.exe",
+        "-m",
+        "ruff",
+        "check",
+        "src",
+        "tests",
+        "research/v2",
+        "tools"
+      ],
+      "cwd": "D:\\ATLAS",
+      "exit_code": 0,
+      "seconds": 1.043518899999981,
+      "stdout": "All checks passed!\n",
+      "stderr": ""
+    },
+    {
+      "label": "wheel_import",
+      "command": [
+        "D:\\ATLAS\\artifacts\\local\\finalization\\f105f6cdb6a2\\wheel-environment\\Scripts\\python.exe",
+        "-c",
+        "import atlas,json,importlib.metadata; print(json.dumps({'file':atlas.__file__,'version':importlib.metadata.version('atlas-research')}))"
+      ],
+      "cwd": "D:\\ATLAS\\artifacts\\local\\finalization\\f105f6cdb6a2\\wheel-cwd",
+      "exit_code": 0,
+      "seconds": 0.3108081999998831,
+      "stdout": "{\"file\": \"D:\\\\ATLAS\\\\artifacts\\\\local\\\\finalization\\\\f105f6cdb6a2\\\\wheel-environment\\\\Lib\\\\site-packages\\\\atlas\\\\__init__.py\", \"version\": \"0.1.0\"}\n",
+      "stderr": ""
+    },
+    {
+      "label": "installed_cli_help",
+      "command": [
+        "D:\\ATLAS\\artifacts\\local\\finalization\\f105f6cdb6a2\\wheel-environment\\Scripts\\atlas.exe",
+        "--help"
+      ],
+      "cwd": "D:\\ATLAS\\artifacts\\local\\finalization\\f105f6cdb6a2\\wheel-cwd",
+      "exit_code": 0,
+      "seconds": 3.549191599999176,
+      "stdout": "usage: atlas [-h]\n             {validate,corpus,ann,scaling,retrieval,handcrafted,tip,integration,anomaly,topology-worker}\n             ...\n\nATLAS reproducible research\n\npositional arguments:\n  {validate,corpus,ann,scaling,retrieval,handcrafted,tip,integration,anomaly,topology-worker}\n\noptions:\n  -h, --help            show this help message and exit\n",
+      "stderr": ""
+    },
+    {
+      "label": "installed_module_help",
+      "command": [
+        "D:\\ATLAS\\artifacts\\local\\finalization\\f105f6cdb6a2\\wheel-environment\\Scripts\\python.exe",
+        "-m",
+        "atlas",
+        "--help"
+      ],
+      "cwd": "D:\\ATLAS\\artifacts\\local\\finalization\\f105f6cdb6a2\\wheel-cwd",
+      "exit_code": 0,
+      "seconds": 2.280205200000637,
+      "stdout": "usage: __main__.py [-h]\n                   {validate,corpus,ann,scaling,retrieval,handcrafted,tip,integration,anomaly,topology-worker}\n                   ...\n\nATLAS reproducible research\n\npositional arguments:\n  {validate,corpus,ann,scaling,retrieval,handcrafted,tip,integration,anomaly,topology-worker}\n\noptions:\n  -h, --help            show this help message and exit\n",
+      "stderr": ""
+    },
+    {
+      "label": "wheel_topology_smoke",
+      "command": [
+        "D:\\ATLAS\\artifacts\\local\\finalization\\f105f6cdb6a2\\wheel-environment\\Scripts\\python.exe",
+        "-m",
+        "atlas",
+        "validate",
+        "--config",
+        "D:\\ATLAS\\artifacts\\local\\finalization\\f105f6cdb6a2\\source\\configs\\research.json",
+        "--output",
+        "D:\\ATLAS\\artifacts\\local\\finalization\\f105f6cdb6a2\\wheel-validate"
+      ],
+      "cwd": "D:\\ATLAS\\artifacts\\local\\finalization\\f105f6cdb6a2\\wheel-cwd",
+      "exit_code": 0,
+      "seconds": 2.94506679999904,
+      "stdout": "",
+      "stderr": "{\"event\": \"started\", \"command\": \"validate\"}\n{\"event\": \"completed\", \"command\": \"validate\"}\n"
+    },
+    {
+      "label": "wheel_local_quic_wasm_smoke",
+      "command": [
+        "D:\\ATLAS\\artifacts\\local\\finalization\\f105f6cdb6a2\\wheel-environment\\Scripts\\python.exe",
+        "-m",
+        "atlas",
+        "integration",
+        "--config",
+        "D:\\ATLAS\\artifacts\\local\\finalization\\f105f6cdb6a2\\source\\configs\\research.json",
+        "--output",
+        "D:\\ATLAS\\artifacts\\local\\finalization\\f105f6cdb6a2\\wheel-integration"
+      ],
+      "cwd": "D:\\ATLAS\\artifacts\\local\\finalization\\f105f6cdb6a2\\wheel-cwd",
+      "exit_code": 0,
+      "seconds": 4.125255200000538,
+      "stdout": "",
+      "stderr": "{\"event\": \"started\", \"command\": \"integration\"}\n[7a9838bd6f369892] Negotiated protocol version 0x00000001 (VERSION_1)\n[7a9838bd6f369892] Negotiated protocol version 0x00000001 (VERSION_1)\n[7a9838bd6f369892] ALPN negotiated protocol atlas-tip/1\n[7a9838bd6f369892] ALPN negotiated protocol atlas-tip/1\n[7a9838bd6f369892] Connection close sent (code 0x0, reason )\n[7a9838bd6f369892] Connection close received (code 0x0, reason )\n[bb65d110a9dc7b7c] Negotiated protocol version 0x00000001 (VERSION_1)\n[bb65d110a9dc7b7c] Negotiated protocol version 0x00000001 (VERSION_1)\n[bb65d110a9dc7b7c] ALPN negotiated protocol atlas-tip/1\n[bb65d110a9dc7b7c] ALPN negotiated protocol atlas-tip/1\n[bb65d110a9dc7b7c] Connection close sent (code 0x0, reason )\n[bb65d110a9dc7b7c] Connection close received (code 0x0, reason )\n{\"event\": \"completed\", \"command\": \"integration\"}\n"
+    },
+    {
+      "label": "v2_synthetic_reproduction_1",
+      "command": [
+        "D:\\ATLAS\\artifacts\\local\\finalization\\f105f6cdb6a2\\wheel-environment\\Scripts\\python.exe",
+        "-m",
+        "research.v2.run",
+        "gate"
+      ],
+      "cwd": "D:\\ATLAS",
+      "exit_code": 0,
+      "seconds": 11.96079699999973,
+      "stdout": "{'vr_passed': True, 'witness_passed': True}\n",
+      "stderr": ""
+    },
+    {
+      "label": "v2_synthetic_reproduction_2",
+      "command": [
+        "D:\\ATLAS\\artifacts\\local\\finalization\\f105f6cdb6a2\\wheel-environment\\Scripts\\python.exe",
+        "-m",
+        "research.v2.run",
+        "gate"
+      ],
+      "cwd": "D:\\ATLAS",
+      "exit_code": 0,
+      "seconds": 4.858496299999388,
+      "stdout": "{'vr_passed': True, 'witness_passed': True}\n",
+      "stderr": ""
+    }
+  ],
+  "typing": "not configured for current research package",
+  "retrieval_or_architecture_search_executed": false,
+  "freeze_before": {
+    "files": 251,
+    "missing": [],
+    "changed": [],
+    "tracked_blob_mismatches": [],
+    "git_blobs_checked": true
+  },
+  "reference_environment_warning": "Existing research venv has stale editable atlas-research requirement metadata; preserved rather than modifying frozen generated state. The clean wheel environment below is the release-verification authority.",
+  "readme": {
+    "numeric_provenance_verified": true,
+    "missing_local_links": [],
+    "verification_record_link_created_by_this_run": true
+  },
+  "v2_artifact_index": {
+    "checked": 107,
+    "mismatches": []
+  },
+  "build": {
+    "wheel_sha256": "743b1900f164827a2cdefe57f82e49b68d6d7d74a57c651293095365987144e1",
+    "sdist_sha256": "355ac70a2d146a4c67e56fb2d6e5a28ae749f6185dd41c8b2302433351799f8e",
+    "wheel_bytes": 23215,
+    "sdist_bytes": 27946
+  },
+  "installed_package": {
+    "file": "D:\\ATLAS\\artifacts\\local\\finalization\\f105f6cdb6a2\\wheel-environment\\Lib\\site-packages\\atlas\\__init__.py",
+    "version": "0.1.0"
+  },
+  "clean_environment": "home = C:\\Users\\sreer_mg\\AppData\\Local\\Programs\\Python\\Python312\ninclude-system-site-packages = false\nversion = 3.12.4\nexecutable = D:\\ATLAS\\.venv-release\\Scripts\\python.exe\ncommand = D:\\ATLAS\\.venv-release\\Scripts\\python.exe -m venv D:\\ATLAS\\artifacts\\local\\finalization\\f105f6cdb6a2\\wheel-environment\n",
+  "integration_smoke": {
+    "transport": "QUIC",
+    "host": "127.0.0.1",
+    "certificate": "ephemeral self-signed; client verification disabled for loopback demonstration",
+    "synthetic": true,
+    "match_count": 1,
+    "wasm_result_signed_i32": 45815,
+    "server_events": [
+      {
+        "type": "OFFER",
+        "wire_bytes": 311,
+        "response_type": "MATCH"
+      },
+      {
+        "type": "EXECUTE",
+        "wire_bytes": 588,
+        "response_type": "RESULT"
+      }
+    ],
+    "warning": "Local integration smoke test; not deployment, identity, security or privacy evidence."
+  },
+  "reproduction_smoke": {
+    "synthetic_only": true,
+    "vr_gate": true,
+    "witness_gate": true,
+    "repeated_diagrams_equal": true,
+    "final_test_evaluated": false
+  },
+  "historical_markers": {
+    "files_checked": 32,
+    "all_marked": true
+  },
+  "freeze_after": {
+    "files": 251,
+    "missing": [],
+    "changed": [],
+    "tracked_blob_mismatches": [],
+    "git_blobs_checked": true
+  },
+  "finished_utc": "2026-10-07T18:31:43.893850+00:00",
+  "status": "passed",
+  "non_claims": [
+    "Not a new research evaluation",
+    "Not an independent security audit",
+    "No software license invented"
+  ]
+}
