@@ -1,0 +1,634 @@
+{
+  "original_occurrences": 7971,
+  "cleaned_count": 7846,
+  "duplicates": 125,
+  "invalid_empty": 0,
+  "exclusions": [
+    {
+      "question_id": "5ab9ccef55429955dce3ed86",
+      "title": "Run down",
+      "reason": "duplicate"
+    },
+    {
+      "question_id": "5a849c135542992a431d1a7a",
+      "title": "Saint John, New Brunswick",
+      "reason": "duplicate"
+    },
+    {
+      "question_id": "5aba6d0f55429955dce3ee19",
+      "title": "Grantley Adams International Airport",
+      "reason": "duplicate"
+    },
+    {
+      "question_id": "5aba6d0f55429955dce3ee19",
+      "title": "Dubai International Airport",
+      "reason": "duplicate"
+    },
+    {
+      "question_id": "5aba6d0f55429955dce3ee19",
+      "title": "Heathrow Airport",
+      "reason": "duplicate"
+    },
+    {
+      "question_id": "5aba6d0f55429955dce3ee19",
+      "title": "Gatwick Airport",
+      "reason": "duplicate"
+    },
+    {
+      "question_id": "5abae4995542996606241666",
+      "title": "Criminal law in the Waite Court",
+      "reason": "duplicate"
+    },
+    {
+      "question_id": "5a8f6e295542992414482ac6",
+      "title": "Greater Boston",
+      "reason": "duplicate"
+    },
+    {
+      "question_id": "5ac0c5805542992a796ded80",
+      "title": "The Itchy &amp; Scratchy Show",
+      "reason": "duplicate"
+    },
+    {
+      "question_id": "5ae30a4655429928c42395bb",
+      "title": "The Venetian Las Vegas",
+      "reason": "duplicate"
+    },
+    {
+      "question_id": "5a80caac554299260e20a161",
+      "title": "Music of Ohio",
+      "reason": "duplicate"
+    },
+    {
+      "question_id": "5a80caac554299260e20a161",
+      "title": "The Midnighters",
+      "reason": "duplicate"
+    },
+    {
+      "question_id": "5a80caac554299260e20a161",
+      "title": "My Generation",
+      "reason": "duplicate"
+    },
+    {
+      "question_id": "5a80caac554299260e20a161",
+      "title": "Rock &amp; Roll Hall of Fame Covers EP",
+      "reason": "duplicate"
+    },
+    {
+      "question_id": "5a80caac554299260e20a161",
+      "title": "Music of Iowa",
+      "reason": "duplicate"
+    },
+    {
+      "question_id": "5a80caac554299260e20a161",
+      "title": "Rock and Roll Hall of Fame",
+      "reason": "duplicate"
+    },
+    {
+      "question_id": "5ab85f555542992aa3b8c8ca",
+      "title": "Neon Hitch discography",
+      "reason": "duplicate"
+    },
+    {
+      "question_id": "5a7a3bed5542996c55b2dd45",
+      "title": "Against All Will",
+      "reason": "duplicate"
+    },
+    {
+      "question_id": "5abd8ac25542993062266cc2",
+      "title": "Motown",
+      "reason": "duplicate"
+    },
+    {
+      "question_id": "5abd8ac25542993062266cc2",
+      "title": "American Record Corporation",
+      "reason": "duplicate"
+    },
+    {
+      "question_id": "5a8bd49d5542997f31a41dd7",
+      "title": "Matt Groening",
+      "reason": "duplicate"
+    },
+    {
+      "question_id": "5ac3c1805542995ef918c21f",
+      "title": "Edward I of England",
+      "reason": "duplicate"
+    },
+    {
+      "question_id": "5a7f677455429969796c1a37",
+      "title": "Stanley Kubrick's Boxes",
+      "reason": "duplicate"
+    },
+    {
+      "question_id": "5a7f677455429969796c1a37",
+      "title": "S Is for Stanley",
+      "reason": "duplicate"
+    },
+    {
+      "question_id": "5a7f677455429969796c1a37",
+      "title": "Stanley Kubrick",
+      "reason": "duplicate"
+    },
+    {
+      "question_id": "5a78bc6b554299148911f979",
+      "title": "Whit Burnett",
+      "reason": "duplicate"
+    },
+    {
+      "question_id": "5a7339c85542991f9a20c6a2",
+      "title": "Andrew Robb and David McIlwaine killings",
+      "reason": "duplicate"
+    },
+    {
+      "question_id": "5abee4ff5542993fe9a41d7d",
+      "title": "Theme Park World",
+      "reason": "duplicate"
+    },
+    {
+      "question_id": "5abee4ff5542993fe9a41d7d",
+      "title": "Tokyo DisneySea",
+      "reason": "duplicate"
+    },
+    {
+      "question_id": "5abee4ff5542993fe9a41d7d",
+      "title": "Paultons Park",
+      "reason": "duplicate"
+    },
+    {
+      "question_id": "5abee4ff5542993fe9a41d7d",
+      "title": "Theme Park Inc",
+      "reason": "duplicate"
+    },
+    {
+      "question_id": "5ab53436554299637185c504",
+      "title": "Ti\u00ebsto in Concert",
+      "reason": "duplicate"
+    },
+    {
+      "question_id": "5add47bf5542992200553a7f",
+      "title": "Adrienne Bailon",
+      "reason": "duplicate"
+    },
+    {
+      "question_id": "5add47bf5542992200553a7f",
+      "title": "The Cheetah Girls (group)",
+      "reason": "duplicate"
+    },
+    {
+      "question_id": "5add47bf5542992200553a7f",
+      "title": "Nate Butler",
+      "reason": "duplicate"
+    },
+    {
+      "question_id": "5a82a91155429940e5e1a911",
+      "title": "The Last Lions",
+      "reason": "duplicate"
+    },
+    {
+      "question_id": "5adff4a555429925eb1afb91",
+      "title": "Pensacola International Airport",
+      "reason": "duplicate"
+    },
+    {
+      "question_id": "5a7cc28f554299452d57ba1c",
+      "title": "Johns Creek, Georgia",
+      "reason": "duplicate"
+    },
+    {
+      "question_id": "5a82efe355429966c78a6aa1",
+      "title": "Ridge Community High School",
+      "reason": "duplicate"
+    },
+    {
+      "question_id": "5a7fcd9c5542992e7d278da9",
+      "title": "WSYY-FM",
+      "reason": "duplicate"
+    },
+    {
+      "question_id": "5adfdd1c55429906c02daa74",
+      "title": "Marianas Trench (band)",
+      "reason": "duplicate"
+    },
+    {
+      "question_id": "5a8cc8c2554299441c6b9efc",
+      "title": "Nobel Prize in Physics",
+      "reason": "duplicate"
+    },
+    {
+      "question_id": "5a8cc8c2554299441c6b9efc",
+      "title": "List of Nobel laureates in Physiology or Medicine",
+      "reason": "duplicate"
+    },
+    {
+      "question_id": "5a8cc8c2554299441c6b9efc",
+      "title": "Nobel Prize in Literature",
+      "reason": "duplicate"
+    },
+    {
+      "question_id": "5ab44a775542991779162c57",
+      "title": "Riccardo Massi",
+      "reason": "duplicate"
+    },
+    {
+      "question_id": "5ab44a775542991779162c57",
+      "title": "Prosper-Didier Deshayes",
+      "reason": "duplicate"
+    },
+    {
+      "question_id": "5addda9b5542992200553b5b",
+      "title": "Isla Grande de Tierra del Fuego",
+      "reason": "duplicate"
+    },
+    {
+      "question_id": "5a84a97f5542992a431d1a87",
+      "title": "Arthur Collins (courtier)",
+      "reason": "duplicate"
+    },
+    {
+      "question_id": "5a81ca0d5542990a1d231ebb",
+      "title": "Art Deco in the United States",
+      "reason": "duplicate"
+    },
+    {
+      "question_id": "5ae09ea05542993d6555ebc1",
+      "title": "Bambi's Children",
+      "reason": "duplicate"
+    },
+    {
+      "question_id": "5a89e92c5542993b751ca9af",
+      "title": "2015 UEFA Champions League Final",
+      "reason": "duplicate"
+    },
+    {
+      "question_id": "5ac406c155429919431738fc",
+      "title": "Caleb Shomo",
+      "reason": "duplicate"
+    },
+    {
+      "question_id": "5a7507455542993748c8979d",
+      "title": "Toys in the Attic (2009 film)",
+      "reason": "duplicate"
+    },
+    {
+      "question_id": "5a9052765542995651fb513d",
+      "title": "Economy of Assam",
+      "reason": "duplicate"
+    },
+    {
+      "question_id": "5a9052765542995651fb513d",
+      "title": "Nalini Prava Deka",
+      "reason": "duplicate"
+    },
+    {
+      "question_id": "5a9052765542995651fb513d",
+      "title": "Save the Brahmaputra River",
+      "reason": "duplicate"
+    },
+    {
+      "question_id": "5a9052765542995651fb513d",
+      "title": "Timeless (Jim Ankan Deka album)",
+      "reason": "duplicate"
+    },
+    {
+      "question_id": "5a9052765542995651fb513d",
+      "title": "Bhabananda Deka",
+      "reason": "duplicate"
+    },
+    {
+      "question_id": "5a79c1185542994bb9457065",
+      "title": "Missing Pieces (Talk Talk album)",
+      "reason": "duplicate"
+    },
+    {
+      "question_id": "5ae135fb55429920d523431f",
+      "title": "Josquin Des Pres (20th century musician)",
+      "reason": "duplicate"
+    },
+    {
+      "question_id": "5ae5366e5542990ba0bbb22b",
+      "title": "Daniel (Old English poem)",
+      "reason": "duplicate"
+    },
+    {
+      "question_id": "5ae76e615542997ec2727647",
+      "title": "Truman State University",
+      "reason": "duplicate"
+    },
+    {
+      "question_id": "5a77cb5e55429967ab1052a7",
+      "title": "Ned Flanders",
+      "reason": "duplicate"
+    },
+    {
+      "question_id": "5adc6825554299438c868da1",
+      "title": "Santiago del Estero Province",
+      "reason": "duplicate"
+    },
+    {
+      "question_id": "5a8c7057554299653c1aa066",
+      "title": "2017\u201318 UEFA Champions League knockout phase",
+      "reason": "duplicate"
+    },
+    {
+      "question_id": "5a8c7057554299653c1aa066",
+      "title": "2015\u201316 UEFA Champions League knockout phase",
+      "reason": "duplicate"
+    },
+    {
+      "question_id": "5a8c7057554299653c1aa066",
+      "title": "2000\u201301 UEFA Champions League",
+      "reason": "duplicate"
+    },
+    {
+      "question_id": "5a8c7057554299653c1aa066",
+      "title": "2014\u201315 UEFA Champions League knockout phase",
+      "reason": "duplicate"
+    },
+    {
+      "question_id": "5a8c7057554299653c1aa066",
+      "title": "2016\u201317 UEFA Champions League knockout phase",
+      "reason": "duplicate"
+    },
+    {
+      "question_id": "5a8c7057554299653c1aa066",
+      "title": "2017 UEFA Champions League Final",
+      "reason": "duplicate"
+    },
+    {
+      "question_id": "5adfecd755429942ec259b90",
+      "title": "Stanley Bing",
+      "reason": "duplicate"
+    },
+    {
+      "question_id": "5ae75e335542991e8301cc70",
+      "title": "2009 Oregon Ducks football team",
+      "reason": "duplicate"
+    },
+    {
+      "question_id": "5a8f155e554299458435d54c",
+      "title": "Swedish governmental line of succession",
+      "reason": "duplicate"
+    },
+    {
+      "question_id": "5a8f155e554299458435d54c",
+      "title": "Abd Allah Siraj",
+      "reason": "duplicate"
+    },
+    {
+      "question_id": "5ae68e0055429908198fa607",
+      "title": "Brian Backer",
+      "reason": "duplicate"
+    },
+    {
+      "question_id": "5ab56f7a554299637185c59a",
+      "title": "The Agents (English band)",
+      "reason": "duplicate"
+    },
+    {
+      "question_id": "5ae1681b554299422ee9967c",
+      "title": "Spike Lee",
+      "reason": "duplicate"
+    },
+    {
+      "question_id": "5ab859a955429934fafe6d7b",
+      "title": "Trash Box",
+      "reason": "duplicate"
+    },
+    {
+      "question_id": "5ab859a955429934fafe6d7b",
+      "title": "Chrome, Smoke &amp; BBQ",
+      "reason": "duplicate"
+    },
+    {
+      "question_id": "5ab859a955429934fafe6d7b",
+      "title": "Radiohead Box Set",
+      "reason": "duplicate"
+    },
+    {
+      "question_id": "5ab859a955429934fafe6d7b",
+      "title": "Led Zeppelin Boxed Set 2",
+      "reason": "duplicate"
+    },
+    {
+      "question_id": "5a84b7db5542991dd0999db0",
+      "title": "Giovanni Andrea Bontempi",
+      "reason": "duplicate"
+    },
+    {
+      "question_id": "5a87bd4e5542996432c57279",
+      "title": "Reverend Lovejoy",
+      "reason": "duplicate"
+    },
+    {
+      "question_id": "5ae0aaf455429945ae959401",
+      "title": "Curzon Ashton F.C.",
+      "reason": "duplicate"
+    },
+    {
+      "question_id": "5ae7ee41554299540e5a56b0",
+      "title": "Kamal Ganzouri",
+      "reason": "duplicate"
+    },
+    {
+      "question_id": "5ae7ee41554299540e5a56b0",
+      "title": "Swedish governmental line of succession",
+      "reason": "duplicate"
+    },
+    {
+      "question_id": "5ae7ee41554299540e5a56b0",
+      "title": "Prime Minister's Department (Malaysia)",
+      "reason": "duplicate"
+    },
+    {
+      "question_id": "5a7cba005542990527d55516",
+      "title": "Alma Mater Iowa",
+      "reason": "duplicate"
+    },
+    {
+      "question_id": "5a7cba005542990527d55516",
+      "title": "Our Alma Mater",
+      "reason": "duplicate"
+    },
+    {
+      "question_id": "5a7cba005542990527d55516",
+      "title": "Asadullah Boroujerdi",
+      "reason": "duplicate"
+    },
+    {
+      "question_id": "5a7cba005542990527d55516",
+      "title": "The Corps (song)",
+      "reason": "duplicate"
+    },
+    {
+      "question_id": "5a7cba005542990527d55516",
+      "title": "Georgetown University Alma Mater",
+      "reason": "duplicate"
+    },
+    {
+      "question_id": "5a7cba005542990527d55516",
+      "title": "LSU Alma Mater",
+      "reason": "duplicate"
+    },
+    {
+      "question_id": "5a7cba005542990527d55516",
+      "title": "Alma Mater (Dartmouth College)",
+      "reason": "duplicate"
+    },
+    {
+      "question_id": "5ac3271e554299218029dbd3",
+      "title": "Dot Cotton",
+      "reason": "duplicate"
+    },
+    {
+      "question_id": "5a7ce444554299683c1c63c1",
+      "title": "Ang Utol Kong Hoodlum",
+      "reason": "duplicate"
+    },
+    {
+      "question_id": "5ab841d15542990e739ec89d",
+      "title": "List of Danish Nobel laureates",
+      "reason": "duplicate"
+    },
+    {
+      "question_id": "5ae4f2c75542993aec5ec0fb",
+      "title": "Coimbatore International Airport",
+      "reason": "duplicate"
+    },
+    {
+      "question_id": "5a8e3dc05542995085b37401",
+      "title": "Reynolds v. United States",
+      "reason": "duplicate"
+    },
+    {
+      "question_id": "5a8e3dc05542995085b37401",
+      "title": "Criminal law in the Waite Court",
+      "reason": "duplicate"
+    },
+    {
+      "question_id": "5a836a2d554299334474600f",
+      "title": "Heinrich Sch\u00fctz",
+      "reason": "duplicate"
+    },
+    {
+      "question_id": "5ac44813554299194317396b",
+      "title": "Nuclear Fuel Cycle Royal Commission",
+      "reason": "duplicate"
+    },
+    {
+      "question_id": "5ae0247955429925eb1afc22",
+      "title": "Ava DuVernay",
+      "reason": "duplicate"
+    },
+    {
+      "question_id": "5a775f615542993735360250",
+      "title": "Giona Ostinelli",
+      "reason": "duplicate"
+    },
+    {
+      "question_id": "5a775f615542993735360250",
+      "title": "Sundance Film Festival",
+      "reason": "duplicate"
+    },
+    {
+      "question_id": "5a775f615542993735360250",
+      "title": "Jennifer Phang",
+      "reason": "duplicate"
+    },
+    {
+      "question_id": "5a84d71c5542997b5ce3ff75",
+      "title": "Nicholas I of Russia",
+      "reason": "duplicate"
+    },
+    {
+      "question_id": "5a84d71c5542997b5ce3ff75",
+      "title": "Jacobean architecture",
+      "reason": "duplicate"
+    },
+    {
+      "question_id": "5a8bbddf5542997f31a41db2",
+      "title": "Gerald Ford",
+      "reason": "duplicate"
+    },
+    {
+      "question_id": "5ae7ac495542993210983eee",
+      "title": "What Ever Happened to...",
+      "reason": "duplicate"
+    },
+    {
+      "question_id": "5a7309a15542992359bc320c",
+      "title": "Benny Andersson",
+      "reason": "duplicate"
+    },
+    {
+      "question_id": "5a7653d25542992db9473765",
+      "title": "Steve Miller Band",
+      "reason": "duplicate"
+    },
+    {
+      "question_id": "5ae4b55455429913cc2044db",
+      "title": "Suicide Squad (soundtrack)",
+      "reason": "duplicate"
+    },
+    {
+      "question_id": "5a8e03375542995a26add458",
+      "title": "Tex Brashear",
+      "reason": "duplicate"
+    },
+    {
+      "question_id": "5adbfb3f55429947ff17388a",
+      "title": "Katherine Freese",
+      "reason": "duplicate"
+    },
+    {
+      "question_id": "5a77727555429972597f1540",
+      "title": "Sarah Paulson",
+      "reason": "duplicate"
+    },
+    {
+      "question_id": "5a8d8abf5542994ba4e3dca1",
+      "title": "The Real Housewives of Miami",
+      "reason": "duplicate"
+    },
+    {
+      "question_id": "5abd5b0355429933744ab789",
+      "title": "St Anne Within the Liberty of Westminster",
+      "reason": "duplicate"
+    },
+    {
+      "question_id": "5ac5382c5542996feb3fea43",
+      "title": "Dancing Stage Fusion",
+      "reason": "duplicate"
+    },
+    {
+      "question_id": "5a7b9f1f554299294a54aa2a",
+      "title": "Mabel Greer's Toyshop",
+      "reason": "duplicate"
+    },
+    {
+      "question_id": "5abd4fe05542993062266c4e",
+      "title": "Bambi's Children",
+      "reason": "duplicate"
+    },
+    {
+      "question_id": "5abec8e45542997ec76fd364",
+      "title": "Loyalist Volunteer Force",
+      "reason": "duplicate"
+    },
+    {
+      "question_id": "5abec8e45542997ec76fd364",
+      "title": "Richard Jameson (loyalist)",
+      "reason": "duplicate"
+    },
+    {
+      "question_id": "5abec8e45542997ec76fd364",
+      "title": "Andrew Robb and David McIlwaine killings",
+      "reason": "duplicate"
+    },
+    {
+      "question_id": "5a8c06bb5542995e66a47530",
+      "title": "Jake Owen discography",
+      "reason": "duplicate"
+    }
+  ],
+  "document_sha256": "340553089ae5ae69050e5d4ef982efbdeaec25473a157abeb0965730927d71c6"
+}

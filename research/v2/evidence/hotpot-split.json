@@ -1,0 +1,8802 @@
+[
+  {
+    "id": "5ae2295c554299495565da13",
+    "type": "bridge",
+    "level": "hard",
+    "support_keys": [
+      "Ed Martin (Missouri politician)",
+      "Missouri attorney general election, 2012"
+    ],
+    "split": "dev",
+    "group": "1074"
+  },
+  {
+    "id": "5ac4edf155429924173fb4e3",
+    "type": "bridge",
+    "level": "hard",
+    "support_keys": [
+      "Dhruva Natchathiram",
+      "Vikram (actor)"
+    ],
+    "split": "dev",
+    "group": "2701"
+  },
+  {
+    "id": "5a73b55855429978a71e9086",
+    "type": "bridge",
+    "level": "hard",
+    "support_keys": [
+      "Croydon Airport",
+      "Gatwick Airport"
+    ],
+    "split": "dev",
+    "group": "2948"
+  },
+  {
+    "id": "5a871e265542991e771816d1",
+    "type": "bridge",
+    "level": "hard",
+    "support_keys": [
+      "Jack Kilby",
+      "Robert Noyce"
+    ],
+    "split": "dev",
+    "group": "3078"
+  },
+  {
+    "id": "5a794f8155429970f5fffe95",
+    "type": "comparison",
+    "level": "hard",
+    "support_keys": [
+      "Martin Degville",
+      "Richie Furay"
+    ],
+    "split": "dev",
+    "group": "3673"
+  },
+  {
+    "id": "5a834cea5542990548d0b1c6",
+    "type": "bridge",
+    "level": "hard",
+    "support_keys": [
+      "Ant\u00f4nio Silva (fighter)",
+      "Matt Mitrione"
+    ],
+    "split": "dev",
+    "group": "4528"
+  },
+  {
+    "id": "5a8b78f055429971feec471a",
+    "type": "comparison",
+    "level": "hard",
+    "support_keys": [
+      "King Baggot",
+      "Steve Sekely"
+    ],
+    "split": "dev",
+    "group": "3810"
+  },
+  {
+    "id": "5a77a44d5542997042120aba",
+    "type": "bridge",
+    "level": "hard",
+    "support_keys": [
+      "Baldwin, Nassau County, New York",
+      "Brian F. Curran"
+    ],
+    "split": "dev",
+    "group": "1482"
+  },
+  {
+    "id": "5ae361dc5542992f92d822aa",
+    "type": "bridge",
+    "level": "hard",
+    "support_keys": [
+      "Life of Pi",
+      "The Facts Behind the Helsinki Roccamatios"
+    ],
+    "split": "dev",
+    "group": "2411"
+  },
+  {
+    "id": "5a89ba6b554299669944a584",
+    "type": "bridge",
+    "level": "hard",
+    "support_keys": [
+      "Coronation Street",
+      "Pippa Hinchley"
+    ],
+    "split": "dev",
+    "group": "1499"
+  },
+  {
+    "id": "5a82d71555429966c78a6a94",
+    "type": "comparison",
+    "level": "hard",
+    "support_keys": [
+      "Negus Mine",
+      "Tundra Mine"
+    ],
+    "split": "dev",
+    "group": "1475"
+  },
+  {
+    "id": "5a72429355429971e9dc9375",
+    "type": "bridge",
+    "level": "hard",
+    "support_keys": [
+      "Boltzmann machine",
+      "Ludwig Boltzmann"
+    ],
+    "split": "dev",
+    "group": "4976"
+  },
+  {
+    "id": "5a8782f25542996e4f308818",
+    "type": "bridge",
+    "level": "hard",
+    "support_keys": [
+      "Come Together",
+      "Live Acoustic America"
+    ],
+    "split": "dev",
+    "group": "3551"
+  },
+  {
+    "id": "5a8db348554299068b959dc2",
+    "type": "bridge",
+    "level": "hard",
+    "support_keys": [
+      "Interscope Records",
+      "Love Incredible"
+    ],
+    "split": "dev",
+    "group": "3482"
+  },
+  {
+    "id": "5ae1faf15542997f29b3c1e3",
+    "type": "bridge",
+    "level": "hard",
+    "support_keys": [
+      "Commercial Solvents Corporation",
+      "William Davis Ticknor, Sr."
+    ],
+    "split": "dev",
+    "group": "1747"
+  },
+  {
+    "id": "5adefdd75542995ec70e8f4e",
+    "type": "bridge",
+    "level": "hard",
+    "support_keys": [
+      "Jim Tracy (baseball)",
+      "Miami Marlins"
+    ],
+    "split": "dev",
+    "group": "1282"
+  },
+  {
+    "id": "5a77c74155429967ab105291",
+    "type": "comparison",
+    "level": "hard",
+    "support_keys": [
+      "Of Montreal",
+      "Vib Gyor"
+    ],
+    "split": "dev",
+    "group": "434"
+  },
+  {
+    "id": "5a714de95542994082a3e7a8",
+    "type": "bridge",
+    "level": "hard",
+    "support_keys": [
+      "Alexander Young (musician)",
+      "Stevie Young"
+    ],
+    "split": "dev",
+    "group": "4429"
+  },
+  {
+    "id": "5a852cd05542997b5ce3ffb0",
+    "type": "bridge",
+    "level": "hard",
+    "support_keys": [
+      "George McCall Theal",
+      "Saint John, New Brunswick"
+    ],
+    "split": "dev",
+    "group": "669"
+  },
+  {
+    "id": "5ac0b6b15542996f0d89cc1e",
+    "type": "bridge",
+    "level": "hard",
+    "support_keys": [
+      "Holger Danske (disambiguation)",
+      "Ogier the Dane"
+    ],
+    "split": "dev",
+    "group": "1016"
+  },
+  {
+    "id": "5ab52bd1554299637185c4ee",
+    "type": "comparison",
+    "level": "hard",
+    "support_keys": [
+      "Dubna 48K",
+      "TEC-1"
+    ],
+    "split": "dev",
+    "group": "2788"
+  },
+  {
+    "id": "5ab9c7c355429939ce03dc17",
+    "type": "bridge",
+    "level": "hard",
+    "support_keys": [
+      "Josephine Baker",
+      "R-26 (salon)"
+    ],
+    "split": "dev",
+    "group": "1901"
+  },
+  {
+    "id": "5abaf0ec5542996cc5e49f22",
+    "type": "bridge",
+    "level": "hard",
+    "support_keys": [
+      "Honky Tonks and Cheap Motels",
+      "Whitey Morgan and the 78's"
+    ],
+    "split": "dev",
+    "group": "1659"
+  },
+  {
+    "id": "5ac2cb3e5542996773102627",
+    "type": "bridge",
+    "level": "hard",
+    "support_keys": [
+      "R\u00edo Grande, Tierra del Fuego",
+      "Tolhuin"
+    ],
+    "split": "dev",
+    "group": "4767"
+  },
+  {
+    "id": "5a7f40055542992e7d278cc0",
+    "type": "bridge",
+    "level": "hard",
+    "support_keys": [
+      "DW Sports Fitness",
+      "Dave Whelan"
+    ],
+    "split": "dev",
+    "group": "5295"
+  },
+  {
+    "id": "5ab8111c5542991d3222382b",
+    "type": "bridge",
+    "level": "hard",
+    "support_keys": [
+      "Bridget Cromwell",
+      "Oliver Cromwell"
+    ],
+    "split": "dev",
+    "group": "1274"
+  },
+  {
+    "id": "5adbe447554299438c868ccd",
+    "type": "comparison",
+    "level": "hard",
+    "support_keys": [
+      "Arizona v. United States",
+      "Reynolds v. United States"
+    ],
+    "split": "dev",
+    "group": "4277"
+  },
+  {
+    "id": "5ae24abc5542994d89d5b3c3",
+    "type": "bridge",
+    "level": "hard",
+    "support_keys": [
+      "Greene King",
+      "Hungry Horse"
+    ],
+    "split": "dev",
+    "group": "224"
+  },
+  {
+    "id": "5ae7e9af5542994a481bbe0e",
+    "type": "bridge",
+    "level": "hard",
+    "support_keys": [
+      "Antonio Carmona A\u00f1orve",
+      "Mexicali"
+    ],
+    "split": "dev",
+    "group": "5217"
+  },
+  {
+    "id": "5ae1e8575542997f29b3c19a",
+    "type": "comparison",
+    "level": "hard",
+    "support_keys": [
+      "Dactylis",
+      "Festuca"
+    ],
+    "split": "dev",
+    "group": "2110"
+  },
+  {
+    "id": "5a7e6df35542997cc2c47544",
+    "type": "bridge",
+    "level": "hard",
+    "support_keys": [
+      "Quarry Bank Mill",
+      "The Mill (TV series)"
+    ],
+    "split": "dev",
+    "group": "5462"
+  },
+  {
+    "id": "5ab281f45542993be8fa9938",
+    "type": "bridge",
+    "level": "hard",
+    "support_keys": [
+      "Black Gives Way to Blue",
+      "William DuVall"
+    ],
+    "split": "dev",
+    "group": "3791"
+  },
+  {
+    "id": "5a7e0bb65542997cc2c4750a",
+    "type": "bridge",
+    "level": "hard",
+    "support_keys": [
+      "Hal Moore",
+      "Myron F. Diduryk"
+    ],
+    "split": "dev",
+    "group": "2045"
+  },
+  {
+    "id": "5a7561495542992db947364e",
+    "type": "bridge",
+    "level": "hard",
+    "support_keys": [
+      "Julie 2",
+      "Phulwa Khamkar"
+    ],
+    "split": "dev",
+    "group": "2973"
+  },
+  {
+    "id": "5a88e7a55542993b751ca8ca",
+    "type": "bridge",
+    "level": "hard",
+    "support_keys": [
+      "2015 MSA Formula Championship",
+      "Motorsport"
+    ],
+    "split": "dev",
+    "group": "2628"
+  },
+  {
+    "id": "5a87191155429960ec39b73d",
+    "type": "bridge",
+    "level": "hard",
+    "support_keys": [
+      "Hampton University",
+      "Jamal Brooks"
+    ],
+    "split": "dev",
+    "group": "2228"
+  },
+  {
+    "id": "5abe8aad55429976d4830b60",
+    "type": "comparison",
+    "level": "hard",
+    "support_keys": [
+      "Kenny Ortega",
+      "Stanley Kubrick"
+    ],
+    "split": "dev",
+    "group": "2197"
+  },
+  {
+    "id": "5abcf299554299700f9d7936",
+    "type": "comparison",
+    "level": "hard",
+    "support_keys": [
+      "Leslie Marmon Silko",
+      "Tim Rice"
+    ],
+    "split": "dev",
+    "group": "2289"
+  },
+  {
+    "id": "5a7bbee85542997c3ec97270",
+    "type": "bridge",
+    "level": "hard",
+    "support_keys": [
+      "Chrishell Stause",
+      "Rafe Hernandez"
+    ],
+    "split": "dev",
+    "group": "4366"
+  },
+  {
+    "id": "5a7cde68554299683c1c63ac",
+    "type": "bridge",
+    "level": "hard",
+    "support_keys": [
+      "Itchy &amp; Scratchy &amp; Marge",
+      "The Itchy &amp; Scratchy &amp; Poochie Show"
+    ],
+    "split": "dev",
+    "group": "4362"
+  },
+  {
+    "id": "5adce0f455429947343537bd",
+    "type": "bridge",
+    "level": "hard",
+    "support_keys": [
+      "CBS",
+      "David Sinclair (Numbers)"
+    ],
+    "split": "dev",
+    "group": "892"
+  },
+  {
+    "id": "5ae16ea85542990adbacf790",
+    "type": "bridge",
+    "level": "hard",
+    "support_keys": [
+      "Miami Showband killings",
+      "UVF Mid-Ulster Brigade"
+    ],
+    "split": "dev",
+    "group": "5481"
+  },
+  {
+    "id": "5ab950bd55429970cfb8ea4c",
+    "type": "bridge",
+    "level": "hard",
+    "support_keys": [
+      "Kn\u00f6del",
+      "Sv\u00ed\u010dkov\u00e1"
+    ],
+    "split": "dev",
+    "group": "1669"
+  },
+  {
+    "id": "5adc3d7455429944faac248a",
+    "type": "bridge",
+    "level": "hard",
+    "support_keys": [
+      "Marissa Kurtimah",
+      "Sierra Leone Civil War"
+    ],
+    "split": "dev",
+    "group": "2852"
+  },
+  {
+    "id": "5a8463d05542990548d0b2a5",
+    "type": "bridge",
+    "level": "hard",
+    "support_keys": [
+      "Shari Shattuck",
+      "Tainted"
+    ],
+    "split": "dev",
+    "group": "3558"
+  },
+  {
+    "id": "5ac41f1d5542991943173924",
+    "type": "comparison",
+    "level": "hard",
+    "support_keys": [
+      "California State University, Dominguez Hills",
+      "Ohio State University"
+    ],
+    "split": "dev",
+    "group": "2726"
+  },
+  {
+    "id": "5ab9ccef55429955dce3ed86",
+    "type": "bridge",
+    "level": "hard",
+    "support_keys": [
+      "Buddha's delight",
+      "Dacryopinax spathularia"
+    ],
+    "split": "dev",
+    "group": "914"
+  },
+  {
+    "id": "5a8242c155429940e5e1a81d",
+    "type": "bridge",
+    "level": "hard",
+    "support_keys": [
+      "Leo Strauss",
+      "Thoughts on Machiavelli"
+    ],
+    "split": "dev",
+    "group": "454"
+  },
+  {
+    "id": "5a8ceb7a554299441c6b9f7b",
+    "type": "bridge",
+    "level": "hard",
+    "support_keys": [
+      "Advance Auto Parts",
+      "John Seasock"
+    ],
+    "split": "dev",
+    "group": "2618"
+  },
+  {
+    "id": "5a76f22055429972597f13fa",
+    "type": "comparison",
+    "level": "hard",
+    "support_keys": [
+      "Christopher Amott",
+      "Johnny Edwards (musician)"
+    ],
+    "split": "dev",
+    "group": "3016"
+  },
+  {
+    "id": "5ade630e55429975fa854eb7",
+    "type": "bridge",
+    "level": "hard",
+    "support_keys": [
+      "Acinonychini",
+      "Puma (genus)"
+    ],
+    "split": "dev",
+    "group": "2251"
+  },
+  {
+    "id": "5ae1f2f3554299234fd0435a",
+    "type": "comparison",
+    "level": "hard",
+    "support_keys": [
+      "Spruce",
+      "Tetrastigma"
+    ],
+    "split": "dev",
+    "group": "5322"
+  },
+  {
+    "id": "5ac11ee45542997d64295a7d",
+    "type": "comparison",
+    "level": "hard",
+    "support_keys": [
+      "Flying Padre",
+      "Inside Job (2010 film)"
+    ],
+    "split": "dev",
+    "group": "5306"
+  },
+  {
+    "id": "5ab9379a554299753720f79d",
+    "type": "comparison",
+    "level": "hard",
+    "support_keys": [
+      "Purbanchal University",
+      "University of New South Wales"
+    ],
+    "split": "dev",
+    "group": "1558"
+  },
+  {
+    "id": "5a873b0d5542994775f607ad",
+    "type": "bridge",
+    "level": "hard",
+    "support_keys": [
+      "A. T. Stewart Era Buildings",
+      "St. Paul's School (Garden City, New York)"
+    ],
+    "split": "dev",
+    "group": "1539"
+  },
+  {
+    "id": "5aba67c255429955dce3ee10",
+    "type": "comparison",
+    "level": "hard",
+    "support_keys": [
+      "+44 (band)",
+      "The Badgeman"
+    ],
+    "split": "dev",
+    "group": "2816"
+  },
+  {
+    "id": "5a79e1275542990198eaefe7",
+    "type": "bridge",
+    "level": "hard",
+    "support_keys": [
+      "Art Deco in the United States",
+      "Rockefeller Center"
+    ],
+    "split": "dev",
+    "group": "2089"
+  },
+  {
+    "id": "5a876cd55542993e715abf36",
+    "type": "bridge",
+    "level": "hard",
+    "support_keys": [
+      "Kim Jong-hyun (singer)",
+      "She Is"
+    ],
+    "split": "dev",
+    "group": "4064"
+  },
+  {
+    "id": "5abffa095542990832d3a1de",
+    "type": "bridge",
+    "level": "hard",
+    "support_keys": [
+      "24th People's Choice Awards",
+      "Ray Romano"
+    ],
+    "split": "dev",
+    "group": "2813"
+  },
+  {
+    "id": "5ab870ee5542990e739ec8f6",
+    "type": "bridge",
+    "level": "hard",
+    "support_keys": [
+      "A Wind in the Door",
+      "Time Quintet"
+    ],
+    "split": "dev",
+    "group": "5267"
+  },
+  {
+    "id": "5ac0d1555542997d64295a5d",
+    "type": "comparison",
+    "level": "hard",
+    "support_keys": [
+      "Dell Henderson",
+      "Kurt Gerron"
+    ],
+    "split": "dev",
+    "group": "5466"
+  },
+  {
+    "id": "5a89e85c5542992e4fca846f",
+    "type": "bridge",
+    "level": "hard",
+    "support_keys": [
+      "Dalton, Georgia",
+      "WDAL"
+    ],
+    "split": "dev",
+    "group": "3301"
+  },
+  {
+    "id": "5ab7f27e5542991d322237d6",
+    "type": "bridge",
+    "level": "hard",
+    "support_keys": [
+      "Aughton Park railway station",
+      "Ormskirk railway station"
+    ],
+    "split": "dev",
+    "group": "1705"
+  },
+  {
+    "id": "5ae3dfb05542992e3233c490",
+    "type": "bridge",
+    "level": "hard",
+    "support_keys": [
+      "1991\u201392 Atlanta Hawks season",
+      "Dominique Wilkins"
+    ],
+    "split": "dev",
+    "group": "2880"
+  },
+  {
+    "id": "5a77666555429966f1a36d1f",
+    "type": "bridge",
+    "level": "hard",
+    "support_keys": [
+      "Michael P. Fay",
+      "Oliver Fricker"
+    ],
+    "split": "dev",
+    "group": "4781"
+  },
+  {
+    "id": "5a7283365542991f9a20c4b2",
+    "type": "bridge",
+    "level": "hard",
+    "support_keys": [
+      "Allison Gross",
+      "Rule of three (writing)"
+    ],
+    "split": "dev",
+    "group": "2137"
+  },
+  {
+    "id": "5a7268235542992359bc3081",
+    "type": "bridge",
+    "level": "hard",
+    "support_keys": [
+      "133d Air Refueling Squadron",
+      "Pease Air National Guard Base"
+    ],
+    "split": "dev",
+    "group": "4303"
+  },
+  {
+    "id": "5ac37dd6554299218029dbdb",
+    "type": "comparison",
+    "level": "hard",
+    "support_keys": [
+      "Digital Summer",
+      "Underoath"
+    ],
+    "split": "dev",
+    "group": "3173"
+  },
+  {
+    "id": "5a79c9395542994bb94570a2",
+    "type": "comparison",
+    "level": "hard",
+    "support_keys": [
+      "Annie Lennox",
+      "Ronnie Dunn"
+    ],
+    "split": "dev",
+    "group": "2343"
+  },
+  {
+    "id": "5adfa6c7554299025d62a326",
+    "type": "bridge",
+    "level": "hard",
+    "support_keys": [
+      "Earl of Merioneth",
+      "Prince Philip, Duke of Edinburgh"
+    ],
+    "split": "dev",
+    "group": "1337"
+  },
+  {
+    "id": "5a72334755429971e9dc934c",
+    "type": "bridge",
+    "level": "hard",
+    "support_keys": [
+      "Heartbreak Hurricane",
+      "Ricky Skaggs"
+    ],
+    "split": "dev",
+    "group": "2680"
+  },
+  {
+    "id": "5ae237ac554299492dc91be1",
+    "type": "bridge",
+    "level": "hard",
+    "support_keys": [
+      "Goshen, New Hampshire",
+      "Stelljes House"
+    ],
+    "split": "dev",
+    "group": "5208"
+  },
+  {
+    "id": "5a7faed65542994857a767b6",
+    "type": "bridge",
+    "level": "hard",
+    "support_keys": [
+      "Eastern Bloc",
+      "FSC Star"
+    ],
+    "split": "dev",
+    "group": "2057"
+  },
+  {
+    "id": "5a739b1955429978a71e9044",
+    "type": "bridge",
+    "level": "hard",
+    "support_keys": [
+      "Canning",
+      "Crown Holdings"
+    ],
+    "split": "dev",
+    "group": "1383"
+  },
+  {
+    "id": "5a77a14655429949eeb29f13",
+    "type": "bridge",
+    "level": "hard",
+    "support_keys": [
+      "Prussian mythology",
+      "Widewuto"
+    ],
+    "split": "dev",
+    "group": "4089"
+  },
+  {
+    "id": "5ae74890554299572ea547af",
+    "type": "bridge",
+    "level": "hard",
+    "support_keys": [
+      "Dance Dance Dance (novel)",
+      "Norwegian Wood (novel)"
+    ],
+    "split": "dev",
+    "group": "279"
+  },
+  {
+    "id": "5ae5e1985542996de7b71a54",
+    "type": "bridge",
+    "level": "hard",
+    "support_keys": [
+      "Cardinal Pole Roman Catholic School",
+      "Reginald Pole"
+    ],
+    "split": "dev",
+    "group": "417"
+  },
+  {
+    "id": "5a8c62f5554299585d9e367b",
+    "type": "bridge",
+    "level": "hard",
+    "support_keys": [
+      "Edward I of England",
+      "Year Books"
+    ],
+    "split": "dev",
+    "group": "2859"
+  },
+  {
+    "id": "5ac00de75542996f0d89cb13",
+    "type": "bridge",
+    "level": "hard",
+    "support_keys": [
+      "The Venetian Las Vegas",
+      "The Venetian Macao"
+    ],
+    "split": "dev",
+    "group": "440"
+  },
+  {
+    "id": "5ab5d6155542997d4ad1f1fa",
+    "type": "bridge",
+    "level": "hard",
+    "support_keys": [
+      "David Coverdale",
+      "The Early Years (Whitesnake album)"
+    ],
+    "split": "dev",
+    "group": "3126"
+  },
+  {
+    "id": "5a8612d45542996432c5719b",
+    "type": "comparison",
+    "level": "hard",
+    "support_keys": [
+      "Grapico",
+      "Izze"
+    ],
+    "split": "dev",
+    "group": "3571"
+  },
+  {
+    "id": "5add566b5542995b365fab14",
+    "type": "bridge",
+    "level": "hard",
+    "support_keys": [
+      "Ericsson",
+      "Minerva Gymnasium"
+    ],
+    "split": "dev",
+    "group": "3807"
+  },
+  {
+    "id": "5ab984a2554299131ca4235a",
+    "type": "bridge",
+    "level": "hard",
+    "support_keys": [
+      "Gabriel Iglesias",
+      "The Nut Job"
+    ],
+    "split": "dev",
+    "group": "1612"
+  },
+  {
+    "id": "5a82fcbd55429954d2e2ebe8",
+    "type": "bridge",
+    "level": "hard",
+    "support_keys": [
+      "Maria Szraiber",
+      "Tatiana Nikolayeva"
+    ],
+    "split": "dev",
+    "group": "671"
+  },
+  {
+    "id": "5ade45c75542992fa25da720",
+    "type": "comparison",
+    "level": "hard",
+    "support_keys": [
+      "Rice University",
+      "Stanford University"
+    ],
+    "split": "dev",
+    "group": "4765"
+  },
+  {
+    "id": "5a72160e55429971e9dc9253",
+    "type": "bridge",
+    "level": "hard",
+    "support_keys": [
+      "Benjamin Cheever",
+      "John Cheever"
+    ],
+    "split": "dev",
+    "group": "1596"
+  },
+  {
+    "id": "5ab296a6554299194fa93415",
+    "type": "comparison",
+    "level": "hard",
+    "support_keys": [
+      "Cartagena (board game)",
+      "Chess"
+    ],
+    "split": "dev",
+    "group": "1764"
+  },
+  {
+    "id": "5ac27d2555429963665199dc",
+    "type": "bridge",
+    "level": "hard",
+    "support_keys": [
+      "Dalcroze Eurhythmics",
+      "Maggie Gripenberg"
+    ],
+    "split": "dev",
+    "group": "5506"
+  },
+  {
+    "id": "5ac434ed554299204fd21f09",
+    "type": "bridge",
+    "level": "hard",
+    "support_keys": [
+      "Coming Over (Exo song)",
+      "Exo (band)"
+    ],
+    "split": "dev",
+    "group": "3341"
+  },
+  {
+    "id": "5adcbb815542994ed6169bde",
+    "type": "bridge",
+    "level": "hard",
+    "support_keys": [
+      "Beer Wars",
+      "Stone Brewing Co."
+    ],
+    "split": "dev",
+    "group": "3470"
+  },
+  {
+    "id": "5a89cc99554299669944a5ae",
+    "type": "bridge",
+    "level": "hard",
+    "support_keys": [
+      "Modernism",
+      "Wiener Werkst\u00e4tte Style"
+    ],
+    "split": "dev",
+    "group": "4600"
+  },
+  {
+    "id": "5ab94cf0554299743d22eade",
+    "type": "bridge",
+    "level": "hard",
+    "support_keys": [
+      "Naval Air Station Ellyson Field",
+      "Naval Air Station Pensacola"
+    ],
+    "split": "dev",
+    "group": "667"
+  },
+  {
+    "id": "5ade6acf554299728e26c71a",
+    "type": "comparison",
+    "level": "hard",
+    "support_keys": [
+      "Bent Hamer",
+      "Yasujir\u014d Ozu"
+    ],
+    "split": "dev",
+    "group": "3131"
+  },
+  {
+    "id": "5adff056554299603e4183cc",
+    "type": "comparison",
+    "level": "hard",
+    "support_keys": [
+      "Antic (magazine)",
+      "The Chronicle of Philanthropy"
+    ],
+    "split": "dev",
+    "group": "4826"
+  },
+  {
+    "id": "5a83e98e5542992ef85e2387",
+    "type": "bridge",
+    "level": "hard",
+    "support_keys": [
+      "J. D. Martinez",
+      "Nova Southeastern Sharks baseball"
+    ],
+    "split": "dev",
+    "group": "799"
+  },
+  {
+    "id": "5ac176555542994d76dcce47",
+    "type": "comparison",
+    "level": "hard",
+    "support_keys": [
+      "Albert Camus",
+      "H. L. Mencken"
+    ],
+    "split": "dev",
+    "group": "578"
+  },
+  {
+    "id": "5a849cc95542997175ce1efa",
+    "type": "bridge",
+    "level": "hard",
+    "support_keys": [
+      "Brian Mannal",
+      "Massachusetts House of Representatives"
+    ],
+    "split": "dev",
+    "group": "1428"
+  },
+  {
+    "id": "5ae470815542996836b02c9f",
+    "type": "bridge",
+    "level": "hard",
+    "support_keys": [
+      "Elizabeth I of England",
+      "Petruccio Ubaldini"
+    ],
+    "split": "dev",
+    "group": "3184"
+  },
+  {
+    "id": "5ab2a01d5542992953946778",
+    "type": "comparison",
+    "level": "hard",
+    "support_keys": [
+      "Robert Stone (novelist)",
+      "Truman Capote"
+    ],
+    "split": "dev",
+    "group": "1351"
+  },
+  {
+    "id": "5a874e9b554299211dda2bd3",
+    "type": "bridge",
+    "level": "hard",
+    "support_keys": [
+      "Louisa Adams",
+      "Melania Trump"
+    ],
+    "split": "dev",
+    "group": "856"
+  },
+  {
+    "id": "5a849c135542992a431d1a7a",
+    "type": "bridge",
+    "level": "hard",
+    "support_keys": [
+      "Bank of British North America",
+      "Saint John, New Brunswick"
+    ],
+    "split": "dev",
+    "group": "669"
+  },
+  {
+    "id": "5ae1f70c5542997f29b3c1c5",
+    "type": "bridge",
+    "level": "hard",
+    "support_keys": [
+      "Herman's Hermits",
+      "My Sentimental Friend"
+    ],
+    "split": "dev",
+    "group": "4068"
+  },
+  {
+    "id": "5a72a2935542991f9a20c546",
+    "type": "comparison",
+    "level": "hard",
+    "support_keys": [
+      "Shape (magazine)",
+      "Velvetpark"
+    ],
+    "split": "dev",
+    "group": "2537"
+  },
+  {
+    "id": "5ae2e61455429928c423953e",
+    "type": "bridge",
+    "level": "hard",
+    "support_keys": [
+      "A Night at the Opera (Queen album)",
+      "The Crown Jewels"
+    ],
+    "split": "dev",
+    "group": "1883"
+  },
+  {
+    "id": "5a8b397955429971feec4674",
+    "type": "comparison",
+    "level": "hard",
+    "support_keys": [
+      "David Byrne",
+      "John Corabi"
+    ],
+    "split": "dev",
+    "group": "5227"
+  },
+  {
+    "id": "5a7b88a85542995eb53be954",
+    "type": "bridge",
+    "level": "hard",
+    "support_keys": [
+      "Francesca Caccini",
+      "Giulio Caccini"
+    ],
+    "split": "dev",
+    "group": "2307"
+  },
+  {
+    "id": "5ade283a5542997c77aded80",
+    "type": "comparison",
+    "level": "hard",
+    "support_keys": [
+      "The La's",
+      "X (American band)"
+    ],
+    "split": "dev",
+    "group": "2031"
+  },
+  {
+    "id": "5a7bb16f554299294a54aa9f",
+    "type": "bridge",
+    "level": "hard",
+    "support_keys": [
+      "Rani Jhansi Marine National Park",
+      "Rani of Jhansi"
+    ],
+    "split": "dev",
+    "group": "1570"
+  },
+  {
+    "id": "5ac281e355429963665199eb",
+    "type": "bridge",
+    "level": "hard",
+    "support_keys": [
+      "Kim Ji-soo (actress)",
+      "Solace (2006 film)"
+    ],
+    "split": "dev",
+    "group": "5246"
+  },
+  {
+    "id": "5add78bf5542992ae4cec57b",
+    "type": "comparison",
+    "level": "hard",
+    "support_keys": [
+      "Micky Dolenz",
+      "Thomas Anders"
+    ],
+    "split": "dev",
+    "group": "3712"
+  },
+  {
+    "id": "5ae22ede554299234fd0441b",
+    "type": "bridge",
+    "level": "hard",
+    "support_keys": [
+      "John Erwin",
+      "Morris the Cat"
+    ],
+    "split": "dev",
+    "group": "1942"
+  },
+  {
+    "id": "5ac31066554299741d48a19d",
+    "type": "bridge",
+    "level": "hard",
+    "support_keys": [
+      "Jack Evans (footballer, born 1930)",
+      "St Kilda Football Club"
+    ],
+    "split": "dev",
+    "group": "414"
+  },
+  {
+    "id": "5a820cb355429903bc27ba2f",
+    "type": "bridge",
+    "level": "hard",
+    "support_keys": [
+      "Horten Ho 229",
+      "Horten brothers"
+    ],
+    "split": "dev",
+    "group": "4631"
+  },
+  {
+    "id": "5aba6d0f55429955dce3ee19",
+    "type": "bridge",
+    "level": "hard",
+    "support_keys": [
+      "Gatwick Airport",
+      "Heathrow Airport"
+    ],
+    "split": "dev",
+    "group": "2948"
+  },
+  {
+    "id": "5a8e4d9855429917b4a5bd8d",
+    "type": "bridge",
+    "level": "hard",
+    "support_keys": [
+      "Child 44 (film)",
+      "Worldview Entertainment"
+    ],
+    "split": "dev",
+    "group": "2100"
+  },
+  {
+    "id": "5ae6c2285542995703ce8b9a",
+    "type": "bridge",
+    "level": "hard",
+    "support_keys": [
+      "Loch Leven Castle",
+      "Marian civil war"
+    ],
+    "split": "dev",
+    "group": "4929"
+  },
+  {
+    "id": "5abd0296554299114383a1d1",
+    "type": "bridge",
+    "level": "hard",
+    "support_keys": [
+      "Douglas D. Scott",
+      "Little Bighorn Battlefield National Monument"
+    ],
+    "split": "dev",
+    "group": "1317"
+  },
+  {
+    "id": "5ae2133e554299495565d9e3",
+    "type": "bridge",
+    "level": "hard",
+    "support_keys": [
+      "American Ninja Warrior (season 7)",
+      "Jenn Brown"
+    ],
+    "split": "dev",
+    "group": "4946"
+  },
+  {
+    "id": "5ae50c345542993aec5ec11f",
+    "type": "bridge",
+    "level": "hard",
+    "support_keys": [
+      "Bambi, a Life in the Woods",
+      "Felix Salten"
+    ],
+    "split": "dev",
+    "group": "1407"
+  },
+  {
+    "id": "5ade15ae5542990dbb2f7f4c",
+    "type": "bridge",
+    "level": "hard",
+    "support_keys": [
+      "Domino Dancing",
+      "Introspective"
+    ],
+    "split": "dev",
+    "group": "3863"
+  },
+  {
+    "id": "5a72944c5542994cef4bc351",
+    "type": "bridge",
+    "level": "hard",
+    "support_keys": [
+      "City of Palms Park",
+      "Mike Greenwell"
+    ],
+    "split": "dev",
+    "group": "3327"
+  },
+  {
+    "id": "5a8f799d55429918e830d22d",
+    "type": "comparison",
+    "level": "hard",
+    "support_keys": [
+      "Myrsine",
+      "Styrax"
+    ],
+    "split": "dev",
+    "group": "1277"
+  },
+  {
+    "id": "5a77a7695542997042120ac4",
+    "type": "comparison",
+    "level": "hard",
+    "support_keys": [
+      "Marx Reloaded",
+      "The Private Life of Plants"
+    ],
+    "split": "dev",
+    "group": "3984"
+  },
+  {
+    "id": "5a8d9573554299068b959d51",
+    "type": "bridge",
+    "level": "hard",
+    "support_keys": [
+      "Capture of the Five Boroughs",
+      "Five Boroughs of the Danelaw"
+    ],
+    "split": "dev",
+    "group": "5427"
+  },
+  {
+    "id": "5ab8effd5542991b5579f062",
+    "type": "bridge",
+    "level": "hard",
+    "support_keys": [
+      "Bure Family Wines",
+      "Valeri Bure"
+    ],
+    "split": "dev",
+    "group": "4571"
+  },
+  {
+    "id": "5abae4995542996606241666",
+    "type": "comparison",
+    "level": "hard",
+    "support_keys": [
+      "Slaughter-House Cases",
+      "United States v. Darby Lumber Co."
+    ],
+    "split": "dev",
+    "group": "2108"
+  },
+  {
+    "id": "5ab3357d554299166977419d",
+    "type": "bridge",
+    "level": "hard",
+    "support_keys": [
+      "Sterlite Industries",
+      "Vedanta Resources"
+    ],
+    "split": "dev",
+    "group": "5404"
+  },
+  {
+    "id": "5a746abf55429929fddd8417",
+    "type": "bridge",
+    "level": "hard",
+    "support_keys": [
+      "Macy's",
+      "Stratford Square Mall"
+    ],
+    "split": "dev",
+    "group": "5080"
+  },
+  {
+    "id": "5ae707a25542991bbc9761a7",
+    "type": "bridge",
+    "level": "hard",
+    "support_keys": [
+      "Formula One drivers from Brazil",
+      "Rubens Barrichello"
+    ],
+    "split": "dev",
+    "group": "3950"
+  },
+  {
+    "id": "5a7dcc775542990b8f503ab5",
+    "type": "bridge",
+    "level": "hard",
+    "support_keys": [
+      "Picric acid",
+      "Shellite (explosive)"
+    ],
+    "split": "dev",
+    "group": "86"
+  },
+  {
+    "id": "5a8f6e295542992414482ac6",
+    "type": "bridge",
+    "level": "hard",
+    "support_keys": [
+      "Mars, Incorporated",
+      "Skittles (confectionery)"
+    ],
+    "split": "dev",
+    "group": "3821"
+  },
+  {
+    "id": "5ab808ea5542991d3222380e",
+    "type": "bridge",
+    "level": "hard",
+    "support_keys": [
+      "Arrowhead Stadium",
+      "Charles Deaton"
+    ],
+    "split": "dev",
+    "group": "257"
+  },
+  {
+    "id": "5a8b24f255429950cd6afc56",
+    "type": "bridge",
+    "level": "hard",
+    "support_keys": [
+      "Ahold",
+      "Albert Heijn (born 1927)"
+    ],
+    "split": "dev",
+    "group": "4305"
+  },
+  {
+    "id": "5ac0714f554299294b218fe1",
+    "type": "bridge",
+    "level": "hard",
+    "support_keys": [
+      "1991 Perfect Storm",
+      "Robert Case"
+    ],
+    "split": "dev",
+    "group": "3115"
+  },
+  {
+    "id": "5ac0c5805542992a796ded80",
+    "type": "bridge",
+    "level": "hard",
+    "support_keys": [
+      "Homer's Odyssey (The Simpsons)",
+      "Waylon Smithers"
+    ],
+    "split": "dev",
+    "group": "5044"
+  },
+  {
+    "id": "5abc23c45542993a06baf896",
+    "type": "bridge",
+    "level": "hard",
+    "support_keys": [
+      "Obertraun",
+      "Salzkammergut"
+    ],
+    "split": "dev",
+    "group": "2845"
+  },
+  {
+    "id": "5ae30a4655429928c42395bb",
+    "type": "bridge",
+    "level": "hard",
+    "support_keys": [
+      "58th Technology &amp; Engineering Emmy Awards",
+      "The Venetian Las Vegas"
+    ],
+    "split": "dev",
+    "group": "440"
+  },
+  {
+    "id": "5a80caac554299260e20a161",
+    "type": "comparison",
+    "level": "hard",
+    "support_keys": [
+      "Patty Jenkins",
+      "Prince (musician)"
+    ],
+    "split": "dev",
+    "group": "1144"
+  },
+  {
+    "id": "5a734dad5542994cef4bc522",
+    "type": "comparison",
+    "level": "hard",
+    "support_keys": [
+      "Anadoluhisar\u0131",
+      "Church of St. Mary of Blachernae (Istanbul)"
+    ],
+    "split": "dev",
+    "group": "2507"
+  },
+  {
+    "id": "5abd580855429924427fcfb8",
+    "type": "bridge",
+    "level": "hard",
+    "support_keys": [
+      "Dusty Drake",
+      "Joe Diffie"
+    ],
+    "split": "dev",
+    "group": "2803"
+  },
+  {
+    "id": "5ab85f555542992aa3b8c8ca",
+    "type": "bridge",
+    "level": "hard",
+    "support_keys": [
+      "Hold On (SBTRKT song)",
+      "Sampha"
+    ],
+    "split": "dev",
+    "group": "2875"
+  },
+  {
+    "id": "5a7130365542994082a3e645",
+    "type": "bridge",
+    "level": "hard",
+    "support_keys": [
+      "Cohen crime family",
+      "Moe Sedway"
+    ],
+    "split": "dev",
+    "group": "3881"
+  },
+  {
+    "id": "5a7526945542993748c897d2",
+    "type": "bridge",
+    "level": "hard",
+    "support_keys": [
+      "Nordic Resistance Movement",
+      "Tess Asplund"
+    ],
+    "split": "dev",
+    "group": "3324"
+  },
+  {
+    "id": "5ae09a6b55429924de1b710d",
+    "type": "bridge",
+    "level": "hard",
+    "support_keys": [
+      "Franklin Community High School",
+      "Franklin Community Schools"
+    ],
+    "split": "dev",
+    "group": "1910"
+  },
+  {
+    "id": "5a872c3f5542994775f607a8",
+    "type": "comparison",
+    "level": "hard",
+    "support_keys": [
+      "EOG Resources",
+      "General Mills"
+    ],
+    "split": "dev",
+    "group": "141"
+  },
+  {
+    "id": "5a80f4c2554299260e20a1da",
+    "type": "bridge",
+    "level": "hard",
+    "support_keys": [
+      "Fall River Heritage State Park",
+      "USS Massachusetts (BB-59)"
+    ],
+    "split": "dev",
+    "group": "945"
+  },
+  {
+    "id": "5adbf34955429947ff173862",
+    "type": "comparison",
+    "level": "hard",
+    "support_keys": [
+      "Karjiang",
+      "Sherpi Kangri"
+    ],
+    "split": "dev",
+    "group": "934"
+  },
+  {
+    "id": "5a84a1c85542992a431d1a7c",
+    "type": "bridge",
+    "level": "hard",
+    "support_keys": [
+      "Flying Dog Brewery",
+      "Frederick Brewing Company"
+    ],
+    "split": "dev",
+    "group": "1402"
+  },
+  {
+    "id": "5ae7281c5542991e8301cb69",
+    "type": "bridge",
+    "level": "hard",
+    "support_keys": [
+      "Bart Sells His Soul",
+      "Religion in The Simpsons"
+    ],
+    "split": "dev",
+    "group": "1455"
+  },
+  {
+    "id": "5a73c958554299623ed4ac5c",
+    "type": "bridge",
+    "level": "hard",
+    "support_keys": [
+      "CF Fuenlabrada",
+      "Isaac G\u00f3mez"
+    ],
+    "split": "dev",
+    "group": "778"
+  },
+  {
+    "id": "5a7a3bed5542996c55b2dd45",
+    "type": "bridge",
+    "level": "hard",
+    "support_keys": [
+      "Adrenaline (album)",
+      "Deftones"
+    ],
+    "split": "dev",
+    "group": "2670"
+  },
+  {
+    "id": "5a7943c655429970f5fffe89",
+    "type": "bridge",
+    "level": "hard",
+    "support_keys": [
+      "Colorado Rockies",
+      "Sun-woo Kim"
+    ],
+    "split": "dev",
+    "group": "4857"
+  },
+  {
+    "id": "5a7f33115542992e7d278c84",
+    "type": "bridge",
+    "level": "hard",
+    "support_keys": [
+      "Frederik, Crown Prince of Denmark",
+      "Mary, Crown Princess of Denmark"
+    ],
+    "split": "dev",
+    "group": "1888"
+  },
+  {
+    "id": "5a8173fa554299260e20a28e",
+    "type": "comparison",
+    "level": "hard",
+    "support_keys": [
+      "Billy (dog)",
+      "Bosnian Coarse-haired Hound"
+    ],
+    "split": "dev",
+    "group": "5562"
+  },
+  {
+    "id": "5abca6375542993a06baf946",
+    "type": "bridge",
+    "level": "hard",
+    "support_keys": [
+      "Andover USD 385",
+      "Andover, Kansas"
+    ],
+    "split": "dev",
+    "group": "2752"
+  },
+  {
+    "id": "5a9092cc55429916514e74fd",
+    "type": "bridge",
+    "level": "hard",
+    "support_keys": [
+      "Rick Hart (sound engineer)",
+      "Under Siege"
+    ],
+    "split": "dev",
+    "group": "4758"
+  },
+  {
+    "id": "5abe9cc95542993f32c2a184",
+    "type": "bridge",
+    "level": "hard",
+    "support_keys": [
+      "Station Mall",
+      "Walmart Canada"
+    ],
+    "split": "dev",
+    "group": "3394"
+  },
+  {
+    "id": "5aba7d7d554299232ef4a303",
+    "type": "bridge",
+    "level": "hard",
+    "support_keys": [
+      "Juan Trippe",
+      "Peter K. Schott"
+    ],
+    "split": "dev",
+    "group": "4885"
+  },
+  {
+    "id": "5ae1bc7b554299234fd042df",
+    "type": "bridge",
+    "level": "hard",
+    "support_keys": [
+      "Away West",
+      "Nicodemus, Kansas"
+    ],
+    "split": "dev",
+    "group": "5066"
+  },
+  {
+    "id": "5a8dd13055429917b4a5bcba",
+    "type": "comparison",
+    "level": "hard",
+    "support_keys": [
+      "National Treasure (film)",
+      "The Computer Wore Tennis Shoes"
+    ],
+    "split": "dev",
+    "group": "1815"
+  },
+  {
+    "id": "5abd8ac25542993062266cc2",
+    "type": "bridge",
+    "level": "hard",
+    "support_keys": [
+      "Silverbird (album)",
+      "Warner Bros. Records"
+    ],
+    "split": "dev",
+    "group": "3216"
+  },
+  {
+    "id": "5ae5f9b355429929b0807a4b",
+    "type": "bridge",
+    "level": "hard",
+    "support_keys": [
+      "Matt Groening",
+      "The Telltale Head"
+    ],
+    "split": "dev",
+    "group": "3102"
+  },
+  {
+    "id": "5ae7882b554299540e5a55dd",
+    "type": "bridge",
+    "level": "hard",
+    "support_keys": [
+      "Christian Yelich",
+      "Fred Gehrke"
+    ],
+    "split": "dev",
+    "group": "756"
+  },
+  {
+    "id": "5a8f43555542992414482a21",
+    "type": "bridge",
+    "level": "hard",
+    "support_keys": [
+      "Emeric Pressburger",
+      "The Tales of Hoffmann (film)"
+    ],
+    "split": "dev",
+    "group": "5108"
+  },
+  {
+    "id": "5a7724715542994aec3b71fd",
+    "type": "bridge",
+    "level": "hard",
+    "support_keys": [
+      "Daphnis et Chlo\u00e9",
+      "Pierre Monteux"
+    ],
+    "split": "dev",
+    "group": "4973"
+  },
+  {
+    "id": "5ac3e80b554299076e296ccd",
+    "type": "bridge",
+    "level": "hard",
+    "support_keys": [
+      "Kwon Yu-ri",
+      "No Breathing"
+    ],
+    "split": "dev",
+    "group": "1149"
+  },
+  {
+    "id": "5a8cacac554299585d9e3716",
+    "type": "bridge",
+    "level": "hard",
+    "support_keys": [
+      "Peter Giunta",
+      "Tom Coughlin"
+    ],
+    "split": "dev",
+    "group": "3045"
+  },
+  {
+    "id": "5ae573b25542990ba0bbb2b4",
+    "type": "bridge",
+    "level": "hard",
+    "support_keys": [
+      "Kamal Haasan",
+      "Sollathaan Ninaikkiren"
+    ],
+    "split": "dev",
+    "group": "2327"
+  },
+  {
+    "id": "5ae095f055429924de1b7103",
+    "type": "comparison",
+    "level": "hard",
+    "support_keys": [
+      "Albert S. Rogell",
+      "B. Reeves Eason"
+    ],
+    "split": "dev",
+    "group": "5417"
+  },
+  {
+    "id": "5adfc11e55429942ec259b3a",
+    "type": "bridge",
+    "level": "hard",
+    "support_keys": [
+      "Blue Dragon (anime)",
+      "Cindy Robinson"
+    ],
+    "split": "dev",
+    "group": "4970"
+  },
+  {
+    "id": "5a8bd49d5542997f31a41dd7",
+    "type": "bridge",
+    "level": "hard",
+    "support_keys": [
+      "Ian Boothby",
+      "Matt Groening"
+    ],
+    "split": "dev",
+    "group": "3102"
+  },
+  {
+    "id": "5a7c02c45542996dd594b880",
+    "type": "bridge",
+    "level": "hard",
+    "support_keys": [
+      "Heidi Brunner",
+      "La clemenza di Tito"
+    ],
+    "split": "dev",
+    "group": "2814"
+  },
+  {
+    "id": "5add74b95542992ae4cec56f",
+    "type": "comparison",
+    "level": "hard",
+    "support_keys": [
+      "Hires Root Beer",
+      "Lucozade"
+    ],
+    "split": "dev",
+    "group": "2697"
+  },
+  {
+    "id": "5a89e6615542992e4fca8462",
+    "type": "bridge",
+    "level": "hard",
+    "support_keys": [
+      "Calloway County, Kentucky",
+      "Murray, Kentucky"
+    ],
+    "split": "dev",
+    "group": "2410"
+  },
+  {
+    "id": "5abba4855542993f40c73b68",
+    "type": "bridge",
+    "level": "hard",
+    "support_keys": [
+      "Gamer (film)",
+      "Michael C. Hall"
+    ],
+    "split": "dev",
+    "group": "134"
+  },
+  {
+    "id": "5a84edf65542994c784dda8d",
+    "type": "bridge",
+    "level": "hard",
+    "support_keys": [
+      "Black Pearl (K-Pop Group)",
+      "M2M (band)"
+    ],
+    "split": "dev",
+    "group": "5445"
+  },
+  {
+    "id": "5ae406f055429970de88d874",
+    "type": "bridge",
+    "level": "hard",
+    "support_keys": [
+      "LA Galaxy",
+      "Roy Lassiter"
+    ],
+    "split": "dev",
+    "group": "4568"
+  },
+  {
+    "id": "5ac0d5cf554299294b219026",
+    "type": "bridge",
+    "level": "hard",
+    "support_keys": [
+      "An American Werewolf in London",
+      "An American Werewolf in Paris"
+    ],
+    "split": "dev",
+    "group": "1085"
+  },
+  {
+    "id": "5ac3c1805542995ef918c21f",
+    "type": "bridge",
+    "level": "hard",
+    "support_keys": [
+      "Black Book of the Admiralty",
+      "Edward I of England"
+    ],
+    "split": "dev",
+    "group": "2859"
+  },
+  {
+    "id": "5abee70a5542994516f45476",
+    "type": "bridge",
+    "level": "hard",
+    "support_keys": [
+      "Anne Innes-Ker, Duchess of Roxburghe",
+      "John Spencer-Churchill, 7th Duke of Marlborough"
+    ],
+    "split": "dev",
+    "group": "4376"
+  },
+  {
+    "id": "5adbe0df554299438c868cc0",
+    "type": "comparison",
+    "level": "hard",
+    "support_keys": [
+      "Thomas Merton",
+      "W. Somerset Maugham"
+    ],
+    "split": "dev",
+    "group": "1259"
+  },
+  {
+    "id": "5ac164da55429964131be1bf",
+    "type": "comparison",
+    "level": "hard",
+    "support_keys": [
+      "Gongqingcheng",
+      "Linhai"
+    ],
+    "split": "dev",
+    "group": "2135"
+  },
+  {
+    "id": "5ac3d4b6554299204fd21e93",
+    "type": "comparison",
+    "level": "hard",
+    "support_keys": [
+      "Jack and Jill (magazine)",
+      "Paper (magazine)"
+    ],
+    "split": "dev",
+    "group": "662"
+  },
+  {
+    "id": "5ade03c65542990dbb2f7f2e",
+    "type": "bridge",
+    "level": "hard",
+    "support_keys": [
+      "Daniel Kahneman",
+      "Dictator game"
+    ],
+    "split": "dev",
+    "group": "3055"
+  },
+  {
+    "id": "5adc985e5542990d50227cb7",
+    "type": "bridge",
+    "level": "hard",
+    "support_keys": [
+      "Certificate of Primary Education",
+      "Le R\u00eave de Rico"
+    ],
+    "split": "dev",
+    "group": "3864"
+  },
+  {
+    "id": "5ae127ba55429920d52342d3",
+    "type": "bridge",
+    "level": "hard",
+    "support_keys": [
+      "PeopleMover",
+      "Rocket Rods"
+    ],
+    "split": "dev",
+    "group": "3675"
+  },
+  {
+    "id": "5a8afb9955429971feec45c2",
+    "type": "bridge",
+    "level": "hard",
+    "support_keys": [
+      "California Screamin'",
+      "Paradise Pier"
+    ],
+    "split": "dev",
+    "group": "4732"
+  },
+  {
+    "id": "5a7e075c5542995f4f4023a3",
+    "type": "bridge",
+    "level": "hard",
+    "support_keys": [
+      "Metro West Ambulance",
+      "Moda Center"
+    ],
+    "split": "dev",
+    "group": "1462"
+  },
+  {
+    "id": "5adf0d2d5542993a75d263e1",
+    "type": "bridge",
+    "level": "hard",
+    "support_keys": [
+      "Don Ashley Turlington",
+      "Saint Joseph's College of Maine"
+    ],
+    "split": "dev",
+    "group": "4639"
+  },
+  {
+    "id": "5adbf69c55429947ff173871",
+    "type": "bridge",
+    "level": "hard",
+    "support_keys": [
+      "General Tire",
+      "Tolex"
+    ],
+    "split": "dev",
+    "group": "2226"
+  },
+  {
+    "id": "5a79305755429907847277dd",
+    "type": "bridge",
+    "level": "hard",
+    "support_keys": [
+      "Prince Aimone, Duke of Apulia",
+      "Prince Amedeo, Duke of Aosta (b. 1943)"
+    ],
+    "split": "dev",
+    "group": "1492"
+  },
+  {
+    "id": "5a775bd65542993569682d6b",
+    "type": "bridge",
+    "level": "hard",
+    "support_keys": [
+      "Stephen Hawking",
+      "Tony Hendra"
+    ],
+    "split": "dev",
+    "group": "1654"
+  },
+  {
+    "id": "5a78f1b555429970f5fffde9",
+    "type": "bridge",
+    "level": "hard",
+    "support_keys": [
+      "David O'Doherty",
+      "Orange (song)"
+    ],
+    "split": "dev",
+    "group": "3954"
+  },
+  {
+    "id": "5ae628f55542995703ce8b32",
+    "type": "bridge",
+    "level": "hard",
+    "support_keys": [
+      "Antonio Vivaldi",
+      "Six Violin Sonatas, Op. 5 (Vivaldi)"
+    ],
+    "split": "dev",
+    "group": "206"
+  },
+  {
+    "id": "5a81df7d55429926c1cdadaa",
+    "type": "bridge",
+    "level": "hard",
+    "support_keys": [
+      "2014\u201315 UEFA Champions League knockout phase",
+      "2015 UEFA Champions League Final"
+    ],
+    "split": "dev",
+    "group": "2716"
+  },
+  {
+    "id": "5ab2f85b55429929539468dc",
+    "type": "bridge",
+    "level": "hard",
+    "support_keys": [
+      "Oera Linda Book",
+      "Old Frisian"
+    ],
+    "split": "dev",
+    "group": "128"
+  },
+  {
+    "id": "5ab2421555429970612095cc",
+    "type": "bridge",
+    "level": "hard",
+    "support_keys": [
+      "Debi Thomas",
+      "Katarina Witt"
+    ],
+    "split": "dev",
+    "group": "5383"
+  },
+  {
+    "id": "5a7f677455429969796c1a37",
+    "type": "comparison",
+    "level": "hard",
+    "support_keys": [
+      "Elio Petri",
+      "Stanley Kubrick"
+    ],
+    "split": "dev",
+    "group": "2197"
+  },
+  {
+    "id": "5ae55d1e55429960a22e02cb",
+    "type": "bridge",
+    "level": "hard",
+    "support_keys": [
+      "British Academy Television Awards 2009",
+      "Graham Norton"
+    ],
+    "split": "dev",
+    "group": "1280"
+  },
+  {
+    "id": "5ae0575755429945ae95931f",
+    "type": "bridge",
+    "level": "hard",
+    "support_keys": [
+      "1958 Pro Bowl",
+      "Los Angeles Memorial Coliseum"
+    ],
+    "split": "dev",
+    "group": "2000"
+  },
+  {
+    "id": "5a848a725542990548d0b2c7",
+    "type": "comparison",
+    "level": "hard",
+    "support_keys": [
+      "Wire (band)",
+      "Young the Giant"
+    ],
+    "split": "validation",
+    "group": "3331"
+  },
+  {
+    "id": "5a7345185542992359bc32cb",
+    "type": "comparison",
+    "level": "hard",
+    "support_keys": [
+      "Closer (magazine)",
+      "Sayidaty"
+    ],
+    "split": "validation",
+    "group": "1355"
+  },
+  {
+    "id": "5ac097b05542996f0d89cc18",
+    "type": "comparison",
+    "level": "hard",
+    "support_keys": [
+      "Alejandro Springall",
+      "Ruggero Deodato"
+    ],
+    "split": "validation",
+    "group": "823"
+  },
+  {
+    "id": "5ae7f7ec554299540e5a56de",
+    "type": "bridge",
+    "level": "hard",
+    "support_keys": [
+      "Reign in Blood",
+      "Still Reigning"
+    ],
+    "split": "validation",
+    "group": "4704"
+  },
+  {
+    "id": "5a77b0395542997042120ae1",
+    "type": "bridge",
+    "level": "hard",
+    "support_keys": [
+      "Hush (1998 film)",
+      "Jessica Lange"
+    ],
+    "split": "validation",
+    "group": "593"
+  },
+  {
+    "id": "5a90b43455429916514e7523",
+    "type": "bridge",
+    "level": "hard",
+    "support_keys": [
+      "Allen &amp; Company Sun Valley Conference",
+      "Rupert Murdoch"
+    ],
+    "split": "validation",
+    "group": "337"
+  },
+  {
+    "id": "5a7723fa55429966f1a36ca0",
+    "type": "comparison",
+    "level": "hard",
+    "support_keys": [
+      "La Belle Assembl\u00e9e",
+      "VIVmag"
+    ],
+    "split": "validation",
+    "group": "4348"
+  },
+  {
+    "id": "5adfcc625542992d7e9f93d3",
+    "type": "comparison",
+    "level": "hard",
+    "support_keys": [
+      "Oceans (film)",
+      "The Moon-Spinners"
+    ],
+    "split": "validation",
+    "group": "339"
+  },
+  {
+    "id": "5a78c69e55429974737f787c",
+    "type": "comparison",
+    "level": "hard",
+    "support_keys": [
+      "Dave Brockie",
+      "Ronnie Radke"
+    ],
+    "split": "validation",
+    "group": "2719"
+  },
+  {
+    "id": "5abd96fe5542992ac4f382d9",
+    "type": "bridge",
+    "level": "hard",
+    "support_keys": [
+      "Australian Associated Press",
+      "Keith Murdoch"
+    ],
+    "split": "validation",
+    "group": "4052"
+  },
+  {
+    "id": "5a83a532554299334474606f",
+    "type": "bridge",
+    "level": "hard",
+    "support_keys": [
+      "Ian Harland",
+      "Peterhouse, Cambridge"
+    ],
+    "split": "validation",
+    "group": "214"
+  },
+  {
+    "id": "5adbd19855429944faac236a",
+    "type": "comparison",
+    "level": "hard",
+    "support_keys": [
+      "Jean Vigo",
+      "Lester James Peries"
+    ],
+    "split": "validation",
+    "group": "2088"
+  },
+  {
+    "id": "5a7dbc175542995ed0d1666b",
+    "type": "bridge",
+    "level": "hard",
+    "support_keys": [
+      "Anatoly Lunacharsky",
+      "Vpered"
+    ],
+    "split": "validation",
+    "group": "5402"
+  },
+  {
+    "id": "5adc57325542996e6852531b",
+    "type": "bridge",
+    "level": "hard",
+    "support_keys": [
+      "La boh\u00e8me",
+      "Quando me'n vo'"
+    ],
+    "split": "validation",
+    "group": "2129"
+  },
+  {
+    "id": "5a8a0ed55542992e4fca84e8",
+    "type": "bridge",
+    "level": "hard",
+    "support_keys": [
+      "Charles Hurt",
+      "Drudge Report"
+    ],
+    "split": "validation",
+    "group": "4117"
+  },
+  {
+    "id": "5ae7eb3c5542994a481bbe20",
+    "type": "bridge",
+    "level": "hard",
+    "support_keys": [
+      "Ishtar Gate",
+      "Panel with striding lion"
+    ],
+    "split": "validation",
+    "group": "494"
+  },
+  {
+    "id": "5ab2b630554299545a2cfa17",
+    "type": "comparison",
+    "level": "hard",
+    "support_keys": [
+      "Gasland",
+      "Pumping Iron"
+    ],
+    "split": "validation",
+    "group": "352"
+  },
+  {
+    "id": "5a88d7875542993b751ca876",
+    "type": "bridge",
+    "level": "hard",
+    "support_keys": [
+      "1981 CART PPG Indy Car World Series",
+      "Rick Mears"
+    ],
+    "split": "validation",
+    "group": "3210"
+  },
+  {
+    "id": "5ae65b845542992ae0d162f1",
+    "type": "bridge",
+    "level": "hard",
+    "support_keys": [
+      "Communications Museum (Macau)",
+      "Nossa Senhora de F\u00e1tima, Macau"
+    ],
+    "split": "validation",
+    "group": "1324"
+  },
+  {
+    "id": "5a8b2a0355429971feec465b",
+    "type": "bridge",
+    "level": "hard",
+    "support_keys": [
+      "SV Werder Bremen",
+      "Sambou Yatabar\u00e9"
+    ],
+    "split": "validation",
+    "group": "1906"
+  },
+  {
+    "id": "5ae1b01b5542997283cd2237",
+    "type": "bridge",
+    "level": "hard",
+    "support_keys": [
+      "Mamma Mia: Here We Go Again!",
+      "Romantic comedy film"
+    ],
+    "split": "validation",
+    "group": "1879"
+  },
+  {
+    "id": "5ae05c9f55429945ae959348",
+    "type": "bridge",
+    "level": "hard",
+    "support_keys": [
+      "East Mamprusi District",
+      "Shienga"
+    ],
+    "split": "validation",
+    "group": "2389"
+  },
+  {
+    "id": "5ac170af5542994d76dcce20",
+    "type": "comparison",
+    "level": "hard",
+    "support_keys": [
+      "Greg Puciato",
+      "Syd Barrett"
+    ],
+    "split": "validation",
+    "group": "969"
+  },
+  {
+    "id": "5abee2df5542994516f4546a",
+    "type": "bridge",
+    "level": "hard",
+    "support_keys": [
+      "Richard Thorpe",
+      "Secret of the Chateau"
+    ],
+    "split": "validation",
+    "group": "1504"
+  },
+  {
+    "id": "5a893fc855429951533612f0",
+    "type": "comparison",
+    "level": "hard",
+    "support_keys": [
+      "Chien Fran\u00e7ais Blanc et Orange",
+      "Cretan Hound"
+    ],
+    "split": "validation",
+    "group": "2599"
+  },
+  {
+    "id": "5a7137dc5542994082a3e68a",
+    "type": "bridge",
+    "level": "hard",
+    "support_keys": [
+      "Kevin Durant",
+      "NBA Rookie of the Year Award"
+    ],
+    "split": "validation",
+    "group": "5222"
+  },
+  {
+    "id": "5a8182e255429938b614234d",
+    "type": "bridge",
+    "level": "hard",
+    "support_keys": [
+      "John J. Pershing",
+      "William Corcoran Eustis"
+    ],
+    "split": "validation",
+    "group": "2393"
+  },
+  {
+    "id": "5ac282875542996773102546",
+    "type": "comparison",
+    "level": "hard",
+    "support_keys": [
+      "James Bourne",
+      "The Auteurs"
+    ],
+    "split": "validation",
+    "group": "4986"
+  },
+  {
+    "id": "5a7746cf5542994aec3b7263",
+    "type": "bridge",
+    "level": "hard",
+    "support_keys": [
+      "Community of St Mary the Virgin",
+      "St. Mary's School, Pune"
+    ],
+    "split": "validation",
+    "group": "3422"
+  },
+  {
+    "id": "5a8b8a745542995d1e6f13e4",
+    "type": "comparison",
+    "level": "hard",
+    "support_keys": [
+      "Column of the Goths",
+      "G\u00fcl Mosque"
+    ],
+    "split": "validation",
+    "group": "2181"
+  },
+  {
+    "id": "5a78bc6b554299148911f979",
+    "type": "comparison",
+    "level": "hard",
+    "support_keys": [
+      "Naj",
+      "Woman's Era"
+    ],
+    "split": "validation",
+    "group": "429"
+  },
+  {
+    "id": "5ae0006755429925eb1afbd3",
+    "type": "bridge",
+    "level": "hard",
+    "support_keys": [
+      "Gum Wall",
+      "San Luis Obispo, California"
+    ],
+    "split": "validation",
+    "group": "99"
+  },
+  {
+    "id": "5a8a43eb5542996c9b8d5e82",
+    "type": "bridge",
+    "level": "hard",
+    "support_keys": [
+      "Marion, South Australia",
+      "Westminster School, Adelaide"
+    ],
+    "split": "validation",
+    "group": "42"
+  },
+  {
+    "id": "5ac3891f554299741d48a284",
+    "type": "comparison",
+    "level": "hard",
+    "support_keys": [
+      "Central Illinois Regional Airport",
+      "Jacksonville International Airport"
+    ],
+    "split": "validation",
+    "group": "3585"
+  },
+  {
+    "id": "5ab3d764554299233954ffc7",
+    "type": "bridge",
+    "level": "hard",
+    "support_keys": [
+      "Kid A",
+      "Our Kid Eh"
+    ],
+    "split": "validation",
+    "group": "3024"
+  },
+  {
+    "id": "5a76067e55429976ec32bce9",
+    "type": "bridge",
+    "level": "hard",
+    "support_keys": [
+      "Box Codax",
+      "Nick McCarthy"
+    ],
+    "split": "validation",
+    "group": "4547"
+  },
+  {
+    "id": "5ae489ab5542995ad6573d62",
+    "type": "bridge",
+    "level": "hard",
+    "support_keys": [
+      "1995\u201396 Atlanta Hawks season",
+      "Mookie Blaylock"
+    ],
+    "split": "validation",
+    "group": "5452"
+  },
+  {
+    "id": "5ae603ba5542996de7b71af4",
+    "type": "bridge",
+    "level": "hard",
+    "support_keys": [
+      "Forever and Ever, Amen",
+      "Paul Overstreet"
+    ],
+    "split": "validation",
+    "group": "2560"
+  },
+  {
+    "id": "5ae1d1995542997283cd226c",
+    "type": "bridge",
+    "level": "hard",
+    "support_keys": [
+      "Additi Gupta",
+      "Ishqbaaaz"
+    ],
+    "split": "validation",
+    "group": "2911"
+  },
+  {
+    "id": "5a83cce95542996488c2e4d6",
+    "type": "bridge",
+    "level": "hard",
+    "support_keys": [
+      "Ed Mangano",
+      "Thomas Suozzi"
+    ],
+    "split": "validation",
+    "group": "3075"
+  },
+  {
+    "id": "5ade38d8554299728e26c680",
+    "type": "bridge",
+    "level": "hard",
+    "support_keys": [
+      "Frisian languages",
+      "Gref"
+    ],
+    "split": "validation",
+    "group": "2013"
+  },
+  {
+    "id": "5a7339c85542991f9a20c6a2",
+    "type": "bridge",
+    "level": "hard",
+    "support_keys": [
+      "Andrew Robb and David McIlwaine killings",
+      "County Armagh"
+    ],
+    "split": "validation",
+    "group": "3722"
+  },
+  {
+    "id": "5ae1801955429901ffe4aec4",
+    "type": "bridge",
+    "level": "hard",
+    "support_keys": [
+      "Adventures of Superman (TV series)",
+      "Kellogg's"
+    ],
+    "split": "validation",
+    "group": "236"
+  },
+  {
+    "id": "5ac17c025542994d76dcce70",
+    "type": "bridge",
+    "level": "hard",
+    "support_keys": [
+      "Reveille Park",
+      "South Park Mexican"
+    ],
+    "split": "validation",
+    "group": "1611"
+  },
+  {
+    "id": "5a8ee2855542995a26add550",
+    "type": "bridge",
+    "level": "hard",
+    "support_keys": [
+      "Eusebio Valli",
+      "Luigi Galvani"
+    ],
+    "split": "validation",
+    "group": "1341"
+  },
+  {
+    "id": "5ae1894f5542997b2ef7d1f4",
+    "type": "bridge",
+    "level": "hard",
+    "support_keys": [
+      "Antonio Campos (director)",
+      "Christine (2016 film)"
+    ],
+    "split": "validation",
+    "group": "4324"
+  },
+  {
+    "id": "5a7ba8fc5542995eb53be986",
+    "type": "bridge",
+    "level": "hard",
+    "support_keys": [
+      "Ramzan Kadyrov",
+      "Umar Israilov"
+    ],
+    "split": "validation",
+    "group": "4392"
+  },
+  {
+    "id": "5a72a9ac5542991f9a20c55f",
+    "type": "bridge",
+    "level": "hard",
+    "support_keys": [
+      "Brian Balthazar",
+      "Hoda Kotb"
+    ],
+    "split": "validation",
+    "group": "1094"
+  },
+  {
+    "id": "5a887293554299206df2b273",
+    "type": "bridge",
+    "level": "hard",
+    "support_keys": [
+      "Chryseobacterium frigidum",
+      "Ny-\u00c5lesund"
+    ],
+    "split": "validation",
+    "group": "2685"
+  },
+  {
+    "id": "5a8e8f6f5542995085b37451",
+    "type": "comparison",
+    "level": "hard",
+    "support_keys": [
+      "Jingjiang",
+      "Qinzhou"
+    ],
+    "split": "validation",
+    "group": "2296"
+  },
+  {
+    "id": "5abb03325542992ccd8e7eae",
+    "type": "bridge",
+    "level": "hard",
+    "support_keys": [
+      "George Rainsford (actor)",
+      "TV Choice"
+    ],
+    "split": "validation",
+    "group": "5204"
+  },
+  {
+    "id": "5a8e41735542995085b37406",
+    "type": "bridge",
+    "level": "hard",
+    "support_keys": [
+      "Keokuk Falls, Oklahoma",
+      "Shawnee, Oklahoma"
+    ],
+    "split": "validation",
+    "group": "1845"
+  },
+  {
+    "id": "5a738225554299623ed4abc3",
+    "type": "comparison",
+    "level": "hard",
+    "support_keys": [
+      "Bedknobs and Broomsticks",
+      "The Muppet Christmas Carol"
+    ],
+    "split": "validation",
+    "group": "330"
+  },
+  {
+    "id": "5a778e8755429949eeb29ef4",
+    "type": "bridge",
+    "level": "hard",
+    "support_keys": [
+      "Middleton, Greater Manchester",
+      "St Anne's Academy"
+    ],
+    "split": "validation",
+    "group": "3253"
+  },
+  {
+    "id": "5ab941c2554299743d22ea88",
+    "type": "bridge",
+    "level": "hard",
+    "support_keys": [
+      "C. J. Cherryh",
+      "The Fortress Series"
+    ],
+    "split": "validation",
+    "group": "1285"
+  },
+  {
+    "id": "5a7471f655429979e2882955",
+    "type": "bridge",
+    "level": "hard",
+    "support_keys": [
+      "Robert Redford",
+      "Wayne Fitzgerald"
+    ],
+    "split": "validation",
+    "group": "2736"
+  },
+  {
+    "id": "5a88341c5542994846c1ce20",
+    "type": "bridge",
+    "level": "hard",
+    "support_keys": [
+      "No One's Gonna Love You",
+      "Zombieland"
+    ],
+    "split": "validation",
+    "group": "3167"
+  },
+  {
+    "id": "5a7c8cea55429935c91b5214",
+    "type": "bridge",
+    "level": "hard",
+    "support_keys": [
+      "Focus (2015 film)",
+      "Margot Robbie"
+    ],
+    "split": "validation",
+    "group": "1629"
+  },
+  {
+    "id": "5a903b7255429933b8a204ae",
+    "type": "bridge",
+    "level": "hard",
+    "support_keys": [
+      "Mary Harron",
+      "The Notorious Bettie Page"
+    ],
+    "split": "validation",
+    "group": "2357"
+  },
+  {
+    "id": "5ae2cbc9554299495565db36",
+    "type": "bridge",
+    "level": "hard",
+    "support_keys": [
+      "Empty Orchestra",
+      "Tamzin Outhwaite"
+    ],
+    "split": "validation",
+    "group": "854"
+  },
+  {
+    "id": "5a8834f05542994846c1ce26",
+    "type": "bridge",
+    "level": "hard",
+    "support_keys": [
+      "Chaconne in F minor (Pachelbel)",
+      "Johann Pachelbel"
+    ],
+    "split": "validation",
+    "group": "3293"
+  },
+  {
+    "id": "5a85db6e5542994c784ddb96",
+    "type": "bridge",
+    "level": "hard",
+    "support_keys": [
+      "California State University, Long Beach",
+      "Ron Johnson (wide receiver, born 1958)"
+    ],
+    "split": "validation",
+    "group": "1068"
+  },
+  {
+    "id": "5ab587ad5542992aa134a34b",
+    "type": "bridge",
+    "level": "hard",
+    "support_keys": [
+      "Alice's Adventures in Wonderland",
+      "Coraline"
+    ],
+    "split": "validation",
+    "group": "1585"
+  },
+  {
+    "id": "5ab3af70554299233954ff81",
+    "type": "bridge",
+    "level": "hard",
+    "support_keys": [
+      "Angelo Francesco Lavagnino",
+      "Chimes at Midnight"
+    ],
+    "split": "validation",
+    "group": "519"
+  },
+  {
+    "id": "5a80b3a9554299485f5986cc",
+    "type": "bridge",
+    "level": "hard",
+    "support_keys": [
+      "McLean, Virginia",
+      "Tysons Galleria"
+    ],
+    "split": "validation",
+    "group": "72"
+  },
+  {
+    "id": "5ab9dd9a554299232ef4a231",
+    "type": "bridge",
+    "level": "hard",
+    "support_keys": [
+      "Adam Lambert",
+      "Josh Abraham"
+    ],
+    "split": "validation",
+    "group": "3229"
+  },
+  {
+    "id": "5ade18df5542990dbb2f7f53",
+    "type": "bridge",
+    "level": "hard",
+    "support_keys": [
+      "CTV Television Network",
+      "Gameshow Marathon (U.S. TV series)"
+    ],
+    "split": "validation",
+    "group": "4314"
+  },
+  {
+    "id": "5adfbca255429942ec259b2c",
+    "type": "bridge",
+    "level": "hard",
+    "support_keys": [
+      "All Join Hands",
+      "Slade"
+    ],
+    "split": "validation",
+    "group": "223"
+  },
+  {
+    "id": "5a87411d5542994846c1cd37",
+    "type": "bridge",
+    "level": "hard",
+    "support_keys": [
+      "Goetheanum",
+      "J\u00f6rgen Smit"
+    ],
+    "split": "validation",
+    "group": "418"
+  },
+  {
+    "id": "5ab9b1fd5542996be202058e",
+    "type": "bridge",
+    "level": "hard",
+    "support_keys": [
+      "Caleb Stegall",
+      "Jefferson County, Kansas"
+    ],
+    "split": "validation",
+    "group": "5470"
+  },
+  {
+    "id": "5ab7ccf455429928e1fe3910",
+    "type": "bridge",
+    "level": "hard",
+    "support_keys": [
+      "Lake George Avenue Historic District",
+      "Ticonderoga, New York"
+    ],
+    "split": "validation",
+    "group": "978"
+  },
+  {
+    "id": "5ab850795542990e739ec8bd",
+    "type": "bridge",
+    "level": "hard",
+    "support_keys": [
+      "Erskine Academy",
+      "South China, Maine"
+    ],
+    "split": "validation",
+    "group": "4993"
+  },
+  {
+    "id": "5a7bbb64554299042af8f7cc",
+    "type": "bridge",
+    "level": "hard",
+    "support_keys": [
+      "Annie Morton",
+      "Terry Richardson"
+    ],
+    "split": "validation",
+    "group": "8"
+  },
+  {
+    "id": "5a71095e5542994082a3e4f3",
+    "type": "bridge",
+    "level": "hard",
+    "support_keys": [
+      "David Dunn (character)",
+      "Unbreakable (film)"
+    ],
+    "split": "validation",
+    "group": "360"
+  },
+  {
+    "id": "5a7313865542994cef4bc442",
+    "type": "bridge",
+    "level": "hard",
+    "support_keys": [
+      "Pondicherry Gramin Bank",
+      "Regional Rural Bank"
+    ],
+    "split": "validation",
+    "group": "576"
+  },
+  {
+    "id": "5a86d7825542996432c571ec",
+    "type": "bridge",
+    "level": "hard",
+    "support_keys": [
+      "Adrienne Bailon",
+      "The Cheetah Girls (group)"
+    ],
+    "split": "validation",
+    "group": "2811"
+  },
+  {
+    "id": "5a82bc7455429940e5e1a926",
+    "type": "bridge",
+    "level": "hard",
+    "support_keys": [
+      "Moonstruck",
+      "Nicolas Cage"
+    ],
+    "split": "validation",
+    "group": "1182"
+  },
+  {
+    "id": "5ac07327554299012d1db5f2",
+    "type": "bridge",
+    "level": "hard",
+    "support_keys": [
+      "Colin Kaepernick",
+      "Kaep (disambiguation)"
+    ],
+    "split": "validation",
+    "group": "5067"
+  },
+  {
+    "id": "5a7d109855429909bec7692f",
+    "type": "bridge",
+    "level": "hard",
+    "support_keys": [
+      "Kuno Becker",
+      "Panic 5 Bravo"
+    ],
+    "split": "validation",
+    "group": "1225"
+  },
+  {
+    "id": "5a8501915542997175ce1f5a",
+    "type": "comparison",
+    "level": "hard",
+    "support_keys": [
+      "PC Magazine",
+      "Sculptural Pursuit"
+    ],
+    "split": "validation",
+    "group": "1295"
+  },
+  {
+    "id": "5a77beae5542992a6e59dfae",
+    "type": "bridge",
+    "level": "hard",
+    "support_keys": [
+      "Stacey Kent",
+      "The Boy Next Door (album)"
+    ],
+    "split": "validation",
+    "group": "379"
+  },
+  {
+    "id": "5adf3ab95542992d7e9f92f3",
+    "type": "bridge",
+    "level": "hard",
+    "support_keys": [
+      "2011\u201312 Houston Rockets season",
+      "Marcus Morris (basketball)"
+    ],
+    "split": "validation",
+    "group": "1045"
+  },
+  {
+    "id": "5ab1e3bb554299340b52541a",
+    "type": "bridge",
+    "level": "hard",
+    "support_keys": [
+      "Political hip hop",
+      "Underground hip hop"
+    ],
+    "split": "validation",
+    "group": "2086"
+  },
+  {
+    "id": "5adbf3fa554299438c868ce0",
+    "type": "bridge",
+    "level": "hard",
+    "support_keys": [
+      "Cleveland Thyagaraja Festival",
+      "Tyagaraja"
+    ],
+    "split": "validation",
+    "group": "3044"
+  },
+  {
+    "id": "5ac2a3c7554299218029dadb",
+    "type": "comparison",
+    "level": "hard",
+    "support_keys": [
+      "Othonna",
+      "Stangeria"
+    ],
+    "split": "validation",
+    "group": "1590"
+  },
+  {
+    "id": "5add48465542992200553a80",
+    "type": "bridge",
+    "level": "hard",
+    "support_keys": [
+      "Godspell (film)",
+      "Merrell Jackson"
+    ],
+    "split": "validation",
+    "group": "1425"
+  },
+  {
+    "id": "5adcc5715542990d50227d0a",
+    "type": "bridge",
+    "level": "hard",
+    "support_keys": [
+      "Castle on the Hill (song)",
+      "\u00f7 (album)"
+    ],
+    "split": "validation",
+    "group": "4383"
+  },
+  {
+    "id": "5a737fff554299623ed4abb9",
+    "type": "bridge",
+    "level": "hard",
+    "support_keys": [
+      "Ramsay, Calgary",
+      "Scotiabank Saddledome"
+    ],
+    "split": "validation",
+    "group": "5083"
+  },
+  {
+    "id": "5ac46c83554299204fd21f45",
+    "type": "bridge",
+    "level": "hard",
+    "support_keys": [
+      "Eastern Market, Detroit",
+      "Michigan"
+    ],
+    "split": "validation",
+    "group": "1966"
+  },
+  {
+    "id": "5a86f13c554299211dda2b5e",
+    "type": "bridge",
+    "level": "hard",
+    "support_keys": [
+      "Nekeshia Henderson",
+      "Texas Longhorns women's basketball"
+    ],
+    "split": "validation",
+    "group": "2499"
+  },
+  {
+    "id": "5adfef32554299603e4183ca",
+    "type": "bridge",
+    "level": "hard",
+    "support_keys": [
+      "Adam Rickitt",
+      "Thomas Ormson"
+    ],
+    "split": "validation",
+    "group": "2092"
+  },
+  {
+    "id": "5ae8161555429952e35eaa04",
+    "type": "bridge",
+    "level": "hard",
+    "support_keys": [
+      "2010 FA Community Shield",
+      "Javier Hern\u00e1ndez"
+    ],
+    "split": "validation",
+    "group": "4352"
+  },
+  {
+    "id": "5ab6e6c7554299710c8d1fa4",
+    "type": "bridge",
+    "level": "hard",
+    "support_keys": [
+      "Don Criqui",
+      "Tony Roberts (sportscaster)"
+    ],
+    "split": "validation",
+    "group": "5240"
+  },
+  {
+    "id": "5ac24cc45542996366519963",
+    "type": "comparison",
+    "level": "hard",
+    "support_keys": [
+      "Andrew and Jeremy Get Married",
+      "The Last Lions"
+    ],
+    "split": "validation",
+    "group": "1627"
+  },
+  {
+    "id": "5a760faa5542994ccc9186a8",
+    "type": "bridge",
+    "level": "hard",
+    "support_keys": [
+      "Ravedeath, 1972",
+      "Tim Hecker"
+    ],
+    "split": "validation",
+    "group": "278"
+  },
+  {
+    "id": "5ab8ae585542991b5579efd8",
+    "type": "bridge",
+    "level": "hard",
+    "support_keys": [
+      "Best Foot Forward (musical)",
+      "Gene Kelly"
+    ],
+    "split": "validation",
+    "group": "3753"
+  },
+  {
+    "id": "5a710a1e5542994082a3e4fd",
+    "type": "bridge",
+    "level": "hard",
+    "support_keys": [
+      "Flavivirus",
+      "Yellow fever"
+    ],
+    "split": "validation",
+    "group": "5017"
+  },
+  {
+    "id": "5abcfd7e5542993a06baf9df",
+    "type": "bridge",
+    "level": "hard",
+    "support_keys": [
+      "Aria Resort and Casino",
+      "Igor Naming Agency"
+    ],
+    "split": "validation",
+    "group": "3742"
+  },
+  {
+    "id": "5ae7a9765542994a481bbdbc",
+    "type": "bridge",
+    "level": "hard",
+    "support_keys": [
+      "Government of Ireland Act 1920",
+      "Islam in Northern Ireland"
+    ],
+    "split": "validation",
+    "group": "2442"
+  },
+  {
+    "id": "5a80fd17554299260e20a1f1",
+    "type": "comparison",
+    "level": "hard",
+    "support_keys": [
+      "Divine Trash",
+      "Zoo (2007 film)"
+    ],
+    "split": "validation",
+    "group": "3854"
+  },
+  {
+    "id": "5a8ec55f5542995a26add50c",
+    "type": "bridge",
+    "level": "hard",
+    "support_keys": [
+      "Black Mountain (Kentucky)",
+      "Virginia State Route 160"
+    ],
+    "split": "validation",
+    "group": "1958"
+  },
+  {
+    "id": "5abe9b095542991f661061ad",
+    "type": "bridge",
+    "level": "hard",
+    "support_keys": [
+      "Algiers",
+      "Numidia (TV channel)"
+    ],
+    "split": "validation",
+    "group": "4459"
+  },
+  {
+    "id": "5a78e86f55429974737f78fb",
+    "type": "bridge",
+    "level": "hard",
+    "support_keys": [
+      "Emperor Jimmu",
+      "Japanese imperial year"
+    ],
+    "split": "validation",
+    "group": "4428"
+  },
+  {
+    "id": "5ae2070a5542994d89d5b313",
+    "type": "comparison",
+    "level": "hard",
+    "support_keys": [
+      "Badly Drawn Boy",
+      "Wolf Alice"
+    ],
+    "split": "validation",
+    "group": "21"
+  },
+  {
+    "id": "5abee4ff5542993fe9a41d7d",
+    "type": "bridge",
+    "level": "hard",
+    "support_keys": [
+      "Jim Atchison",
+      "SeaWorld Parks &amp; Entertainment"
+    ],
+    "split": "validation",
+    "group": "2823"
+  },
+  {
+    "id": "5a8135eb55429938b61422fa",
+    "type": "bridge",
+    "level": "hard",
+    "support_keys": [
+      "Palms Casino Resort",
+      "Playboy Club (Las Vegas)"
+    ],
+    "split": "validation",
+    "group": "4257"
+  },
+  {
+    "id": "5ac5275755429924173fb617",
+    "type": "bridge",
+    "level": "hard",
+    "support_keys": [
+      "Argentine Americans",
+      "Marc Schiller"
+    ],
+    "split": "validation",
+    "group": "935"
+  },
+  {
+    "id": "5a77a4fd5542997042120abc",
+    "type": "bridge",
+    "level": "hard",
+    "support_keys": [
+      "Kadji Sports Academy",
+      "Samuel Eto'o"
+    ],
+    "split": "validation",
+    "group": "5339"
+  },
+  {
+    "id": "5a86296a55429960ec39b631",
+    "type": "bridge",
+    "level": "hard",
+    "support_keys": [
+      "Hoffa",
+      "Jack Nicholson"
+    ],
+    "split": "validation",
+    "group": "2318"
+  },
+  {
+    "id": "5a8638945542994775f6072d",
+    "type": "comparison",
+    "level": "hard",
+    "support_keys": [
+      "Rhodotypos",
+      "Sutera"
+    ],
+    "split": "validation",
+    "group": "964"
+  },
+  {
+    "id": "5ae07c6255429924de1b70d6",
+    "type": "bridge",
+    "level": "hard",
+    "support_keys": [
+      "Green Lantern (Six Flags Great Adventure)",
+      "The Riddler's Revenge"
+    ],
+    "split": "validation",
+    "group": "2128"
+  },
+  {
+    "id": "5ae0f3b955429920d523424e",
+    "type": "comparison",
+    "level": "hard",
+    "support_keys": [
+      "Jewish Currents",
+      "The Writer"
+    ],
+    "split": "validation",
+    "group": "2979"
+  },
+  {
+    "id": "5a7d7d895542995f4f402281",
+    "type": "bridge",
+    "level": "hard",
+    "support_keys": [
+      "Adam Vinatieri",
+      "Phil Dawson"
+    ],
+    "split": "validation",
+    "group": "1043"
+  },
+  {
+    "id": "5a84afdc5542991dd0999d81",
+    "type": "bridge",
+    "level": "hard",
+    "support_keys": [
+      "2011 PGA Championship",
+      "Johns Creek, Georgia"
+    ],
+    "split": "validation",
+    "group": "861"
+  },
+  {
+    "id": "5a7525405542993748c897ce",
+    "type": "bridge",
+    "level": "hard",
+    "support_keys": [
+      "Grace Nail Johnson",
+      "James Weldon Johnson"
+    ],
+    "split": "validation",
+    "group": "4616"
+  },
+  {
+    "id": "5abba8545542993f40c73b72",
+    "type": "bridge",
+    "level": "hard",
+    "support_keys": [
+      "Barnstable County Hospital",
+      "John F. Kennedy Jr."
+    ],
+    "split": "validation",
+    "group": "3988"
+  },
+  {
+    "id": "5a7322165542994cef4bc470",
+    "type": "bridge",
+    "level": "hard",
+    "support_keys": [
+      "Aly Raisman",
+      "Final Five (gymnastics)"
+    ],
+    "split": "validation",
+    "group": "5381"
+  },
+  {
+    "id": "5a85d4ad5542997175ce2050",
+    "type": "comparison",
+    "level": "hard",
+    "support_keys": [
+      "Ava DuVernay",
+      "Jim Sharman"
+    ],
+    "split": "validation",
+    "group": "237"
+  },
+  {
+    "id": "5ac42c6d5542997ea680ca1a",
+    "type": "bridge",
+    "level": "hard",
+    "support_keys": [
+      "Fidenza",
+      "Fontevivo Abbey"
+    ],
+    "split": "validation",
+    "group": "5081"
+  },
+  {
+    "id": "5a8d42c95542994ba4e3dc43",
+    "type": "bridge",
+    "level": "hard",
+    "support_keys": [
+      "Huma Abedin",
+      "Institute of Muslim Minority Affairs"
+    ],
+    "split": "validation",
+    "group": "4201"
+  },
+  {
+    "id": "5a7747e15542994aec3b7266",
+    "type": "bridge",
+    "level": "hard",
+    "support_keys": [
+      "John Rich",
+      "Lonestar"
+    ],
+    "split": "validation",
+    "group": "1863"
+  },
+  {
+    "id": "5a8c8828554299653c1aa0ae",
+    "type": "bridge",
+    "level": "hard",
+    "support_keys": [
+      "Edward Fitzalan-Howard, 18th Duke of Norfolk",
+      "Miles Fitzalan-Howard, 17th Duke of Norfolk"
+    ],
+    "split": "validation",
+    "group": "5028"
+  },
+  {
+    "id": "5ae250b45542996483e64977",
+    "type": "bridge",
+    "level": "hard",
+    "support_keys": [
+      "Callista Gingrich",
+      "Nine Days that Changed the World"
+    ],
+    "split": "validation",
+    "group": "652"
+  },
+  {
+    "id": "5ab29346554299545a2cf997",
+    "type": "bridge",
+    "level": "hard",
+    "support_keys": [
+      "Ada, Oklahoma",
+      "KXII"
+    ],
+    "split": "validation",
+    "group": "1953"
+  },
+  {
+    "id": "5ae064605542993d6555eb44",
+    "type": "bridge",
+    "level": "hard",
+    "support_keys": [
+      "Anita Dobson",
+      "The Music Hall Guild of Great Britain and America"
+    ],
+    "split": "validation",
+    "group": "2495"
+  },
+  {
+    "id": "5a7c35025542996dd594b8d7",
+    "type": "bridge",
+    "level": "hard",
+    "support_keys": [
+      "How to Irritate People",
+      "John Cleese"
+    ],
+    "split": "validation",
+    "group": "1623"
+  },
+  {
+    "id": "5a7a562355429941d65f25ba",
+    "type": "bridge",
+    "level": "hard",
+    "support_keys": [
+      "Bill Madlock",
+      "Wade Boggs"
+    ],
+    "split": "validation",
+    "group": "5182"
+  },
+  {
+    "id": "5ab7b0775542992aa3b8c83e",
+    "type": "bridge",
+    "level": "hard",
+    "support_keys": [
+      "Harland and Wolff",
+      "SS Ionic (1902)"
+    ],
+    "split": "validation",
+    "group": "1846"
+  },
+  {
+    "id": "5add7b0c5542992200553b39",
+    "type": "bridge",
+    "level": "hard",
+    "support_keys": [
+      "2013 Oregon Ducks football team",
+      "Mark Helfrich (American football)"
+    ],
+    "split": "validation",
+    "group": "3932"
+  },
+  {
+    "id": "5a77452155429972597f14e1",
+    "type": "comparison",
+    "level": "hard",
+    "support_keys": [
+      "Marion's Piazza",
+      "Round Table Pizza"
+    ],
+    "split": "validation",
+    "group": "3714"
+  },
+  {
+    "id": "5ab53436554299637185c504",
+    "type": "bridge",
+    "level": "hard",
+    "support_keys": [
+      "So F**king Rock Live",
+      "Tim Minchin"
+    ],
+    "split": "validation",
+    "group": "4279"
+  },
+  {
+    "id": "5abffdec554299012d1db55d",
+    "type": "bridge",
+    "level": "hard",
+    "support_keys": [
+      "Helen Mirren",
+      "Lindka Cierach"
+    ],
+    "split": "validation",
+    "group": "4772"
+  },
+  {
+    "id": "5a82bdd655429940e5e1a92a",
+    "type": "bridge",
+    "level": "hard",
+    "support_keys": [
+      "Phred on Your Head Show",
+      "The URL with Phred Show"
+    ],
+    "split": "validation",
+    "group": "1550"
+  },
+  {
+    "id": "5adc396155429944faac2479",
+    "type": "comparison",
+    "level": "hard",
+    "support_keys": [
+      "Anne Lamott",
+      "Stanley Elkin"
+    ],
+    "split": "validation",
+    "group": "1589"
+  },
+  {
+    "id": "5a74e8a25542996c70cfae37",
+    "type": "bridge",
+    "level": "hard",
+    "support_keys": [
+      "Bob Mould",
+      "Voice of Reason (Rifle Sport album)"
+    ],
+    "split": "validation",
+    "group": "3258"
+  },
+  {
+    "id": "5ac3b4cc554299741d48a2eb",
+    "type": "bridge",
+    "level": "hard",
+    "support_keys": [
+      "TD Bank, N.A.",
+      "Whitford Lodge"
+    ],
+    "split": "validation",
+    "group": "1665"
+  },
+  {
+    "id": "5a7e1cad55429965cec5ea75",
+    "type": "comparison",
+    "level": "hard",
+    "support_keys": [
+      "Born in China",
+      "Pocahontas (1995 film)"
+    ],
+    "split": "validation",
+    "group": "1063"
+  },
+  {
+    "id": "5ae5415055429908b63265b7",
+    "type": "bridge",
+    "level": "hard",
+    "support_keys": [
+      "Japanese Weekend School of New York",
+      "New Roc City"
+    ],
+    "split": "validation",
+    "group": "5379"
+  },
+  {
+    "id": "5a8b544855429950cd6afcae",
+    "type": "comparison",
+    "level": "hard",
+    "support_keys": [
+      "The Country Bears",
+      "The Wild"
+    ],
+    "split": "validation",
+    "group": "931"
+  },
+  {
+    "id": "5a82c51055429966c78a6a8d",
+    "type": "bridge",
+    "level": "hard",
+    "support_keys": [
+      "Beat It",
+      "Thriller (Michael Jackson album)"
+    ],
+    "split": "validation",
+    "group": "4472"
+  },
+  {
+    "id": "5ae69cfe55429908198fa65f",
+    "type": "bridge",
+    "level": "hard",
+    "support_keys": [
+      "Alinta Energy",
+      "Reeves Plains Power Station"
+    ],
+    "split": "validation",
+    "group": "1630"
+  },
+  {
+    "id": "5a8dae82554299068b959d99",
+    "type": "bridge",
+    "level": "hard",
+    "support_keys": [
+      "Ben Cook (actor)",
+      "Jeremiah Porter"
+    ],
+    "split": "validation",
+    "group": "3158"
+  },
+  {
+    "id": "5add47bf5542992200553a7f",
+    "type": "comparison",
+    "level": "hard",
+    "support_keys": [
+      "Adrienne Bailon",
+      "Robin Wilson (musician)"
+    ],
+    "split": "validation",
+    "group": "2811"
+  },
+  {
+    "id": "5a7d1e685542995ed0d165f7",
+    "type": "bridge",
+    "level": "hard",
+    "support_keys": [
+      "Athletics at the 2002 Asian Games",
+      "Lee Young-sun"
+    ],
+    "split": "validation",
+    "group": "4673"
+  },
+  {
+    "id": "5ae236da5542994d89d5b397",
+    "type": "bridge",
+    "level": "hard",
+    "support_keys": [
+      "Dana Brunetti",
+      "Kevin Spacey"
+    ],
+    "split": "validation",
+    "group": "468"
+  },
+  {
+    "id": "5a82a91155429940e5e1a911",
+    "type": "comparison",
+    "level": "hard",
+    "support_keys": [
+      "Prophet's Prey",
+      "The Last Lions"
+    ],
+    "split": "validation",
+    "group": "1627"
+  },
+  {
+    "id": "5adf51e05542995534e8c78a",
+    "type": "bridge",
+    "level": "hard",
+    "support_keys": [
+      "Diego Tonetto",
+      "Italian nationality law"
+    ],
+    "split": "validation",
+    "group": "4668"
+  },
+  {
+    "id": "5adff4a555429925eb1afb91",
+    "type": "comparison",
+    "level": "hard",
+    "support_keys": [
+      "Texarkana Regional Airport",
+      "Wilmington International Airport"
+    ],
+    "split": "validation",
+    "group": "2427"
+  },
+  {
+    "id": "5a888d535542997e5c09a617",
+    "type": "bridge",
+    "level": "hard",
+    "support_keys": [
+      "Fitzwilliam, New Hampshire",
+      "Third Fitzwilliam Meetinghouse"
+    ],
+    "split": "validation",
+    "group": "1456"
+  },
+  {
+    "id": "5ae5dae2554299546bf82fa4",
+    "type": "bridge",
+    "level": "hard",
+    "support_keys": [
+      "Faruk Halilbegovi\u0107",
+      "Sarajevo"
+    ],
+    "split": "validation",
+    "group": "4209"
+  },
+  {
+    "id": "5a8ee6145542990e94052bab",
+    "type": "bridge",
+    "level": "hard",
+    "support_keys": [
+      "3000 class railcar",
+      "TransAdelaide"
+    ],
+    "split": "validation",
+    "group": "858"
+  },
+  {
+    "id": "5a7d32af55429907fabef0ca",
+    "type": "bridge",
+    "level": "hard",
+    "support_keys": [
+      "Parental Advisory",
+      "Straight to Hell (album)"
+    ],
+    "split": "validation",
+    "group": "4551"
+  },
+  {
+    "id": "5abb66c05542992ccd8e7f3e",
+    "type": "bridge",
+    "level": "hard",
+    "support_keys": [
+      "2017 Pakistan Super League spot-fixing scandal",
+      "Khalid Latif (cricketer)"
+    ],
+    "split": "validation",
+    "group": "3960"
+  },
+  {
+    "id": "5a7cc28f554299452d57ba1c",
+    "type": "bridge",
+    "level": "hard",
+    "support_keys": [
+      "1996 AT&amp;T Challenge",
+      "Johns Creek, Georgia"
+    ],
+    "split": "validation",
+    "group": "861"
+  },
+  {
+    "id": "5a82efe355429966c78a6aa1",
+    "type": "bridge",
+    "level": "hard",
+    "support_keys": [
+      "Eagle Ridge Mall",
+      "Winter Haven, Florida"
+    ],
+    "split": "validation",
+    "group": "863"
+  },
+  {
+    "id": "5a7fcd9c5542992e7d278da9",
+    "type": "bridge",
+    "level": "hard",
+    "support_keys": [
+      "Columbia Falls, Montana",
+      "KHNK"
+    ],
+    "split": "validation",
+    "group": "3990"
+  },
+  {
+    "id": "5ab8627f5542990e739ec8da",
+    "type": "bridge",
+    "level": "hard",
+    "support_keys": [
+      "Harrison Newey",
+      "Mick Schumacher"
+    ],
+    "split": "validation",
+    "group": "3951"
+  },
+  {
+    "id": "5a7131565542994082a3e64f",
+    "type": "bridge",
+    "level": "hard",
+    "support_keys": [
+      "Jon Hamm",
+      "Live Show"
+    ],
+    "split": "validation",
+    "group": "4658"
+  },
+  {
+    "id": "5ac3caa15542995ef918c23a",
+    "type": "bridge",
+    "level": "hard",
+    "support_keys": [
+      "Hugh Hefner",
+      "Sandy Bentley"
+    ],
+    "split": "validation",
+    "group": "4800"
+  },
+  {
+    "id": "5a7f46115542994857a766d9",
+    "type": "bridge",
+    "level": "hard",
+    "support_keys": [
+      "Mouton Cadet",
+      "Philippe de Rothschild"
+    ],
+    "split": "validation",
+    "group": "3837"
+  },
+  {
+    "id": "5ade9545554299728e26c741",
+    "type": "bridge",
+    "level": "hard",
+    "support_keys": [
+      "Favre-Leuba",
+      "Swiss made"
+    ],
+    "split": "validation",
+    "group": "1121"
+  },
+  {
+    "id": "5a80838d5542992bc0c4a745",
+    "type": "comparison",
+    "level": "hard",
+    "support_keys": [
+      "Shogun (1986 board game)",
+      "The Magic Labyrinth (board game)"
+    ],
+    "split": "validation",
+    "group": "2486"
+  },
+  {
+    "id": "5a89e98955429946c8d6ea0c",
+    "type": "bridge",
+    "level": "hard",
+    "support_keys": [
+      "Louis Smith (musician)",
+      "Miles Davis"
+    ],
+    "split": "validation",
+    "group": "5254"
+  },
+  {
+    "id": "5ab6d9b25542995eadef00c8",
+    "type": "comparison",
+    "level": "hard",
+    "support_keys": [
+      "Don Quichotte",
+      "Tosca"
+    ],
+    "split": "validation",
+    "group": "3182"
+  },
+  {
+    "id": "5a7119095542994082a3e589",
+    "type": "bridge",
+    "level": "hard",
+    "support_keys": [
+      "Ben Stokes",
+      "Jamie Atkinson"
+    ],
+    "split": "validation",
+    "group": "1985"
+  },
+  {
+    "id": "5adfdd1c55429906c02daa74",
+    "type": "comparison",
+    "level": "hard",
+    "support_keys": [
+      "Marianas Trench (band)",
+      "Tse Tse Fly (band)"
+    ],
+    "split": "validation",
+    "group": "1512"
+  },
+  {
+    "id": "5a855ca15542992a431d1b12",
+    "type": "bridge",
+    "level": "hard",
+    "support_keys": [
+      "Liu Yifei",
+      "Night Peacock"
+    ],
+    "split": "validation",
+    "group": "2136"
+  },
+  {
+    "id": "5ae4c8f35542990ba0bbb130",
+    "type": "bridge",
+    "level": "hard",
+    "support_keys": [
+      "Chicago (musical)",
+      "Ralf Popken"
+    ],
+    "split": "validation",
+    "group": "3494"
+  },
+  {
+    "id": "5a8078d85542995d8a8ddf78",
+    "type": "comparison",
+    "level": "hard",
+    "support_keys": [
+      "Kill Hannah",
+      "Louis XIV (band)"
+    ],
+    "split": "validation",
+    "group": "1858"
+  },
+  {
+    "id": "5a8cddd1554299441c6b9f3a",
+    "type": "bridge",
+    "level": "hard",
+    "support_keys": [
+      "A Bathing Ape",
+      "X-Large"
+    ],
+    "split": "validation",
+    "group": "2258"
+  },
+  {
+    "id": "5a8b6efd5542997f31a41d2b",
+    "type": "bridge",
+    "level": "hard",
+    "support_keys": [
+      "Ramna Stacks",
+      "Skerry"
+    ],
+    "split": "validation",
+    "group": "4253"
+  },
+  {
+    "id": "5ac3b62b554299741d48a2f6",
+    "type": "bridge",
+    "level": "hard",
+    "support_keys": [
+      "Augustus Jesse Bowie Jr.",
+      "Rural Electrification Act"
+    ],
+    "split": "validation",
+    "group": "3224"
+  },
+  {
+    "id": "5a819e2755429903bc27b988",
+    "type": "bridge",
+    "level": "hard",
+    "support_keys": [
+      "Henry Cabot Lodge Jr.",
+      "Nguy\u1ec5n V\u0103n Tr\u1ed7i"
+    ],
+    "split": "validation",
+    "group": "2982"
+  },
+  {
+    "id": "5ae36ee05542992f92d822c4",
+    "type": "bridge",
+    "level": "hard",
+    "support_keys": [
+      "Krishanti Vignarajah",
+      "Maryland gubernatorial election, 2018"
+    ],
+    "split": "validation",
+    "group": "4222"
+  },
+  {
+    "id": "5adc3a7055429947ff173913",
+    "type": "bridge",
+    "level": "hard",
+    "support_keys": [
+      "Aim\u00e9 C\u00e9saire",
+      "Une Temp\u00eate"
+    ],
+    "split": "validation",
+    "group": "2433"
+  },
+  {
+    "id": "5abe84a95542991f6610619b",
+    "type": "bridge",
+    "level": "hard",
+    "support_keys": [
+      "Andy Rooney",
+      "The Great American Dream Machine"
+    ],
+    "split": "validation",
+    "group": "5119"
+  },
+  {
+    "id": "5a79caad5542994f819ef09f",
+    "type": "bridge",
+    "level": "hard",
+    "support_keys": [
+      "2007 Los Angeles Dodgers season",
+      "Matt Kemp"
+    ],
+    "split": "validation",
+    "group": "3000"
+  },
+  {
+    "id": "5a87c13f5542996e4f30890c",
+    "type": "bridge",
+    "level": "hard",
+    "support_keys": [
+      "Franco Corelli",
+      "Tosca (1956 film)"
+    ],
+    "split": "validation",
+    "group": "41"
+  },
+  {
+    "id": "5a85f4425542994775f606c4",
+    "type": "comparison",
+    "level": "hard",
+    "support_keys": [
+      "Human (2015 film)",
+      "The Trials of Life"
+    ],
+    "split": "validation",
+    "group": "1704"
+  },
+  {
+    "id": "5ae7e1fc55429952e35ea9cc",
+    "type": "bridge",
+    "level": "hard",
+    "support_keys": [
+      "Koningsdag",
+      "Oranjegekte"
+    ],
+    "split": "validation",
+    "group": "54"
+  },
+  {
+    "id": "5a865cac55429960ec39b675",
+    "type": "comparison",
+    "level": "hard",
+    "support_keys": [
+      "Euryanthe",
+      "Tha\u00efs (opera)"
+    ],
+    "split": "validation",
+    "group": "1758"
+  },
+  {
+    "id": "5a8c03415542995e66a4752a",
+    "type": "bridge",
+    "level": "hard",
+    "support_keys": [
+      "Grand Duke Konstantin Konstantinovich of Russia",
+      "Prince John Konstantinovich of Russia"
+    ],
+    "split": "validation",
+    "group": "2963"
+  },
+  {
+    "id": "5abc87a8554299114383a13e",
+    "type": "bridge",
+    "level": "hard",
+    "support_keys": [
+      "Collaborations 3",
+      "Richa Sharma (singer)"
+    ],
+    "split": "validation",
+    "group": "2700"
+  },
+  {
+    "id": "5ab93841554299131ca422cb",
+    "type": "bridge",
+    "level": "hard",
+    "support_keys": [
+      "Mitchells &amp; Butlers",
+      "Phil Urban"
+    ],
+    "split": "validation",
+    "group": "1583"
+  },
+  {
+    "id": "5add24375542992c1e3a2542",
+    "type": "comparison",
+    "level": "hard",
+    "support_keys": [
+      "Odyssey",
+      "Werther"
+    ],
+    "split": "validation",
+    "group": "5293"
+  },
+  {
+    "id": "5ab846e155429919ba4e229c",
+    "type": "comparison",
+    "level": "hard",
+    "support_keys": [
+      "Jamie Murray",
+      "Tony Roche"
+    ],
+    "split": "validation",
+    "group": "1260"
+  },
+  {
+    "id": "5add00775542992c1e3a2503",
+    "type": "bridge",
+    "level": "hard",
+    "support_keys": [
+      "Hiram Maxim",
+      "Maxim Nordenfelt Guns and Ammunition Company"
+    ],
+    "split": "validation",
+    "group": "4250"
+  },
+  {
+    "id": "5a827ce155429940e5e1a8d7",
+    "type": "comparison",
+    "level": "hard",
+    "support_keys": [
+      "Billie Jean King",
+      "Kevin Ullyett"
+    ],
+    "split": "validation",
+    "group": "1548"
+  },
+  {
+    "id": "5abbe40555429931dba145cd",
+    "type": "comparison",
+    "level": "hard",
+    "support_keys": [
+      "Morningwood",
+      "Shihad"
+    ],
+    "split": "validation",
+    "group": "2891"
+  },
+  {
+    "id": "5ae0b0af55429945ae959424",
+    "type": "bridge",
+    "level": "hard",
+    "support_keys": [
+      "Ash vs Evil Dead",
+      "Jill Marie Jones"
+    ],
+    "split": "validation",
+    "group": "3417"
+  },
+  {
+    "id": "5a840e395542992ef85e239d",
+    "type": "comparison",
+    "level": "hard",
+    "support_keys": [
+      "Frozen (2013 film)",
+      "The Straight Story"
+    ],
+    "split": "validation",
+    "group": "1014"
+  },
+  {
+    "id": "5a8398405542993344746050",
+    "type": "bridge",
+    "level": "hard",
+    "support_keys": [
+      "Limerick, Maine",
+      "Ronald F. Collins"
+    ],
+    "split": "validation",
+    "group": "1098"
+  },
+  {
+    "id": "5ab852c05542990e739ec8c5",
+    "type": "comparison",
+    "level": "hard",
+    "support_keys": [
+      "Ngadi Chuli",
+      "Shispare"
+    ],
+    "split": "validation",
+    "group": "5284"
+  },
+  {
+    "id": "5a79395455429970f5fffe7d",
+    "type": "bridge",
+    "level": "hard",
+    "support_keys": [
+      "Barbara Feldon",
+      "Get Smart, Again!"
+    ],
+    "split": "validation",
+    "group": "1900"
+  },
+  {
+    "id": "5a7fa48c5542994857a7679a",
+    "type": "bridge",
+    "level": "hard",
+    "support_keys": [
+      "Hauppauge Union Free School District",
+      "Jericho Union Free School District"
+    ],
+    "split": "validation",
+    "group": "2748"
+  },
+  {
+    "id": "5adcfdc555429947343537f4",
+    "type": "bridge",
+    "level": "hard",
+    "support_keys": [
+      "FBI Ten Most Wanted Fugitives by year, 1960",
+      "J. Edgar Hoover"
+    ],
+    "split": "validation",
+    "group": "2710"
+  },
+  {
+    "id": "5adf123f5542995ec70e8f63",
+    "type": "bridge",
+    "level": "hard",
+    "support_keys": [
+      "Loiter Squad",
+      "Odd Future"
+    ],
+    "split": "validation",
+    "group": "2773"
+  },
+  {
+    "id": "5a85597c5542997175ce1fba",
+    "type": "bridge",
+    "level": "hard",
+    "support_keys": [
+      "Hostage for a Day",
+      "John Candy"
+    ],
+    "split": "validation",
+    "group": "394"
+  },
+  {
+    "id": "5ae72a975542991e8301cb75",
+    "type": "bridge",
+    "level": "hard",
+    "support_keys": [
+      "Reid Harrison",
+      "Tak and the Power of Juju"
+    ],
+    "split": "validation",
+    "group": "5510"
+  },
+  {
+    "id": "5abaf0e055429966062416a3",
+    "type": "bridge",
+    "level": "hard",
+    "support_keys": [
+      "Bridal Chorus",
+      "Felix Mendelssohn"
+    ],
+    "split": "validation",
+    "group": "4943"
+  },
+  {
+    "id": "5a8cc8c2554299441c6b9efc",
+    "type": "bridge",
+    "level": "hard",
+    "support_keys": [
+      "John Galsworthy",
+      "One More River"
+    ],
+    "split": "test",
+    "group": "1162"
+  },
+  {
+    "id": "5ae180d855429901ffe4aecc",
+    "type": "bridge",
+    "level": "hard",
+    "support_keys": [
+      "Gavin O'Connor (director)",
+      "The Bet (1992 film)"
+    ],
+    "split": "test",
+    "group": "1978"
+  },
+  {
+    "id": "5a881cbb55429938390d3ee7",
+    "type": "bridge",
+    "level": "hard",
+    "support_keys": [
+      "Greek Revival architecture",
+      "St. John of the Cross Episcopal Church"
+    ],
+    "split": "test",
+    "group": "2857"
+  },
+  {
+    "id": "5ab3f7b05542992ade7c6efd",
+    "type": "bridge",
+    "level": "hard",
+    "support_keys": [
+      "Here I Am Again",
+      "Loretta Lynn"
+    ],
+    "split": "test",
+    "group": "1914"
+  },
+  {
+    "id": "5ab9df1f554299232ef4a239",
+    "type": "bridge",
+    "level": "hard",
+    "support_keys": [
+      "Jasmin Geljo",
+      "Land of the Dead"
+    ],
+    "split": "test",
+    "group": "2600"
+  },
+  {
+    "id": "5abb23035542992ccd8e7f22",
+    "type": "bridge",
+    "level": "hard",
+    "support_keys": [
+      "Kenneth Arnold",
+      "World UFO Day"
+    ],
+    "split": "test",
+    "group": "1417"
+  },
+  {
+    "id": "5ac03b395542992a796decce",
+    "type": "bridge",
+    "level": "hard",
+    "support_keys": [
+      "Last Year at Marienbad",
+      "Muriel (film)"
+    ],
+    "split": "test",
+    "group": "5528"
+  },
+  {
+    "id": "5abcfcf0554299114383a1b4",
+    "type": "bridge",
+    "level": "hard",
+    "support_keys": [
+      "Isle of Axholme",
+      "The Trolleybus Museum at Sandtoft"
+    ],
+    "split": "test",
+    "group": "1463"
+  },
+  {
+    "id": "5abae1725542996cc5e49ece",
+    "type": "bridge",
+    "level": "hard",
+    "support_keys": [
+      "Afro-American religion",
+      "Kongo language"
+    ],
+    "split": "test",
+    "group": "4908"
+  },
+  {
+    "id": "5ac2943a55429921a00aafce",
+    "type": "bridge",
+    "level": "hard",
+    "support_keys": [
+      "Musa (film)",
+      "Yu Rongguang"
+    ],
+    "split": "test",
+    "group": "5230"
+  },
+  {
+    "id": "5ab3bacc55429969a97a8197",
+    "type": "bridge",
+    "level": "hard",
+    "support_keys": [
+      "Definitely Maybe Tour",
+      "Don't Look Back in Anger"
+    ],
+    "split": "test",
+    "group": "4539"
+  },
+  {
+    "id": "5a734ca85542994cef4bc51b",
+    "type": "comparison",
+    "level": "hard",
+    "support_keys": [
+      "Alhambra (board game)",
+      "Tsuro"
+    ],
+    "split": "test",
+    "group": "3597"
+  },
+  {
+    "id": "5ac24cea55429951e9e6853a",
+    "type": "bridge",
+    "level": "hard",
+    "support_keys": [
+      "Kate Millett",
+      "Midge Mackenzie"
+    ],
+    "split": "test",
+    "group": "109"
+  },
+  {
+    "id": "5ac3d2a6554299204fd21e8c",
+    "type": "bridge",
+    "level": "hard",
+    "support_keys": [
+      "Jessi Klein",
+      "Lucy, the Daughter of the Devil"
+    ],
+    "split": "test",
+    "group": "2194"
+  },
+  {
+    "id": "5ae377415542992e3233c40a",
+    "type": "comparison",
+    "level": "hard",
+    "support_keys": [
+      "Bhabananda Deka",
+      "Zane Grey"
+    ],
+    "split": "test",
+    "group": "480"
+  },
+  {
+    "id": "5a7c8e7955429935c91b521a",
+    "type": "bridge",
+    "level": "hard",
+    "support_keys": [
+      "Back Home (novel)",
+      "Hayley Mills"
+    ],
+    "split": "test",
+    "group": "3999"
+  },
+  {
+    "id": "5a7a919455429941d65f26b5",
+    "type": "bridge",
+    "level": "hard",
+    "support_keys": [
+      "Roc Me Out",
+      "S&amp;M (song)"
+    ],
+    "split": "test",
+    "group": "3225"
+  },
+  {
+    "id": "5abd14c455429924427fceec",
+    "type": "bridge",
+    "level": "hard",
+    "support_keys": [
+      "1812 Overture",
+      "Symphony Splash"
+    ],
+    "split": "test",
+    "group": "4451"
+  },
+  {
+    "id": "5ae7376f5542992ae0d163d2",
+    "type": "bridge",
+    "level": "hard",
+    "support_keys": [
+      "A Talk",
+      "Hyuna"
+    ],
+    "split": "test",
+    "group": "1751"
+  },
+  {
+    "id": "5a88d7fc5542993b751ca879",
+    "type": "bridge",
+    "level": "hard",
+    "support_keys": [
+      "David Villa",
+      "Futbolita"
+    ],
+    "split": "test",
+    "group": "1943"
+  },
+  {
+    "id": "5ab3c7df55429969a97a81be",
+    "type": "comparison",
+    "level": "hard",
+    "support_keys": [
+      "Hunchun",
+      "Shijiazhuang"
+    ],
+    "split": "test",
+    "group": "4110"
+  },
+  {
+    "id": "5ab44a775542991779162c57",
+    "type": "bridge",
+    "level": "hard",
+    "support_keys": [
+      "After Aida",
+      "Otello"
+    ],
+    "split": "test",
+    "group": "3365"
+  },
+  {
+    "id": "5a800ddd5542992097ad2fd0",
+    "type": "bridge",
+    "level": "hard",
+    "support_keys": [
+      "Bloomingdale Firehouse",
+      "Worcester Cold Storage and Warehouse Co. fire"
+    ],
+    "split": "test",
+    "group": "4544"
+  },
+  {
+    "id": "5a845b2d5542996488c2e520",
+    "type": "bridge",
+    "level": "hard",
+    "support_keys": [
+      "Back Up n da Chevy",
+      "Boyz n da Hood"
+    ],
+    "split": "test",
+    "group": "5052"
+  },
+  {
+    "id": "5a85eed75542996432c5713b",
+    "type": "bridge",
+    "level": "hard",
+    "support_keys": [
+      "Black Seminoles",
+      "Mascogos"
+    ],
+    "split": "test",
+    "group": "75"
+  },
+  {
+    "id": "5a722fae55429971e9dc9343",
+    "type": "bridge",
+    "level": "hard",
+    "support_keys": [
+      "Adele King",
+      "Chlo\u00eb Agnew"
+    ],
+    "split": "test",
+    "group": "608"
+  },
+  {
+    "id": "5a7c220b5542990527d5545c",
+    "type": "bridge",
+    "level": "hard",
+    "support_keys": [
+      "Go-Op (train operating company)",
+      "The Co-operative Bank"
+    ],
+    "split": "test",
+    "group": "5521"
+  },
+  {
+    "id": "5a714dea5542994082a3e7a9",
+    "type": "comparison",
+    "level": "hard",
+    "support_keys": [
+      "Summer Wars",
+      "The Secret of Kells"
+    ],
+    "split": "test",
+    "group": "946"
+  },
+  {
+    "id": "5a8205b755429926c1cdadee",
+    "type": "bridge",
+    "level": "hard",
+    "support_keys": [
+      "Wright Model B",
+      "Wright brothers"
+    ],
+    "split": "test",
+    "group": "1683"
+  },
+  {
+    "id": "5ae72c7d5542991e8301cb91",
+    "type": "bridge",
+    "level": "hard",
+    "support_keys": [
+      "FileVault",
+      "Sparse image"
+    ],
+    "split": "test",
+    "group": "5487"
+  },
+  {
+    "id": "5a8dce155542994ba4e3dd24",
+    "type": "bridge",
+    "level": "hard",
+    "support_keys": [
+      "Pappy Boyington",
+      "Robert Conrad"
+    ],
+    "split": "test",
+    "group": "1894"
+  },
+  {
+    "id": "5a77cb335542997042120b3a",
+    "type": "bridge",
+    "level": "hard",
+    "support_keys": [
+      "John John Florence",
+      "MEO Rip Curl Pro Portugal"
+    ],
+    "split": "test",
+    "group": "57"
+  },
+  {
+    "id": "5a776b82554299373536026f",
+    "type": "bridge",
+    "level": "hard",
+    "support_keys": [
+      "Asahi-Ryokuken Yomiuri Memorial",
+      "Japanese yen"
+    ],
+    "split": "test",
+    "group": "1605"
+  },
+  {
+    "id": "5a83d42d5542992ef85e2375",
+    "type": "bridge",
+    "level": "hard",
+    "support_keys": [
+      "Genesis (band)",
+      "Genesis 1983\u20131998"
+    ],
+    "split": "test",
+    "group": "2150"
+  },
+  {
+    "id": "5a75f0bf5542994ccc91866b",
+    "type": "comparison",
+    "level": "hard",
+    "support_keys": [
+      "Pelle Almqvist",
+      "Steve Winwood"
+    ],
+    "split": "test",
+    "group": "1591"
+  },
+  {
+    "id": "5abc715f5542993a06baf8ea",
+    "type": "bridge",
+    "level": "hard",
+    "support_keys": [
+      "Anton Ginsburg",
+      "Daniil Shafran"
+    ],
+    "split": "test",
+    "group": "1345"
+  },
+  {
+    "id": "5a7b7ff75542995eb53be93d",
+    "type": "comparison",
+    "level": "hard",
+    "support_keys": [
+      "Arthur Conan Doyle",
+      "Penelope Lively"
+    ],
+    "split": "test",
+    "group": "154"
+  },
+  {
+    "id": "5a739ef955429978a71e904b",
+    "type": "bridge",
+    "level": "hard",
+    "support_keys": [
+      "Bartlesville, Oklahoma",
+      "OK Mozart Festival"
+    ],
+    "split": "test",
+    "group": "3002"
+  },
+  {
+    "id": "5a8b8b3a5542995d1e6f13e5",
+    "type": "bridge",
+    "level": "hard",
+    "support_keys": [
+      "AC/DC",
+      "Tales of Old Grand Daddy"
+    ],
+    "split": "test",
+    "group": "4637"
+  },
+  {
+    "id": "5a8838885542994846c1ce39",
+    "type": "comparison",
+    "level": "hard",
+    "support_keys": [
+      "Morris Canal",
+      "Sandy and Beaver Canal"
+    ],
+    "split": "test",
+    "group": "1267"
+  },
+  {
+    "id": "5ac4f9dc55429924173fb533",
+    "type": "bridge",
+    "level": "hard",
+    "support_keys": [
+      "Jalen Jones",
+      "New Orleans Pelicans"
+    ],
+    "split": "test",
+    "group": "1071"
+  },
+  {
+    "id": "5a8f13d55542997ba9cb31c9",
+    "type": "bridge",
+    "level": "hard",
+    "support_keys": [
+      "Ozzie Newsome",
+      "Phil Savage"
+    ],
+    "split": "test",
+    "group": "2756"
+  },
+  {
+    "id": "5ade09a15542995b365fabdf",
+    "type": "bridge",
+    "level": "hard",
+    "support_keys": [
+      "Leicester Panthers",
+      "Sean Payton"
+    ],
+    "split": "test",
+    "group": "4907"
+  },
+  {
+    "id": "5adc8977554299438c868de2",
+    "type": "bridge",
+    "level": "hard",
+    "support_keys": [
+      "Hl\u00edn",
+      "Norse mythology"
+    ],
+    "split": "test",
+    "group": "355"
+  },
+  {
+    "id": "5ae2196b554299495565da02",
+    "type": "bridge",
+    "level": "hard",
+    "support_keys": [
+      "Joe Robbie",
+      "Mike Robbie"
+    ],
+    "split": "test",
+    "group": "4578"
+  },
+  {
+    "id": "5a8f84505542992414482aef",
+    "type": "comparison",
+    "level": "hard",
+    "support_keys": [
+      "Emily Haines",
+      "Toshi (musician)"
+    ],
+    "split": "test",
+    "group": "5214"
+  },
+  {
+    "id": "5ab5dc44554299494045f089",
+    "type": "bridge",
+    "level": "hard",
+    "support_keys": [
+      "History of the United States Republican Party",
+      "Kansas\u2013Nebraska Act"
+    ],
+    "split": "test",
+    "group": "820"
+  },
+  {
+    "id": "5a81ee385542995ce29dcc88",
+    "type": "bridge",
+    "level": "hard",
+    "support_keys": [
+      "S. F. Newcombe",
+      "T. E. Lawrence"
+    ],
+    "split": "test",
+    "group": "5121"
+  },
+  {
+    "id": "5adf62d05542992d7e9f932d",
+    "type": "bridge",
+    "level": "hard",
+    "support_keys": [
+      "Ezo (band)",
+      "The Bangles"
+    ],
+    "split": "test",
+    "group": "497"
+  },
+  {
+    "id": "5a764c0b55429976ec32bd89",
+    "type": "bridge",
+    "level": "hard",
+    "support_keys": [
+      "Astrodome",
+      "Eighth Wonder of the World"
+    ],
+    "split": "test",
+    "group": "290"
+  },
+  {
+    "id": "5adcc975554299473435379f",
+    "type": "bridge",
+    "level": "hard",
+    "support_keys": [
+      "Don Swayze",
+      "Patsy Swayze"
+    ],
+    "split": "test",
+    "group": "5062"
+  },
+  {
+    "id": "5a7f354b5542992e7d278c8c",
+    "type": "bridge",
+    "level": "hard",
+    "support_keys": [
+      "Forget to Remember",
+      "Saw II"
+    ],
+    "split": "test",
+    "group": "4947"
+  },
+  {
+    "id": "5a8b71915542995d1e6f1393",
+    "type": "bridge",
+    "level": "hard",
+    "support_keys": [
+      "Echo (mythology)",
+      "Iynx"
+    ],
+    "split": "test",
+    "group": "3866"
+  },
+  {
+    "id": "5a7fb7985542994857a767d2",
+    "type": "bridge",
+    "level": "hard",
+    "support_keys": [
+      "1998\u201399 Valencia CF season",
+      "Claudio L\u00f3pez (footballer)"
+    ],
+    "split": "test",
+    "group": "5515"
+  },
+  {
+    "id": "5abbee315542993f40c73c1d",
+    "type": "comparison",
+    "level": "hard",
+    "support_keys": [
+      "Bicycling (magazine)",
+      "National Review"
+    ],
+    "split": "test",
+    "group": "3527"
+  },
+  {
+    "id": "5abffc0d5542990832d3a1e2",
+    "type": "bridge",
+    "level": "hard",
+    "support_keys": [
+      "Harry S. Truman",
+      "Lamar, Missouri"
+    ],
+    "split": "test",
+    "group": "2118"
+  },
+  {
+    "id": "5abb7d8b5542996cc5e4a006",
+    "type": "bridge",
+    "level": "hard",
+    "support_keys": [
+      "Dan Balan",
+      "Live Your Life (T.I. song)"
+    ],
+    "split": "test",
+    "group": "583"
+  },
+  {
+    "id": "5a8303c255429954d2e2ec01",
+    "type": "bridge",
+    "level": "hard",
+    "support_keys": [
+      "Chrysler F platform",
+      "Plymouth Fury"
+    ],
+    "split": "test",
+    "group": "2351"
+  },
+  {
+    "id": "5ab92e3c554299753720f777",
+    "type": "comparison",
+    "level": "hard",
+    "support_keys": [
+      "High Times",
+      "National Geographic (magazine)"
+    ],
+    "split": "test",
+    "group": "5004"
+  },
+  {
+    "id": "5a7a455c5542994f819ef1a7",
+    "type": "comparison",
+    "level": "hard",
+    "support_keys": [
+      "George Archainbaud",
+      "Ralph Murphy"
+    ],
+    "split": "test",
+    "group": "85"
+  },
+  {
+    "id": "5a859a9c5542997175ce1fd6",
+    "type": "bridge",
+    "level": "hard",
+    "support_keys": [
+      "Francis Preserved Leavenworth",
+      "NGC 166"
+    ],
+    "split": "test",
+    "group": "4502"
+  },
+  {
+    "id": "5ae785685542994a481bbd47",
+    "type": "bridge",
+    "level": "hard",
+    "support_keys": [
+      "1981 World Rowing Championships",
+      "Reima Karppinen"
+    ],
+    "split": "test",
+    "group": "2480"
+  },
+  {
+    "id": "5ab953a45542996be202047f",
+    "type": "bridge",
+    "level": "hard",
+    "support_keys": [
+      "Percheron",
+      "Rotrou III, Count of Perche"
+    ],
+    "split": "test",
+    "group": "4859"
+  },
+  {
+    "id": "5a78daf855429970f5fffdae",
+    "type": "comparison",
+    "level": "hard",
+    "support_keys": [
+      "Icehouse pieces",
+      "Kill Doctor Lucky"
+    ],
+    "split": "test",
+    "group": "309"
+  },
+  {
+    "id": "5a8887a055429938390d3f72",
+    "type": "bridge",
+    "level": "hard",
+    "support_keys": [
+      "Rocky Boy (Chippewa leader)",
+      "Rocky Boy's Indian Reservation"
+    ],
+    "split": "test",
+    "group": "635"
+  },
+  {
+    "id": "5ab53ef1554299488d4d9920",
+    "type": "bridge",
+    "level": "hard",
+    "support_keys": [
+      "R\u00edo Hondo Department",
+      "Santiago del Estero Province"
+    ],
+    "split": "test",
+    "group": "1290"
+  },
+  {
+    "id": "5ab2e3c45542991669774126",
+    "type": "comparison",
+    "level": "hard",
+    "support_keys": [
+      "Centaurium",
+      "Dacrydium"
+    ],
+    "split": "test",
+    "group": "1820"
+  },
+  {
+    "id": "5ae305355542992decbdcdc2",
+    "type": "bridge",
+    "level": "hard",
+    "support_keys": [
+      "Leona Lewis",
+      "Ryan Tedder"
+    ],
+    "split": "test",
+    "group": "953"
+  },
+  {
+    "id": "5a8b9cd65542997f31a41d8b",
+    "type": "comparison",
+    "level": "hard",
+    "support_keys": [
+      "Juan Carlos Onetti",
+      "Richard Llewellyn"
+    ],
+    "split": "test",
+    "group": "2953"
+  },
+  {
+    "id": "5a81d51a55429903bc27b9d2",
+    "type": "bridge",
+    "level": "hard",
+    "support_keys": [
+      "Colin Hanks",
+      "Life in Pieces"
+    ],
+    "split": "test",
+    "group": "2534"
+  },
+  {
+    "id": "5addda9b5542992200553b5b",
+    "type": "bridge",
+    "level": "hard",
+    "support_keys": [
+      "Isla Grande de Tierra del Fuego",
+      "Marinelli Glacier"
+    ],
+    "split": "test",
+    "group": "807"
+  },
+  {
+    "id": "5a8a32d65542992d82986ef4",
+    "type": "bridge",
+    "level": "hard",
+    "support_keys": [
+      "Alexander Trachtenberg",
+      "McCarthyism"
+    ],
+    "split": "test",
+    "group": "2831"
+  },
+  {
+    "id": "5a87c6a75542997e5c09a56f",
+    "type": "bridge",
+    "level": "hard",
+    "support_keys": [
+      "2011 Baylor Bears football team",
+      "2011 Washington Huskies football team"
+    ],
+    "split": "test",
+    "group": "3887"
+  },
+  {
+    "id": "5ac23ff0554299636651994d",
+    "type": "bridge",
+    "level": "hard",
+    "support_keys": [
+      "Poison (American band)",
+      "Shut Up, Make Love"
+    ],
+    "split": "test",
+    "group": "27"
+  },
+  {
+    "id": "5ac2a20055429967731025cb",
+    "type": "comparison",
+    "level": "hard",
+    "support_keys": [
+      "Snowboard Magazine",
+      "The Believer (magazine)"
+    ],
+    "split": "test",
+    "group": "3099"
+  },
+  {
+    "id": "5ae650fb55429929b0807b2e",
+    "type": "bridge",
+    "level": "hard",
+    "support_keys": [
+      "Backstage (magazine)",
+      "Christopher Oscar Pe\u00f1a"
+    ],
+    "split": "test",
+    "group": "393"
+  },
+  {
+    "id": "5a84a97f5542992a431d1a87",
+    "type": "bridge",
+    "level": "hard",
+    "support_keys": [
+      "D. Napier &amp; Son",
+      "Edwardian era"
+    ],
+    "split": "test",
+    "group": "3531"
+  },
+  {
+    "id": "5ac19ff35542991316484b61",
+    "type": "comparison",
+    "level": "hard",
+    "support_keys": [
+      "Phineas and Ferb",
+      "The Graveyard Book"
+    ],
+    "split": "test",
+    "group": "5359"
+  },
+  {
+    "id": "5a81ca0d5542990a1d231ebb",
+    "type": "bridge",
+    "level": "hard",
+    "support_keys": [
+      "Eisenhower Executive Office Building",
+      "White House Office"
+    ],
+    "split": "test",
+    "group": "5545"
+  },
+  {
+    "id": "5ab3abe9554299753aec597e",
+    "type": "bridge",
+    "level": "hard",
+    "support_keys": [
+      "2015 Buffalo Bills season",
+      "Tyrod Taylor"
+    ],
+    "split": "test",
+    "group": "2826"
+  },
+  {
+    "id": "5ab2f53d5542991669774157",
+    "type": "bridge",
+    "level": "hard",
+    "support_keys": [
+      "Larry Mosley",
+      "Shane Mosley"
+    ],
+    "split": "test",
+    "group": "4742"
+  },
+  {
+    "id": "5ab446d455429942dd415f07",
+    "type": "bridge",
+    "level": "hard",
+    "support_keys": [
+      "Gargoyles (TV series)",
+      "Gargoyles the Movie: The Heroes Awaken"
+    ],
+    "split": "test",
+    "group": "272"
+  },
+  {
+    "id": "5a89761d5542995153361310",
+    "type": "bridge",
+    "level": "hard",
+    "support_keys": [
+      "Christmas in the Sun",
+      "Rolf Harris"
+    ],
+    "split": "test",
+    "group": "3879"
+  },
+  {
+    "id": "5ae09ea05542993d6555ebc1",
+    "type": "bridge",
+    "level": "hard",
+    "support_keys": [
+      "Arthur Schnitzler",
+      "The Bachelor (1990 film)"
+    ],
+    "split": "test",
+    "group": "2848"
+  },
+  {
+    "id": "5a8e2ba05542995085b373b8",
+    "type": "comparison",
+    "level": "hard",
+    "support_keys": [
+      "Ariane et Barbe-bleue",
+      "Tristan und Isolde"
+    ],
+    "split": "test",
+    "group": "587"
+  },
+  {
+    "id": "5ac497025542997ea680ca8d",
+    "type": "bridge",
+    "level": "hard",
+    "support_keys": [
+      "Chris McKay",
+      "The Lego Batman Movie"
+    ],
+    "split": "test",
+    "group": "273"
+  },
+  {
+    "id": "5ab66b63554299110f219a0a",
+    "type": "comparison",
+    "level": "hard",
+    "support_keys": [
+      "Jack Russell Terrier",
+      "Transylvanian Hound"
+    ],
+    "split": "test",
+    "group": "869"
+  },
+  {
+    "id": "5ae17d6855429901ffe4aea7",
+    "type": "bridge",
+    "level": "hard",
+    "support_keys": [
+      "Frank Sinatra",
+      "Sinatra: London"
+    ],
+    "split": "test",
+    "group": "1490"
+  },
+  {
+    "id": "5ae479745542996836b02cb1",
+    "type": "bridge",
+    "level": "hard",
+    "support_keys": [
+      "Katrina Bowden",
+      "Sex Drive (film)"
+    ],
+    "split": "test",
+    "group": "668"
+  },
+  {
+    "id": "5a73d33e5542992d56e7e3a9",
+    "type": "bridge",
+    "level": "hard",
+    "support_keys": [
+      "Capital punishment",
+      "Madame le Corbeau"
+    ],
+    "split": "test",
+    "group": "4606"
+  },
+  {
+    "id": "5abb17e75542996cc5e49fa2",
+    "type": "bridge",
+    "level": "hard",
+    "support_keys": [
+      "1993 Tehran mid-air collision",
+      "Iran Air Tours"
+    ],
+    "split": "test",
+    "group": "4354"
+  },
+  {
+    "id": "5a73f2035542993a88ae2ea8",
+    "type": "bridge",
+    "level": "hard",
+    "support_keys": [
+      "Blue (Da Ba Dee)",
+      "Eiffel 65"
+    ],
+    "split": "test",
+    "group": "2240"
+  },
+  {
+    "id": "5a7f5d165542992097ad2f3c",
+    "type": "comparison",
+    "level": "hard",
+    "support_keys": [
+      "Armen Chakmakian",
+      "Hovsep Pushman"
+    ],
+    "split": "test",
+    "group": "2450"
+  },
+  {
+    "id": "5a771e0b55429966f1a36c75",
+    "type": "bridge",
+    "level": "hard",
+    "support_keys": [
+      "Dominic Grieve",
+      "Jessica Lee"
+    ],
+    "split": "test",
+    "group": "3989"
+  },
+  {
+    "id": "5ab2bc6b554299545a2cfa40",
+    "type": "bridge",
+    "level": "hard",
+    "support_keys": [
+      "Marcell Ozuna",
+      "Pablo Ozuna"
+    ],
+    "split": "test",
+    "group": "1744"
+  },
+  {
+    "id": "5a7736ef55429972597f14a7",
+    "type": "bridge",
+    "level": "hard",
+    "support_keys": [
+      "Ashton Town A.F.C.",
+      "Cheshire Association Football League"
+    ],
+    "split": "test",
+    "group": "4671"
+  },
+  {
+    "id": "5ae773eb5542997b22f6a777",
+    "type": "bridge",
+    "level": "hard",
+    "support_keys": [
+      "Alice Wetterlund",
+      "Silicon Valley (TV series)"
+    ],
+    "split": "test",
+    "group": "4128"
+  },
+  {
+    "id": "5abd882f55429924427fd045",
+    "type": "bridge",
+    "level": "hard",
+    "support_keys": [
+      "Birstall Shopping Park",
+      "IKEA"
+    ],
+    "split": "test",
+    "group": "4048"
+  },
+  {
+    "id": "5ab499a55542996a3a969f9f",
+    "type": "comparison",
+    "level": "hard",
+    "support_keys": [
+      "Battle Sheep",
+      "Shadows Over Camelot"
+    ],
+    "split": "test",
+    "group": "2485"
+  },
+  {
+    "id": "5a81028b55429938b614228a",
+    "type": "comparison",
+    "level": "hard",
+    "support_keys": [
+      "Aliens of the Deep",
+      "Poetry in Motion (film)"
+    ],
+    "split": "test",
+    "group": "5352"
+  },
+  {
+    "id": "5a8d09a955429941ae14df71",
+    "type": "bridge",
+    "level": "hard",
+    "support_keys": [
+      "Cranford (TV series)",
+      "Cranford (novel)"
+    ],
+    "split": "test",
+    "group": "1676"
+  },
+  {
+    "id": "5a76fda05542994aec3b71b0",
+    "type": "comparison",
+    "level": "hard",
+    "support_keys": [
+      "Martin Flavin",
+      "Peter Benchley"
+    ],
+    "split": "test",
+    "group": "4442"
+  },
+  {
+    "id": "5ac2d85e55429921a00ab06b",
+    "type": "bridge",
+    "level": "hard",
+    "support_keys": [
+      "Heather Penney",
+      "United Airlines Flight 93"
+    ],
+    "split": "test",
+    "group": "3934"
+  },
+  {
+    "id": "5ae648b955429929b0807b1d",
+    "type": "bridge",
+    "level": "hard",
+    "support_keys": [
+      "Isidor Isaac Rabi",
+      "Rabi cycle"
+    ],
+    "split": "test",
+    "group": "805"
+  },
+  {
+    "id": "5ab8f33155429919ba4e237f",
+    "type": "bridge",
+    "level": "hard",
+    "support_keys": [
+      "Illmatic",
+      "N.Y. State of Mind"
+    ],
+    "split": "test",
+    "group": "1364"
+  },
+  {
+    "id": "5a77769e5542997042120a65",
+    "type": "bridge",
+    "level": "hard",
+    "support_keys": [
+      "Alex the Dog",
+      "Spuds MacKenzie"
+    ],
+    "split": "test",
+    "group": "5472"
+  },
+  {
+    "id": "5abaccd1554299660624161b",
+    "type": "bridge",
+    "level": "hard",
+    "support_keys": [
+      "Britney Spears",
+      "Curious (fragrance)"
+    ],
+    "split": "test",
+    "group": "4893"
+  },
+  {
+    "id": "5adf744d5542992d7e9f937e",
+    "type": "bridge",
+    "level": "hard",
+    "support_keys": [
+      "Gemma Rovira Ortega",
+      "The Boy in the Striped Pyjamas"
+    ],
+    "split": "test",
+    "group": "2185"
+  },
+  {
+    "id": "5a7d1765554299452d57bade",
+    "type": "bridge",
+    "level": "hard",
+    "support_keys": [
+      "Mississippi gubernatorial election, 1919",
+      "Theodore G. Bilbo"
+    ],
+    "split": "test",
+    "group": "5250"
+  },
+  {
+    "id": "5ac1a04e5542991316484b63",
+    "type": "comparison",
+    "level": "hard",
+    "support_keys": [
+      "Jim McBride",
+      "Neil Jordan"
+    ],
+    "split": "test",
+    "group": "427"
+  },
+  {
+    "id": "5a89e92c5542993b751ca9af",
+    "type": "bridge",
+    "level": "hard",
+    "support_keys": [
+      "2008\u201309 UEFA Champions League",
+      "2009 UEFA Champions League Final"
+    ],
+    "split": "test",
+    "group": "1983"
+  },
+  {
+    "id": "5ae18ae6554299234fd04289",
+    "type": "bridge",
+    "level": "hard",
+    "support_keys": [
+      "Eileen Power",
+      "The Economic History Review"
+    ],
+    "split": "test",
+    "group": "5232"
+  },
+  {
+    "id": "5ade007e5542997545bbbdf4",
+    "type": "bridge",
+    "level": "hard",
+    "support_keys": [
+      "N.I.B.",
+      "The Very Best of Ugly Kid Joe: As Ugly as It Gets"
+    ],
+    "split": "test",
+    "group": "2071"
+  },
+  {
+    "id": "5ae5736e5542990ba0bbb2b3",
+    "type": "bridge",
+    "level": "hard",
+    "support_keys": [
+      "Paul Manafort",
+      "Trump campaign\u2013Russian meeting"
+    ],
+    "split": "test",
+    "group": "64"
+  },
+  {
+    "id": "5a7c6e435542996dd594b933",
+    "type": "bridge",
+    "level": "hard",
+    "support_keys": [
+      "Corey Feldman",
+      "Voodoo (film)"
+    ],
+    "split": "test",
+    "group": "4342"
+  },
+  {
+    "id": "5ac3b40a554299741d48a2e5",
+    "type": "bridge",
+    "level": "hard",
+    "support_keys": [
+      "Lambic",
+      "Pajottenland"
+    ],
+    "split": "test",
+    "group": "3298"
+  },
+  {
+    "id": "5a7f84225542994857a76756",
+    "type": "bridge",
+    "level": "hard",
+    "support_keys": [
+      "Gerald B. and Beverley Tonkens House",
+      "Theodore A. Pappas House"
+    ],
+    "split": "test",
+    "group": "4197"
+  },
+  {
+    "id": "5ac3ba0455429939154138f2",
+    "type": "bridge",
+    "level": "hard",
+    "support_keys": [
+      "Chengdu J-10",
+      "Saturn AL-31"
+    ],
+    "split": "test",
+    "group": "2843"
+  },
+  {
+    "id": "5ab7452b5542992aa3b8c806",
+    "type": "bridge",
+    "level": "hard",
+    "support_keys": [
+      "Brahmashri Vishwamitra",
+      "N. T. Rama Rao"
+    ],
+    "split": "test",
+    "group": "2344"
+  },
+  {
+    "id": "5ab6ecd85542991d322236cf",
+    "type": "bridge",
+    "level": "hard",
+    "support_keys": [
+      "Carnaval del Pueblo",
+      "Latin American culture"
+    ],
+    "split": "test",
+    "group": "3747"
+  },
+  {
+    "id": "5ac3b04f55429939154138b7",
+    "type": "bridge",
+    "level": "hard",
+    "support_keys": [
+      "East Lancashire Railway",
+      "Summerseat railway station"
+    ],
+    "split": "test",
+    "group": "881"
+  },
+  {
+    "id": "5a77c1d95542995d831812a6",
+    "type": "bridge",
+    "level": "hard",
+    "support_keys": [
+      "Bee Cliff (Tennessee)",
+      "Watauga River"
+    ],
+    "split": "test",
+    "group": "4347"
+  },
+  {
+    "id": "5ae04ea555429924de1b709e",
+    "type": "bridge",
+    "level": "hard",
+    "support_keys": [
+      "Foggy Bottom",
+      "General John A. Rawlins"
+    ],
+    "split": "test",
+    "group": "3548"
+  },
+  {
+    "id": "5adf5daf5542995534e8c79d",
+    "type": "comparison",
+    "level": "hard",
+    "support_keys": [
+      "Darren Benjamin Shepherd",
+      "R\u00e9mi Lange"
+    ],
+    "split": "test",
+    "group": "5259"
+  },
+  {
+    "id": "5a8b6ee255429950cd6afcfd",
+    "type": "comparison",
+    "level": "hard",
+    "support_keys": [
+      "Dracula (plant)",
+      "Pistacia"
+    ],
+    "split": "test",
+    "group": "2975"
+  },
+  {
+    "id": "5ac406c155429919431738fc",
+    "type": "comparison",
+    "level": "hard",
+    "support_keys": [
+      "Brian Welch",
+      "Caleb Shomo"
+    ],
+    "split": "test",
+    "group": "2867"
+  },
+  {
+    "id": "5add7ce55542992ae4cec585",
+    "type": "bridge",
+    "level": "hard",
+    "support_keys": [
+      "Friedrich D\u00fcrrenmatt",
+      "Male Nilluvavarege"
+    ],
+    "split": "test",
+    "group": "4805"
+  },
+  {
+    "id": "5ac298805542990b17b15429",
+    "type": "bridge",
+    "level": "hard",
+    "support_keys": [
+      "Austral L\u00edneas A\u00e9reas",
+      "L\u00edneas A\u00e9reas Privadas Argentinas"
+    ],
+    "split": "test",
+    "group": "4940"
+  },
+  {
+    "id": "5a7507455542993748c8979d",
+    "type": "comparison",
+    "level": "hard",
+    "support_keys": [
+      "Pok\u00e9mon: Arceus and the Jewel of Life",
+      "The Watercolor"
+    ],
+    "split": "test",
+    "group": "2595"
+  },
+  {
+    "id": "5a76334c5542994ccc918710",
+    "type": "bridge",
+    "level": "hard",
+    "support_keys": [
+      "Killing Pablo",
+      "Mark Bowden"
+    ],
+    "split": "test",
+    "group": "2791"
+  },
+  {
+    "id": "5a7f5c9f55429969796c1a0f",
+    "type": "bridge",
+    "level": "hard",
+    "support_keys": [
+      "Kunming",
+      "Yunnan Provincial Museum"
+    ],
+    "split": "test",
+    "group": "249"
+  },
+  {
+    "id": "5ab2861b554299449642c8df",
+    "type": "bridge",
+    "level": "hard",
+    "support_keys": [
+      "Emmitt Ford",
+      "Harold Ford Jr."
+    ],
+    "split": "test",
+    "group": "4118"
+  },
+  {
+    "id": "5add10ca5542994ed6169c59",
+    "type": "comparison",
+    "level": "hard",
+    "support_keys": [
+      "Boise State University",
+      "Illinois Institute of Technology"
+    ],
+    "split": "test",
+    "group": "545"
+  },
+  {
+    "id": "5ae830f05542997ec2727758",
+    "type": "bridge",
+    "level": "hard",
+    "support_keys": [
+      "Christopher Wordsworth",
+      "Elizabeth Wordsworth"
+    ],
+    "split": "test",
+    "group": "1908"
+  },
+  {
+    "id": "5a9052765542995651fb513d",
+    "type": "comparison",
+    "level": "hard",
+    "support_keys": [
+      "Bhabananda Deka",
+      "Czes\u0142aw Mi\u0142osz"
+    ],
+    "split": "test",
+    "group": "480"
+  },
+  {
+    "id": "5a80993d5542996402f6a589",
+    "type": "bridge",
+    "level": "hard",
+    "support_keys": [
+      "Being John Malkovich",
+      "Vincent Landay"
+    ],
+    "split": "test",
+    "group": "1240"
+  },
+  {
+    "id": "5ab5499e5542992aa134a295",
+    "type": "bridge",
+    "level": "hard",
+    "support_keys": [
+      "Curzon Ashton F.C.",
+      "Luke Clark"
+    ],
+    "split": "test",
+    "group": "377"
+  },
+  {
+    "id": "5ae5d82f554299546bf82f9a",
+    "type": "bridge",
+    "level": "hard",
+    "support_keys": [
+      "Edward Smith-Stanley, 14th Earl of Derby",
+      "Who? Who? ministry"
+    ],
+    "split": "test",
+    "group": "4284"
+  },
+  {
+    "id": "5a832a625542990548d0b1b4",
+    "type": "bridge",
+    "level": "hard",
+    "support_keys": [
+      "Ministro Pistarini International Airport",
+      "National Route A002 (Argentina)"
+    ],
+    "split": "test",
+    "group": "4341"
+  },
+  {
+    "id": "5a79c1185542994bb9457065",
+    "type": "comparison",
+    "level": "hard",
+    "support_keys": [
+      "Kanako Momota",
+      "Mark Hollis (musician)"
+    ],
+    "split": "test",
+    "group": "1969"
+  },
+  {
+    "id": "5ae135fb55429920d523431f",
+    "type": "bridge",
+    "level": "hard",
+    "support_keys": [
+      "Buffy the Vampire Slayer",
+      "Scott Workman"
+    ],
+    "split": "test",
+    "group": "616"
+  },
+  {
+    "id": "5ae849cc5542997ec2727798",
+    "type": "bridge",
+    "level": "hard",
+    "support_keys": [
+      "Graveraet River",
+      "Lake Superior"
+    ],
+    "split": "test",
+    "group": "3243"
+  },
+  {
+    "id": "5ae5366e5542990ba0bbb22b",
+    "type": "bridge",
+    "level": "hard",
+    "support_keys": [
+      "Anglo-Saxon Chronicle",
+      "\u00c6thelweard (historian)"
+    ],
+    "split": "test",
+    "group": "3553"
+  },
+  {
+    "id": "5ae76e615542997ec2727647",
+    "type": "bridge",
+    "level": "hard",
+    "support_keys": [
+      "Alternative facts",
+      "Kellyanne Conway"
+    ],
+    "split": "test",
+    "group": "3632"
+  },
+  {
+    "id": "5a77c58b55429967ab105281",
+    "type": "comparison",
+    "level": "hard",
+    "support_keys": [
+      "Franklin Adreon",
+      "Ryan Gosling"
+    ],
+    "split": "test",
+    "group": "3270"
+  },
+  {
+    "id": "5ab672165542995eadeeffe0",
+    "type": "comparison",
+    "level": "hard",
+    "support_keys": [
+      "Azadirachta",
+      "Azorina"
+    ],
+    "split": "test",
+    "group": "3046"
+  },
+  {
+    "id": "5a8986fd55429938390d4046",
+    "type": "bridge",
+    "level": "hard",
+    "support_keys": [
+      "Akira (1988 film)",
+      "Cam Clarke"
+    ],
+    "split": "test",
+    "group": "1165"
+  },
+  {
+    "id": "5abd72475542993062266c9a",
+    "type": "comparison",
+    "level": "hard",
+    "support_keys": [
+      "Aaroh",
+      "After Midnight Project"
+    ],
+    "split": "test",
+    "group": "3677"
+  },
+  {
+    "id": "5adf07f25542992d7e9f9279",
+    "type": "bridge",
+    "level": "hard",
+    "support_keys": [
+      "Manhattan Community Board 6",
+      "Tudor City"
+    ],
+    "split": "test",
+    "group": "1745"
+  },
+  {
+    "id": "5ae8167b55429952e35eaa06",
+    "type": "bridge",
+    "level": "hard",
+    "support_keys": [
+      "Battle of the Rosebud",
+      "The Other Magpie"
+    ],
+    "split": "test",
+    "group": "2863"
+  },
+  {
+    "id": "5a8bae135542996e8ac889b6",
+    "type": "bridge",
+    "level": "hard",
+    "support_keys": [
+      "Nathan Bridger",
+      "Roy Scheider"
+    ],
+    "split": "test",
+    "group": "558"
+  },
+  {
+    "id": "5a7ccb3655429909bec7680b",
+    "type": "bridge",
+    "level": "hard",
+    "support_keys": [
+      "Kaganoi Shigemochi",
+      "Muramasa"
+    ],
+    "split": "test",
+    "group": "4712"
+  },
+  {
+    "id": "5a7fc6e45542992e7d278d73",
+    "type": "comparison",
+    "level": "hard",
+    "support_keys": [
+      "Frank Tashlin",
+      "George Kuchar"
+    ],
+    "split": "test",
+    "group": "1592"
+  },
+  {
+    "id": "5a80be9655429938b61421b5",
+    "type": "bridge",
+    "level": "hard",
+    "support_keys": [
+      "John Murray (actor)",
+      "Moving Violations"
+    ],
+    "split": "test",
+    "group": "2475"
+  },
+  {
+    "id": "5a7d119d5542995ed0d165d5",
+    "type": "comparison",
+    "level": "hard",
+    "support_keys": [
+      "Florence Welch",
+      "Gunnar Nelson (musician)"
+    ],
+    "split": "test",
+    "group": "4273"
+  },
+  {
+    "id": "5a77cb5e55429967ab1052a7",
+    "type": "bridge",
+    "level": "hard",
+    "support_keys": [
+      "Dan Castellaneta",
+      "Kang and Kodos"
+    ],
+    "split": "test",
+    "group": "247"
+  },
+  {
+    "id": "5adf3c155542993a75d2643a",
+    "type": "bridge",
+    "level": "hard",
+    "support_keys": [
+      "Anne Perry",
+      "Heavenly Creatures"
+    ],
+    "split": "test",
+    "group": "4579"
+  },
+  {
+    "id": "5a7f63645542992e7d278cf1",
+    "type": "comparison",
+    "level": "hard",
+    "support_keys": [
+      "LCD Soundsystem",
+      "Vertical Horizon"
+    ],
+    "split": "test",
+    "group": "4621"
+  },
+  {
+    "id": "5a89e8035542992e4fca846d",
+    "type": "comparison",
+    "level": "hard",
+    "support_keys": [
+      "Fran\u00e7oise D\u00fcrr",
+      "Mate Pavi\u0107"
+    ],
+    "split": "test",
+    "group": "1973"
+  },
+  {
+    "id": "5ae3eeb25542995dadf2425e",
+    "type": "bridge",
+    "level": "hard",
+    "support_keys": [
+      "Flamingo Las Vegas",
+      "Toni Braxton: Revealed"
+    ],
+    "split": "test",
+    "group": "69"
+  },
+  {
+    "id": "5ae531ee5542990ba0bbb1ff",
+    "type": "bridge",
+    "level": "hard",
+    "support_keys": [
+      "Jack Lowden",
+      "Tommy's Honour"
+    ],
+    "split": "test",
+    "group": "1269"
+  },
+  {
+    "id": "5adc6825554299438c868da1",
+    "type": "bridge",
+    "level": "hard",
+    "support_keys": [
+      "Governor of Santiago del Estero",
+      "Santiago del Estero Province"
+    ],
+    "split": "test",
+    "group": "1290"
+  },
+  {
+    "id": "5a8c7057554299653c1aa066",
+    "type": "bridge",
+    "level": "hard",
+    "support_keys": [
+      "2010\u201311 UEFA Champions League knockout phase",
+      "2011 UEFA Champions League Final"
+    ],
+    "split": "test",
+    "group": "3611"
+  },
+  {
+    "id": "5ae5e1345542996de7b71a50",
+    "type": "bridge",
+    "level": "hard",
+    "support_keys": [
+      "Jack Ryan (character)",
+      "The Sum of All Fears"
+    ],
+    "split": "test",
+    "group": "265"
+  },
+  {
+    "id": "5ae7247b5542992ae0d163c1",
+    "type": "bridge",
+    "level": "hard",
+    "support_keys": [
+      "...Ready for It?",
+      "Reputation (Taylor Swift album)"
+    ],
+    "split": "test",
+    "group": "853"
+  },
+  {
+    "id": "5adff34555429942ec259baa",
+    "type": "bridge",
+    "level": "hard",
+    "support_keys": [
+      "Bobby Noble (footballer, born 1949)",
+      "Bury F.C."
+    ],
+    "split": "test",
+    "group": "5198"
+  },
+  {
+    "id": "5ae2ad6b5542996483e64a3d",
+    "type": "bridge",
+    "level": "hard",
+    "support_keys": [
+      "David Thewlis",
+      "King Duncan"
+    ],
+    "split": "test",
+    "group": "2647"
+  },
+  {
+    "id": "5abdce1b5542993062266cfe",
+    "type": "bridge",
+    "level": "hard",
+    "support_keys": [
+      "Minneapolis",
+      "Sydney Anderson"
+    ],
+    "split": "test",
+    "group": "3523"
+  },
+  {
+    "id": "5abc00ff5542993f40c73c41",
+    "type": "bridge",
+    "level": "hard",
+    "support_keys": [
+      "Carrie Underwood",
+      "Mama's Song"
+    ],
+    "split": "test",
+    "group": "2769"
+  },
+  {
+    "id": "5aba749855429955dce3ee34",
+    "type": "bridge",
+    "level": "hard",
+    "support_keys": [
+      "Audition (album)",
+      "Doomtree"
+    ],
+    "split": "test",
+    "group": "5123"
+  },
+  {
+    "id": "5a721e0e55429971e9dc928d",
+    "type": "comparison",
+    "level": "hard",
+    "support_keys": [
+      "Duke University",
+      "Tufts University"
+    ],
+    "split": "test",
+    "group": "809"
+  },
+  {
+    "id": "5a7da8065542995f4f4022a7",
+    "type": "bridge",
+    "level": "hard",
+    "support_keys": [
+      "Iva Pacetti",
+      "Mefistofele"
+    ],
+    "split": "test",
+    "group": "4575"
+  },
+  {
+    "id": "5adfecd755429942ec259b90",
+    "type": "bridge",
+    "level": "hard",
+    "support_keys": [
+      "Esquire (magazine)",
+      "Stanley Bing"
+    ],
+    "split": "test",
+    "group": "5430"
+  },
+  {
+    "id": "5a832ad55542990548d0b1b5",
+    "type": "bridge",
+    "level": "hard",
+    "support_keys": [
+      "BrickCon",
+      "Lego"
+    ],
+    "split": "test",
+    "group": "2827"
+  },
+  {
+    "id": "5ae62c385542995703ce8b3e",
+    "type": "bridge",
+    "level": "hard",
+    "support_keys": [
+      "Judas Priest",
+      "Killer World Tour"
+    ],
+    "split": "test",
+    "group": "4634"
+  },
+  {
+    "id": "5a835c9f5542992ef85e228a",
+    "type": "bridge",
+    "level": "hard",
+    "support_keys": [
+      "Friedrich Wilhelm von Steuben",
+      "SS General von Steuben"
+    ],
+    "split": "test",
+    "group": "219"
+  },
+  {
+    "id": "5ae7316e554299572ea5477e",
+    "type": "bridge",
+    "level": "hard",
+    "support_keys": [
+      "Band-e Amir National Park",
+      "Band-e-Amir Dragons"
+    ],
+    "split": "test",
+    "group": "2334"
+  },
+  {
+    "id": "5abbd8655542992ccd8e7fba",
+    "type": "bridge",
+    "level": "hard",
+    "support_keys": [
+      "Dennis Banks",
+      "Let Mother Earth Speak"
+    ],
+    "split": "test",
+    "group": "3738"
+  },
+  {
+    "id": "5ac31ad4554299741d48a1ee",
+    "type": "comparison",
+    "level": "hard",
+    "support_keys": [
+      "Ainslee's Magazine",
+      "The Australian Women's Weekly"
+    ],
+    "split": "test",
+    "group": "2592"
+  },
+  {
+    "id": "5ae1810555429901ffe4aecf",
+    "type": "bridge",
+    "level": "hard",
+    "support_keys": [
+      "Exit 57",
+      "The Second City"
+    ],
+    "split": "test",
+    "group": "4183"
+  },
+  {
+    "id": "5ac2cfab554299657fa29079",
+    "type": "bridge",
+    "level": "hard",
+    "support_keys": [
+      "The Innocents (1961 film)",
+      "The Turn of the Screw"
+    ],
+    "split": "test",
+    "group": "1335"
+  },
+  {
+    "id": "5ac308135542990b17b154f4",
+    "type": "bridge",
+    "level": "hard",
+    "support_keys": [
+      "Christopher I of Denmark",
+      "Eric IV of Denmark"
+    ],
+    "split": "test",
+    "group": "2799"
+  },
+  {
+    "id": "5a7698c2554299373536010d",
+    "type": "bridge",
+    "level": "hard",
+    "support_keys": [
+      "Car and Driver",
+      "Ohio State Route 78"
+    ],
+    "split": "test",
+    "group": "1577"
+  },
+  {
+    "id": "5ae75e335542991e8301cc70",
+    "type": "bridge",
+    "level": "hard",
+    "support_keys": [
+      "Caleb Kelly (American football)",
+      "Oklahoma Sooners football"
+    ],
+    "split": "test",
+    "group": "610"
+  },
+  {
+    "id": "5ae4890a5542995ad6573d60",
+    "type": "bridge",
+    "level": "hard",
+    "support_keys": [
+      "Claudio Fern\u00e1ndez-Ar\u00e1oz",
+      "Egon Zehnder"
+    ],
+    "split": "test",
+    "group": "366"
+  },
+  {
+    "id": "5abeb1925542994516f453f0",
+    "type": "bridge",
+    "level": "hard",
+    "support_keys": [
+      "Japan Air Commuter",
+      "Japan Airlines"
+    ],
+    "split": "test",
+    "group": "1116"
+  },
+  {
+    "id": "5ae13e205542997b2ef7d157",
+    "type": "bridge",
+    "level": "hard",
+    "support_keys": [
+      "43d Air Mobility Operations Group",
+      "Fort Bragg"
+    ],
+    "split": "test",
+    "group": "3247"
+  },
+  {
+    "id": "5a7b8f5e554299294a54a9f6",
+    "type": "bridge",
+    "level": "hard",
+    "support_keys": [
+      "Richmond (CDP), Maine",
+      "Richmond, Maine"
+    ],
+    "split": "test",
+    "group": "2147"
+  },
+  {
+    "id": "5ae4ca6355429913cc204507",
+    "type": "bridge",
+    "level": "hard",
+    "support_keys": [
+      "Motorised quadricycle",
+      "Neighborhood Electric Vehicle"
+    ],
+    "split": "test",
+    "group": "4060"
+  },
+  {
+    "id": "5add67555542992ae4cec54e",
+    "type": "comparison",
+    "level": "hard",
+    "support_keys": [
+      "Battle of Belleau Wood",
+      "Battle of Peleliu"
+    ],
+    "split": "test",
+    "group": "261"
+  },
+  {
+    "id": "5ab5d4eb5542992aa134a3aa",
+    "type": "bridge",
+    "level": "hard",
+    "support_keys": [
+      "Emancipation (Prince album)",
+      "Spike Lee"
+    ],
+    "split": "test",
+    "group": "2418"
+  },
+  {
+    "id": "5a78ed6855429970f5fffdd9",
+    "type": "bridge",
+    "level": "hard",
+    "support_keys": [
+      "Canobie Lake",
+      "Salem, New Hampshire"
+    ],
+    "split": "test",
+    "group": "1464"
+  },
+  {
+    "id": "5a887f5c554299206df2b2c0",
+    "type": "bridge",
+    "level": "hard",
+    "support_keys": [
+      "Folk, Blues and Beyond",
+      "Jimmy Page"
+    ],
+    "split": "test",
+    "group": "529"
+  },
+  {
+    "id": "5ae2c6bf554299492dc91c6c",
+    "type": "bridge",
+    "level": "hard",
+    "support_keys": [
+      "Journaille",
+      "Karl Kraus (writer)"
+    ],
+    "split": "test",
+    "group": "5517"
+  },
+  {
+    "id": "5ae1fc24554299492dc91bbd",
+    "type": "bridge",
+    "level": "hard",
+    "support_keys": [
+      "DreamWorks Dragons",
+      "John Paesano"
+    ],
+    "split": "test",
+    "group": "4807"
+  },
+  {
+    "id": "5a8f155e554299458435d54c",
+    "type": "bridge",
+    "level": "hard",
+    "support_keys": [
+      "Kellock\u2013Taschereau Commission",
+      "William Lyon Mackenzie King"
+    ],
+    "split": "test",
+    "group": "810"
+  },
+  {
+    "id": "5a7fd1515542992e7d278db1",
+    "type": "bridge",
+    "level": "hard",
+    "support_keys": [
+      "Diocese of Lincoln",
+      "Grimsby Minster"
+    ],
+    "split": "test",
+    "group": "4270"
+  },
+  {
+    "id": "5ab27389554299722f9b4d2f",
+    "type": "bridge",
+    "level": "hard",
+    "support_keys": [
+      "Garden City, New York",
+      "Pete Sell"
+    ],
+    "split": "test",
+    "group": "911"
+  },
+  {
+    "id": "5abb30755542996cc5e49fd8",
+    "type": "bridge",
+    "level": "hard",
+    "support_keys": [
+      "George H. W. Bush",
+      "Presidency of Ronald Reagan"
+    ],
+    "split": "test",
+    "group": "338"
+  },
+  {
+    "id": "5a8db19d5542994ba4e3dd00",
+    "type": "comparison",
+    "level": "hard",
+    "support_keys": [
+      "For Against",
+      "Local H"
+    ],
+    "split": "test",
+    "group": "9"
+  },
+  {
+    "id": "5abcfc365542993a06baf9d6",
+    "type": "bridge",
+    "level": "hard",
+    "support_keys": [
+      "CBS Television Workshop",
+      "James Dean"
+    ],
+    "split": "test",
+    "group": "132"
+  },
+  {
+    "id": "5a7ef49a5542994959419a91",
+    "type": "bridge",
+    "level": "hard",
+    "support_keys": [
+      "Al Harrington (actor)",
+      "Hawaii Five-0 (2010 TV series)"
+    ],
+    "split": "test",
+    "group": "3648"
+  },
+  {
+    "id": "5ac294b955429921a00aafd0",
+    "type": "comparison",
+    "level": "hard",
+    "support_keys": [
+      "Macworld",
+      "Soaps In Depth"
+    ],
+    "split": "test",
+    "group": "1000"
+  },
+  {
+    "id": "5ac4f7e955429924173fb523",
+    "type": "bridge",
+    "level": "hard",
+    "support_keys": [
+      "Hugh Fearnley-Whittingstall",
+      "Jane Fearnley-Whittingstall"
+    ],
+    "split": "test",
+    "group": "2656"
+  },
+  {
+    "id": "5ab28019554299722f9b4d51",
+    "type": "bridge",
+    "level": "hard",
+    "support_keys": [
+      "Omar Khadr",
+      "Son of al Qaeda"
+    ],
+    "split": "test",
+    "group": "142"
+  },
+  {
+    "id": "5ae490a85542995ad6573d9d",
+    "type": "bridge",
+    "level": "hard",
+    "support_keys": [
+      "George Adamski",
+      "Reinhold O. Schmidt"
+    ],
+    "split": "test",
+    "group": "3593"
+  },
+  {
+    "id": "5a82f35f5542995ce29dcd14",
+    "type": "bridge",
+    "level": "hard",
+    "support_keys": [
+      "5AA",
+      "Nic Nolan"
+    ],
+    "split": "test",
+    "group": "3007"
+  },
+  {
+    "id": "5a8016215542992bc0c4a6a3",
+    "type": "bridge",
+    "level": "hard",
+    "support_keys": [
+      "Amy (2015 film)",
+      "Oasis: Supersonic"
+    ],
+    "split": "test",
+    "group": "1602"
+  },
+  {
+    "id": "5ae68e0055429908198fa607",
+    "type": "bridge",
+    "level": "hard",
+    "support_keys": [
+      "Richa Chadda",
+      "Tamanchey"
+    ],
+    "split": "test",
+    "group": "720"
+  },
+  {
+    "id": "5ae4075b55429970de88d87a",
+    "type": "bridge",
+    "level": "hard",
+    "support_keys": [
+      "Nikita Khrushchev",
+      "Soviet\u2013Albanian split"
+    ],
+    "split": "test",
+    "group": "2033"
+  },
+  {
+    "id": "5ab82d095542990e739ec853",
+    "type": "bridge",
+    "level": "hard",
+    "support_keys": [
+      "Daler Mehndi",
+      "Tunak Tunak Tun"
+    ],
+    "split": "test",
+    "group": "3203"
+  },
+  {
+    "id": "5ae3d8415542992f92d8239a",
+    "type": "bridge",
+    "level": "hard",
+    "support_keys": [
+      "Associate degree",
+      "Southeastern Illinois College"
+    ],
+    "split": "test",
+    "group": "420"
+  },
+  {
+    "id": "5adff45c55429925eb1afb8c",
+    "type": "bridge",
+    "level": "hard",
+    "support_keys": [
+      "Randolph Scott",
+      "Sugarfoot (film)"
+    ],
+    "split": "test",
+    "group": "3004"
+  },
+  {
+    "id": "5ab56f7a554299637185c59a",
+    "type": "bridge",
+    "level": "hard",
+    "support_keys": [
+      "Not Richard, But Dick",
+      "The Dead Milkmen"
+    ],
+    "split": "test",
+    "group": "2458"
+  },
+  {
+    "id": "5a817f6655429938b6142349",
+    "type": "comparison",
+    "level": "hard",
+    "support_keys": [
+      "Tim Armstrong",
+      "Tori Amos"
+    ],
+    "split": "test",
+    "group": "548"
+  },
+  {
+    "id": "5ae33bdc5542992f92d8225e",
+    "type": "bridge",
+    "level": "hard",
+    "support_keys": [
+      "SpongeBob SquarePants 4-D",
+      "SpongeBob SquarePants 4D: The Great Jelly Rescue"
+    ],
+    "split": "test",
+    "group": "3169"
+  },
+  {
+    "id": "5ae1681b554299422ee9967c",
+    "type": "bridge",
+    "level": "hard",
+    "support_keys": [
+      "She Hate Me",
+      "Spike Lee"
+    ],
+    "split": "test",
+    "group": "2418"
+  },
+  {
+    "id": "5abea98d5542990832d3a07d",
+    "type": "bridge",
+    "level": "hard",
+    "support_keys": [
+      "Invoice",
+      "TimeCamp"
+    ],
+    "split": "test",
+    "group": "5475"
+  },
+  {
+    "id": "5adc459255429944faac24ad",
+    "type": "bridge",
+    "level": "hard",
+    "support_keys": [
+      "Kevin Henke",
+      "RATE project"
+    ],
+    "split": "test",
+    "group": "955"
+  },
+  {
+    "id": "5a78abbc554299148911f90c",
+    "type": "bridge",
+    "level": "hard",
+    "support_keys": [
+      "Forbes",
+      "Schreiber Foods"
+    ],
+    "split": "test",
+    "group": "3181"
+  },
+  {
+    "id": "5a7c221f554299683c1c62d2",
+    "type": "bridge",
+    "level": "hard",
+    "support_keys": [
+      "Marlborough, New Hampshire",
+      "New Hampshire Route 124"
+    ],
+    "split": "test",
+    "group": "2298"
+  },
+  {
+    "id": "5a8f0a01554299458435d539",
+    "type": "bridge",
+    "level": "hard",
+    "support_keys": [
+      "Forevermore (band)",
+      "Telos (album)"
+    ],
+    "split": "test",
+    "group": "617"
+  },
+  {
+    "id": "5a76a2b55542993569682c6c",
+    "type": "bridge",
+    "level": "hard",
+    "support_keys": [
+      "A Little Princess",
+      "WonderWorks"
+    ],
+    "split": "test",
+    "group": "4359"
+  },
+  {
+    "id": "5ae2ee5e5542991a06ce990a",
+    "type": "bridge",
+    "level": "hard",
+    "support_keys": [
+      "1st Virginia Regiment",
+      "Battle of Great Bridge"
+    ],
+    "split": "test",
+    "group": "349"
+  },
+  {
+    "id": "5ae0cddc55429945ae959459",
+    "type": "bridge",
+    "level": "hard",
+    "support_keys": [
+      "National Firearms Agreement",
+      "Port Arthur massacre (Australia)"
+    ],
+    "split": "test",
+    "group": "889"
+  },
+  {
+    "id": "5ab3bb7b55429969a97a8198",
+    "type": "bridge",
+    "level": "hard",
+    "support_keys": [
+      "Lee Pace",
+      "The Keeping Hours"
+    ],
+    "split": "test",
+    "group": "3235"
+  },
+  {
+    "id": "5ae0fd9655429920d5234264",
+    "type": "bridge",
+    "level": "hard",
+    "support_keys": [
+      "A Charlie Brown Christmas",
+      "Rudolph the Red-Nosed Reindeer (TV special)"
+    ],
+    "split": "test",
+    "group": "4864"
+  },
+  {
+    "id": "5ab9988b554299131ca4238e",
+    "type": "bridge",
+    "level": "hard",
+    "support_keys": [
+      "Innocence (2013 film)",
+      "Stephanie March"
+    ],
+    "split": "test",
+    "group": "4382"
+  },
+  {
+    "id": "5a89bbb05542992e4fca83a3",
+    "type": "bridge",
+    "level": "hard",
+    "support_keys": [
+      "Nick Offerman",
+      "November (2004 film)"
+    ],
+    "split": "test",
+    "group": "1437"
+  },
+  {
+    "id": "5a85fb5e5542994775f606df",
+    "type": "bridge",
+    "level": "hard",
+    "support_keys": [
+      "Calabrian black squirrel",
+      "Italian Peninsula"
+    ],
+    "split": "test",
+    "group": "5340"
+  },
+  {
+    "id": "5a72b3335542994cef4bc3dc",
+    "type": "bridge",
+    "level": "hard",
+    "support_keys": [
+      "Home Rule League",
+      "Irish Home Rule movement"
+    ],
+    "split": "test",
+    "group": "2525"
+  },
+  {
+    "id": "5ab3d69255429969a97a81c9",
+    "type": "bridge",
+    "level": "hard",
+    "support_keys": [
+      "USS Essex (CV-9)",
+      "VMF-213"
+    ],
+    "split": "test",
+    "group": "202"
+  },
+  {
+    "id": "5ae388ea5542994393b9e6f0",
+    "type": "bridge",
+    "level": "hard",
+    "support_keys": [
+      "Brady Haran",
+      "The Periodic Table of Videos"
+    ],
+    "split": "test",
+    "group": "4558"
+  },
+  {
+    "id": "5ae4585c5542996836b02c89",
+    "type": "comparison",
+    "level": "hard",
+    "support_keys": [
+      "Band of Skulls",
+      "Live (band)"
+    ],
+    "split": "test",
+    "group": "700"
+  },
+  {
+    "id": "5ae0156455429942ec259c15",
+    "type": "bridge",
+    "level": "hard",
+    "support_keys": [
+      "Alan Faena",
+      "Faena Arts Center"
+    ],
+    "split": "test",
+    "group": "1501"
+  },
+  {
+    "id": "5a7e1cd955429965cec5ea76",
+    "type": "bridge",
+    "level": "hard",
+    "support_keys": [
+      "Abhra Mondal",
+      "Indian Super League"
+    ],
+    "split": "test",
+    "group": "762"
+  },
+  {
+    "id": "5ae3fcfc5542995dadf2428c",
+    "type": "bridge",
+    "level": "hard",
+    "support_keys": [
+      "Norman Greenbaum",
+      "The Stovall Sisters"
+    ],
+    "split": "test",
+    "group": "2917"
+  },
+  {
+    "id": "5a878d795542993e715abf9d",
+    "type": "bridge",
+    "level": "hard",
+    "support_keys": [
+      "Goldie &amp; Bear",
+      "Jorge Aguirre (author)"
+    ],
+    "split": "test",
+    "group": "5539"
+  },
+  {
+    "id": "5ae2e0fd55429928c4239524",
+    "type": "bridge",
+    "level": "hard",
+    "support_keys": [
+      "Richard Darman",
+      "Ronald Reagan"
+    ],
+    "split": "test",
+    "group": "385"
+  },
+  {
+    "id": "5ae1e8ab5542997283cd22ca",
+    "type": "bridge",
+    "level": "hard",
+    "support_keys": [
+      "Anna Camp",
+      "The Mindy Project"
+    ],
+    "split": "test",
+    "group": "5411"
+  },
+  {
+    "id": "5ae0f73d55429920d5234252",
+    "type": "bridge",
+    "level": "hard",
+    "support_keys": [
+      "Alan Faneca",
+      "Super Bowl XL"
+    ],
+    "split": "test",
+    "group": "5035"
+  },
+  {
+    "id": "5a8c7703554299585d9e36b9",
+    "type": "bridge",
+    "level": "hard",
+    "support_keys": [
+      "Douglas Murray (author)",
+      "Press TV controversies"
+    ],
+    "split": "test",
+    "group": "4698"
+  },
+  {
+    "id": "5a72abb95542992359bc3162",
+    "type": "comparison",
+    "level": "hard",
+    "support_keys": [
+      "Cars 3",
+      "Smith!"
+    ],
+    "split": "test",
+    "group": "2395"
+  },
+  {
+    "id": "5a7a4f335542990198eaf11e",
+    "type": "comparison",
+    "level": "hard",
+    "support_keys": [
+      "Belle and Sebastian",
+      "Kings of Convenience"
+    ],
+    "split": "test",
+    "group": "4331"
+  },
+  {
+    "id": "5ae60ea9554299546bf8304e",
+    "type": "bridge",
+    "level": "hard",
+    "support_keys": [
+      "Hurricane Irene",
+      "North Blenheim, New York"
+    ],
+    "split": "test",
+    "group": "1078"
+  },
+  {
+    "id": "5ac3126f5542995ef918c0e8",
+    "type": "comparison",
+    "level": "hard",
+    "support_keys": [
+      "Hippophae",
+      "Tetrapanax"
+    ],
+    "split": "test",
+    "group": "1431"
+  },
+  {
+    "id": "5a7b3d565542992d025e67b6",
+    "type": "bridge",
+    "level": "hard",
+    "support_keys": [
+      "Andes",
+      "Auqui"
+    ],
+    "split": "test",
+    "group": "1255"
+  },
+  {
+    "id": "5a8c2bb4554299240d9c20ac",
+    "type": "bridge",
+    "level": "hard",
+    "support_keys": [
+      "AMU Literary Festival",
+      "Mani Shankar Aiyar"
+    ],
+    "split": "test",
+    "group": "3748"
+  },
+  {
+    "id": "5ae2fa1b55429928c4239583",
+    "type": "bridge",
+    "level": "hard",
+    "support_keys": [
+      "Masters and Johnson",
+      "Orgasmic platform"
+    ],
+    "split": "test",
+    "group": "340"
+  },
+  {
+    "id": "5ab21682554299722f9b4ca9",
+    "type": "bridge",
+    "level": "hard",
+    "support_keys": [
+      "Lisa Vanderpump",
+      "Vanderpump Rules"
+    ],
+    "split": "test",
+    "group": "3145"
+  },
+  {
+    "id": "5a8563c05542997b5ce3fff4",
+    "type": "comparison",
+    "level": "hard",
+    "support_keys": [
+      "Arenga",
+      "Chestnut"
+    ],
+    "split": "test",
+    "group": "5453"
+  },
+  {
+    "id": "5a7faa215542995d8a8ddee8",
+    "type": "bridge",
+    "level": "hard",
+    "support_keys": [
+      "Anne, Princess Royal",
+      "Middleton Grange Shopping Centre"
+    ],
+    "split": "test",
+    "group": "1032"
+  },
+  {
+    "id": "5a75e60e55429976ec32bc88",
+    "type": "bridge",
+    "level": "hard",
+    "support_keys": [
+      "Jamel\u00e3o",
+      "Rio Carnival"
+    ],
+    "split": "test",
+    "group": "1870"
+  },
+  {
+    "id": "5a8752955542994775f607d1",
+    "type": "bridge",
+    "level": "hard",
+    "support_keys": [
+      "1966 Arizona State Sun Devils football team",
+      "Western Athletic Conference"
+    ],
+    "split": "test",
+    "group": "534"
+  },
+  {
+    "id": "5a77984d5542992a6e59df14",
+    "type": "bridge",
+    "level": "hard",
+    "support_keys": [
+      "Henry Moore (biographer)",
+      "John Wesley"
+    ],
+    "split": "test",
+    "group": "2657"
+  },
+  {
+    "id": "5a75eca555429976ec32bca8",
+    "type": "bridge",
+    "level": "hard",
+    "support_keys": [
+      "Lawrence, Nassau County, New York",
+      "Nassau Herald"
+    ],
+    "split": "test",
+    "group": "2084"
+  },
+  {
+    "id": "5adead1855429939a52fe948",
+    "type": "bridge",
+    "level": "hard",
+    "support_keys": [
+      "Paul Kantner",
+      "Planet Earth Rock and Roll Orchestra (album)"
+    ],
+    "split": "test",
+    "group": "4552"
+  },
+  {
+    "id": "5aba9db7554299232ef4a361",
+    "type": "bridge",
+    "level": "hard",
+    "support_keys": [
+      "Kansas House of Representatives",
+      "Tom Holland (politician)"
+    ],
+    "split": "test",
+    "group": "2776"
+  },
+  {
+    "id": "5ae322b75542994393b9e622",
+    "type": "bridge",
+    "level": "hard",
+    "support_keys": [
+      "G\u00e9rard Dubois",
+      "Pacific Place"
+    ],
+    "split": "test",
+    "group": "4989"
+  },
+  {
+    "id": "5ab859a955429934fafe6d7b",
+    "type": "bridge",
+    "level": "hard",
+    "support_keys": [
+      "Back to Mono (1958\u20131969)",
+      "To Know Him Is to Love Him"
+    ],
+    "split": "test",
+    "group": "36"
+  },
+  {
+    "id": "5a84b7db5542991dd0999db0",
+    "type": "comparison",
+    "level": "hard",
+    "support_keys": [
+      "Dafne",
+      "G\u00f6tterd\u00e4mmerung"
+    ],
+    "split": "test",
+    "group": "1728"
+  },
+  {
+    "id": "5a86294e5542994775f60715",
+    "type": "bridge",
+    "level": "hard",
+    "support_keys": [
+      "Stinkfist",
+      "\u00c6nima"
+    ],
+    "split": "test",
+    "group": "2536"
+  },
+  {
+    "id": "5a81a84e5542990a1d231e4e",
+    "type": "bridge",
+    "level": "hard",
+    "support_keys": [
+      "El T\u00edo Disparate",
+      "Palito Ortega"
+    ],
+    "split": "test",
+    "group": "1377"
+  },
+  {
+    "id": "5ab412da5542996a3a969f15",
+    "type": "bridge",
+    "level": "hard",
+    "support_keys": [
+      "Karl Kraepelin",
+      "Scorpion"
+    ],
+    "split": "test",
+    "group": "1537"
+  },
+  {
+    "id": "5a8f812755429918e830d245",
+    "type": "bridge",
+    "level": "hard",
+    "support_keys": [
+      "New York Stock Exchange",
+      "Robert M. Fomon"
+    ],
+    "split": "test",
+    "group": "686"
+  },
+  {
+    "id": "5a78c66e55429974737f787b",
+    "type": "bridge",
+    "level": "hard",
+    "support_keys": [
+      "Masta Killa",
+      "Selling My Soul"
+    ],
+    "split": "test",
+    "group": "3446"
+  },
+  {
+    "id": "5a87bd4e5542996432c57279",
+    "type": "bridge",
+    "level": "hard",
+    "support_keys": [
+      "Reverend Lovejoy",
+      "The Monkey Suit"
+    ],
+    "split": "test",
+    "group": "4803"
+  },
+  {
+    "id": "5a8eabf755429917b4a5bdaa",
+    "type": "bridge",
+    "level": "hard",
+    "support_keys": [
+      "Aaina (1993 film)",
+      "Pamela Chopra"
+    ],
+    "split": "test",
+    "group": "3856"
+  },
+  {
+    "id": "5a7bd286554299683c1c62bd",
+    "type": "bridge",
+    "level": "hard",
+    "support_keys": [
+      "Dancing with the Stars (New Zealand series 3)",
+      "Paul Mercurio"
+    ],
+    "split": "test",
+    "group": "3176"
+  },
+  {
+    "id": "5a810006554299260e20a1f6",
+    "type": "bridge",
+    "level": "hard",
+    "support_keys": [
+      "Boba Fett",
+      "Star Wars"
+    ],
+    "split": "test",
+    "group": "5179"
+  },
+  {
+    "id": "5a894bea55429946c8d6e910",
+    "type": "bridge",
+    "level": "hard",
+    "support_keys": [
+      "Linda Woolverton",
+      "Running Before the Wind"
+    ],
+    "split": "test",
+    "group": "5371"
+  },
+  {
+    "id": "5a7bc0755542995eb53be9a5",
+    "type": "bridge",
+    "level": "hard",
+    "support_keys": [
+      "Places in The Dark Tower series",
+      "The Dark Tower (series)"
+    ],
+    "split": "test",
+    "group": "5055"
+  },
+  {
+    "id": "5a83880e554299123d8c214e",
+    "type": "bridge",
+    "level": "hard",
+    "support_keys": [
+      "Ghost Rider (Suicide song)",
+      "Suicide (1977 album)"
+    ],
+    "split": "test",
+    "group": "87"
+  },
+  {
+    "id": "5ab28b395542993be8fa9941",
+    "type": "comparison",
+    "level": "hard",
+    "support_keys": [
+      "Dappy",
+      "Tobias Sammet"
+    ],
+    "split": "test",
+    "group": "4533"
+  },
+  {
+    "id": "5a8a13f45542992d82986e9e",
+    "type": "comparison",
+    "level": "hard",
+    "support_keys": [
+      "Biff Byford",
+      "Stacey McClean"
+    ],
+    "split": "test",
+    "group": "2317"
+  },
+  {
+    "id": "5a89b8f0554299669944a580",
+    "type": "bridge",
+    "level": "hard",
+    "support_keys": [
+      "Aimee Carrero",
+      "Level Up (U.S. TV series)"
+    ],
+    "split": "test",
+    "group": "5266"
+  },
+  {
+    "id": "5ae0aaf455429945ae959401",
+    "type": "bridge",
+    "level": "hard",
+    "support_keys": [
+      "Chris Williams (English footballer)",
+      "Salford City F.C."
+    ],
+    "split": "test",
+    "group": "145"
+  },
+  {
+    "id": "5a9051615542995651fb5136",
+    "type": "bridge",
+    "level": "hard",
+    "support_keys": [
+      "Shenley Hall",
+      "Shenley, Hertfordshire"
+    ],
+    "split": "test",
+    "group": "2995"
+  },
+  {
+    "id": "5ae7ee41554299540e5a56b0",
+    "type": "bridge",
+    "level": "hard",
+    "support_keys": [
+      "Paul Maynard",
+      "Theresa May"
+    ],
+    "split": "test",
+    "group": "1296"
+  },
+  {
+    "id": "5ab98e2b5542996be202054e",
+    "type": "bridge",
+    "level": "hard",
+    "support_keys": [
+      "William Flannery",
+      "William Randolph Hearst"
+    ],
+    "split": "test",
+    "group": "2649"
+  },
+  {
+    "id": "5a89e57f5542992e4fca845d",
+    "type": "bridge",
+    "level": "hard",
+    "support_keys": [
+      "Bantu peoples",
+      "Pap (food)"
+    ],
+    "split": "test",
+    "group": "2553"
+  },
+  {
+    "id": "5a747a3755429974ef308c09",
+    "type": "comparison",
+    "level": "hard",
+    "support_keys": [
+      "Richard Hawley",
+      "Scott Weiland"
+    ],
+    "split": "test",
+    "group": "3511"
+  },
+  {
+    "id": "5abdd0f15542991f6610604d",
+    "type": "bridge",
+    "level": "hard",
+    "support_keys": [
+      "Engelbert Dollfuss",
+      "Rome Protocols"
+    ],
+    "split": "test",
+    "group": "5247"
+  },
+  {
+    "id": "5a7d043755429909bec768f7",
+    "type": "bridge",
+    "level": "hard",
+    "support_keys": [
+      "Basie Meets Bond",
+      "Count Basie"
+    ],
+    "split": "test",
+    "group": "3106"
+  },
+  {
+    "id": "5ac5461d5542993e66e82296",
+    "type": "bridge",
+    "level": "hard",
+    "support_keys": [
+      "Meghan Markle",
+      "Suits (season 3)"
+    ],
+    "split": "test",
+    "group": "3251"
+  },
+  {
+    "id": "5a77c60255429967ab105285",
+    "type": "bridge",
+    "level": "hard",
+    "support_keys": [
+      "Emil Wolf",
+      "Progress in Optics"
+    ],
+    "split": "test",
+    "group": "672"
+  },
+  {
+    "id": "5ae4eb9255429908b63264ba",
+    "type": "bridge",
+    "level": "hard",
+    "support_keys": [
+      "Iroquois",
+      "William N. Fenton"
+    ],
+    "split": "test",
+    "group": "2962"
+  },
+  {
+    "id": "5a776bc855429966f1a36d3a",
+    "type": "comparison",
+    "level": "hard",
+    "support_keys": [
+      "Borzoi",
+      "Rampur Greyhound"
+    ],
+    "split": "test",
+    "group": "1979"
+  },
+  {
+    "id": "5a7cba005542990527d55516",
+    "type": "bridge",
+    "level": "hard",
+    "support_keys": [
+      "Emmett Kelly",
+      "Zachary &quot;Skeeter&quot; Reece"
+    ],
+    "split": "test",
+    "group": "1791"
+  },
+  {
+    "id": "5ae2c8b05542992decbdcd9d",
+    "type": "bridge",
+    "level": "hard",
+    "support_keys": [
+      "Wengie",
+      "YouTube Rewind"
+    ],
+    "split": "test",
+    "group": "307"
+  },
+  {
+    "id": "5abf2e605542993fe9a41de4",
+    "type": "comparison",
+    "level": "hard",
+    "support_keys": [
+      "Atsushi Ogata",
+      "Ralph Smart"
+    ],
+    "split": "test",
+    "group": "1022"
+  },
+  {
+    "id": "5a7dbb605542997cc2c47486",
+    "type": "bridge",
+    "level": "hard",
+    "support_keys": [
+      "Jack-in-the-box",
+      "Pop Goes the Weasel"
+    ],
+    "split": "test",
+    "group": "4739"
+  },
+  {
+    "id": "5a7bcbc8554299294a54aae2",
+    "type": "comparison",
+    "level": "hard",
+    "support_keys": [
+      "Manhattan College",
+      "Sir Syed University of Engineering and Technology"
+    ],
+    "split": "test",
+    "group": "1006"
+  },
+  {
+    "id": "5ade0cc85542990dbb2f7f37",
+    "type": "comparison",
+    "level": "hard",
+    "support_keys": [
+      "Ordos City",
+      "Yangzhong"
+    ],
+    "split": "test",
+    "group": "184"
+  },
+  {
+    "id": "5a7c6bcc55429935c91b519c",
+    "type": "bridge",
+    "level": "hard",
+    "support_keys": [
+      "Richard Ford",
+      "Rock Springs (short story collection)"
+    ],
+    "split": "test",
+    "group": "244"
+  },
+  {
+    "id": "5a77bdcb5542997042120b0b",
+    "type": "comparison",
+    "level": "hard",
+    "support_keys": [
+      "Morgan Llywelyn",
+      "Robert Jordan"
+    ],
+    "split": "test",
+    "group": "3923"
+  },
+  {
+    "id": "5a7348555542994cef4bc503",
+    "type": "bridge",
+    "level": "hard",
+    "support_keys": [
+      "Complete Works of Shakespeare",
+      "Edward III (play)"
+    ],
+    "split": "test",
+    "group": "1759"
+  },
+  {
+    "id": "5aba7c7155429955dce3ee58",
+    "type": "bridge",
+    "level": "hard",
+    "support_keys": [
+      "I.O.I",
+      "Produce 101"
+    ],
+    "split": "test",
+    "group": "2388"
+  },
+  {
+    "id": "5ac415445542995c82c4acb7",
+    "type": "bridge",
+    "level": "hard",
+    "support_keys": [
+      "Essie Davis",
+      "The Babadook"
+    ],
+    "split": "test",
+    "group": "2837"
+  },
+  {
+    "id": "5ac3271e554299218029dbd3",
+    "type": "bridge",
+    "level": "hard",
+    "support_keys": [
+      "Dean Holdsworth",
+      "Kenny Brown (footballer, born 1967)"
+    ],
+    "split": "test",
+    "group": "849"
+  },
+  {
+    "id": "5a8a4b9955429930ff3c0d88",
+    "type": "bridge",
+    "level": "hard",
+    "support_keys": [
+      "Gretel Scarlett",
+      "Singin' in the Rain (musical)"
+    ],
+    "split": "test",
+    "group": "5000"
+  },
+  {
+    "id": "5ab2bc80554299194fa934d7",
+    "type": "bridge",
+    "level": "hard",
+    "support_keys": [
+      "Cari Roccaro",
+      "East Islip, New York"
+    ],
+    "split": "test",
+    "group": "3874"
+  },
+  {
+    "id": "5a8b6ac055429949d91db5a5",
+    "type": "bridge",
+    "level": "hard",
+    "support_keys": [
+      "Charlie Kendall",
+      "Donald Sterling"
+    ],
+    "split": "test",
+    "group": "1690"
+  },
+  {
+    "id": "5adf35935542993344016c36",
+    "type": "bridge",
+    "level": "hard",
+    "support_keys": [
+      "&quot;Dr. Death&quot; Steve Williams",
+      "Starrcade (1992)"
+    ],
+    "split": "test",
+    "group": "2512"
+  },
+  {
+    "id": "5a7769a35542993569682d8f",
+    "type": "comparison",
+    "level": "hard",
+    "support_keys": [
+      "Baghdad ER",
+      "The Ten-Year Lunch"
+    ],
+    "split": "test",
+    "group": "1721"
+  },
+  {
+    "id": "5abd0d635542992ac4f381b8",
+    "type": "bridge",
+    "level": "hard",
+    "support_keys": [
+      "Adele",
+      "Robson &amp; Jerome (album)"
+    ],
+    "split": "test",
+    "group": "238"
+  },
+  {
+    "id": "5ae347fb5542992e3233c368",
+    "type": "bridge",
+    "level": "hard",
+    "support_keys": [
+      "Chuck Schumer",
+      "United States Senate election in New York, 2004"
+    ],
+    "split": "test",
+    "group": "3380"
+  },
+  {
+    "id": "5adc094a55429947ff1738c0",
+    "type": "bridge",
+    "level": "hard",
+    "support_keys": [
+      "American Blues",
+      "Frank Beard (musician)"
+    ],
+    "split": "test",
+    "group": "310"
+  },
+  {
+    "id": "5a80fb97554299260e20a1eb",
+    "type": "bridge",
+    "level": "hard",
+    "support_keys": [
+      "Elizabeth Gaskell",
+      "Mary Barton"
+    ],
+    "split": "test",
+    "group": "1468"
+  },
+  {
+    "id": "5a7ce444554299683c1c63c1",
+    "type": "bridge",
+    "level": "hard",
+    "support_keys": [
+      "Hoodlum (film)",
+      "Lucky Luciano"
+    ],
+    "split": "test",
+    "group": "2968"
+  },
+  {
+    "id": "5a7354d55542994cef4bc55a",
+    "type": "bridge",
+    "level": "hard",
+    "support_keys": [
+      "Psilocybe",
+      "Psilocybin"
+    ],
+    "split": "test",
+    "group": "1395"
+  },
+  {
+    "id": "5ab61140554299110f2199d7",
+    "type": "bridge",
+    "level": "hard",
+    "support_keys": [
+      "American Beauty: Original Motion Picture Score",
+      "Thomas Newman"
+    ],
+    "split": "test",
+    "group": "2243"
+  },
+  {
+    "id": "5a82817555429954d2e2eb5a",
+    "type": "bridge",
+    "level": "hard",
+    "support_keys": [
+      "Naked Soldier",
+      "Naked Weapon"
+    ],
+    "split": "test",
+    "group": "891"
+  },
+  {
+    "id": "5ae7a5f05542993210983ece",
+    "type": "bridge",
+    "level": "hard",
+    "support_keys": [
+      "Kasba Peth (Vidhan Sabha constituency)",
+      "Marathi language"
+    ],
+    "split": "test",
+    "group": "1773"
+  },
+  {
+    "id": "5abac89d55429901930fa8b5",
+    "type": "bridge",
+    "level": "hard",
+    "support_keys": [
+      "Joan Plowright",
+      "Moby Dick\u2014Rehearsed"
+    ],
+    "split": "test",
+    "group": "2487"
+  },
+  {
+    "id": "5ae0b0ab55429945ae959423",
+    "type": "bridge",
+    "level": "hard",
+    "support_keys": [
+      "2000\u201301 A.S. Roma season",
+      "Walter Samuel"
+    ],
+    "split": "test",
+    "group": "4070"
+  },
+  {
+    "id": "5ae47ae05542995ad6573d4f",
+    "type": "bridge",
+    "level": "hard",
+    "support_keys": [
+      "Billie Holiday",
+      "Strange Fruit Project"
+    ],
+    "split": "test",
+    "group": "1365"
+  },
+  {
+    "id": "5ac18baa5542991316484b33",
+    "type": "bridge",
+    "level": "hard",
+    "support_keys": [
+      "Beached Az",
+      "Nicholas Boshier"
+    ],
+    "split": "test",
+    "group": "1974"
+  },
+  {
+    "id": "5adc3aff5542996e685252eb",
+    "type": "bridge",
+    "level": "hard",
+    "support_keys": [
+      "Derek Jacobi",
+      "Up at the Villa (film)"
+    ],
+    "split": "test",
+    "group": "601"
+  },
+  {
+    "id": "5a7f1e805542993067513640",
+    "type": "bridge",
+    "level": "hard",
+    "support_keys": [
+      "The Voyage that Shook the World",
+      "Young Earth creationism"
+    ],
+    "split": "test",
+    "group": "3168"
+  },
+  {
+    "id": "5a86481b5542996432c571b5",
+    "type": "bridge",
+    "level": "hard",
+    "support_keys": [
+      "Game Designers' Workshop",
+      "Traveller Supplement 4: Citizens of the Imperium"
+    ],
+    "split": "test",
+    "group": "4205"
+  },
+  {
+    "id": "5abeafbb5542997ec76fd347",
+    "type": "comparison",
+    "level": "hard",
+    "support_keys": [
+      "Frida, en trotj\u00e4narinna",
+      "Staten Island Catapult"
+    ],
+    "split": "test",
+    "group": "233"
+  },
+  {
+    "id": "5a78f8e555429970f5fffe01",
+    "type": "bridge",
+    "level": "hard",
+    "support_keys": [
+      "Splash! (UK series 1)",
+      "Tom Daley"
+    ],
+    "split": "test",
+    "group": "1541"
+  },
+  {
+    "id": "5a7c07e15542997c3ec972c7",
+    "type": "bridge",
+    "level": "hard",
+    "support_keys": [
+      "Mary-Kay Wilmers",
+      "Nina Stibbe"
+    ],
+    "split": "test",
+    "group": "4798"
+  },
+  {
+    "id": "5a7c80ab55429907fabeefa3",
+    "type": "bridge",
+    "level": "hard",
+    "support_keys": [
+      "Carlsberg Group",
+      "Grimbergen (beer)"
+    ],
+    "split": "test",
+    "group": "3726"
+  },
+  {
+    "id": "5ab841d15542990e739ec89d",
+    "type": "bridge",
+    "level": "hard",
+    "support_keys": [
+      "Clifford Odets",
+      "Eugene O'Neill"
+    ],
+    "split": "test",
+    "group": "1939"
+  },
+  {
+    "id": "5ab474135542991751b4d77b",
+    "type": "bridge",
+    "level": "hard",
+    "support_keys": [
+      "Elephant (album)",
+      "Seven Nation Army"
+    ],
+    "split": "test",
+    "group": "538"
+  },
+  {
+    "id": "5ae4f2c75542993aec5ec0fb",
+    "type": "bridge",
+    "level": "hard",
+    "support_keys": [
+      "American Airlines Shuttle",
+      "Logan International Airport"
+    ],
+    "split": "test",
+    "group": "173"
+  },
+  {
+    "id": "5a7f669a5542994857a76729",
+    "type": "bridge",
+    "level": "hard",
+    "support_keys": [
+      "Anthony Herrera",
+      "Barbara Ryan"
+    ],
+    "split": "test",
+    "group": "2513"
+  },
+  {
+    "id": "5a8e3dc05542995085b37401",
+    "type": "comparison",
+    "level": "hard",
+    "support_keys": [
+      "Reynolds v. Sims",
+      "Selle v. Gibb"
+    ],
+    "split": "test",
+    "group": "253"
+  },
+  {
+    "id": "5a836a2d554299334474600f",
+    "type": "bridge",
+    "level": "hard",
+    "support_keys": [
+      "Bunte Bl\u00e4tter",
+      "Robert Schumann"
+    ],
+    "split": "test",
+    "group": "2910"
+  },
+  {
+    "id": "5ae1599155429901ffe4ae7b",
+    "type": "comparison",
+    "level": "hard",
+    "support_keys": [
+      "Brian Robbins",
+      "Willi Forst"
+    ],
+    "split": "test",
+    "group": "2636"
+  },
+  {
+    "id": "5ac44813554299194317396b",
+    "type": "bridge",
+    "level": "hard",
+    "support_keys": [
+      "Parafield Airport",
+      "Parafield, South Australia"
+    ],
+    "split": "test",
+    "group": "4276"
+  },
+  {
+    "id": "5ac4b24b5542996feb3fe933",
+    "type": "bridge",
+    "level": "hard",
+    "support_keys": [
+      "Brenton Thwaites",
+      "Office Uprising"
+    ],
+    "split": "test",
+    "group": "2202"
+  },
+  {
+    "id": "5a81c7d15542990a1d231ea9",
+    "type": "bridge",
+    "level": "hard",
+    "support_keys": [
+      "ISS A/S",
+      "Rock (Nominees) Ltd v RCO Holdings Ltd"
+    ],
+    "split": "test",
+    "group": "1319"
+  },
+  {
+    "id": "5adf39ce5542995534e8c76d",
+    "type": "bridge",
+    "level": "hard",
+    "support_keys": [
+      "Geoffrey Kendal",
+      "Karan Kapoor"
+    ],
+    "split": "test",
+    "group": "673"
+  },
+  {
+    "id": "5ac45cfd554299076e296db5",
+    "type": "bridge",
+    "level": "hard",
+    "support_keys": [
+      "Anthony Scrivener",
+      "Tony Martin (farmer)"
+    ],
+    "split": "test",
+    "group": "5047"
+  },
+  {
+    "id": "5a81736255429903bc27b96e",
+    "type": "bridge",
+    "level": "hard",
+    "support_keys": [
+      "Milan, New Hampshire",
+      "Nansen Ski Jump"
+    ],
+    "split": "test",
+    "group": "3997"
+  },
+  {
+    "id": "5a7cb9985542990527d55514",
+    "type": "bridge",
+    "level": "hard",
+    "support_keys": [
+      "Des O'Connor",
+      "Johnnie Casson"
+    ],
+    "split": "test",
+    "group": "1141"
+  },
+  {
+    "id": "5ae0247955429925eb1afc22",
+    "type": "bridge",
+    "level": "hard",
+    "support_keys": [
+      "Karolina Dean",
+      "Xavin"
+    ],
+    "split": "test",
+    "group": "4230"
+  },
+  {
+    "id": "5ac002705542996f0d89cb05",
+    "type": "comparison",
+    "level": "hard",
+    "support_keys": [
+      "Beitun, Xinjiang",
+      "Wafangdian"
+    ],
+    "split": "test",
+    "group": "1150"
+  },
+  {
+    "id": "5a8b84905542997f31a41d5d",
+    "type": "bridge",
+    "level": "hard",
+    "support_keys": [
+      "2016 Maine Black Bears football team",
+      "Alfond Stadium (University of Maine)"
+    ],
+    "split": "test",
+    "group": "5302"
+  },
+  {
+    "id": "5a775f615542993735360250",
+    "type": "bridge",
+    "level": "hard",
+    "support_keys": [
+      "Green Chair",
+      "Shim Ji-ho"
+    ],
+    "split": "test",
+    "group": "1020"
+  },
+  {
+    "id": "5a7730f255429972597f148c",
+    "type": "bridge",
+    "level": "hard",
+    "support_keys": [
+      "A Scholar Under Siege",
+      "Georgia Southern University"
+    ],
+    "split": "test",
+    "group": "2277"
+  },
+  {
+    "id": "5abed6905542990832d3a0ed",
+    "type": "bridge",
+    "level": "hard",
+    "support_keys": [
+      "Leonard Stogel",
+      "Sam the Sham"
+    ],
+    "split": "test",
+    "group": "959"
+  },
+  {
+    "id": "5a773c5c55429966f1a36cbb",
+    "type": "bridge",
+    "level": "hard",
+    "support_keys": [
+      "Andy Pilling",
+      "Preston North End F.C."
+    ],
+    "split": "test",
+    "group": "1191"
+  },
+  {
+    "id": "5a812cd555429926c1cdacfc",
+    "type": "comparison",
+    "level": "hard",
+    "support_keys": [
+      "Apple-Kneel",
+      "Flaming volcano"
+    ],
+    "split": "test",
+    "group": "1642"
+  },
+  {
+    "id": "5a84d71c5542997b5ce3ff75",
+    "type": "bridge",
+    "level": "hard",
+    "support_keys": [
+      "England in the High Middle Ages",
+      "Stephen, King of England"
+    ],
+    "split": "test",
+    "group": "5317"
+  },
+  {
+    "id": "5a89bcc85542992e4fca83a7",
+    "type": "bridge",
+    "level": "hard",
+    "support_keys": [
+      "Carlton Fisk",
+      "Satch Davidson"
+    ],
+    "split": "test",
+    "group": "3260"
+  },
+  {
+    "id": "5abfc9bf5542993fe9a41e60",
+    "type": "bridge",
+    "level": "hard",
+    "support_keys": [
+      "America Is Dying Slowly",
+      "De La Soul"
+    ],
+    "split": "test",
+    "group": "2341"
+  },
+  {
+    "id": "5a8a793555429930ff3c0de7",
+    "type": "bridge",
+    "level": "hard",
+    "support_keys": [
+      "2005\u201306 Atlanta Hawks season",
+      "Zaza Pachulia"
+    ],
+    "split": "test",
+    "group": "3771"
+  },
+  {
+    "id": "5ae78f3b554299540e5a5608",
+    "type": "bridge",
+    "level": "hard",
+    "support_keys": [
+      "Mr. &amp; Mrs. Mxyzptlk",
+      "Supergirl (TV series)"
+    ],
+    "split": "test",
+    "group": "1826"
+  },
+  {
+    "id": "5a8bbddf5542997f31a41db2",
+    "type": "comparison",
+    "level": "hard",
+    "support_keys": [
+      "Italy in a Day",
+      "Without the King"
+    ],
+    "split": "test",
+    "group": "5461"
+  },
+  {
+    "id": "5ae5eb0d554299546bf82fd2",
+    "type": "bridge",
+    "level": "hard",
+    "support_keys": [
+      "Michael Mulligan",
+      "United States v. Hasan K. Akbar"
+    ],
+    "split": "test",
+    "group": "1222"
+  },
+  {
+    "id": "5ac248fd55429951e9e68525",
+    "type": "bridge",
+    "level": "hard",
+    "support_keys": [
+      "Forward Operating Base Gibraltar",
+      "Sangin"
+    ],
+    "split": "test",
+    "group": "1619"
+  },
+  {
+    "id": "5ae686535542996d980e7bdc",
+    "type": "bridge",
+    "level": "hard",
+    "support_keys": [
+      "Barbara Bach",
+      "Black Belly of the Tarantula"
+    ],
+    "split": "test",
+    "group": "663"
+  },
+  {
+    "id": "5a7a6ee75542996c55b2ddac",
+    "type": "comparison",
+    "level": "hard",
+    "support_keys": [
+      "Krzysztof Zanussi",
+      "Thom Andersen"
+    ],
+    "split": "test",
+    "group": "464"
+  },
+  {
+    "id": "5ae496735542995dadf2435d",
+    "type": "bridge",
+    "level": "hard",
+    "support_keys": [
+      "2008\u201309 Texas Tech Red Raiders basketball team",
+      "Big 12 Conference"
+    ],
+    "split": "test",
+    "group": "1171"
+  },
+  {
+    "id": "5ae70c7b5542991bbc9761aa",
+    "type": "bridge",
+    "level": "hard",
+    "support_keys": [
+      "Bridgewater Canal",
+      "George Samuel Fereday Smith"
+    ],
+    "split": "test",
+    "group": "3370"
+  },
+  {
+    "id": "5ae66d515542992ae0d16346",
+    "type": "bridge",
+    "level": "hard",
+    "support_keys": [
+      "I'll Keep the Lovelight Burning",
+      "Patti Page"
+    ],
+    "split": "test",
+    "group": "5068"
+  },
+  {
+    "id": "5abc0aba55429959677d6a00",
+    "type": "bridge",
+    "level": "hard",
+    "support_keys": [
+      "Ed Sullivan",
+      "New York Daily News"
+    ],
+    "split": "test",
+    "group": "3315"
+  },
+  {
+    "id": "5ae7ac495542993210983eee",
+    "type": "bridge",
+    "level": "hard",
+    "support_keys": [
+      "...All the Marbles",
+      "Robert Aldrich"
+    ],
+    "split": "test",
+    "group": "1123"
+  },
+  {
+    "id": "5abeb7eb5542993fe9a41d1f",
+    "type": "bridge",
+    "level": "hard",
+    "support_keys": [
+      "2010\u201311 Old Dominion Monarchs basketball team",
+      "Blaine Taylor"
+    ],
+    "split": "test",
+    "group": "1599"
+  },
+  {
+    "id": "5a7309a15542992359bc320c",
+    "type": "bridge",
+    "level": "hard",
+    "support_keys": [
+      "Benny Andersson",
+      "Money, Money, Money"
+    ],
+    "split": "test",
+    "group": "3082"
+  },
+  {
+    "id": "5a7653d25542992db9473765",
+    "type": "bridge",
+    "level": "hard",
+    "support_keys": [
+      "311 (band)",
+      "Decomposer (album)"
+    ],
+    "split": "test",
+    "group": "4381"
+  },
+  {
+    "id": "5abf1ad15542997ec76fd3c2",
+    "type": "bridge",
+    "level": "hard",
+    "support_keys": [
+      "Gilbert du Motier, Marquis de Lafayette",
+      "The Cellar (Enfield, North Carolina)"
+    ],
+    "split": "test",
+    "group": "5133"
+  },
+  {
+    "id": "5a7fc5c25542992e7d278d6a",
+    "type": "bridge",
+    "level": "hard",
+    "support_keys": [
+      "Lake Macquarie (New South Wales)",
+      "Wyee Point, New South Wales"
+    ],
+    "split": "test",
+    "group": "4957"
+  },
+  {
+    "id": "5ae618535542995703ce8af7",
+    "type": "bridge",
+    "level": "hard",
+    "support_keys": [
+      "Church of St Peter, Pertenhall",
+      "Listed building"
+    ],
+    "split": "test",
+    "group": "3311"
+  },
+  {
+    "id": "5ade61fd554299728e26c704",
+    "type": "bridge",
+    "level": "hard",
+    "support_keys": [
+      "Disco",
+      "Get Off (Foxy album)"
+    ],
+    "split": "test",
+    "group": "5058"
+  },
+  {
+    "id": "5abb2f2f554299232ef4a3d7",
+    "type": "bridge",
+    "level": "hard",
+    "support_keys": [
+      "Harry Emerson Fosdick",
+      "Riverside Church"
+    ],
+    "split": "test",
+    "group": "3157"
+  },
+  {
+    "id": "5ae4b55455429913cc2044db",
+    "type": "bridge",
+    "level": "hard",
+    "support_keys": [
+      "Scott Eastwood",
+      "Suicide Squad (film)"
+    ],
+    "split": "test",
+    "group": "5253"
+  },
+  {
+    "id": "5a8e03375542995a26add458",
+    "type": "bridge",
+    "level": "hard",
+    "support_keys": [
+      "Crescograph",
+      "Jagadish Chandra Bose"
+    ],
+    "split": "test",
+    "group": "3478"
+  },
+  {
+    "id": "5adbfb3f55429947ff17388a",
+    "type": "bridge",
+    "level": "hard",
+    "support_keys": [
+      "Niels Bohr",
+      "Nordic Institute for Theoretical Physics"
+    ],
+    "split": "test",
+    "group": "5093"
+  },
+  {
+    "id": "5a804510554299485f5985af",
+    "type": "bridge",
+    "level": "hard",
+    "support_keys": [
+      "Belle &amp; Sebastian: The Adventure Continues",
+      "Belle and Sebastian (film)"
+    ],
+    "split": "test",
+    "group": "742"
+  },
+  {
+    "id": "5a77727555429972597f1540",
+    "type": "bridge",
+    "level": "hard",
+    "support_keys": [
+      "Blood Bath (American Horror Story)",
+      "Sarah Paulson"
+    ],
+    "split": "test",
+    "group": "2876"
+  },
+  {
+    "id": "5ab3bd7d55429969a97a819f",
+    "type": "bridge",
+    "level": "hard",
+    "support_keys": [
+      "2010\u201311 Copa del Rey",
+      "2012 Copa del Rey Final"
+    ],
+    "split": "test",
+    "group": "1898"
+  },
+  {
+    "id": "5a8d8abf5542994ba4e3dca1",
+    "type": "bridge",
+    "level": "hard",
+    "support_keys": [
+      "Andy Cohen (television personality)",
+      "The Real Housewives of Orange County (season 11)"
+    ],
+    "split": "test",
+    "group": "2774"
+  },
+  {
+    "id": "5a7619765542992db9473728",
+    "type": "bridge",
+    "level": "hard",
+    "support_keys": [
+      "Christopher Wren",
+      "East Knoyle"
+    ],
+    "split": "test",
+    "group": "3631"
+  },
+  {
+    "id": "5ade6fcd55429975fa854ecf",
+    "type": "bridge",
+    "level": "hard",
+    "support_keys": [
+      "Academy Awards pre-show",
+      "Robin Roberts (newscaster)"
+    ],
+    "split": "test",
+    "group": "5095"
+  },
+  {
+    "id": "5abd5b0355429933744ab789",
+    "type": "bridge",
+    "level": "hard",
+    "support_keys": [
+      "Abbey Road, London",
+      "McLemore Avenue"
+    ],
+    "split": "test",
+    "group": "4514"
+  },
+  {
+    "id": "5ac5382c5542996feb3fea43",
+    "type": "bridge",
+    "level": "hard",
+    "support_keys": [
+      "Forever Kingdom",
+      "FromSoftware"
+    ],
+    "split": "test",
+    "group": "1172"
+  },
+  {
+    "id": "5a7b9f1f554299294a54aa2a",
+    "type": "comparison",
+    "level": "hard",
+    "support_keys": [
+      "Marc Webb",
+      "Tony Kaye (director)"
+    ],
+    "split": "test",
+    "group": "2745"
+  },
+  {
+    "id": "5abd4fe05542993062266c4e",
+    "type": "bridge",
+    "level": "hard",
+    "support_keys": [
+      "Bambi's Children",
+      "Faline"
+    ],
+    "split": "test",
+    "group": "2102"
+  },
+  {
+    "id": "5ab2d15e554299545a2cfaa6",
+    "type": "bridge",
+    "level": "hard",
+    "support_keys": [
+      "Extract (film)",
+      "Kristen Wiig"
+    ],
+    "split": "test",
+    "group": "4665"
+  },
+  {
+    "id": "5ae0ec48554299422ee9955a",
+    "type": "bridge",
+    "level": "hard",
+    "support_keys": [
+      "Ada Lovelace",
+      "Childe Byron"
+    ],
+    "split": "test",
+    "group": "3538"
+  },
+  {
+    "id": "5a90a9a45542990a9849367e",
+    "type": "comparison",
+    "level": "hard",
+    "support_keys": [
+      "Osmunda",
+      "Podocarpus"
+    ],
+    "split": "test",
+    "group": "3442"
+  },
+  {
+    "id": "5ac50c0355429924173fb581",
+    "type": "bridge",
+    "level": "hard",
+    "support_keys": [
+      "Grammy Award for Best Country Song",
+      "Little Green Apples"
+    ],
+    "split": "test",
+    "group": "4653"
+  },
+  {
+    "id": "5a77baac5542992a6e59dfa2",
+    "type": "bridge",
+    "level": "hard",
+    "support_keys": [
+      "Jason Gould",
+      "Partners (Barbra Streisand album)"
+    ],
+    "split": "test",
+    "group": "5041"
+  },
+  {
+    "id": "5ac264195542992f1f2b38a5",
+    "type": "bridge",
+    "level": "hard",
+    "support_keys": [
+      "John Kirby (musician)",
+      "The Bonnie Banks o' Loch Lomond"
+    ],
+    "split": "test",
+    "group": "2609"
+  },
+  {
+    "id": "5ab935c755429934fafe6e74",
+    "type": "bridge",
+    "level": "hard",
+    "support_keys": [
+      "Lonely Hearts (2006 film)",
+      "Raymond Fernandez and Martha Beck"
+    ],
+    "split": "test",
+    "group": "1712"
+  },
+  {
+    "id": "5abbdb195542993f40c73bf1",
+    "type": "comparison",
+    "level": "hard",
+    "support_keys": [
+      "Garajonay National Park",
+      "Guadarrama National Park"
+    ],
+    "split": "test",
+    "group": "1852"
+  },
+  {
+    "id": "5ac4f04e5542995c82c4ad81",
+    "type": "bridge",
+    "level": "hard",
+    "support_keys": [
+      "Vilnius Cathedral",
+      "Vilnius Old Town"
+    ],
+    "split": "test",
+    "group": "2764"
+  },
+  {
+    "id": "5a7e4af3554299495941998c",
+    "type": "bridge",
+    "level": "hard",
+    "support_keys": [
+      "Ali Akbar College of Music",
+      "Ali Akbar Khan"
+    ],
+    "split": "test",
+    "group": "2255"
+  },
+  {
+    "id": "5abec8e45542997ec76fd364",
+    "type": "bridge",
+    "level": "hard",
+    "support_keys": [
+      "Billy Wright (loyalist)",
+      "Mark Fulton (loyalist)"
+    ],
+    "split": "test",
+    "group": "4065"
+  },
+  {
+    "id": "5ae6914755429908198fa627",
+    "type": "bridge",
+    "level": "hard",
+    "support_keys": [
+      "Brian Olsen",
+      "Zuffa"
+    ],
+    "split": "test",
+    "group": "696"
+  },
+  {
+    "id": "5a8325b35542990548d0b18f",
+    "type": "bridge",
+    "level": "hard",
+    "support_keys": [
+      "Bronwyn Bishop",
+      "Kathy Sullivan (Australian politician)"
+    ],
+    "split": "test",
+    "group": "120"
+  },
+  {
+    "id": "5ac05310554299012d1db5e7",
+    "type": "bridge",
+    "level": "hard",
+    "support_keys": [
+      "Mark Fuhrman",
+      "Ron Goldman"
+    ],
+    "split": "test",
+    "group": "2302"
+  },
+  {
+    "id": "5ab9b2c7554299743d22ebaf",
+    "type": "comparison",
+    "level": "hard",
+    "support_keys": [
+      "Lygodium",
+      "Maxillaria"
+    ],
+    "split": "test",
+    "group": "2606"
+  },
+  {
+    "id": "5a8c06bb5542995e66a47530",
+    "type": "bridge",
+    "level": "hard",
+    "support_keys": [
+      "Bigger Than Both of Us",
+      "Hall &amp; Oates"
+    ],
+    "split": "test",
+    "group": "877"
+  },
+  {
+    "id": "5a8841195542994846c1ce65",
+    "type": "bridge",
+    "level": "hard",
+    "support_keys": [
+      "Dexter Fletcher",
+      "Lock, Stock and Two Smoking Barrels"
+    ],
+    "split": "test",
+    "group": "996"
+  }
+]
