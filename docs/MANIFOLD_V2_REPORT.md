@@ -266,32 +266,34 @@ All primary V2 retrieval uses exact search; ANN cannot explain its held-out effe
 
 VR and greedy-landmark VR share a filtration axis; reported distances discard essential bars, whose counts are separately recorded. Weak witness uses GUDHI's squared-distance relaxation; its lifetimes are NOT compared numerically to VR lifetimes. It is a genuine complex with simplex counts, not a renamed landmark subsample. Passing synthetic gates does not establish retrieval usefulness.
 
-| Method | N | Landmarks | Seconds | Peak sampled RSS MiB | Simplices (if known) | Finite H1 bottleneck |
+**Instrumentation correction:** the original `scaling.json` RSS values measured only a Windows launcher and are invalid. The table and figure below use a complete process-tree rerun in `scaling-resource-corrected.json`. All persistence diagrams were checked equal to the original run; no held-out retrieval query was re-evaluated. Process-tree RSS includes shared pages and is not exclusive private memory.
+
+| Method | N | Landmarks | Seconds | Peak process-tree RSS MiB | Simplices | H1 bottleneck |
 |---|---:|---:|---:|---:|---:|---:|
-| vr | 250 | 0 | 0.10821609999993598 | 4.6 | None | 0.0 |
-| vr | 250 | 32 | 0.09185159999969983 | 4.6 | None | 0.06122744083404541 |
-| vr | 250 | 64 | 0.06334909999986849 | 4.6 | None | 0.06122744083404541 |
-| vr | 250 | 128 | 0.12005790000011984 | 4.6 | None | 0.03513050079345703 |
-| vr | 500 | 0 | 0.3864245999998275 | 4.6 | None | 0.0 |
-| vr | 500 | 32 | 0.05650580000019545 | 4.6 | None | 0.06492137908935547 |
-| vr | 500 | 64 | 0.1344318999999814 | 4.6 | None | 0.06492137908935547 |
-| vr | 500 | 128 | 0.18730509999977585 | 4.6 | None | 0.06492137908935547 |
-| vr | 1000 | 0 | 2.5905437000001257 | 4.6 | None | 0.0 |
-| vr | 1000 | 32 | 0.14867780000031416 | 4.6 | None | 0.0773882269859314 |
-| vr | 1000 | 64 | 0.2358475000000908 | 4.6 | None | 0.0773882269859314 |
-| vr | 1000 | 128 | 0.543837799999892 | 4.6 | None | 0.0773882269859314 |
-| vr | 2000 | 32 | 0.2428226000001814 | 4.6 | None | None |
-| vr | 2000 | 64 | 0.38020289999985835 | 4.6 | None | None |
-| vr | 2000 | 128 | 0.8886421000001974 | 4.6 | None | None |
-| vr | 5000 | 32 | 0.4404005999999754 | 4.6 | None | None |
-| vr | 5000 | 64 | 1.105352000000039 | 4.6 | None | None |
-| vr | 5000 | 128 | 1.8099020999998174 | 4.6 | None | None |
-| witness | 250 | 32 | 1.441639000000123 | 4.6 | 5488 | None |
-| witness | 250 | 64 | 11.000415599999997 | 4.8 | 43744 | None |
-| witness | 500 | 32 | 2.8680429000000913 | 4.6 | 5488 | None |
-| witness | 500 | 64 | 24.71843069999977 | 4.6 | 43744 | None |
-| witness | 1000 | 32 | 5.900270999999975 | 4.6 | 5488 | None |
-| witness | 1000 | 64 | 52.57366460000003 | 4.6 | 43744 | None |
+| vr | 250 | 0 | 0.14678600000024744 | 163.1 | None | 0.0 |
+| vr | 250 | 32 | 0.1329161000003296 | 157.9 | None | 0.06122744083404541 |
+| vr | 250 | 64 | 0.057028100000025006 | 158.2 | None | 0.06122744083404541 |
+| vr | 250 | 128 | 0.11131799999930081 | 158.0 | None | 0.03513050079345703 |
+| vr | 500 | 0 | 0.36719579999953567 | 183.5 | None | 0.0 |
+| vr | 500 | 32 | 0.05780789999971603 | 157.1 | None | 0.06492137908935547 |
+| vr | 500 | 64 | 0.1025908999999956 | 157.6 | None | 0.06492137908935547 |
+| vr | 500 | 128 | 0.18898110000009183 | 159.0 | None | 0.06492137908935547 |
+| vr | 1000 | 0 | 2.4208263999998962 | 255.0 | None | 0.0 |
+| vr | 1000 | 32 | 0.07574810000005527 | 160.2 | None | 0.0773882269859314 |
+| vr | 1000 | 64 | 0.19787209999958577 | 159.8 | None | 0.0773882269859314 |
+| vr | 1000 | 128 | 0.3946827999998277 | 160.0 | None | 0.0773882269859314 |
+| vr | 2000 | 32 | 0.14658000000054017 | 160.9 | None | None |
+| vr | 2000 | 64 | 0.28631959999984247 | 161.1 | None | None |
+| vr | 2000 | 128 | 0.6667984999994587 | 162.4 | None | None |
+| vr | 5000 | 32 | 0.34727059999931953 | 161.2 | None | None |
+| vr | 5000 | 64 | 0.8348381000005247 | 162.7 | None | None |
+| vr | 5000 | 128 | 1.6753538000002663 | 164.3 | None | None |
+| witness | 250 | 32 | 1.1669378000005963 | 159.1 | 5488 | None |
+| witness | 250 | 64 | 8.88464550000026 | 163.3 | 43744 | None |
+| witness | 500 | 32 | 3.176832699999977 | 160.5 | 5488 | None |
+| witness | 500 | 64 | 16.521834400000444 | 166.0 | 43744 | None |
+| witness | 1000 | 32 | 4.367308799999591 | 163.4 | 5488 | None |
+| witness | 1000 | 64 | 30.110611000000063 | 171.8 | 43744 | None |
 
 Resource omissions: `{"exact_above_1000": "preregistered resource bound", "n10000": "corpus smaller than 10000", "witness": null}`.
 
@@ -313,3 +315,15 @@ Resource omissions: `{"exact_above_1000": "preregistered resource bound", "n1000
 ## Reproduction
 
 See `research/v2/README.md` for fixed-config replay and full pipeline commands. Do not remove the original final-test sentinel or overwrite frozen V1 artifacts.
+
+## Clean-clone execution and extended leakage checks
+
+Independent checkout `2f564eb80a283dddca728e7f46bb8f21fe73a47a` installed the complete pinned dependencies into a new non-system-site-packages virtual environment. Tests, lint and pip check succeeded; raw stdout is in `release-verification.json`. Reconstructed V1 exclusions yielded identical V2 question splits. No final retrieval was rerun.
+
+Exact normalized-question and supporting-title overlap counts with V1 and across datasets: `{"hotpot_v1_ids": 0, "hotpot_v1_support_titles": 0, "musique_v1_or_hotpot_support_titles": 0, "hotpot_v1_question_text": 0, "musique_v1_or_hotpot_question_text": 0}`. This does not exclude semantic near-duplicates or encoder pretraining exposure.
+
+Regenerate this corrected report with `.venv-release/Scripts/python -m tools.verify_v2_release publish`, not the archival uncorrected report stage alone.
+
+## Query-level diagnosis
+
+`query-outcomes.json` contains every question, contrast, win/loss/tie and gained/lost supporting-document identity across development, validation and final splits. It is derived solely from saved rankings, without retrieval re-execution. The selected landmark-peak feature is query-independent; exact landscape similarity was also tested but was not selected by development. Local landmark collapse, weak candidate discrimination, and semantic/graph correlation are measured diagnostic limitations, not proof that every possible topology method is useless.

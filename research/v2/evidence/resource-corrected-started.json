@@ -1,7 +1,7 @@
 {
-  "command": ".venv-release/Scripts/python -m research.v2.run report",
-  "git_commit": "2ce0a38ef2b54a0d3b2c3d30b93c4bd74cfc16bf",
-  "timestamp_utc": "2026-10-07T15:57:55.728109+00:00",
+  "command": ".venv-release/Scripts/python tools/verify_v2_release.py measure",
+  "git_commit": "9c52b795de5a2789d5c53b12b8874492b162d51e",
+  "timestamp_utc": "2026-10-07T15:53:30.033495+00:00",
   "seed": 20261006,
   "python": "3.12.4 (tags/v3.12.4:8e8a4ba, Jun  6 2024, 19:30:16) [MSC v.1940 64 bit (AMD64)]",
   "os": "Windows-11-10.0.26200-SP0",
@@ -110,69 +110,7 @@
     "changed": [],
     "unavailable": []
   },
-  "split_overlap": {
-    "dev_vs_validation": {
-      "ids": 0,
-      "groups": 0,
-      "support_keys": 0
-    },
-    "dev_vs_test": {
-      "ids": 0,
-      "groups": 0,
-      "support_keys": 0
-    },
-    "validation_vs_test": {
-      "ids": 0,
-      "groups": 0,
-      "support_keys": 0
-    }
-  },
-  "verified": {
-    "hotpot-dev": {
-      "rows": 22000,
-      "methods": 110,
-      "metrics_recomputed": true
-    },
-    "hotpot-validation": {
-      "rows": 800,
-      "methods": 4,
-      "metrics_recomputed": true
-    },
-    "hotpot-test": {
-      "rows": 1600,
-      "methods": 4,
-      "metrics_recomputed": true
-    },
-    "musique-test": {
-      "rows": 1200,
-      "methods": 4,
-      "metrics_recomputed": true
-    }
-  },
-  "data_integrity": {
-    "hotpot": {
-      "documents.npy": true,
-      "queries.npy": true,
-      "documents.json": true,
-      "questions.json": true
-    },
-    "musique": {
-      "documents.npy": true,
-      "queries.npy": true,
-      "documents.json": true,
-      "questions.json": true
-    }
-  },
-  "final_sentinel_present": true,
-  "final_source_matches_frozen": true,
-  "final_inputs_match_frozen": true,
-  "limitations": [
-    "Same operator implemented and audited the experiment; not an independent external audit.",
-    "Transductive pooled distractor corpora, not fullwiki or official hidden test.",
-    "Encoder pretraining contamination and semantic near-duplicate leakage are not excluded.",
-    "Question/support grouping does not prove independence of all Wikipedia topics.",
-    "Final test exclusion is procedural and guarded by code, not a cryptographic access boundary.",
-    "Bootstrap intervals can be degenerate with no discordant outcomes; they do not prove equivalence.",
-    "One encoder, fixed corpus sample and limited held-out sizes; no universal negative conclusion."
-  ]
+  "verification_tool_sha256": "19bd86ee072d6a6a30cd2774aae51880dc793dc5e2f553b15352c0fe59659ada",
+  "supersedes_memory_only": "scaling.json monitored Windows venv launcher, not its interpreter child; original RSS values invalid",
+  "sampling_seconds": 0.01
 }
