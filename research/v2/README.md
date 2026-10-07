@@ -82,12 +82,12 @@ virtualenv launcher. Its RSS values are invalid. Use the corrected process-tree
 runner and publisher; the original source remains frozen for retrieval replay:
 
 ```powershell
-.venv-release/Scripts/python tools/verify_v2_release.py measure
-.venv-release/Scripts/python tools/verify_v2_release.py publish
+.venv-release/Scripts/python -m tools.verify_v2_release measure
+.venv-release/Scripts/python -m tools.verify_v2_release publish
 ```
 
 The publisher consumes tracked `release-verification.json`; refreshing that
-clean-clone verification uses `tools/verify_v2_release.py verify` after preparing
+clean-clone verification uses `python -m tools.verify_v2_release verify` after preparing
 an independent checkout at `artifacts/local/v2-clone-check`. No final retrieval
 is executed by these three verification commands. See `evidence/INCIDENTS.md`.
 

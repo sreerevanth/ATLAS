@@ -8,18 +8,13 @@ import json
 import subprocess
 import sys
 import time
-from pathlib import Path
-
-ROOT = Path(__file__).resolve().parents[1]
-sys.path.insert(0, str(ROOT))
-
 import psutil
 
-from research.v2.common import CACHE, OUT, digest, manifest, protected, read, write
+from research.v2.common import CACHE, OUT, ROOT, digest, manifest, protected, read, write
 
 
 def provenance(stage):
-    result = manifest(f".venv-release/Scripts/python tools/verify_v2_release.py {stage}")
+    result = manifest(f".venv-release/Scripts/python -m tools.verify_v2_release {stage}")
     result["verification_tool_sha256"] = digest(__file__)
     return result
 
@@ -116,7 +111,8 @@ def verify():
     hotpot_support = {title for query in hotpot for title in query["support_keys"]}
     music_support = {music_docs[key]["title"] for query in musique for key in query["support_keys"]}
     from research.v2.data import normalize
-    normalized = lambda rows: {normalize(query["question"]).casefold() for query in rows}
+    def normalized(rows):
+        return {normalize(query["question"]).casefold() for query in rows}
     overlaps = {"hotpot_v1_ids": len({query["id"] for query in hotpot} & old_ids),
                 "hotpot_v1_support_titles": len(hotpot_support & old_support),
                 "musique_v1_or_hotpot_support_titles": len(music_support & (old_support | hotpot_support)),
@@ -156,7 +152,7 @@ def publish():
     text += "\n## Clean-clone execution and extended leakage checks\n\n"
     text += f"Independent checkout `{verified['clone_commit']}` installed the complete pinned dependencies into a new non-system-site-packages virtual environment. Tests, lint and pip check succeeded; raw stdout is in `release-verification.json`. Reconstructed V1 exclusions yielded identical V2 question splits. No final retrieval was rerun.\n\n"
     text += "Exact normalized-question and supporting-title overlap counts with V1 and across datasets: `" + json.dumps(verified["overlap_counts"]) + "`. This does not exclude semantic near-duplicates or encoder pretraining exposure.\n"
-    text += "\nRegenerate this corrected report with `.venv-release/Scripts/python tools/verify_v2_release.py publish`, not the archival uncorrected report stage alone.\n"
+    text += "\nRegenerate this corrected report with `.venv-release/Scripts/python -m tools.verify_v2_release publish`, not the archival uncorrected report stage alone.\n"
     path.write_text(text, encoding="utf8")
     import matplotlib.pyplot as plt
     figure, axes = plt.subplots(1, 2, figsize=(11, 4))
