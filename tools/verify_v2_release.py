@@ -182,6 +182,9 @@ def publish():
         axes[1].plot([row["count"] for row in selected], [row["peak_sampled_rss_bytes"]/1024**2 for row in selected], "o-", label=f"{method} L={landmarks or 'exact'}")
     for axis in axes:
         axis.set_xscale("log")
+        ticks = sorted({row["count"] for row in rows})
+        axis.set_xticks(ticks, [str(value) if value < 1000 else f"{value//1000}k" for value in ticks])
+        axis.minorticks_off()
         axis.set_xlabel("Input documents")
         axis.grid(alpha=.2)
     axes[0].set_yscale("log")
