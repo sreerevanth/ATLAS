@@ -1,5 +1,10 @@
 # ATLAS Core Principles
 
+> **Historical material — not current validation evidence.** Retained for design
+> context, contributor attribution and provenance. Phase labels, figures and
+> capability statements below are not current ATLAS claims. See the
+> [current evidence and historical-material guide](docs/HISTORICAL_MATERIAL.md).
+
 These principles serve as the constitution of ATLAS. Every architectural, theoretical, and engineering decision must be checked against them. If a feature or idea violates a core principle, it does not go into ATLAS—no matter how clever or convenient it may seem.
 
 ### Principle 1: Data is sovereign.

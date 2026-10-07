@@ -1,0 +1,14 @@
+{
+  "generator": "tools/render_readme.py",
+  "generator_sha256": "87f8037fd7dad510a0912fc24bc4263b7f29f130f01f0048ca83bb0a0b74d3dc",
+  "command": "python -m tools.render_readme",
+  "experiment_commit": "b58c4879126ba0b4a8bce8bf133b787eb18dc48c",
+  "sources": {
+    "research/v2/evidence/final-results.json": "2b6756998c221f7287c9c834e92eda166d27b2452cc3041383de5de7d073c8fd",
+    "research/v2/evidence/frozen-config.json": "f5ee1cc4f782e5e163f88e3be8622a20d93caf8bd1314330b1fab41186e76f19",
+    "research/v2/evidence/topology-signals.json": "cd4d29360542a42edb8af3a86d04974233941e7a09093384429f8ea9d9f6588c",
+    "research/v2/evidence/diagnostics.json": "fc82a92f7009cea7e79de9e536013dd072f21524caf9144ad9e0c3ef7283aa94",
+    "research/v2/evidence/scaling-resource-corrected.json": "386e8a03fe80def4fe5b6e3770f1fb76c50d68e650da52c8dc47d62bd33847d3"
+  },
+  "readme_sha256": "24c755f6f25af815968805fd489d38092a7c63d21567983e418851fbdd191b8b"
+}

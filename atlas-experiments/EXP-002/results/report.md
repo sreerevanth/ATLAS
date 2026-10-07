@@ -1,5 +1,10 @@
 # EXP-002: Noise Robustness Results
 
+> **Historical material — not current validation evidence.** Retained for design
+> context, contributor attribution and provenance. Phase labels, figures and
+> capability statements below are not current ATLAS claims. See the
+> [current evidence and historical-material guide](../../../docs/HISTORICAL_MATERIAL.md).
+
 Averaged over 10 random seeds.
 
 | Representation | σ=0% | σ=1% | σ=2% | σ=5% | σ=10% | σ=20% | σ=30% | σ=50% |

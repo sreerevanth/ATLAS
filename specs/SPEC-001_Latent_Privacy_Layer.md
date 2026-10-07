@@ -1,5 +1,10 @@
 # SPEC-001: Latent Privacy Layer (LPL) for Topological Signatures
 
+> **Historical material — not current validation evidence.** Retained for design
+> context, contributor attribution and provenance. Phase labels, figures and
+> capability statements below are not current ATLAS claims. See the
+> [current evidence and historical-material guide](../docs/HISTORICAL_MATERIAL.md).
+
 ## 1. Objective
 To define a cryptographic and mathematically robust privacy layer for the Topology Interchange Protocol (TIP) that mitigates information leakage (property inference) and prevents white-box footprint reconstruction, while preserving high geometric locality for retrieval.
 

@@ -1,5 +1,10 @@
 # ATLAS Privacy SDK
 
+> **Historical material — not current validation evidence.** Retained for design
+> context, contributor attribution and provenance. Phase labels, figures and
+> capability statements below are not current ATLAS claims. See the
+> [current evidence and historical-material guide](../docs/HISTORICAL_MATERIAL.md).
+
 The `atlas-privacy` SDK is the core implementation of the ATLAS Master Plan, providing developers with the mathematical tools to perform **Privacy-Preserving Federated Topological Dataset Matching**. 
 
 With this SDK, you can compute topological features (Betti numbers), filter them through an Adversarial Autoencoder (AAE), and generate Locality-Sensitive Hashes (LSH) that map dataset geometry without leaking raw patient or client data.

@@ -1,4 +1,9 @@
 # ATLAS — Prompt Book
+
+> **Historical material — not current validation evidence.** Retained for design
+> context, contributor attribution and provenance. Phase labels, figures and
+> capability statements below are not current ATLAS claims. See the
+> [current evidence and historical-material guide](docs/HISTORICAL_MATERIAL.md).
 ### Full Detailed Prompts, Every Phase, Groups A–I
 
 Confidential — internal build document. Just the prompts, full length, no checklists or commentary. Hand the relevant block directly to whichever coding agent or engineer owns that phase.

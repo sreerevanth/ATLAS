@@ -1,0 +1,18 @@
+README.md text eol=lf
+tools/*.py text eol=lf
+.github/workflows/*.yml text eol=lf
+src/atlas/** text eol=lf
+tests/** text eol=lf
+configs/research.json text eol=lf
+research/v2/*.py text eol=lf
+research/v2/tests/*.py text eol=lf
+research/v2/PROTOCOL.md text eol=lf
+research/v2/evidence/** -text
+docs/MANIFOLD_V2_REPORT.md -text
+docs/RESEARCH_REPORT.md -text
+docs/MANIFOLD_V1_NO_GO.sha256.json -text
+docs/PR_CLOSURE.json -text
+docs/PR_TRIAGE_EVIDENCE.json -text
+docs/FINALIZATION_FREEZE.json -text
+docs/FINALIZATION_VERIFICATION.json -text
+docs/README_PROVENANCE.json -text

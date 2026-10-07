@@ -1,5 +1,10 @@
 # EXP-007C & EXP-007G: Property Inference & Signature Length
 
+> **Historical material — not current validation evidence.** Retained for design
+> context, contributor attribution and provenance. Phase labels, figures and
+> capability statements below are not current ATLAS claims. See the
+> [current evidence and historical-material guide](../../../docs/HISTORICAL_MATERIAL.md).
+
 Task: Predict the number of clusters (1 to 5) from the LSH hash.
 
 | Bits | Random Guess | Logistic Regression | Random Forest |

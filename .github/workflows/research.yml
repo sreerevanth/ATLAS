@@ -4,16 +4,33 @@ on:
   push:
   pull_request:
 
+permissions:
+  contents: read
+
 jobs:
   test:
     runs-on: windows-latest
+    env:
+      ATLAS_V2_EVIDENCE: artifacts/ci/v2-smoke
+      ATLAS_V2_ALLOW_MISSING_V1_ARTIFACTS: "1"
     steps:
       - uses: actions/checkout@v4
       - uses: actions/setup-python@v5
         with:
           python-version: "3.12"
-      - run: python -m pip install -r requirements-lock.txt
+      - run: python -m pip install -r research/v2/requirements-lock.txt
       - run: python -m pip install --no-deps --no-build-isolation -e .
-      - run: python -m pytest
-      - run: ruff check src tests
+      - run: python -m pytest tests research/v2/tests -q
+      - run: python -m ruff check src tests research/v2 tools
       - run: python -m atlas validate --output artifacts/ci/validate
+      - run: python -m research.v2.run gate
+      - run: python -m build --no-isolation
+      - name: Wheel install and CLI smoke
+        shell: pwsh
+        run: |
+          python -m venv .venv-wheel
+          .venv-wheel/Scripts/python -m pip install -r research/v2/requirements-lock.txt
+          .venv-wheel/Scripts/python -m pip install --no-deps dist/atlas_research-0.1.0-py3-none-any.whl
+          .venv-wheel/Scripts/python -m pip check
+          .venv-wheel/Scripts/atlas --help
+          .venv-wheel/Scripts/python -m atlas validate --config configs/research.json --output artifacts/ci/wheel-validate

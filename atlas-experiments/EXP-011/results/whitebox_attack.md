@@ -1,5 +1,10 @@
 # EXP-007I: White-Box LSH Attack (Image Reconstruction)
 
+> **Historical material — not current validation evidence.** Retained for design
+> context, contributor attribution and provenance. Phase labels, figures and
+> capability statements below are not current ATLAS claims. See the
+> [current evidence and historical-material guide](../../../docs/HISTORICAL_MATERIAL.md).
+
 Using 1-Bit Compressed Sensing to reconstruct the raw Persistence Image directly from intercepted hashes and the public projection matrix.
 
 | Signature Length | Cosine Similarity (Reconstruction Accuracy) |

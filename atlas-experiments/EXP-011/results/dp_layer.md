@@ -1,5 +1,10 @@
 # EXP-011: DP Layer Evaluation
 
+> **Historical material — not current validation evidence.** Retained for design
+> context, contributor attribution and provenance. Phase labels, figures and
+> capability statements below are not current ATLAS claims. See the
+> [current evidence and historical-material guide](../../../docs/HISTORICAL_MATERIAL.md).
+
 | Mechanism | Parameter | Retrieval | Leakage (MI, nats) |
 | --- | --- | --- | --- |
 | Baseline | N/A | 97.19% | 0.5964 |

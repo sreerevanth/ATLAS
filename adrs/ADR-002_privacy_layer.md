@@ -1,5 +1,10 @@
 # ADR 002: Independent Privacy Layer
 
+> **Historical material — not current validation evidence.** Retained for design
+> context, contributor attribution and provenance. Phase labels, figures and
+> capability statements below are not current ATLAS claims. See the
+> [current evidence and historical-material guide](../docs/HISTORICAL_MATERIAL.md).
+
 ## Context
 Initial iterations of the Topology Interchange Protocol (TIP) implicitly coupled topological representations (e.g., Persistence Images) directly to Locality-Sensitive Hashing (LSH). The assumption was that the lossy compression of LSH naturally provided sufficient privacy obfuscation.
 

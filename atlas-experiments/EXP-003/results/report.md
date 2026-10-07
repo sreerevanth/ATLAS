@@ -1,5 +1,10 @@
 # EXP-003: Hyperparameter Sensitivity
 
+> **Historical material — not current validation evidence.** Retained for design
+> context, contributor attribution and provenance. Phase labels, figures and
+> capability statements below are not current ATLAS claims. See the
+> [current evidence and historical-material guide](../../../docs/HISTORICAL_MATERIAL.md).
+
 Tested at challenging noise level 20.0% over 3 seeds.
 
 | Representation | Best Hash Agreement | Optimized Params |

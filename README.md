@@ -1,59 +1,312 @@
-# Project ATLAS
+# ATLAS
 
-ATLAS is a research implementation targeting v0.1.0, not a validated release candidate.
-It investigates retrieval, query-local topology matching, and constrained WebAssembly execution.
-It is not a production, clinical, or privacy-certified system. Previous claims
-about benchmark gains, pilots, audits, zero leakage, differential privacy, and
-production readiness are withdrawn because no reproducible evidence supports them.
+**Experimental geometry-aware retrieval and privacy-oriented cross-organization computation.**
 
-The evidence-driven [Manifold-Core V2 report](docs/MANIFOLD_V2_REPORT.md) and
-[fixed-configuration reproduction instructions](research/v2/README.md) supersede
-the historical phase roadmap. The frozen V1 NO-GO result remains unchanged.
-V2 defaults to the simpler method selected by validation, not to topology by design.
-Do not overwrite the protected V1 artifacts or rerun parameter selection on final tests.
+> **Research status · D — Central hypothesis not supported**
+>
+> The tested ATLAS graph/topology retrieval formulations did not establish an
+> improvement over semantic retrieval on held-out multi-hop evaluation.
+> This repository preserves the implementation, experiments, negative results,
+> and reproducibility artifacts—not a claim that topology never works.
 
-Start with the [forensic audit](docs/IMPLEMENTATION_AUDIT.md),
-[research record](docs/RESEARCH_REPORT.md), and
-[threat model](docs/THREAT_MODEL.md). Legacy code and reports are unverified
-historical material. The requested PDF specifications are absent from this checkout;
-Markdown substitutes are present.
+[Results](#results) · [Reproduce](#reproducibility) · [Full report](docs/MANIFOLD_V2_REPORT.md) · [Claims and limits](docs/CLAIMS.md)
 
-## Archival V1 reproduction (use a new output directory)
+## Why ATLAS?
 
-The package lives in `src/atlas`. Python 3.12 is pinned as the reference minor
-version. The checked-in `requirements-lock.txt` records exact installed versions.
-Dataset, model and run artifacts are downloaded/generated locally and excluded
-from Git.
+Semantic similarity captures proximity, but not necessarily the relationships
+needed to connect multiple pieces of evidence. ATLAS investigated whether graph
+structure and persistent topology add useful signal beyond embedding similarity.
 
-```powershell
-py -3.12 -m venv .venv
-.venv/Scripts/python -m pip install -r requirements-lock.txt
-.venv/Scripts/python -m pip install --no-build-isolation -e .
-.venv/Scripts/python -m pytest -q
-.venv/Scripts/ruff.exe check src tests
-.venv/Scripts/python -m atlas validate --output artifacts/local/validate
-.venv/Scripts/python -m atlas corpus --output artifacts/local/v1-reproduction
-.venv/Scripts/python -m atlas ann --output artifacts/local/v1-reproduction
-.venv/Scripts/python -m atlas scaling --output artifacts/local/v1-reproduction
-.venv/Scripts/python -m atlas handcrafted --output artifacts/local/handcrafted
-.venv/Scripts/python -m atlas retrieval --output artifacts/local/v1-reproduction
-.venv/Scripts/python -m atlas tip --output artifacts/local/tip
-.venv/Scripts/python -m atlas integration --output artifacts/local/integration
-.venv/Scripts/python -m atlas anomaly --output artifacts/local/anomaly
+The research explored multi-hop retrieval, structural anomaly analysis,
+privacy-oriented cross-organization matching, and sandboxed compute-to-data
+workflows. These are research directions and executable prototypes, not solved
+production capabilities. A useful outcome is knowing which measured additions
+did **not** justify their complexity.
+
+## Research question
+
+**Can geometry, graph structure, or persistent topology improve retrieval beyond
+semantic similarity?** The study implemented the hypothesis, tested controlled
+ablations, and retained the negative held-out result.
+
+## Architecture
+
+```text
+Documents → Embeddings → Semantic retrieval
+                              ↓
+                       Graph neighborhood
+                              ↓
+                       Topological features
+                              ↓
+                       Structural reranking
 ```
 
-`corpus` downloads the pinned HotpotQA distractor validation split and a pinned
-Sentence Transformers model. It samples questions with seed 42, records cleaning
-decisions, creates embeddings, and checks repeatability on a fixed subsample.
-Later commands consume its generated files. The retrieval evaluation uses pooled
-distractor contexts and supporting-title retrieval; it is not the official fullwiki
-setting and does not evaluate answer generation.
+| Component | Research role | Current evidence boundary |
+|---|---|---|
+| **Manifold-Core** | Semantic candidates with optional graph/topology reranking | Held-out experiments did not establish improvement. Validation selected **cosine-only** as the primary V2 path. |
+| **TIP** | Query-local topology signatures and organization-local region matching | Synthetic signature experiments and local QUIC integration; no privacy guarantee. |
+| **S-MCP** | Signed, resource-constrained WebAssembly over a local region | Local Wasmtime execution and rejection tests; no independent security audit. |
 
-`scaling` compares Ripser exact Vietoris-Rips with its greedy landmark
-approximation under time and memory limits. Landmark approximation is not a
-witness complex. Read measured diagram errors and skipped runs before drawing
-conclusions. `integration` is a synthetic loopback smoke test; certificate
-verification is disabled in that demonstration. Hashes and signatures are not
-privacy guarantees, and no differential privacy mechanism is implemented.
+The diagram is the investigated pipeline, not a requirement to retain every
+stage. The [V2 API](research/v2/api.py) bypasses graph construction and persistent
+homology when using its frozen cosine-only configuration. Experimental rerankers
+remain available for inspection. [Architecture decision](adrs/ADR-004-v2-evidence-gated-retrieval.md)
 
-Do not use this research code with sensitive data. See the [threat model](docs/THREAT_MODEL.md).
+## Experimental method
+
+- **Data:** [HotpotQA](https://hotpotqa.github.io/) and
+  [MuSiQue](https://github.com/stonybrooknlp/musique), with pinned downloads and checksums.
+- **Separation:** HotpotQA internal development/validation/test sets are separated
+  by shared-support components. Previously sampled V1 questions and supporting
+  titles are excluded. MuSiQue is a transfer evaluation with no dataset-specific tuning.
+- **Controls:** Identical corpora, embeddings, queries and metrics for cosine,
+  graph, topology-only, and graph-plus-topology retrieval. All development cells
+  are reported, including losing configurations and shuffled-feature controls.
+- **Metric:** **all-support@5** is the fraction of questions for which all gold
+  supporting documents occur in the first five results. HotpotQA uses supporting
+  titles; MuSiQue uses normalized paragraph identities. No answer generation is evaluated.
+- **Selection:** Development selects candidates; validation decides whether the
+  added complexity is justified. Configuration is committed before a single
+  final evaluation invocation. Paired uncertainty uses shared-support clusters.
+
+These are pooled distractor-context corpora and **internal held-out subsets of
+public development data**, not official hidden-test or fullwiki scores. The
+unsupervised index sees the pooled corpus, including held-out context text.
+Encoder pretraining contamination and semantic near-duplicates cannot be excluded.
+See the [preregistered protocol](research/v2/PROTOCOL.md) for the exact boundaries.
+
+## Results
+
+**Held-out all-support@5** (higher is better):
+
+| Method | HotpotQA (n=400) | MuSiQue transfer (n=300) |
+|---|---:|---:|
+| Cosine | 0.5100 | 0.1767 |
+| Graph | 0.4875 | 0.1600 |
+| Topology only | 0.4900 | 0.1800 |
+| Graph + topology | 0.4700 | 0.1467 |
+
+Development showed small apparent gains that did not generalize. The slightly
+higher MuSiQue topology-only point estimate is not a replicated, established
+advantage. The primary configuration remained the simpler semantic baseline.
+
+**Paired differences and Bonferroni-adjusted 98.75% cluster-bootstrap intervals**
+for the four confirmatory contrasts:
+
+| Dataset | Contrast | Delta | Confidence interval |
+|---|---|---:|---|
+| HotpotQA | Graph − cosine | -0.0225 | [-0.0602, 0.0150] |
+| HotpotQA | Added topology over graph | -0.0175 | [-0.0422, 0.0025] |
+| MuSiQue | Graph − cosine | -0.0167 | [-0.0494, 0.0150] |
+| MuSiQue | Added topology over graph | -0.0133 | [-0.0359, 0.0000] |
+
+The predefined difficult subsets also did not establish replicated benefit.
+Intervals that include zero are not evidence of equivalence. Full metrics,
+question-level outcomes, standard deviations, sensitivity analyses, and all
+ablations are in the [V2 report](docs/MANIFOLD_V2_REPORT.md).
+The earlier **MANIFOLD_V1_NO_GO** experiment is preserved separately and was not
+used as a V2 optimization target.
+
+## Why didn't it work?
+
+Measured development diagnostics help explain this particular formulation:
+
+| Diagnostic | Measured value |
+|---|---:|
+| Semantic candidate AUC | 0.9395 |
+| Selected persistence-feature candidate AUC | 0.5036 |
+| Selected persistence feature equal to zero | 80.7% |
+
+AUC is averaged within queries having both classes; the zero rate is the mean
+per-query candidate fraction. These are descriptive diagnostics, not independent
+causal effects. The selected landmark-based persistence feature was mostly zero
+and carried little discriminative signal in this setting. Query-independent
+bonuses can displace semantically useful documents, while graph expansion alone
+cannot improve an exact cosine ranking without changing the scoring rule.
+
+Exact landscape features and other neighborhood/landmark settings were also
+tested. Their inclusion in the full ablation matrix prevents the selected
+representation's failure from being mistaken for a universal result about TDA.
+[Raw signal diagnostics](research/v2/evidence/topology-signals.json)
+
+## Topology scaling
+
+Synthetic circle/noisy-circle and separated-cluster gates precede real embedding
+topology. Exact and landmark VR were compared on identical inputs at overlapping
+sizes; approximation scaling extended farther under explicit resource bounds.
+
+| Method | Documents | Landmarks | Compute seconds | Peak process-tree RSS (MiB) |
+|---|---:|---:|---:|---:|
+| Exact VR | 1,000 | — | 2.42 | 255.0 |
+| Landmark VR | 1,000 | 128 | 0.39 | 160.0 |
+| Landmark VR | 5,000 | 128 | 1.68 | 164.3 |
+| Weak witness complex | 1,000 | 64 | 30.11 | 171.8 |
+
+The speedup has a fidelity cost: at the matched VR comparison above, the largest
+finite H1 lifetime changed from **0.1548** to **0.0714**.
+Greedy landmark VR is **not** a witness complex. Genuine GUDHI weak-witness
+measurements are separate: their squared-distance relaxation filtration is not
+the VR distance filtration, so cross-axis diagram distances are not claimed.
+
+![Measured topology runtime and process-tree memory](research/v2/evidence/scaling.png)
+
+These are CPU measurements, not production-scale topology or hardware-acceleration
+claims. RSS samples include the complete launcher/interpreter process tree and
+may double-count shared pages or miss brief peaks. Earlier launcher-only RSS
+measurements were invalidated; only the
+[corrected measurements](research/v2/evidence/scaling-resource-corrected.json)
+are used here. [Instrumentation record](research/v2/evidence/INCIDENTS.md)
+
+## ANN validation
+
+HNSW recall@100 was **0.9799–0.9821** at `efSearch=128` across
+the recorded seeds. Lower search effort had larger approximation losses.
+**Primary V2 experiments used exact retrieval**, isolating the negative result
+from ANN approximation. [Per-query ANN evidence](research/v2/evidence/diagnostics.json)
+
+## TIP: experimental topology interchange
+
+TIP explores query → local neighborhood → persistent topology → landscape/vector
+→ random-hyperplane hash → matching → organization-local region reference.
+The prototype implements serialized messages, bounded in-memory protocol state,
+replay rejection, scoped region grants and a local QUIC demonstration.
+
+Executed tests include synthetic circle/noise signature comparisons and a local
+OFFER → MATCH → EXECUTE → RESULT integration. These do **not** establish real-world
+matching accuracy or privacy. Hashing is not zero knowledge. No differential
+privacy mechanism or zero-leakage guarantee is implemented. Adaptive-query
+leakage and membership inference remain uncharacterized.
+
+The loopback demonstration disables TLS certificate verification and uses shared
+HMAC credentials; it is not an authenticated institutional deployment.
+[Threat model](docs/THREAT_MODEL.md)
+
+## S-MCP: experimental compute-to-data
+
+S-MCP executes an Ed25519-signed Wasm module against a copied, scoped local region
+using Wasmtime. The implementation rejects imports/WASI and applies memory and
+fuel limits; the local demonstration returns a bounded integer result.
+
+Unit tests and local execution exercise these controls. They are not an
+independent security audit and do not establish resistance to all side channels,
+malicious authorized code, runtime vulnerabilities or deployment mistakes.
+**Do not use these demonstrations with sensitive data.**
+
+## Reproducibility
+
+Reference environment: **CPython 3.12, Windows, CPU only**. Dependencies and model
+revision are pinned. A fresh clone and isolated environment were tested. The
+wheel contains the core `atlas` package; V2 research commands run from the checkout.
+
+```powershell
+git clone https://github.com/sreerevanth/ATLAS.git
+cd ATLAS
+py -3.12 -m venv .venv
+.venv/Scripts/python -m pip install -r research/v2/requirements-lock.txt
+.venv/Scripts/python -m pip install --no-deps --no-build-isolation -e .
+.venv/Scripts/python -m pytest tests research/v2/tests -q
+.venv/Scripts/python -m atlas validate --output artifacts/local/readme-smoke
+```
+
+Replay the **published fixed configuration**, without tuning or replacing evidence:
+
+```powershell
+$env:ATLAS_V2_EVIDENCE = "$PWD/artifacts/local/readme-replay-evidence"
+$env:ATLAS_V2_CACHE = "$PWD/artifacts/local/readme-replay-cache"
+$env:ATLAS_V2_ALLOW_MISSING_V1_ARTIFACTS = "1"
+.venv/Scripts/python -m research.v2.run prepare
+.venv/Scripts/python -m research.v2.run embed
+.venv/Scripts/python -m research.v2.run gate
+.venv/Scripts/python -m research.v2.run reproduce
+```
+
+Use a new output directory for each independent reproduction. The missing-V1
+option permits absent ignored historical caches on a fresh clone; it does not
+permit changed protected files. The final-test sentinel prevents a second
+evaluation in the same run directory. Never delete it to tune against test scores.
+
+For non-Windows environments, use the appropriate Python 3.12 launcher,
+`.venv/bin/python`, and shell environment-variable syntax. Native dependency and
+platform availability must be checked; this snapshot does not claim validated
+Linux/macOS execution. Full protocol, data provenance, resource corrections and
+verification commands: [reproduction guide](docs/REPRODUCING.md).
+
+## Repository structure
+
+| Path | Purpose |
+|---|---|
+| `src/atlas/` | Frozen core library, CLI, local TIP and Wasm experiments |
+| `research/v2/` | Preregistered V2 pipeline, optional rerankers and primary API |
+| `research/v2/evidence/` | Versioned raw rankings, manifests, decisions and analyses |
+| `tests/`, `research/v2/tests/` | Core and V2 regression tests |
+| `configs/` | Core experiment configuration |
+| `docs/` | Evidence reports, audits, claim boundaries and reproduction |
+| `tools/` | Verification, publication and repository-integrity utilities |
+| `.github/workflows/` | Automated research-package verification |
+
+Older phase plans, specifications and paper drafts are preserved for attribution,
+not promoted as current findings. [Historical-material index](docs/HISTORICAL_MATERIAL.md)
+
+## Research artifacts
+
+- [Manifold-Core V2 report](docs/MANIFOLD_V2_REPORT.md)
+- [Implementation audit](docs/IMPLEMENTATION_AUDIT.md)
+- [V1 research record](docs/RESEARCH_REPORT.md) — historical execution snapshot; its remaining-work list predates V2
+- [Claims and limitations](docs/CLAIMS.md)
+- [Accepted historical PR triage](docs/PR_TRIAGE.md)
+- [Frozen configuration](research/v2/evidence/frozen-config.json)
+- [Final results and experiment commit](research/v2/evidence/final-results.json)
+- [Artifact/checksum index](research/v2/evidence/artifact-index.json)
+- [Clean-clone and leakage checks](research/v2/evidence/release-verification.json)
+- [Final repository verification](docs/FINALIZATION_VERIFICATION.json)
+
+README numbers are generated from frozen artifacts by `python -m tools.render_readme`.
+[Numeric provenance](docs/README_PROVENANCE.json) records the source hashes.
+
+## What ATLAS established
+
+- Reproducible graph/topology retrieval experimentation with controlled ablations.
+- Synthetic topology validation and measured exact/approximate trade-offs.
+- ANN validation against exact search.
+- Held-out HotpotQA and MuSiQue transfer evaluation within the stated setting.
+- Executable TIP/S-MCP prototypes with explicitly bounded local evidence.
+- A negative retrieval result preserved rather than hidden.
+
+## What ATLAS did not establish
+
+- General retrieval superiority or production readiness.
+- Differential privacy, zero knowledge, or zero leakage.
+- Clinical validation or FDA/regulatory authorization.
+- Real institutional deployment or an independent security audit.
+- Production-scale topology, post-quantum security or measured accelerator benefit.
+
+## Research conclusion
+
+Within the tested ATLAS formulation, semantic similarity remained the strongest
+general retrieval signal. Graph and persistent-topology reranking did not produce
+a replicated held-out improvement. This does not establish that topology is
+universally ineffective for retrieval; it establishes that **these tested
+formulations did not support the original ATLAS hypothesis**.
+
+## Citation
+
+Cite the repository and the exact commit used. This is a research software
+snapshot, not a claimed paper publication or DOI:
+
+```bibtex
+@misc{atlas_research_2026,
+  author = {ATLAS contributors},
+  title = {ATLAS: Geometry-Aware Retrieval Research},
+  year = {2026},
+  howpublished = {GitHub repository},
+  url = {https://github.com/sreerevanth/ATLAS}
+}
+```
+
+## License
+
+**No repository-wide license file is present in this snapshot.** No new software
+license or redistribution permission is asserted here; clarify licensing with
+the repository owner before reuse. Third-party dependencies, models and datasets
+retain their own terms. Dataset provenance and recorded licenses are documented
+in the [V2 data notes](research/v2/README.md#data-provenance).

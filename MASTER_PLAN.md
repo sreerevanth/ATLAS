@@ -1,5 +1,10 @@
 # ATLAS MASTER PLAN (Upgraded Ponytail Architecture)
 
+> **Historical material — not current validation evidence.** Retained for design
+> context, contributor attribution and provenance. Phase labels, figures and
+> capability statements below are not current ATLAS claims. See the
+> [current evidence and historical-material guide](docs/HISTORICAL_MATERIAL.md).
+
 Following a rigorous forensic review of the 20-phase roadmap, we have aggressively stripped out theoretical over-engineering. Applying the "Lazy Senior Developer" directive (YAGNI, platform-native over custom code, smallest diff wins), the roadmap is now optimized for maximum speed, security, and minimal codebase footprint.
 
 ## Phase 1-4: The Mathematical Core

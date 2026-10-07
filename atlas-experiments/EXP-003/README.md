@@ -1,5 +1,10 @@
 # EXP-003: Hyperparameter Sensitivity
 
+> **Historical material — not current validation evidence.** Retained for design
+> context, contributor attribution and provenance. Phase labels, figures and
+> capability statements below are not current ATLAS claims. See the
+> [current evidence and historical-material guide](../../docs/HISTORICAL_MATERIAL.md).
+
 ## Objective
 Determine whether the performance difference between representations observed in EXP-002 was simply an artifact of suboptimal default parameters. We need to compare the *best* Landscape against the *best* Image.
 
